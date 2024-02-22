@@ -1,0 +1,59 @@
+[0x86420] LoggingSystem_Log(SceneFileCache, 1LL, "Loaded %d .vcds from '%s'\n", (unsigned int)v75, v33);
+[0x86420] LoggingSystem_Log(SceneFileCache, 2LL, "%d:  '%s'\n", v36, v45);
+[0xa10a0] LoggingSystem_Log(
+[0xa10a0]     RESPONSE_RULES,
+[0xa10a0]     3LL,
+[0xa10a0]     "%s | %s:  discarded rule because of invalid criterion %i:  %s\n",
+[0xa10a0]     a2,
+[0xa10a0]     v6,
+[0xa10a0]     (unsigned int)v2,
+[0xa10a0]     v5);
+[0xa6b20] result = LoggingSystem_Log(RESPONSE_RULES, 3LL, "Unable to load #included script %s\n", v9);
+[0xa8000] LoggingSystem_Log(RESPONSE_RULES, 2LL, "Reading: %s\n", a2);
+[0xa8000] result = LoggingSystem_Log(RESPONSE_RULES, 3LL, "CResponseSystem:  failed to load %s\n", a2);
+[0xae180] LoggingSystem_Log(RESPONSE_RULES, 2LL, "Discarded rule %s\n", v24);
+[0xae540] LoggingSystem_Log(
+[0xae540]     RESPONSE_RULES,
+[0xae540]     1LL,
+[0xae540]     "Embedded criteria Generated: rule '%s' pointing to response '%s'.\n",
+[0xae540]     v78,
+[0xae540]     a2);
+[0xcde80] result = LoggingSystem_Log(
+[0xcde80]     RESPONSEDOC_LIB,
+[0xcde80]     3LL,
+[0xcde80]     "%s(token %i) : %s\n",
+[0xcde80]     v3,
+[0xcde80]     *(unsigned int *)(a1 + 24),
+[0xcde80]     v5);
+[0xd02e0] LoggingSystem_Log(RESPONSEDOC_LIB, 3LL, "Duplicate include: %s\n", v15);
+[0x84990] LoggingSystem_Log(
+[0x84990]     SceneFileCache,
+[0x84990]     3LL,
+[0x84990]     "GetSceneDataFromImage( %s ) lzma decompression failed\n",
+[0x84990]     a1);
+[0x84990] LoggingSystem_Log(SceneFileCache, 3LL, v19, v16, v18, v17);
+[0x857b0] LoggingSystem_Log(
+[0x857b0]     SceneFileCache,
+[0x857b0]     1LL,
+[0x857b0]     "%d vcd names remaining (%d removed) after unload of '%s'\n",
+[0x857b0]     *(unsigned int *)(v3 + 88),
+[0x857b0]     (unsigned int)(v30 - v25),
+[0x857b0]     v26);
+[0x84fb0] LoggingSystem_Log(SceneFileCache, 1LL, "Reloading .vcdlist due to addon change\n");
+[0xa6850] LoggingSystem_Log(
+[0xa6850]     RESPONSE_RULES,
+[0xa6850]     2LL,
+[0xa6850]     "CResponseSystem:  %s (%i rules, %i criteria, and %i responses)\n",
+[0xa6850]     (const char *)&v11,
+[0xa6850]     v10,
+[0xa6850]     v9,
+[0xa6850]     v8);
+[0xa6fd0] result = LoggingSystem_Log(RESPONSE_RULES, 3LL, "%s(token %i) : %s", v5, v3, v6);
+[0xace50] LoggingSystem_Log(RESPONSE_RULES, 1LL, "Embedded response receiving name: '%s'.\n", v4);
+[0xaf0d0] result = LoggingSystem_Log(
+[0xaf0d0]     RESPONSE_RULES,
+[0xaf0d0]     1LL,
+[0xaf0d0]     "ThenSimple rule Generated: rule '%s' with criteria '%s' pointing to response '%s'.\n",
+[0xaf0d0]     (const char *)&v61,
+[0xaf0d0]     v60,
+[0xaf0d0]     v59);

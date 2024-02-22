@@ -1,0 +1,39 @@
+[0xf140] LoggingSystem_Log(
+[0xf140]     VConComm,
+[0xf140]     2LL,
+[0xf140]     "Clients %d of %d:\n",
+[0xf140]     *(unsigned int *)(a1 + 1192),
+[0xf140]     *(unsigned int *)(a1 + 1388));
+[0xf140] result = LoggingSystem_Log(
+[0xf140]     VConComm,
+[0xf140]     2LL,
+[0xf140]     "\t%s@%d.%d.%d.%d, connected: %s\n",
+[0xf140]     v9,
+[0xf140]     v10[676],
+[0xf140]     v10[677],
+[0xf140]     v10[678],
+[0xf140]     v10[679],
+[0xf140]     v8);
+[0x145f0] LoggingSystem_Log(
+[0x145f0]     VConComm,
+[0x145f0]     3LL,
+[0x145f0]     "Rejecting registering message '%s'. Already registered to an alternate handler.\n",
+[0x145f0]     v23);
+[0x10940] LoggingSystem_Log(
+[0x10940]     VConComm,
+[0x10940]     3LL,
+[0x10940]     "Message Version Mismatch: '%s', Expected %d, Got %d\n",
+[0x10940]     v18,
+[0x10940]     v20,
+[0x10940]     v23);
+[0x10940] LoggingSystem_Log(
+[0x10940]     VConComm,
+[0x10940]     3LL,
+[0x10940]     "VConsole Rejecting Message: '%s', No Message Handler Claimed Ownership.\n",
+[0x10940]     v14);
+[0x11ca0] LoggingSystem_Log(
+[0x11ca0]     VConComm,
+[0x11ca0]     2LL,
+[0x11ca0]     "Clearing %d buffered messages of %d bytes\n",
+[0x11ca0]     v3,
+[0x11ca0]     (unsigned int)a1[342]);

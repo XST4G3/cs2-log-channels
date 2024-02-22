@@ -1,0 +1,198 @@
+[0x96980] LoggingSystem_Log(General, 2LL, "(%s): Setting %s to %s\n", v6, v4, v5);
+[0x9ed00] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: %s LoadStreamingData (%s)\n", "LoadStreamingData", v8);
+[0xa6200] LoggingSystem_Log(
+[0xa6200]     RenderSystem,
+[0xa6200]     3LL,
+[0xa6200]     "Trying to create a render target with invalid image format %s\n",
+[0xa6200]     *v20);
+[0x8d110] LoggingSystem_Log(
+[0x8d110]     RenderSystem,
+[0x8d110]     3LL,
+[0x8d110]     "GetGPUFrameTimeMS called without setting RENDERDEBUGFLAG_ENABLE_GPU_TIMESTAMPS.\n");
+[0x9e890] LoggingSystem_Log(
+[0x9e890]     RenderSystem,
+[0x9e890]     1LL,
+[0x9e890]     "TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)\n",
+[0x9e890]     "PreloadTextureBits",
+[0x9e890]     v34);
+[0x97b20] result = LoggingSystem_Log(v10, v9, v8, v7);
+[0x9b620] LoggingSystem_Log(
+[0x9b620]     RenderSystem,
+[0x9b620]     1LL,
+[0x9b620]     "The minimum amount of GPU memory for streaming textures is set to %d MB.\n",
+[0x9b620]     *(unsigned int *)(a1 + 2080));
+[0xa4320] LoggingSystem_Log(
+[0xa4320]     RenderSystem,
+[0xa4320]     1LL,
+[0xa4320]     "TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)\n",
+[0xa4320]     v12,
+[0xa4320]     v10,
+[0xa4320]     (unsigned int)v8[3],
+[0xa4320]     (unsigned int)v7[3],
+[0xa4320]     (unsigned int)*v8,
+[0xa4320]     (unsigned int)v8[1],
+[0xa4320]     (unsigned int)*v7,
+[0xa4320]     (unsigned int)v7[1],
+[0xa4320]     v11,
+[0xa4320]     *((unsigned int *)v8 + 32));
+[0xa4320] LoggingSystem_Log(
+[0xa4320]     RenderSystem,
+[0xa4320]     1LL,
+[0xa4320]     "Compressed texture decoded in %.2f ms\n",
+[0xa4320]     (float)(v70 * 1000.0));
+[0xa4320] LoggingSystem_Log(
+[0xa4320]     RenderSystem,
+[0xa4320]     1LL,
+[0xa4320]     "Decompressed %i texture mips in %.2f ms (%.1fmb/s)\n",
+[0xa4320]     (unsigned int)a5[3],
+[0xa4320]     1000.0 / v88 * v116,
+[0xa4320]     (double)v107 / (v116 / v86 * 1048576.0));
+[0xa4320] LoggingSystem_Log(
+[0xa4320]     RenderSystem,
+[0xa4320]     1LL,
+[0xa4320]     "TEXMAN: Abandoning job in %s (%s)\n",
+[0xa4320]     "AsyncHookUpTextureBits",
+[0xa4320]     v32);
+[0xa9c20] LoggingSystem_Log(RenderSystem, 2LL, "Discarding abandoned streaming texture load for %s\n", v17);
+[0x96ab0] LoggingSystem_Log(General, 2LL, "(%s): ADD %s = %s\n", v6, v4, v5);
+[0x97430] LoggingSystem_Log(
+[0x97430]     RenderSystem,
+[0x97430]     2LL,
+[0x97430]     "Keeping resolution of (%dx%d)\n",
+[0x97430]     (unsigned int)v16,
+[0x97430]     (unsigned int)v17);
+[0x97430] LoggingSystem_Log(RenderSystem, 3LL, "Can't detect memory size on this platform!\n");
+[0x97db0] LoggingSystem_Log(RenderSystem, 2LL, "Loaded video settings config from '%s'\n", v17);
+[0x97db0] LoggingSystem_Log(
+[0x97db0]     RenderSystem,
+[0x97db0]     2LL,
+[0x97db0]     "Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.\n",
+[0x97db0]     v22,
+[0x97db0]     v26,
+[0x97db0]     (unsigned int)v4);
+[0x97db0] LoggingSystem_Log(RenderSystem, 2LL, "Graphics Device changed, resetting video config\n");
+[0x9cb30] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Outstanding stream count %d -> %d (%s)\n", v6, v16, v17);
+[0x9e0b0] LoggingSystem_Log(
+[0x9e0b0]     RenderSystem,
+[0x9e0b0]     1LL,
+[0x9e0b0]     "TEXMAN: Adding %llx+%p (binding=%p), %s to abandoned hookup jobs\n",
+[0x9e0b0]     v28,
+[0x9e0b0]     a2,
+[0x9e0b0]     *(const void **)((char *)&stru_10E00.st_name
+[0x9e0b0]     + 8 * *((unsigned __int8 *)a2 + 8)
+[0x9e0b0]     + *(_QWORD *)(qword_1CB2D0 + 8LL * (a2[2] >> 8) + 936)),
+[0x9e0b0]     v19);
+[0x9e0b0] LoggingSystem_Log(
+[0x9e0b0]     RenderSystem,
+[0x9e0b0]     1LL,
+[0x9e0b0]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x9e0b0]     "RemoveTextureFromAnyQueues",
+[0x9e0b0]     v18);
+[0x96bc0] LoggingSystem_Log(General, 2LL, "Video Card %s (%04x : %04x)\n", v28, v11, (unsigned int)v33);
+[0xa0e50] LoggingSystem_Log(
+[0xa0e50]     RenderSystem,
+[0xa0e50]     3LL,
+[0xa0e50]     "CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n");
+[0xa3b50] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Deleting %d textures\n", *(unsigned int *)(a1 + 1968));
+[0x986d0] LoggingSystem_Log(RenderSystem, 2LL, "Detected RenderDoc %i.%i.%i\n", v6, v7, v8[0]);
+[0x9f1d0] LoggingSystem_Log(
+[0x9f1d0]     RenderSystem,
+[0x9f1d0]     1LL,
+[0x9f1d0]     "TEXMAN: %s TextureBecameEvicted (%s)\n",
+[0x9f1d0]     "MN_DeallocateCacheableData",
+[0x9f1d0]     v20);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "rendersystem (%s) tracked resources:\n", v7);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  VB: %d buffers, %.2f MB\n", (unsigned int)dword_1CB378, v22);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  IB: %d buffers, %.2f MB\n", (unsigned int)dword_1C8B00, v21);
+[0x8c7e0] LoggingSystem_Log(
+[0x8c7e0]     RenderSystem,
+[0x8c7e0]     2LL,
+[0x8c7e0]     "  CB: %u buffers, %.2f MB\n",
+[0x8c7e0]     *(unsigned int *)(a1 + 151296),
+[0x8c7e0]     v19);
+[0x8c7e0] LoggingSystem_Log(
+[0x8c7e0]     RenderSystem,
+[0x8c7e0]     2LL,
+[0x8c7e0]     "  TEX: %u textures, %.2f MB\n",
+[0x8c7e0]     *(unsigned int *)(qword_1CB2D0 + 2040),
+[0x8c7e0]     v20);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  FRAGMENTATION: %.2f MB\n", v23);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  EXTERNAL: %.2f MB\n", v18);
+[0x8c7e0] LoggingSystem_Log(
+[0x8c7e0]     RenderSystem,
+[0x8c7e0]     2LL,
+[0x8c7e0]     "  TOTAL: %.2f MB\n",
+[0x8c7e0]     (float)((float)((float)((float)((float)(v22 + v21) + v20) + v19) + v23) + v18));
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "Texture Streaming:\n");
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  %s / %s MB (non-evictable: %s MB)\n", v15, v14, v13);
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "Overall System GPU memory use:\n");
+[0x8c7e0] LoggingSystem_Log(RenderSystem, 2LL, "  %s / %s MB\n", v12, v11);
+[0xa6560] LoggingSystem_Log(RenderSystem, 3LL, "Bad VTEX data for '%s'\n", v74);
+[0xa6560] LoggingSystem_Log(RenderSystem, 3LL, "Failed AllocateTexture for '%s'\n", v108);
+[0xa6560] LoggingSystem_Log(
+[0xa6560]     RenderSystem,
+[0xa6560]     3LL,
+[0xa6560]     "Unexpected resource version '%d' for '%s'\n",
+[0xa6560]     *(unsigned __int16 *)(a4 + 6),
+[0xa6560]     v55);
+[0xa9ee0] LoggingSystem_Log(
+[0xa9ee0]     RenderSystem,
+[0xa9ee0]     1LL,
+[0xa9ee0]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0xa9ee0]     "MN_OnResourceLoadFailed",
+[0xa9ee0]     v15);
+[0xaa1e0] LoggingSystem_Log(
+[0xaa1e0]     RenderSystem,
+[0xaa1e0]     1LL,
+[0xaa1e0]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0xaa1e0]     "MN_OnResourceLoadCompleted",
+[0xaa1e0]     v23);
+[0x9f670] LoggingSystem_Log(RenderSystem, 2LL, "Streaming Validation: %s ", v10);
+[0x9f670] LoggingSystem_Log(RenderSystem, 2LL, "WAITING_FOR_IO ");
+[0x9f670] LoggingSystem_Log(RenderSystem, 2LL, "WAITING_FOR_HOOKUP_JOB ");
+[0x9f670] LoggingSystem_Log(RenderSystem, 2LL, "OUTSTANDING_HOOKUP_REQUEST ");
+[0x9f670] LoggingSystem_Log(RenderSystem, 2LL, "\n");
+[0x9c8f0] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Outstanding stream count %d -> %d (%s)\n", v6, v16, v17);
+[0xa8d70] LoggingSystem_Log(
+[0xa8d70]     RenderSystem,
+[0xa8d70]     1LL,
+[0xa8d70]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0xa8d70]     "MN_BuildRequestedResourcesList",
+[0xa8d70]     v45);
+[0xa97f0] LoggingSystem_Log(
+[0xa97f0]     RenderSystem,
+[0xa97f0]     2LL,
+[0xa97f0]     "Deleting texture with outstanding streaming request (%s)\n",
+[0xa97f0]     v9);
+[0xaa970] LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     3LL,
+[0xaa970]     "Unable to stream in resource file \"%s\" (Error: %s)\n",
+[0xaa970]     v15,
+[0xaa970]     v20);
+[0xaa970] LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     3LL,
+[0xaa970]     "Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request\n",
+[0xaa970]     *(unsigned int *)(*(_QWORD *)(qword_1CB2D0 + 8LL * (*(_DWORD *)(a4 + 8) >> 8) + 936)
+[0xaa970]     + 4LL * *(unsigned __int8 *)(a4 + 8)
+[0xaa970]     + 81152),
+[0xaa970]     a6);
+[0xaa970] result = LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     3LL,
+[0xaa970]     "Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n");
+[0xaa970] result = LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     1LL,
+[0xaa970]     "TEXMAN: Abandoning streaming request in %s\n",
+[0xaa970]     "MN_OnResourceFileLoaded");
+[0xaa970] result = LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     3LL,
+[0xaa970]     "Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL\n");
+[0xaa970] result = LoggingSystem_Log(
+[0xaa970]     RenderSystem,
+[0xaa970]     1LL,
+[0xaa970]     "TEXMAN: Abandoning streaming request early in %s\n",
+[0xaa970]     "MN_OnResourceFileLoaded");

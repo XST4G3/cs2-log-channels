@@ -1,0 +1,313 @@
+[0x195360] LoggingSystem_Log(TypeManager, 3LL, "Bad KV3 data in control block for '%s': %s\n", v20, v17);
+[0x195360] LoggingSystem_Log(
+[0x195360]     TypeManager,
+[0x195360]     3LL,
+[0x195360]     "Bad data block index for vagrp embedded animation data (%d)\n",
+[0x195360]     v55);
+[0x195360] LoggingSystem_Log(TypeManager, 3LL, "Bad block type for embedded animation data\n");
+[0x1a4340] for ( l = 0; (signed int)l < *(_DWORD *)(a1 + 416); result = LoggingSystem_Log(AnimResource, 1LL, "\n") )
+[0x1a4340] LoggingSystem_Log(AnimResource, 1LL, "%d : ", l);
+[0x1a4340] LoggingSystem_Log(AnimResource, 1LL, (const char *)&off_5E5036, v69);
+[0x1a4340] LoggingSystem_Log(AnimResource, 1LL, (const char *)&off_5E5036, v73);
+[0x19afe0] result = LoggingSystem_Log(
+[0x19afe0]     AnimResource,
+[0x19afe0]     3LL,
+[0x19afe0]     "Model %s: unable to find bone reference \"%s\"\n",
+[0x19afe0]     v12,
+[0x19afe0]     v11);
+[0x1a67c0] LoggingSystem_Log(
+[0x1a67c0]     AnimResource,
+[0x1a67c0]     1LL,
+[0x1a67c0]     "Adding %d WeightLists SequenceGroup[%d] :: %s\n",
+[0x1a67c0]     *(unsigned int *)(a4 + 160),
+[0x1a67c0]     a3,
+[0x1a67c0]     v69);
+[0x1a67c0] LoggingSystem_Log(AnimResource, 1LL, "   + Default Morph Ctrl Weight :: %8.4f\n", v89);
+[0x1a67c0] LoggingSystem_Log(
+[0x1a67c0]     AnimResource,
+[0x1a67c0]     3LL,
+[0x1a67c0]     "Unknown Morph Control :: %s WeightList :: %s Model :: %s\n",
+[0x1a67c0]     v54,
+[0x1a67c0]     v67,
+[0x1a67c0]     v66);
+[0x1a67c0] LoggingSystem_Log(
+[0x1a67c0]     AnimResource,
+[0x1a67c0]     1LL,
+[0x1a67c0]     "     o MorphCtrlWeight[%d] :: %s :: %f\n",
+[0x1a67c0]     v55,
+[0x1a67c0]     v63,
+[0x1a67c0]     *(float *)(v51 + 8));
+[0x1a67c0] LoggingSystem_Log(AnimResource, 1LL, 4278255615LL, "   + Already Exists, ignoring\n");
+[0x1a67c0] LoggingSystem_Log(AnimResource, 1LL, " * WeightList[%d] :: %s\n", (unsigned int)v7, v9);
+[0x1a7260] LoggingSystem_Log(AnimResource, 1LL, "Linking WeightLists To Data Channels :: %s\n", v103);
+[0x1a7260] LoggingSystem_Log(AnimResource, 1LL, " * %d WeightLists\n", *(unsigned int *)(a1 + 624));
+[0x1a7260] LoggingSystem_Log(AnimResource, 1LL, "   + WeightList[%d]  :: %s\n", v106, v94);
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "     o Bone Weights :: %d non-zero weights\n",
+[0x1a7260]     *(unsigned int *)(v119 + 32));
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "     o Default  Morph Ctrl Weight  :: %f\n",
+[0x1a7260]     *(float *)&a4);
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "     o Explicit Morph Ctrl Weights :: %d\n",
+[0x1a7260]     *(unsigned int *)(v119 + 64));
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "       - Morph[%d] %s %f :: MC %d MI %d\n",
+[0x1a7260]     v33,
+[0x1a7260]     v37,
+[0x1a7260]     *(double *)&v14,
+[0x1a7260]     (unsigned int)v35,
+[0x1a7260]     v127);
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "     o Channel :: %3d Pattern :: %3d Count :: %d\n",
+[0x1a7260]     (unsigned int)v122,
+[0x1a7260]     v128,
+[0x1a7260]     v117);
+[0x1a7260] LoggingSystem_Log(
+[0x1a7260]     AnimResource,
+[0x1a7260]     1LL,
+[0x1a7260]     "       - Bone[%d] %s %f :: PC %d PI %d QC %d QI %d SC %d SI %d\n",
+[0x1a7260]     v28,
+[0x1a7260]     v27,
+[0x1a7260]     *(double *)&v14,
+[0x1a7260]     v121,
+[0x1a7260]     v115,
+[0x1a7260]     v112,
+[0x1a7260]     v123,
+[0x1a7260]     v110,
+[0x1a7260]     v126);
+[0x2d7960] LoggingSystem_Log(
+[0x2d7960]     BoneSetup,
+[0x2d7960]     3LL,
+[0x2d7960]     "Resource \"%s\" requested out of bounds animation decompressor \"%d\"\n",
+[0x2d7960]     v27,
+[0x2d7960]     (unsigned int)*v36);
+[0x2d7960] LoggingSystem_Log(
+[0x2d7960]     BoneSetup,
+[0x2d7960]     3LL,
+[0x2d7960]     "Resource \"%s\" requested unknown animation decompressor \"%s\"\n",
+[0x2d7960]     v30,
+[0x2d7960]     v29);
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "%s\n", v29);
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, ", ");
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "%s %.2f", v28, v46);
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "\n");
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "missing all pose parameters\n");
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "\t");
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "  ");
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Slerp( %s, %d, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v27,
+[0x2df080]     v26,
+[0x2df080]     v45);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Add( %s, %d, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v25,
+[0x2df080]     v24,
+[0x2df080]     v44);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Subtract( %s, %d, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v23,
+[0x2df080]     v22,
+[0x2df080]     v43);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Scale( %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     *(float *)(v3 + 12));
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Copy( %d )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     *(unsigned int *)(v3 + 8));
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Blend( %d, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     *(unsigned int *)(v3 + 8),
+[0x2df080]     *(float *)(v3 + 12));
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Worldspace( %s, %d, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v21,
+[0x2df080]     v20,
+[0x2df080]     v42);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.IKLockInPlace( %s, %.2f, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v19,
+[0x2df080]     v41,
+[0x2df080]     v35);
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "%d.IKRestoreAll( )\n", *(unsigned int *)(v3 + 4));
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.FetchCycle( %s, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v18,
+[0x2df080]     v40);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.FetchFrame( %s, %.1f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v16,
+[0x2df080]     v39);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.CallSequence( %s, %.2f, %.2f )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v14,
+[0x2df080]     v38,
+[0x2df080]     v34);
+[0x2df080] LoggingSystem_Log(
+[0x2df080]     BoneSetup,
+[0x2df080]     1LL,
+[0x2df080]     "%d.Transform( %s, Vector( %.2f, %.2f, %.2f ), DegreeEuler( %.2f %.2f %.2f ) )\n",
+[0x2df080]     *(unsigned int *)(v3 + 4),
+[0x2df080]     v12,
+[0x2df080]     v32,
+[0x2df080]     v31,
+[0x2df080]     v30,
+[0x2df080]     (float)(v33 * 57.295776),
+[0x2df080]     (float)(v37 * 57.295776),
+[0x2df080]     (float)(v10 * 57.295776));
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "\tError\n");
+[0x2df080] LoggingSystem_Log(BoneSetup, 1LL, "fetched: %s : %.3f\n", v8, v36);
+[0x2df080] result = LoggingSystem_Log(BoneSetup, 1LL, "\n");
+[0x307340] LoggingSystem_Log(
+[0x307340]     TypeManager,
+[0x307340]     3LL,
+[0x307340]     "WARNING: Failed to convert introspected block for file: %s\n",
+[0x307340]     v9);
+[0x19bc30] LoggingSystem_Log(
+[0x19bc30]     AnimResource,
+[0x19bc30]     3LL,
+[0x19bc30]     "Model %s: group %s: missing referenced sequence \"%s\"\n",
+[0x19bc30]     v23,
+[0x19bc30]     v22,
+[0x19bc30]     v5);
+[0x1a20b0] result = LoggingSystem_Log(
+[0x1a20b0]     AnimationSystem,
+[0x1a20b0]     1LL,
+[0x1a20b0]     "%s : param %s %s : %f\n",
+[0x1a20b0]     v59,
+[0x1a20b0]     v58,
+[0x1a20b0]     v57,
+[0x1a20b0]     *(float *)(a1[11] + 4 * v54));
+[0x1a5b30] result = LoggingSystem_Log(
+[0x1a5b30]     AnimResource,
+[0x1a5b30]     3LL,
+[0x1a5b30]     "Model %s: sequence/animation name collision found \"%s\"\n",
+[0x1a5b30]     v16,
+[0x1a5b30]     v12);
+[0x1a87d0] LoggingSystem_Log(AnimResource, 1LL, "AppendDataChannels( %s, %d, %s )\n", v97, a3, v96);
+[0x1a87d0] LoggingSystem_Log(
+[0x1a87d0]     AnimResource,
+[0x1a87d0]     1LL,
+[0x1a87d0]     "\t%d (%d) : %s %s %s %s\n",
+[0x1a87d0]     v9,
+[0x1a87d0]     (unsigned int)v8,
+[0x1a87d0]     v82,
+[0x1a87d0]     v81,
+[0x1a87d0]     v80,
+[0x1a87d0]     v79);
+[0x1a87d0] LoggingSystem_Log(AnimResource, 1LL, "\t%d:%d - %s (skipped)\n", v109, 0LL, v46, v98);
+[0x1a87d0] LoggingSystem_Log(AnimResource, 1LL, "\t%d:%d - %s\n", v109, v114, v65, v98);
+[0x1a87d0] LoggingSystem_Log(
+[0x1a87d0]     AnimResource,
+[0x1a87d0]     1LL,
+[0x1a87d0]     "\t%d:%d - %s (match)\n",
+[0x1a87d0]     *(unsigned int *)(v78 + 12),
+[0x1a87d0]     *(unsigned int *)(v78 + 8),
+[0x1a87d0]     v77,
+[0x1a87d0]     v98);
+[0x1a87d0] LoggingSystem_Log(
+[0x1a87d0]     AnimResource,
+[0x1a87d0]     3LL,
+[0x1a87d0]     "AppendDataChannels( %s, %d, %s )\n",
+[0x1a87d0]     v95,
+[0x1a87d0]     a3,
+[0x1a87d0]     (const char *)v116);
+[0x1a87d0] LoggingSystem_Log(
+[0x1a87d0]     AnimResource,
+[0x1a87d0]     3LL,
+[0x1a87d0]     "\t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n",
+[0x1a87d0]     *(unsigned int *)(v90 + 12),
+[0x1a87d0]     *(unsigned int *)(v90 + 8),
+[0x1a87d0]     v86,
+[0x1a87d0]     v89,
+[0x1a87d0]     v88,
+[0x1a87d0]     v87,
+[0x1a87d0]     v84);
+[0x1ac5d0] LoggingSystem_Log(
+[0x1ac5d0]     AnimResource,
+[0x1ac5d0]     1LL,
+[0x1ac5d0]     "Adding %d ScaleSets SequenceGroup[%d] :: %s\n",
+[0x1ac5d0]     *(unsigned int *)(a4 + 184),
+[0x1ac5d0]     a3,
+[0x1ac5d0]     v59);
+[0x1ac5d0] LoggingSystem_Log(AnimResource, 1LL, " * ScaleSet[%d] :: %s\n", v76[1], v8);
+[0x1ac5d0] LoggingSystem_Log(AnimResource, 1LL, 4278255615LL, "   + Already Exists, ignoring\n");
+[0x1ad610] LoggingSystem_Log(AnimResource, 3LL, " %s : Animations loaded but no animation data found\n", v39);
+[0x1ad610] LoggingSystem_Log(
+[0x1ad610]     AnimResource,
+[0x1ad610]     3LL,
+[0x1ad610]     " %s : animtable hash too small: %d elements / %d buckets\n",
+[0x1ad610]     v38,
+[0x1ad610]     v37,
+[0x1ad610]     v14);
+[0x1ad610] LoggingSystem_Log(
+[0x1ad610]     AnimResource,
+[0x1ad610]     3LL,
+[0x1ad610]     " %s : seqtable hash too small: %d elements / %d buckets\n",
+[0x1ad610]     v36,
+[0x1ad610]     v35,
+[0x1ad610]     (unsigned int)v42);
+[0x306fd0] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s' (%s)\n", v15, v14);
+[0x306fd0] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s'\n", v13);
+[0x307510] LoggingSystem_Log(
+[0x307510]     TypeManager,
+[0x307510]     3LL,
+[0x307510]     "WARNING: Invalid resource version (%d): %s\n",
+[0x307510]     *(unsigned __int16 *)(a4 + 6),
+[0x307510]     v23);
+[0x42c950] result = LoggingSystem_Log(AnimationGraph, 2LL, "  %i bytes : %s %f : (%s)\n", v19, v18, v28, v26);
+[0x42c950] result = LoggingSystem_Log(AnimationGraph, 2LL, "  %i bytes : %s : (%s)\n", v22, v21, v29);
+[0x42d130] LoggingSystem_Log(
+[0x42d130]     AnimationGraph,
+[0x42d130]     2LL,
+[0x42d130]     "========================================\n"
+[0x42d130]     "New Pose Recipe Max Size\n"
+[0x42d130]     "NumOps: %i\n"
+[0x42d130]     "Buffer Used: %i\n"
+[0x42d130]     "Pose Operations:\n",
+[0x42d130]     *(unsigned int *)(*(_QWORD *)(a2 + 8) + 16LL),
+[0x42d130]     v54);

@@ -1,0 +1,191 @@
+[0x23b00] LoggingSystem_Log(ResourceSystem, 3LL, v17, v16);
+[0x2ba80] LoggingSystem_Log(ResourceSystem, 1LL, "CResourceSystem Shutdown\n");
+[0x2ba80] LoggingSystem_Log(
+[0x2ba80]     ResourceSystem,
+[0x2ba80]     3LL,
+[0x2ba80]     "Forgot to remove resource type manager for type %s!\n",
+[0x2ba80]     (const char *)&v11);
+[0x21210] LoggingSystem_Log(
+[0x21210]     ResourceSystem,
+[0x21210]     1LL,
+[0x21210]     "WARNING: Long frame update (%.2fms) for resource type manager '%s' in frame %d (%d long updates total for this manager)\n",
+[0x21210]     a4,
+[0x21210]     v11,
+[0x21210]     v10,
+[0x21210]     v12);
+[0x2af10] LoggingSystem_Log(
+[0x2af10]     ResourceSystem,
+[0x2af10]     3LL,
+[0x2af10]     "WARNING: Resource system exiting at %.2f seconds due to '-resource_exit_after_time' command line flag\n",
+[0x2af10]     v57);
+[0x2af10] result = LoggingSystem_Log(
+[0x2af10]     ResourceSystem,
+[0x2af10]     1LL,
+[0x2af10]     "WARNING: Long resource system update - should have taken no more than %dns, but took %.4fs! (Frame #%d)\n",
+[0x2af10]     v60,
+[0x2af10]     v38,
+[0x2af10]     *(unsigned int *)(a1 + 9288));
+[0x2ce90] LoggingSystem_Log(
+[0x2ce90]     ResourceSystem,
+[0x2ce90]     3LL,
+[0x2ce90]     "Resource \"%s\" was not precached but was loaded by a just in time blocking load.\n",
+[0x2ce90]     v24);
+[0x2ce90] LoggingSystem_Log(
+[0x2ce90]     ResourceSystem,
+[0x2ce90]     3LL,
+[0x2ce90]     "Resource \"%s\" was not precached and could not be loaded by a just in time blocking load.\n",
+[0x2ce90]     v23);
+[0x193a0] LoggingSystem_Log(
+[0x193a0]     ResourceSystem,
+[0x193a0]     3LL,
+[0x193a0]     "IsResourceManifestGroupKnown: Manifest group name is empty or null\n");
+[0x1bf20] LoggingSystem_Log(ResourceSystem, 2LL, "Generic data '%s' missing type key\n", v22);
+[0x1c6a0] LoggingSystem_Log(ResourceSystem, 2LL, "** Forcing all resource loads to fail: \"%s\"\n", v7);
+[0x1cc20] LoggingSystem_Log(
+[0x1cc20]     ResourceSystem,
+[0x1cc20]     3LL,
+[0x1cc20]     "Encountered nonexistent %s: %016llX (file \"%s\")\n",
+[0x1cc20]     v5,
+[0x1cc20]     *(_QWORD *)(a1 + 8),
+[0x1cc20]     v6);
+[0x23520] LoggingSystem_Log(ResourceSystem, 1LL, "CResourceSystem Init\n");
+[0x25820] LoggingSystem_Log(
+[0x25820]     ResourceSystem,
+[0x25820]     3LL,
+[0x25820]     "Leaked resource: Refcount %s for %s%s resource \"%s\" (%016llX).  This may result in a crash.\n",
+[0x25820]     v15,
+[0x25820]     v14,
+[0x25820]     a4,
+[0x25820]     v13,
+[0x25820]     **v8);
+[0x2c7a0] LoggingSystem_Log(
+[0x2c7a0]     ResourceSystem,
+[0x2c7a0]     3LL,
+[0x2c7a0]     "An attempt was made to create a resource manifest with debug name \"%s\" while the resource system was shutting down.\n",
+[0x2c7a0]     a2[3]);
+[0x34caa] LoggingSystem_Log(
+[0x34caa]     ResourceSystem,
+[0x34caa]     3LL,
+[0x34caa]     "\t\t[ FAIL ] - Manifest contains an illegal resource name \"%s\"!\n",
+[0x34caa]     a3);
+[0x192b0] LoggingSystem_Log(
+[0x192b0]     ResourceSystem,
+[0x192b0]     3LL,
+[0x192b0]     "IsResourceManifestGroupKnown: Manifest group name is empty or null\n");
+[0x29330] result = LoggingSystem_Log(
+[0x29330]     ResourceSystem,
+[0x29330]     1LL,
+[0x29330]     "Finalize queue continue processed %d of %d, elapsed time %.2fMSEC %s @%.2f\n",
+[0x29330]     *(unsigned int *)(a1 + 15936),
+[0x29330]     v50,
+[0x29330]     v52,
+[0x29330]     v53 * 1000.0,
+[0x29330]     v71);
+[0x29330] LoggingSystem_Log(
+[0x29330]     ResourceSystem,
+[0x29330]     3LL,
+[0x29330]     "WARNING: Trying to deallocate a resource with no associated resource type! (\"%s\")\n",
+[0x29330]     v57);
+[0x29330] LoggingSystem_Log(
+[0x29330]     ResourceSystem,
+[0x29330]     1LL,
+[0x29330]     "Finalize queue completed processed %d, %s, elapsed time %.2fMSEC %s @%.2f\n",
+[0x29330]     *(unsigned int *)(a1 + 15936),
+[0x29330]     v61,
+[0x29330]     v59,
+[0x29330]     v58,
+[0x29330]     v60);
+[0x233c0] LoggingSystem_Log(
+[0x233c0]     ResourceSystem,
+[0x233c0]     3LL,
+[0x233c0]     "Tried to install a placeholder resource manager for an existing resource type \"%lld\"!\n",
+[0x233c0]     a2);
+[0x29c40] LoggingSystem_Log(ResourceSystem, 2LL, "Finalize queue Finalizing StartLoading(%s) @%.2f\n", v19, v24);
+[0x2b840] LoggingSystem_Log(
+[0x2b840]     ResourceSystem,
+[0x2b840]     3LL,
+[0x2b840]     "Leaked reference to ERROR resource for type %s!\n",
+[0x2b840]     *(const char **)(v9 + 120));
+[0x18ed0] LoggingSystem_Log(
+[0x18ed0]     ResourceSystem,
+[0x18ed0]     3LL,
+[0x18ed0]     "GetNamedManifestResources: Manifest group name is empty or null.\n");
+[0x28250] LoggingSystem_Log(General, 2LL, "  % 5i:  [%32.32s] ", v37++, v18);
+[0x28250] LoggingSystem_Log(General, 2LL, "[refcount % 4d] ", *(unsigned int *)(*v7 + 24));
+[0x28250] LoggingSystem_Log(General, 2LL, 4278255615LL, "%s\n", v29);
+[0x28250] LoggingSystem_Log(General, 2LL, &v42, 4294967040LL, "[refcount % 4d] ", v36);
+[0x28250] result = LoggingSystem_Log(General, 2LL, " -> Matched %d of %d loaded resources\n", v37, (unsigned int)v33);
+[0x2c0d0] LoggingSystem_Log(
+[0x2c0d0]     ResourceSystem,
+[0x2c0d0]     3LL,
+[0x2c0d0]     "CResourceSystem::BlockingFinishAllCurrentlyLoadingManifests is blocking");
+[0x2c250] LoggingSystem_Log(
+[0x2c250]     ResourceSystem,
+[0x2c250]     3LL,
+[0x2c250]     "CResourceSystem::ForceSynchronizationAndBlockUntilManifestLoaded blocked for %.3f ms on %s [%s]\n",
+[0x2c250]     (v12 - v27) * 1000.0,
+[0x2c250]     v17,
+[0x2c250]     v16);
+[0x2cc50] LoggingSystem_Log(
+[0x2cc50]     ResourceSystem,
+[0x2cc50]     3LL,
+[0x2cc50]     "Resource \"%s\" was explicitly loaded with a blocking load.\n",
+[0x2cc50]     v14);
+[0x18560] result = LoggingSystem_Log(
+[0x18560]     ResourceSystem,
+[0x18560]     3LL,
+[0x18560]     "UnregisterNamedManifest called, but we are not shutting down!!!\n");
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     " -- RESOURCE LOADING STATS ------------------------------------------------\n");
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     "[% 5ims alloc] [% 5ims async] [% 5ims final] [% 5i / %10s] %s\n",
+[0x247e0]     (unsigned int)((int)*(_QWORD *)(*((_QWORD *)v31 - 1) + 80LL) / 1000),
+[0x247e0]     (unsigned int)((int)*(_QWORD *)(*((_QWORD *)v31 - 1) + 96LL) / 1000),
+[0x247e0]     (unsigned int)((int)*(_QWORD *)(*((_QWORD *)v31 - 1) + 88LL) / 1000),
+[0x247e0]     *(unsigned int *)(*((_QWORD *)v31 - 1) + 72LL),
+[0x247e0]     v38,
+[0x247e0]     v84);
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     "[% 5ims alloc] [% 5ims async] [% 5ims final] [% 5i / %10s] TOTAL\n",
+[0x247e0]     v39 / 1000,
+[0x247e0]     (unsigned int)(v85 / 1000),
+[0x247e0]     (unsigned int)(v83 / 1000),
+[0x247e0]     v93,
+[0x247e0]     v79);
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     " -- RESOURCE STREAMING STATS ----------------------------------------------\n");
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     "[% 5ims cb] [% 5ims async cb] [% 5i / %10s] %s\n",
+[0x247e0]     (unsigned int)((int)*(_QWORD *)(*((_QWORD *)v54 - 1) + 128LL) / 1000),
+[0x247e0]     (unsigned int)((int)*(_QWORD *)(*((_QWORD *)v54 - 1) + 136LL) / 1000),
+[0x247e0]     *(unsigned int *)(*((_QWORD *)v54 - 1) + 112LL),
+[0x247e0]     v63,
+[0x247e0]     v90);
+[0x247e0] LoggingSystem_Log(
+[0x247e0]     ResourceSystem,
+[0x247e0]     2LL,
+[0x247e0]     "[% 5ims cb] [% 5ims async cb] [% 5i / %10s] TOTAL\n",
+[0x247e0]     v58 / 1000,
+[0x247e0]     (unsigned int)((int)v57 / 1000),
+[0x247e0]     v99,
+[0x247e0]     v78);
+[0x1cf6a] LoggingSystem_Log(ResourceSystem, 3LL, "%s", v13);
+[0x18df0] LoggingSystem_Log(
+[0x18df0]     ResourceSystem,
+[0x18df0]     3LL,
+[0x18df0]     "GetNamedManifestResources: Manifest group name is empty or null.\n");
+[0x18b70] LoggingSystem_Log(
+[0x18b70]     ResourceSystem,
+[0x18b70]     3LL,
+[0x18b70]     "GetNamedManifestResources: Manifest name not registered: \"%s\"\n",
+[0x18b70]     a2);

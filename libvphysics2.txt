@@ -1,0 +1,100 @@
+[0x11d480] LoggingSystem_Log(Physics, 3LL, "Joint changed type from %d to %d, skipping!\n", v3, v7);
+[0x37e780] LoggingSystem_Log(Symbols, 0LL, "get module name\n");
+[0x37e780] LoggingSystem_Log(Symbols, 0LL, "success\n");
+[0x37e780] LoggingSystem_Log(Symbols, 0LL, "fail, GetMappedModuleName\n");
+[0x37e780] LoggingSystem_Log(Symbols, 0LL, "success\n");
+[0x37e780] LoggingSystem_Log(Symbols, 0LL, "fail\n");
+[0x37e090] LoggingSystem_Log(Symbols, 0LL, "%s 0x%llX\n", "CanTranslatePointer", a2);
+[0x37e090] LoggingSystem_Log(Symbols, 0LL, "local, checking capture modules\n");
+[0x37e090] LoggingSystem_Log(Symbols, 0LL, "found pointer in module '%s'\n", (const char *)v6[9]);
+[0x37e090] LoggingSystem_Log(Symbols, 0LL, "pointer not found in module list\n");
+[0x14b420] LoggingSystem_Log(
+[0x14b420]     TypeManager,
+[0x14b420]     3LL,
+[0x14b420]     "WARNING: Invalid resource version (%d): %s\n",
+[0x14b420]     *(unsigned __int16 *)(a4 + 6),
+[0x14b420]     v23);
+[0x2320a0] LoggingSystem_Log(Physics, 1LL, "NameIndex:PreacquireName( %x ) without name string\n", a2);
+[0x37e520] LoggingSystem_Log(Symbols, 0LL, "%s 0x%llX\n", "GetMappedModuleName", a2);
+[0x37e520] LoggingSystem_Log(Symbols, 0LL, "nonlocal\n");
+[0x37e520] LoggingSystem_Log(Symbols, 0LL, "found '%s'\n", v11);
+[0x37e520] LoggingSystem_Log(Symbols, 0LL, "local\n");
+[0x37e520] LoggingSystem_Log(Symbols, 0LL, "found '%s'\n", v8);
+[0x37eda0] LoggingSystem_Log(Symbols, 0LL, "VSYMMOD::LoadSymbolsIfNeeded( 0x%llX ) - %s\n", a2, v2);
+[0x37eda0] LoggingSystem_Log(Symbols, 0LL, "found module '%s' already loaded at 0x%llx\n", v12, v11);
+[0x37eda0] LoggingSystem_Log(Symbols, 0LL, "found module '%s', not already loaded at 0x%llx, updating\n", v12, v11);
+[0xcd5b0] LoggingSystem_Log(TypeManager, 3LL, "LoadOwningPointer failed for '%s'\n", v22);
+[0xcd5b0] LoggingSystem_Log(TypeManager, 3LL, "LoadOwningPointer failed for '%s' (%s)\n", v18, v17);
+[0xdc030] LoggingSystem_Log(
+[0xdc030]     Physics,
+[0xdc030]     3LL,
+[0xdc030]     "DestroyDebugSceneObject: pSceneObject ( %p ) has already been deleted!\n",
+[0xdc030]     (const void *)a2);
+[0x231d30] LoggingSystem_Log(Physics, 1LL, "NameIndex:AcquireName( %x ) without name string\n", a2);
+[0x231d30] LoggingSystem_Log(
+[0x231d30]     Physics,
+[0x231d30]     1LL,
+[0x231d30]     4278255615LL,
+[0x231d30]     "Collision filtering: Acquiring unregistered name '%s'\n",
+[0x231d30]     v27);
+[0xdbc50] LoggingSystem_Log(
+[0xdbc50]     Physics,
+[0xdbc50]     3LL,
+[0xdbc50]     "%s(): Bone referenced by collision mesh not found in render skeleton. Skipping collision mesh.\n",
+[0xdbc50]     "AppendDebugMeshInfo");
+[0xf6bd0] LoggingSystem_Log(
+[0xf6bd0]     Physics,
+[0xf6bd0]     2LL,
+[0xf6bd0]     "CVPhys2AggregateInstance::OnReallocate( new: 0x%p, old: 0x%p )\n",
+[0xf6bd0]     (const void *)a2,
+[0xf6bd0]     (const void *)a3);
+[0x14b250] LoggingSystem_Log(
+[0x14b250]     TypeManager,
+[0x14b250]     3LL,
+[0x14b250]     "WARNING: Failed to convert introspected block for file: %s\n",
+[0x14b250]     v9);
+[0xe0460] LoggingSystem_Log(
+[0xe0460]     Physics,
+[0xe0460]     3LL,
+[0xe0460]     "Could not create phys debug VB for %d elements\n",
+[0xe0460]     (unsigned int)v91[0]);
+[0xe0460] LoggingSystem_Log(
+[0xe0460]     Physics,
+[0xe0460]     3LL,
+[0xe0460]     "Could not create phys debug IB for %d elements\n",
+[0xe0460]     (unsigned int)v94[0]);
+[0xe0460] LoggingSystem_Log(
+[0xe0460]     Physics,
+[0xe0460]     3LL,
+[0xe0460]     "Could not lock phys debug IB for %d elements\n",
+[0xe0460]     (unsigned int)v94[0]);
+[0xe0460] LoggingSystem_Log(
+[0xe0460]     Physics,
+[0xe0460]     3LL,
+[0xe0460]     "Could not lock phys debug VB for %d elements\n",
+[0xe0460]     (unsigned int)v91[0]);
+[0x14aee0] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s' (%s)\n", v15, v14);
+[0x14aee0] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s'\n", v13);
+[0x37e2e0] LoggingSystem_Log(Symbols, 1LL, "%s 0x%llX - 0x%llX, except %s\n", "UnloadModulesInTargetRange", a2, a3, v6);
+[0x37e2e0] LoggingSystem_Log(
+[0x37e2e0]     Symbols,
+[0x37e2e0]     1LL,
+[0x37e2e0]     "unload %s 0x%llX - 0x%llX\n",
+[0x37e2e0]     (const char *)v10[9],
+[0x37e2e0]     v10[3],
+[0x37e2e0]     v10[3] + v10[4]);
+[0x37ea6a] LoggingSystem_Log(Symbols, 2LL, "VSYMMOD::Generated DWARF_SYMBOL_PATH = '%s'\n", v6);
+[0xd3e70] result = LoggingSystem_Log(Physics, 3LL, "Surface properties are not loaded.\n");
+[0x37eb70] LoggingSystem_Log(
+[0x37eb70]     Symbols,
+[0x37eb70]     2LL,
+[0x37eb70]     "VSYMMOD::Creating symbol module and loading symbols for '%s'\n",
+[0x37eb70]     *(const char **)(a2 + 72));
+[0x37eb70] LoggingSystem_Log(Symbols, 2LL, "VSymbolModule init failed\n");
+[0x37eb70] LoggingSystem_Log(Symbols, 1LL, "VSymbolModule init succeeded (symbols may or may not have been found)\n");
+[0x37eb70] LoggingSystem_Log(Symbols, 2LL, "VSymbolModule init failed\n");
+[0x37f570] LoggingSystem_Log(Symbols, 0LL, "VSYMMOD::%s( 0x%llX )\n", v11, a3);
+[0x37f570] LoggingSystem_Log(Symbols, 0LL, "pModule->%s( 0x%llX )\n", "ResolveSymbolInfo", a3);
+[0x37f570] LoggingSystem_Log(Symbols, 0LL, "pModule->%s( 0x%llX )\n", "ResolveInlineCallInfo", a3);
+[0x37f570] LoggingSystem_Log(Symbols, 0LL, "success\n");
+[0x37f570] LoggingSystem_Log(Symbols, 0LL, "fail\n");

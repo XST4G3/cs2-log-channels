@@ -1,0 +1,82 @@
+[0x27340] LoggingSystem_Log(VScript, 3LL, "LoadAndCompileScriptFile: No filesystem found\n");
+[0x27340] LoggingSystem_Log(
+[0x27340]     VScript,
+[0x27340]     3LL,
+[0x27340]     "LoadAndCompileScriptFile: Failed to compile script file \"%s\"\n",
+[0x27340]     v33);
+[0x27340] LoggingSystem_Log(
+[0x27340]     VScript,
+[0x27340]     3LL,
+[0x27340]     "LoadAndCompileScriptFile: Script file \"%s\" type does not match VM type\n",
+[0x27340]     a2);
+[0x2c920] LoggingSystem_Log(VScript, 3LL, "WARNING: Lua allocation of %llu failed\n", a2);
+[0x2c920] LoggingSystem_Log(
+[0x2c920]     VScript,
+[0x2c920]     3LL,
+[0x2c920]     "LUA Memory usage warning: The VM has hit a new high usage of %s bytes.\n",
+[0x2c920]     v38);
+[0x27f40] || (LoggingSystem_Log(VScript, 3LL, "WARNING: Lua unmap unable to decommit all pages\n", v39),
+[0x27f40]     v35 = v39,
+[0x27f40]     v14 > v39) )
+[0x27f40]     {
+[0x27f40]     do
+[0x27f40]     {
+[0x27f40]     v36 = (int)v35 >> 5;
+[0x27f40]     v37 = 1 << v35++;
+[0x27f40]     *(_DWORD *)(v4[3] + 4LL * v36) |= v37;
+[0x27f40]     }
+[0x27f40]     while ( v14 != v35 );
+[0x27f40] LoggingSystem_Log(VScript, 3LL, "WARNING: Lua unmap unable to find %llu pages\n", v42);
+[0x2a380] LoggingSystem_Log(
+[0x2a380]     VScript,
+[0x2a380]     2LL,
+[0x2a380]     "WAITING FOR VSCRIPT DEBUGGER CONNECTION for script '%s' -- '-vscriptdebug_script' was provided on the command line.\n",
+[0x2a380]     a2);
+[0x44800] result = LoggingSystem_Log(VScript, 3LL, (const char *)&off_D97AA, a4);
+[0x28df0] LoggingSystem_Log(VScript, 3LL, "WARNING: Lua unable to create VM\n");
+[0x2fd50] LoggingSystem_Log(VScript, 3LL, "Script load error for script\n %s: \n%s\n", a3, a2);
+[0x2fd50] LoggingSystem_Log(VScript, 3LL, "Script Runtime Error: %s\n", a2);
+[0x2fd50] LoggingSystem_Log(
+[0x2fd50]     VScript,
+[0x2fd50]     3LL,
+[0x2fd50]     "Message count limit of %d hit. Subsequent duplicate messages will be squelched.\n",
+[0x2fd50]     10LL);
+[0x30c30] LoggingSystem_Log(VScriptDbg, 2LL, "LuaDbg - Debugging started for %s\n", v2);
+[0x30d30] LoggingSystem_Log(VScriptDbg, 2LL, "LuaDbg - Debugging stopped\n");
+[0x365b0] LoggingSystem_Log(
+[0x365b0]     VScript,
+[0x365b0]     2LL,
+[0x365b0]     "... Waiting for an incoming Inspector connection, %llus so far, timeout in %llus\n",
+[0x365b0]     v17,
+[0x365b0]     v11);
+[0x42f30] LoggingSystem_Log(VScript, 2LL, "LuaDBGp: Trying to connect to %s:%d\n", a2, v4);
+[0x42f30] LoggingSystem_Log(VScript, 2LL, "LuaDBGp: Failed to connect to %s:%d\n", a2, v4);
+[0x42f30] LoggingSystem_Log(
+[0x42f30]     VScript,
+[0x42f30]     2LL,
+[0x42f30]     "LuaDBGp: Retrying to connect to %s:%d in 1s (%d/%d)\n",
+[0x42f30]     a2,
+[0x42f30]     v4,
+[0x42f30]     v5,
+[0x42f30]     10LL);
+[0x42f30] LoggingSystem_Log(VScript, 2LL, "LuaDBGp: Succeeded to connect to %s:%d\n", a2, v4);
+[0x430d0] LoggingSystem_Log(VScript, 1LL, "%s", *a2);
+[0x43330] LoggingSystem_Log(VScript, 1LL, aLuadbgp_0, v10);
+[0x43b10] LoggingSystem_Log(VScript, 1LL, "LuaDBGp: --> ");
+[0x43b10] result = LoggingSystem_Log(VScript, 1LL, "\n");
+
+[0x292b0] result = LoggingSystem_Log(
+[0x292b0]     VScript,
+[0x292b0]     2LL,
+[0x292b0]     "LUA Memory usage: The VM has a usage of %s bytes.\n",
+[0x292b0]     v1);
+[0x46440] result = LoggingSystem_Log(
+[0x46440]     VScript,
+[0x46440]     3LL,
+[0x46440]     "Error: Duplicate command handler registered (%s)!\n",
+[0x46440]     (const char *)a2);
+[0x42680] result = LoggingSystem_Log(
+[0x42680]     VScript,
+[0x42680]     3LL,
+[0x42680]     "LuaDBGp: Unknown command received from the IDE - \"%s\"",
+[0x42680]     v8);

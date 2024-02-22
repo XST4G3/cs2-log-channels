@@ -1,0 +1,194 @@
+[0x128600] LoggingSystem_Log(Matchmaking, 2LL, "CMatchTitleGameSettingsMgr::ExtendTeamLobbyToGame\n");
+[0x1dcb80] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSessionOfflineCustom::UpdateSessionSettings\n");
+[0x1dfb00] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSessionOnlineHost::UpdateSessionSettings\n");
+[0x1dfc00] LoggingSystem_Log(
+[0x1dfc00]     Matchmaking,
+[0x1dfc00]     2LL,
+[0x1dfc00]     "CMatchSessionOnlineHost [ state=%d ]\n",
+[0x1dfc00]     *(unsigned int *)(a1 + 48));
+[0x1dfc00] LoggingSystem_Log(Matchmaking, 2LL, "System data:\n");
+[0x1dfc00] LoggingSystem_Log(Matchmaking, 2LL, "Settings data:\n");
+[0x1dfc00] LoggingSystem_Log(Matchmaking, 2LL, "Dedicated search in progress\n");
+[0x1dfc00] LoggingSystem_Log(Matchmaking, 2LL, "Dedicated search not active\n");
+[0x1dfc00] LoggingSystem_Log(Matchmaking, 2LL, "SysSession is NULL\n");
+[0x1dfc00] result = LoggingSystem_Log(Matchmaking, 2LL, "TeamSearch is NULL\n");
+[0x1e7200] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSearcher_OnlineTeamSearch title adjusted settings:\n");
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionBase\n");
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    machineid: %llx\n", *(_QWORD *)(a1 + 240));
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    lobby id:  %llx\n", *(_QWORD *)(a1 + 208));
+[0x1ead80] result = LoggingSystem_Log(Matchmaking, 2LL, "    lbystate:  %d\n", *(unsigned int *)(a1 + 216));
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    owner:     %llx\n", v2);
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    members:   %d/%s/%d\n", (unsigned int)v10, v4, v3);
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    member%02d:  %llx <n/a>\n", v7, v6);
+[0x1ead80] LoggingSystem_Log(Matchmaking, 2LL, "    member%02d:  %llx '%s'\n", v5, v6, v9);
+[0x1ead80] result = LoggingSystem_Log(Matchmaking, 2LL, "    ldata:net: %s\n", v8);
+[0x1eb100] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionClient [ state=%d ]\n", *(unsigned int *)(a1 + 312));
+[0x1eb100] LoggingSystem_Log(
+[0x1eb100]     Matchmaking,
+[0x1eb100]     2LL,
+[0x1eb100]     "Requested join data %.3f sec ago from xuid = %llx\n",
+[0x1eb100]     v3 - *(float *)(a1 + 304),
+[0x1eb100]     v2);
+[0x1ec980] LoggingSystem_Log(Matchmaking, 2LL, "Sending join session request...\n");
+[0x207600] LoggingSystem_Log(Matchmaking, 2LL, "Received %d search results.\n", v4);
+[0x1de890] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSessionOnlineClient:\n");
+[0x204890] LoggingSystem_Log(Matchmaking, 2LL, "Created DS searcher\n");
+[0x204d90] LoggingSystem_Log(Matchmaking, 2LL, "[MM] Server responded '%s', dist %d\n", v23, v22);
+[0x204d90] LoggingSystem_Log(
+[0x204d90]     Matchmaking,
+[0x204d90]     2LL,
+[0x204d90]     "    rejected dedicated server '%s' due to ip filter '%s'\n",
+[0x204d90]     v27,
+[0x204d90]     v6);
+[0x1ddf20] LoggingSystem_Log(
+[0x1ddf20]     Matchmaking,
+[0x1ddf20]     2LL,
+[0x1ddf20]     "CMatchSessionOnlineClient [ state=%d ]\n",
+[0x1ddf20]     *(unsigned int *)(a1 + 48));
+[0x1ddf20] LoggingSystem_Log(Matchmaking, 2LL, "System data:\n");
+[0x1ddf20] LoggingSystem_Log(Matchmaking, 2LL, "Settings data:\n");
+[0x1ddf20] result = LoggingSystem_Log(Matchmaking, 2LL, "SysSession is NULL\n");
+[0x1eb0a0] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionHost [ state=%d ]\n", *(unsigned int *)(a1 + 380));
+[0x206f70] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSearcher::InitializeGameSettings adjusted settings:\n");
+[0x1de430] LoggingSystem_Log(Matchmaking, 2LL, "Converted sys session into CMatchSessionOnlineClient:\n");
+[0x1df530] LoggingSystem_Log(
+[0x1df530]     Matchmaking,
+[0x1df530]     2LL,
+[0x1df530]     "CMatchSessionOnlineClient::InitializeGameSettings adjusted settings:\n");
+[0x1df830] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSessionOnlineClient:\n");
+[0x1e0d30] LoggingSystem_Log(Matchmaking, 2LL, "Migrated into CMatchSessionOnlineHost:\n");
+[0x1e18b0] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSessionOnlineHost:\n");
+[0x1e3cb0] LoggingSystem_Log(Matchmaking, 2LL, "Requesting dedicated whitelist validation...\n");
+[0x1e3cb0] LoggingSystem_Log(Matchmaking, 2LL, "Filter %d: %s=%s\n", v7, v8, v8 + 256);
+[0x1edb30] LoggingSystem_Log(Matchmaking, 2LL, "LobbySetData: '%s' = '%s'\n", a2, v41);
+[0x206b60] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSearcher:\n");
+[0x1da2c0] LoggingSystem_Log(Matchmaking, 2LL, "CreateSession: \n");
+[0x1dc540] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineEndGame\n");
+[0x1dc540] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineClientSignonStateChange\n");
+[0x1dc540] LoggingSystem_Log(Matchmaking, 2LL, " session was expecting server reload...\n");
+[0x1dcc40] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSessionOfflineCustom:\n");
+[0x1de5c0] LoggingSystem_Log(Matchmaking, 2LL, "Migrating into CMatchSessionOnlineClient...\n");
+[0x1de5c0] LoggingSystem_Log(Matchmaking, 2LL, "Migrated into CMatchSessionOnlineClient:\n");
+[0x1e0ac0] LoggingSystem_Log(Matchmaking, 3LL, "Failed to start server map!\n");
+[0x1e64c0] LoggingSystem_Log(Matchmaking, 2LL, "Successfully validated whitelist for %s...\n", &byte_37D1C0[v6]);
+[0x1e6cc0] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSessionOnlineTeamSearch.\n");
+[0x1e7040] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSessionOnlineTeamSearch:\n");
+[0x1eb1c0] LoggingSystem_Log(Matchmaking, 2LL, "Created lobby id: 0x%llx\n", *((_QWORD *)a1 + 26));
+[0x1eb1c0] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionHost [ state=%d ]\n", *((unsigned int *)a1 + 95));
+[0x204a40] LoggingSystem_Log(Matchmaking, 2LL, "Requesting dedicated server list...\n");
+[0x204a40] LoggingSystem_Log(Matchmaking, 2LL, "Filter %d: %s=%s\n", v7, v8, v8 + 256);
+[0x1dd1d0] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSessionOfflineCustom:\n");
+[0x1dd550] LoggingSystem_Log(Matchmaking, 2LL, "Converting offline session to online session...\n");
+[0x1dd550] LoggingSystem_Log(Matchmaking, 3LL, "Failed to start server map!\n");
+[0x1dd550] LoggingSystem_Log(Matchmaking, 2LL, "Succeeded in starting server map!\n");
+[0x1e2250] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineClientSignonStateChange\n");
+[0x1e2250] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineDisconnectReason %s\n", v11);
+[0x1e34d0] LoggingSystem_Log(
+[0x1e34d0]     Matchmaking,
+[0x1e34d0]     2LL,
+[0x1e34d0]     "CMatchSessionOnlineSearch [ state=%d ]\n",
+[0x1e34d0]     *(unsigned int *)(a1 + 44));
+[0x1e34d0] LoggingSystem_Log(Matchmaking, 2LL, "System data:\n");
+[0x1e34d0] LoggingSystem_Log(Matchmaking, 2LL, "Settings data:\n");
+[0x1e34d0] LoggingSystem_Log(Matchmaking, 2LL, "SysSession is NULL\n");
+[0x1e34d0] result = LoggingSystem_Log(
+[0x1e34d0]     Matchmaking,
+[0x1e34d0]     2LL,
+[0x1e34d0]     "Search results outstanding: %d\n",
+[0x1e34d0]     *(unsigned int *)(a1 + 48));
+[0x1ef950] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionHost::UnreserveTeamSession\n");
+[0x1f0050] LoggingSystem_Log(
+[0x1f0050]     Matchmaking,
+[0x1f0050]     2LL,
+[0x1f0050]     "LOBBY: blocking join request from %llu with invalid key: %s\n",
+[0x1f0050]     v5,
+[0x1f0050]     v20);
+[0x1f0050] LoggingSystem_Log(
+[0x1f0050]     Matchmaking,
+[0x1f0050]     2LL,
+[0x1f0050]     "LOBBY: blocking join request from %llu with check: %s = '%s' (actual: '%s')\n",
+[0x1f0050]     v80,
+[0x1f0050]     v38,
+[0x1f0050]     v37,
+[0x1f0050]     v92);
+[0x1f0050] LoggingSystem_Log(
+[0x1f0050]     Matchmaking,
+[0x1f0050]     2LL,
+[0x1f0050]     "LOBBY: blocking join request from %llu, still %.1f sec kick ban duration remaining, mm_session_sys_kick_ban_duration = %.1f.\n",
+[0x1f0050]     v5,
+[0x1f0050]     v90 - v91,
+[0x1f0050]     v111);
+[0x207250] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSearcher:\n");
+[0x1da3e0] LoggingSystem_Log(Matchmaking, 2LL, "MatchSession: \n");
+[0x1ded60] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineDisconnectReason %s\n", v7);
+[0x1ded60] LoggingSystem_Log(Matchmaking, 2LL, "OnEngineClientSignonStateChange\n");
+[0x1e1360] LoggingSystem_Log(
+[0x1e1360]     Matchmaking,
+[0x1e1360]     2LL,
+[0x1e1360]     "CMatchSessionOnlineHost::InitializeGameSettings adjusted settings:\n");
+[0x1e2f60] LoggingSystem_Log(
+[0x1e2f60]     Matchmaking,
+[0x1e2f60]     2LL,
+[0x1e2f60]     "OnlineSearch - client fully connected to session, search finished.\n");
+[0x1e3260] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSearcher_OnlineSearch title adjusted settings:\n");
+[0x1e3de0] LoggingSystem_Log(
+[0x1e3de0]     Matchmaking,
+[0x1e3de0]     2LL,
+[0x1e3de0]     "[MM] Joining session %llx, %d search results remaining...\n",
+[0x1e3de0]     v12,
+[0x1e3de0]     v11);
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "CMatchSessionOnlineTeamSearch::CMatchSessionOnlineSearch\n");
+[0x1e82e0] LoggingSystem_Log(
+[0x1e82e0]     Matchmaking,
+[0x1e82e0]     2LL,
+[0x1e82e0]     "CMatchSessionOnlineTeamSearch [ state=%d ]\n",
+[0x1e82e0]     *(unsigned int *)(a1 + 96));
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "    linkstate: %d\n", *(unsigned int *)(a1 + 100));
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "    linkpeer:  %llx\n", *(_QWORD *)(a1 + 104));
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "    actiontime:%.3f\n", v3);
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "TeamSearch: Dedicated search not active\n");
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "TeamSearch: SysSession host state:\n");
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "TeamSearch: Dedicated search in progress\n");
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "SysSession is NULL\n");
+[0x1e82e0] LoggingSystem_Log(Matchmaking, 2LL, "TeamSearch: SysSession client state:\n");
+[0x1e82e0] result = LoggingSystem_Log(Matchmaking, 2LL, "SysSession is NULL\n");
+[0x1ecc60] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionClient: Host left lobby, unable to migrate\n");
+[0x1ecc60] LoggingSystem_Log(Matchmaking, 2LL, "Joined lobby %llx\n", *((_QWORD *)a1 + 26));
+[0x1ecc60] LoggingSystem_Log(Matchmaking, 2LL, "Lobby data: %s = %s\n", v17, (const char *)&v18);
+[0x1ecc60] LoggingSystem_Log(
+[0x1ecc60]     Matchmaking,
+[0x1ecc60]     3LL,
+[0x1ecc60]     "CSysSessionClient: Cannot join lobby, response %d!\n",
+[0x1ecc60]     *(unsigned int *)(a2 + 16));
+[0x1eed60] LoggingSystem_Log(Matchmaking, 2LL, "CSysSessionClient::Process_ReplyJoinData_Our\n");
+[0x1eed60] LoggingSystem_Log(Matchmaking, 3LL, "CSysSessionClient: Received bad session data from host\n");
+[0x206560] LoggingSystem_Log(Matchmaking, 2LL, "OnlineSearch::StartSearchPass:\n");
+[0x206560] LoggingSystem_Log(Matchmaking, 2LL, "Searching...\n");
+[0x12a2f0] LoggingSystem_Log(Matchmaking, 2LL, "DefineSessionSearchKeys settings:\n");
+[0x1da970] LoggingSystem_Log(Matchmaking, 2LL, "Adding player %llu to team %d\n", v22, v26);
+[0x1dcaf0] LoggingSystem_Log(
+[0x1dcaf0]     Matchmaking,
+[0x1dcaf0]     2LL,
+[0x1dcaf0]     "CMatchSessionOfflineCustom [ state=%d ]\n",
+[0x1dcaf0]     *(unsigned int *)(a1 + 32));
+[0x1dce70] LoggingSystem_Log(
+[0x1dce70]     Matchmaking,
+[0x1dce70]     2LL,
+[0x1dce70]     "CMatchSessionOfflineCustom::InitializeGameSettings adjusted settings:\n");
+[0x1e1070] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSessionOnlineHost:\n");
+[0x1e3370] LoggingSystem_Log(Matchmaking, 2LL, "Destroying CMatchSessionOnlineSearch:\n");
+[0x1e3770] LoggingSystem_Log(Matchmaking, 2LL, "Search completed empty - creating a new session\n");
+[0x1e3af0] LoggingSystem_Log(Matchmaking, 2LL, "Created CMatchSessionOnlineSearch:\n");
+[0x1e66f0] LoggingSystem_Log(
+[0x1e66f0]     Matchmaking,
+[0x1e66f0]     2LL,
+[0x1e66f0]     "Establishing connection with %d search results.\n",
+[0x1e66f0]     *(unsigned int *)(a1[19] + 48LL));
+[0x204b70] LoggingSystem_Log(
+[0x204b70]     Matchmaking,
+[0x204b70]     2LL,
+[0x204b70]     "Dedicated server list fetched %d servers.\n",
+[0x204b70]     *(unsigned int *)(a1 + 48));
+[0x1d9b7c] LoggingSystem_Log(Matchmaking, 2LL, "JoinInviteSession: sessionid = %llx\n", qword_37D020);
+[0x1d9b7c] LoggingSystem_Log(Matchmaking, 2LL, "JoinInviteSession: connecting...\n");
+[0x1d9b7c] LoggingSystem_Log(Matchmaking, 2LL, "JoinInviteSession: waiting for storage device selection...\n");

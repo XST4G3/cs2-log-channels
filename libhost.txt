@@ -1,0 +1,21 @@
+[0xba5e0] LoggingSystem_Log(Host, 2LL, "%s:  IGameSystem::LoopDeactivateAllSystems {\n", "HO");
+[0xba5e0] result = LoggingSystem_Log(
+[0xba5e0]     Host,
+[0xba5e0]     2LL,
+[0xba5e0]     "%s:  } IGameSystem::LoopDeactivateAllSystems done\n",
+[0xba5e0]     "HO");
+[0xbe830] LoggingSystem_Log(General, 3LL, "Error loading %s: %s\n", a3, v6);
+[0xbe830] LoggingSystem_Log(General, 3LL, "Failed to open file: %s\n", a3);
+[0xbad50] result = LoggingSystem_Log(Host, 2LL, "%s:  IGameSystem::LoopActivateAllSystems {\n", "HO");
+[0xbad50] result = LoggingSystem_Log(
+[0xbad50]     Host,
+[0xbad50]     2LL,
+[0xbad50]     "%s:  } IGameSystem::LoopActivateAllSystems done\n",
+[0xbad50]     "HO");
+[0xbecf0] LoggingSystem_Log(General, 3LL, "Entry %s was not found in surfaceproperties_footsteps.txt\n", a2);
+[0xc1bb0] result = LoggingSystem_Log(
+[0xc1bb0]     Host,
+[0xc1bb0]     3LL,
+[0xc1bb0]     "can't force demo version '%s', no such version name\n",
+[0xc1bb0]     v10);
+[0xc1bb0] result = LoggingSystem_Log(Host, 2LL, "forcing demo version '%s' : %s\n", v14, v13);

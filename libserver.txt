@@ -1,0 +1,1274 @@
+[0xcff000] LoggingSystem_Log(Elapsed, 1, "ET:  Init from comment string to %u seconds, now at %s\n");
+[0xd08000] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd0a800] LoggingSystem_Log(Server, 2, "Event(%d) = '%s'");
+[0xd0a800] LoggingSystem_Log(Server, 2, ", %s %s");
+[0xd0a800] LoggingSystem_Log(Server, 2, "\n");
+[0xd1c800] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE DirectoryExtract( %s, %s )\n");
+[0x8a6810] LoggingSystem_Log(VScript, 2, "script_debug %s\n");
+[0x8a6810] result = LoggingSystem_Log(VScript, 2, "Scripting disabled or no server running\n");
+[0x8b6810] LoggingSystem_Log(SpawnGroup, 1, "%s:  SpawnGroupInit\n");
+[0x8b6810] LoggingSystem_Log(SpawnGroup, 1, "%s:  SpawnGroupPrecache\n");
+[0xc97810] LoggingSystem_Log(Server, 2, "[%s %.3f] Anim Event %s:%d -> '%s'(%d)\n");
+[0xcf0810] LoggingSystem_Log(Server, 1, "%s:  Invalid entity search name %s\n");
+[0xe99810] LoggingSystem_Log(
+[0xe99810]     Server,
+[0xe99810]     5LL,
+[0xe99810]     &v27,
+[0xe99810]     "SV:  Found info_spawngroup_landmark(%s) but it doesn't have an origin in the next map!!!\n",
+[0xe99810]     v15);
+[0xe99810] LoggingSystem_Log(Server, 2, "OLD info_spawngroup_landmark(%s) in %s: %f %f %f\n");
+[0xe99810] LoggingSystem_Log(Server, 2, "NEW info_spawngroup_landmark(%s) in %s: %f %f %f\n");
+[0x88f820] result = LoggingSystem_Log(Server, 3, "CSpawnGroupMgrGameSystem: flushed %d queued entity calls\n");
+[0xd3d820] LoggingSystem_Log(
+[0xd3d820]     SaveRestoreSyncIO,
+[0xd3d820]     1,
+[0xd3d820]     "%s:  %s WRITE Queue ClearSaveFile(%s) in CEntity2SaveRestore::SaveGame_Finalize\n");
+[0xd3d820] LoggingSystem_Log(SaveRestore, 1, "%s:  SaveGame_Finalize:  gathering .hl? files and writing to %s\n");
+[0xd3d820] LoggingSystem_Log(
+[0xd3d820]     SaveRestoreSyncIO,
+[0xd3d820]     1,
+[0xd3d820]     "%s:  %s WRITE Queue AsyncWrite(%s) in CEntity2SaveRestore::SaveGame_Finalize\n");
+[0xd3d820] LoggingSystem_Log(SaveRestore, 1, "%s:  SaveGame_Finalize:  transition %s, not making .sav file\n");
+[0xe5c820] result = LoggingSystem_Log(
+[0xe5c820]     Server,
+[0xe5c820]     3,
+[0xe5c820]     "CShatterGlassShardMgr::ReadRestoreHeaders skipping shards due to version mismatch (got %d, expecting %d)\n");
+[0xf79020] LoggingSystem_Log(ScenePrint, 3, "%s(%s) could not find scene %d, named %s\n");
+[0xf79020] result = LoggingSystem_Log(
+[0xf79020]     ScenePrint,
+[0xf79020]     3,
+[0xf79020]     "%s(%s) found an entity that wasn't a logic_choreographed_scene or logic_scene_list_manager in slot %d, named %s\n");
+[0xb90030] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc97030] LoggingSystem_Log(Server, 2, "%s:  %f tick(%d) curtime(%f) ResetSequenceInfo seq %d=[%s]\n");
+[0xf6f830] LoggingSystem_Log(Server, 3, "CSoundPatch:  invalid entity on sound %s\n");
+[0x1245830] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe3a040] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf5c840] LoggingSystem_Log(ScenePrint, 3, "Scene %s has %d actors, but scene entity only has %d actors\n");
+[0xd2d850] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2d850] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x821860] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbaa860] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd06060] LoggingSystem_Log(
+[0xd06060]     GlobalState,
+[0xd06060]     1,
+[0xd06060]     "%s:  marking global entity dormant (current:'%s' vs last active in:'%s') %d %s (%s)\n");
+[0xd06060] LoggingSystem_Log(GlobalState, 1, "%s:  removing GLOBAL_DEAD global entity %d %s (%s)\n");
+[0xd06060] LoggingSystem_Log(GlobalState, 1, "%s:  added global entity %d %s (%s)\n");
+[0xd10860] LoggingSystem_Log(
+[0xd10860]     Entity System,
+[0xd10860]     3,
+[0xd10860]     "CGameSceneNode::BuildBoneMergeWork: Invalid use of bonemerge-based hierarchy in non-skeleton instance based enti"
+[0xd10860]     "ty %s / entity %s!\n");
+[0xd10860] LoggingSystem_Log(
+[0xd10860]     Entity System,
+[0xd10860]     3,
+[0xd10860]     "CGameSceneNode::BuildBoneMergeWork: Tried to bone merge an entity that has no model or no parent model : [%d] %s ("
+[0xd10860]     "'%s') parenting to [%d] %s ('%s')!\n");
+[0xd6b060] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe05060] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe95060] LoggingSystem_Log(Server, 2, "SV:  InputStartSpawnGroupUnload(%s)\n");
+[0xf66060] LoggingSystem_Log(ScenePrint, 2, "Recent NPC speech:\n");
+[0xf66060] LoggingSystem_Log(ScenePrint, 2, "   time: %6.3f   sound name: %s   scene: %s\n");
+[0xf66060] result = LoggingSystem_Log(ScenePrint, 2, "Current time: %6.3f\n");
+[0xfdd060] LoggingSystem_Log(Server, 2, "%s:  IGNORED, outside transition volume.\n");
+[0x12cd060] LoggingSystem_Log(
+[0x12cd060]     Console,
+[0x12cd060]     2LL,
+[0x12cd060]     "Message %s arrived responding to job %lld which no longer exists, dropping message\n");
+[0x6ac870] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd49870] LoggingSystem_Log(Server, 2, "'%s' -> '%s' has malformed string (leading or trailing space)\n");
+[0xd49870] LoggingSystem_Log(Entity System, 2, "indirect %s missing valid serializer\n");
+[0xd49870] LoggingSystem_Log(Entity System, 2, "class %s already has serializer\n");
+[0xd93070] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd93070] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe5f070] LoggingSystem_Log(
+[0xe5f070]     Server,
+[0xe5f070]     3,
+[0xe5f070]     "ShouldClientReceiveStringTableUserData called with nullptr GameRules() on table %s, string %d\n");
+[0xf74070] LoggingSystem_Log(SoundOpGameSystem, 2, "Trying to play envelope on invalid sound event %s\n");
+[0x1261070] LoggingSystem_Log(VScript, 3, v11);
+[0x1261070] LoggingSystem_Log(VScript, 3, "Error running script named %s\n");
+[0x8db080] LoggingSystem_Log(SpawnGroup, 1, "%s %s:  ReleaseSpawnGroup\n");
+[0xd5b080] result = LoggingSystem_Log(Server, 1, "%s:  CLoopModeGame constructed\n");
+[0xdbe880] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe97080] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc30890] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcf9090] LoggingSystem_Log(GlobalState, 1, "%s:  added global entity %d %s (%s)\n");
+[0xcf9090] LoggingSystem_Log(
+[0xcf9090]     GlobalState,
+[0xcf9090]     1,
+[0xcf9090]     "%s:  marking global entity dormant (current:'%s' vs last active in:'%s') %d %s (%s)\n");
+[0xcf9090] LoggingSystem_Log(GlobalState, 1, "%s:  removing GLOBAL_DEAD global entity %d %s (%s)\n");
+[0xd17090] LoggingSystem_Log(SaveRestore, 3, "%s");
+[0xd468a0] LoggingSystem_Log(SaveRestore, 1, "%s:  merge changes for global entity %d %s\n");
+[0xd468a0] LoggingSystem_Log(SaveRestore, 1, "%s:  transition %d %s [%s]\n");
+[0xd468a0] LoggingSystem_Log(SaveRestore, 1, "%s:  suppress %d %s (in solid)\n");
+[0x86a8a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x86a8a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcee8a0] return LoggingSystem_Log(Console, 2, v7);
+[0xcee8a0] result = LoggingSystem_Log(
+[0xcee8a0]     Console,
+[0xcee8a0]     2,
+[0xcee8a0]     "Usage: save_set_subdirectory <subdirectory>. Use \"save_clear_subdirectory\" to clear active save sub directory \n");
+[0xcee8a0] return LoggingSystem_Log(Console, 2, v7);
+[0xe820a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe820a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe820a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe820a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x12628a0] LoggingSystem_Log(VScript, 3, "Failed to run entity framework script\n");
+[0x8cd8b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8cd8b0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8cd8b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcf00b0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  CSaveRestoreFileSystemPassthrough::WriteFile( %s : %d bytes )\n");
+[0xcf00b0] LoggingSystem_Log(SaveRestoreSyncIO, 3, "%s: CSaveRestoreFileSystemPassthrough::WriteFile( %s : %d bytes ) FAILED\n");
+[0xd140b0] LoggingSystem_Log(
+[0xd140b0]     Entity System,
+[0xd140b0]     3,
+[0xd140b0]     "CGameSceneNode::StartHierarchicalAttachment: Invalid use of bone-based hierarchy in non-skeleton instance ba"
+[0xd140b0]     "sed entity %s!\n");
+[0xd140b0] LoggingSystem_Log(
+[0xd140b0]     Entity System,
+[0xd140b0]     3,
+[0xd140b0]     "CGameSceneNode::StartHierarchicalAttachment: Invalid use of attachment-based hierarchy in non-skeleton insta"
+[0xd140b0]     "nce based entity %s!\n");
+[0xd140b0] LoggingSystem_Log(Entity System, 3, v12);
+[0xd1e8b0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s SaveHeaderCache_t::Reset() invalidating due to new .sav\n");
+[0xd1e8b0] LoggingSystem_Log(SaveRestore, 2, "%s:  transition game save to %s...\n");
+[0xd1e8b0] LoggingSystem_Log(SaveRestore, 2, "Saving game to %s...\n");
+[0xd1e8b0] LoggingSystem_Log(SaveRestore, 2, "Queue AgeSaveList\n");
+[0xd1e8b0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s Queue AgeSaveList() in CEntity2SaveRestore::SaveGame_Start\n");
+[0x106d8b0] LoggingSystem_Log(Server, 1, "CNavGameSystem::PostSpawnGroupUnload (%s)\n");
+[0xe2d0c0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe2d0c0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8018c0] LoggingSystem_Log(General, 3, "Cubemap %s has invalid radiance coefficients!");
+[0xb0d8c0] LoggingSystem_Log(Server, 3, "%s: CCSAmmoDef::AddAmmoType (%s) found no CVar named (%s)\n");
+[0x12370c0] LoggingSystem_Log(Entity Load Unserialize, 2, "\tRead %s\t%s%s%s,\tOffs 0x%04x\n");
+[0x123c8c0] LoggingSystem_Log(VScript, 1, "%s executing script: %s\n");
+[0xcf20d0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd178d0] LoggingSystem_Log(SaveRestore, 1, "WriteEHandle to slot %d for entity %d:%s\n");
+[0xd7f8d0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd010e0] LoggingSystem_Log(SaveRestore, 2, "SaveGame_SetLastSaveFile (changing from '%s' to '%s')\n");
+[0xd270e0] LoggingSystem_Log(SaveRestore, 3, " failed to restore %s\n");
+[0xefd0e0] LoggingSystem_Log(Server, 2, "%s:  step simulation system %s\n");
+[0xf2b8e0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf4b8e0] LoggingSystem_Log(Server, 3, "Failed to set animgraph param %s of type vector\n");
+[0xf4b8e0] LoggingSystem_Log(v2, 3, v3);
+[0x88e8f0] result = LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xcf68f0] LoggingSystem_Log(Server, 1, "SV:  PreservePlayerNetworkables(%d)\n");
+[0xcff8f0] result = LoggingSystem_Log(SaveRestore, 1LL, "%s:  BeginRestoreEntities( %s%s )\n");
+[0xcff8f0] LoggingSystem_Log(SaveRestore, 3LL, "BeginRestoreEntities without previous EndRestoreEntities.\n");
+[0xd2c0f0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe3a0f0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfed8f0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfed8f0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xeed900] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1241100] LoggingSystem_Log(
+[0x1241100]     Entity System,
+[0x1241100]     3,
+[0x1241100]     "CEntityKeyValues::Serialize: Unsupported KV3 value type! (%s) type=%s (%d)\n");
+[0xbaa910] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1204910] LoggingSystem_Log(Pulse, 1, "CBasePulseGraphInstance::Shutdown( %s; %p ) %s\n");
+[0x692920] LoggingSystem_Log(Server, 2LL, "VarChangeInfo_t log file started (file \"%s\") (game \"%s\")\n");
+[0xd67920] LoggingSystem_Log(SaveRestore, 1, "%s %s.HL%s from save file on %s\n");
+[0xd67920] LoggingSystem_Log(SaveRestore, 1, "save file '%s' expected to have a single entry [%d]. Loading base level.");
+[0xd67920] LoggingSystem_Log(Elapsed, 2, "ET:  Restoring game at %u %s : '%s'\nET:  '%s'\n");
+[0xd67920] LoggingSystem_Log(Server, 3, "LoopInit:  in \"error\" map - disconnecting...\n");
+[0xe34120] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe34120] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x1250120] LoggingSystem_Log(Entity System, 3, "DoAllocateEntity failed\n");
+[0x1250120] LoggingSystem_Log(Entity System, 3, v12);
+[0x1250120] LoggingSystem_Log(Entity System, 5LL, &v17, "DoAllocateEntity pEntity->m_pInstance != NULL %d\n", v7);
+[0x1250120] LoggingSystem_Log(
+[0x1250120]     Entity System,
+[0x1250120]     3,
+[0x1250120]     "Entity allocation failed since it forced slot %d, which is currently used by entity \"%s\"!\n");
+[0x833930] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x833930] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2a930] LoggingSystem_Log(
+[0xd2a930]     GlobalState,
+[0xd2a930]     1,
+[0xd2a930]     "%s:  global entity ignored, not using same map (current:'%s' vs last active in:'%s') with %d %s (%s)\n");
+[0xd2a930] LoggingSystem_Log(GlobalState, 3, "%s:  no match for global entity (%s) found in destination level\n");
+[0xd2a930] LoggingSystem_Log(GlobalState, 1, "%s:  global entity overlay %s with %d %s (%s), discarding %d\n");
+[0xf7c930] LoggingSystem_Log(Server, 3, "CSoundPatch::Init called with NULL pEnt, playing from world instead\n");
+[0xb80140] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x124d940] LoggingSystem_Log(Entity System, 3, "Encountered unknown entity i/o target type!\n");
+[0x8ac150] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ac150] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8ac150] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ac150] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd1e150] LoggingSystem_Log(SaveRestore, 3, "CEntity2SaveRestore::SaveGame(%s) failed:  %s\n");
+[0xf6b95a] LoggingSystem_Log(Server, 3, "%s\n");
+[0xc9c960] LoggingSystem_Log(
+[0xc9c960]     Entity System,
+[0xc9c960]     3LL,
+[0xc9c960]     "%s: unexpected parameter format for InputSetBodyGroup. Had %s, expected <bodygroupname,partnumber>\n");
+[0xc9c960] result = LoggingSystem_Log(Entity System, 3LL, "%s: unexpected parameter type %s, expected a CString\n");
+[0xd01160] LoggingSystem_Log(SaveRestore, 2, "Committing autosavedangerous...\n");
+[0x89e970] LoggingSystem_Log(
+[0x89e970]     VScript,
+[0x89e970]     3,
+[0x89e970]     "When specifying keyvalues to spawn or precache, you must specify a classname!\n");
+[0x8b7970] LoggingSystem_Log(SpawnGroup, 1, "%s:  SpawnGroupShutdown: entities(%d)\n");
+[0xd1d970] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s CEntity2SaveRestore::DispatchAsyncSave\n");
+[0xd21970] LoggingSystem_Log(Entity System, 1, "%s");
+[0xd30970] LoggingSystem_Log(SaveRestore, 3, "CEntity2SaveRestore::StreamEntitiesToFile on %s failed\n");
+[0xe62970] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd1f980] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd1f980] LoggingSystem_Log(SaveRestore, 1, "%s:  skip %d\n");
+[0xd1f980] LoggingSystem_Log(SaveRestore, 1, v19);
+[0xd45980] LoggingSystem_Log(SaveRestore, 1, "%s:  StreamEntitiesFromFile:  '%s' [%d entities]\n");
+[0xb04190] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd03990] LoggingSystem_Log(SaveRestore, 1, "%d:%s : clamping rebased tick %s [baseTick %d] value %d to zero!\n");
+[0xd8e190] LoggingSystem_Log(General, 2, "Class: %s (%d)\n");
+[0xd8e190] LoggingSystem_Log(General, 2, "Class: %s (%d)\n");
+[0xd8e190] result = LoggingSystem_Log(General, 2, "Total %d entities (%d empty)\n");
+[0xdeb990] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xdeb990] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf2b990] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x88e9a0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd9a1a0] LoggingSystem_Log(
+[0xd9a1a0]     Server,
+[0xd9a1a0]     3LL,
+[0xd9a1a0]     "Bone merge bones from parent were invalid: parent model '%s': our model '%s'");
+[0xe3a1a0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc581b0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc581b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xc7b1b0] LoggingSystem_Log(
+[0xc7b1b0]     v25,
+[0xc7b1b0]     1,
+[0xc7b1b0]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0xc7b1b0]     " construction of class referenced via pointer).\n");
+[0xc7b1b0] LoggingSystem_Log(
+[0xc7b1b0]     v22,
+[0xc7b1b0]     2,
+[0xc7b1b0]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xc881b0] result = LoggingSystem_Log(Server, 2, "SV: %d(%s) changed min command queue size to %d\n");
+[0xc889b0] LoggingSystem_Log(General, 2, "[%d]: '%s'\n");
+[0xeed9b0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf0b1b0] LoggingSystem_Log(Shooting, a15, "sv: Failed %s, entity %d, tick base %d (%.3f)\n");
+[0xf0b1b0] LoggingSystem_Log(Shooting, a15, "Lag records available - %d -> %d\n");
+[0xdc09c0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x6d71c0] LoggingSystem_Log(Workshop, 2, "%llu downloaded\n");
+[0x6d71c0] LoggingSystem_Log(Workshop, 3, "%llu failed to download(%d)\n");
+[0x8b89c0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  loading '%s' entities from map file\n");
+[0x8b89c0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  loading '%s' entities from savedata\n");
+[0x8b89c0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  load '%s' entities for PRECACHE ONLY\n");
+[0x8b89c0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  suppressing '%s' entities from map file\n");
+[0x8b89c0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  transitioning '%s' entities from previous map '%s' (landmark='%s')\n");
+[0x8b89c0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  SpawnGroupSpawnEntities Finished: entities(%d)\n");
+[0xd201c0] LoggingSystem_Log(SaveRestore, 1, "%s:  onrestore %d %s [%s]\n");
+[0xf0c1c0] LoggingSystem_Log(Command Queue, 1LL, "%s");
+[0xf0c1c0] LoggingSystem_Log(Command Queue, 3LL, "%s");
+[0xf0c1c0] LoggingSystem_LogDirect(Command Queue, a2, v7);
+[0xf1c9c0] LoggingSystem_Log(Command Queue, 2LL, "cq_fake_starve [%d] discarding newest command from queue of %d\n");
+[0xf661d0] result = LoggingSystem_Log(ScenePrint, 2, "%8.3f[%d] %s:  %s");
+[0xb7e9e0] result = LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xce99e0] LoggingSystem_Log(Entity System, 1, "%s");
+[0xd019e0] LoggingSystem_Log(SaveRestore, 3LL, "PreSave(%d):  entity identity is missing, may cause a crash\n");
+[0xd019e0] LoggingSystem_Log(
+[0xd019e0]     SaveRestore,
+[0xd019e0]     3LL,
+[0xd019e0]     "PreSave(%d):  entity instance is missing for (%s, %s), may cause a crash\n");
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     3,
+[0x12339e0]     "Encountered bad enum value \"%s\" for type %s, entity \"%s\" field \"%s\"!\n");
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     3,
+[0x12339e0]     "Bad key for entity \"%s\": Invalid parsed value for string_t field \"%s\" (%s)!\n");
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     3,
+[0x12339e0]     "Bad key for entity \"%s\": Invalid parsed value for char[] field \"%s\" (%s)!\n");
+[0x12339e0] LoggingSystem_Log(Entity Load Unserialize, 2, "             ( Resource \"%s type %lld\", handle is%s set\n");
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     3,
+[0x12339e0]     "Bad key for entity \"%s\": Invalid parsed value for CUtlString field \"%s\" (%s)!\n");
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     5LL,
+[0x12339e0]     &v194,
+[0x12339e0]     "Bad key for entity \"%s\": Invalid parsed value type for field \"%s\" (%s)!\n",
+[0x12339e0]     v29);
+[0x12339e0] LoggingSystem_Log(
+[0x12339e0]     Entity System,
+[0x12339e0]     5LL,
+[0x12339e0]     &v194,
+[0x12339e0]     "Bad key for entity \"%s\": Invalid parsed value type for matrix field \"%s\" (%s)!\n",
+[0x12339e0]     v16);
+[0x88b1f0] LoggingSystem_Log(
+[0x88b1f0]     Console,
+[0x88b1f0]     3,
+[0x88b1f0]     "CScriptConvarAccessor::GetFloat failed to parse convar '%s' (value '%s') as float\n");
+[0xfd41f0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd41f0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8dca00] LoggingSystem_Log(
+[0x8dca00]     Console,
+[0x8dca00]     3,
+[0x8dca00]     "CScriptConvarAccessor::RegisterCommand replacing command already registered: %s\n");
+[0xf9ca00] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd3a00] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd3a00] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x8cca10] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0xce9210] LoggingSystem_Log(SaveRestore, 2, "SaveGame_ForgetLastSave (clearing '%s')\n");
+[0xd00210] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s async CEntity2SaveRestore::ClearSaveFile(%s)\n");
+[0xd00210] LoggingSystem_Log(SaveRestore, 2, "Clearing old .sav file %s\n");
+[0xd00210] LoggingSystem_Log(SaveRestore, 3, "Save failed: invalid file name '%s'\n");
+[0xd00210] result = LoggingSystem_Log(
+[0xd00210]     SaveRestoreSyncIO,
+[0xd00210]     1,
+[0xd00210]     "%s:  %s ABORTING callqueue CEntity2SaveRestore::ClearSaveFile(%s)\n");
+[0xd5aa10] LoggingSystem_Log(Server, 1, "%s:  CLoopModeGame destructed\n");
+[0xd7ba10] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe5ea10] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe9ca10] LoggingSystem_Log(Server, 2, "SV:  SpawnGroupUnloadingThink:  UNLOAD FINISH %s]\n");
+[0xe9ca10] LoggingSystem_Log(Server, 2, "SV:  SpawnGroupUnloadingThink:  UNLOAD START %s\n");
+[0xe9ca10] LoggingSystem_Log(Server, 2, "SV:  SpawnGroupUnloadingThink:  UNLOAD FINISH %s]\n");
+[0xe9ca10] LoggingSystem_Log(
+[0xe9ca10]     Server,
+[0xe9ca10]     2,
+[0xe9ca10]     "SV:  SpawnGroupUnloadingThink(%s), ignored because server doesn't know about this spawngroup!\n");
+[0xe60220] LoggingSystem_Log(Server, 2, "%s:  CGameRulesGameSystem::GameShutdown uninstalled game rules\n");
+[0x123e220] LoggingSystem_Log(
+[0x123e220]     Entity System,
+[0x123e220]     3,
+[0x123e220]     "Entity I/O attempted to invoke unknown private script function \"%s\" on entity \"%s\"!\n");
+[0xbcd230] result = LoggingSystem_Log(General, 3, "plant_bomb trace did not find a location to plant the bomb.\n");
+[0xbcd230] result = LoggingSystem_Log(General, 3, "plant_bomb could not create a bomb.\n");
+[0xbcd230] result = LoggingSystem_Log(General, 3, "plant_bomb could not find the player's pawn.\n");
+[0xc20a30] LoggingSystem_Log(
+[0xc20a30]     v25,
+[0xc20a30]     1,
+[0xc20a30]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0xc20a30]     " construction of class referenced via pointer).\n");
+[0xc20a30] LoggingSystem_Log(
+[0xc20a30]     v22,
+[0xc20a30]     2,
+[0xc20a30]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xd05230] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2ca30] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe04a30] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xb04240] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2b240] LoggingSystem_Log(SaveRestoreSyncIO, 1LL, "%s:  %s async %s in CEntity2SaveRestore::AppendTransitionResources\n");
+[0xd2b240] LoggingSystem_Log(SaveRestoreSyncIO, 1LL, "%s:  %s READ  %s in CEntity2SaveRestore::AppendTransitionResources\n");
+[0xd2b240] LoggingSystem_Log(
+[0xd2b240]     SaveRestore,
+[0xd2b240]     3LL,
+[0xd2b240]     "AppendTransitionResources:  create manifest from save/restore keyvalues\n");
+[0x12cb240] LoggingSystem_Log(
+[0x12cb240]     Console,
+[0x12cb240]     3,
+[0x12cb240]     "job warning: Resuming job '%s (id: %lld)' due to timeout while paused for %s\n");
+[0x88ea50] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8ad250] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe3a250] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf22250] LoggingSystem_Log(Shooting, 3, "No valid positions in history for BacktrackPlayer entity %d\n");
+[0xeeda60] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xef5260] LoggingSystem_Log(Shooting, 2, "Timing info\n");
+[0xef5260] LoggingSystem_Log(
+[0xef5260]     Shooting,
+[0xef5260]     2,
+[0xef5260]     "sv tick = [ #%d + %.3f ] (%.3f), latency = [ #%d + %.3f ] (%.3f), latency-based target time = [ #%d + %.3f ] (%.3f)\n");
+[0xef5260] LoggingSystem_Log(
+[0xef5260]     Shooting,
+[0xef5260]     2,
+[0xef5260]     "cmd time = [ #%d + %.3f ] (%.3f), player lerp amount = [ #%d + %.3f ] (%.3f)\n");
+[0xef5260] LoggingSystem_Log(
+[0xef5260]     Shooting,
+[0xef5260]     2,
+[0xef5260]     "cmd target time = [ #%d + %.3f ] (%.3f), diff from latency time = [ #%d + %.3f ] (%.3f)\n");
+[0xef5260] LoggingSystem_Log(
+[0xef5260]     Shooting,
+[0xef5260]     2,
+[0xef5260]     "interp target time = [ #%d + %.3f ] (%.3f), diff from cmd time = [ #%d + %.3f ] (%.3f)\n");
+[0x7fb270] LoggingSystem_Log(
+[0x7fb270]     Entity System,
+[0x7fb270]     3,
+[0x7fb270]     "Attempting to precache model for entity %d [%s] at %.2f %.2f %.2f, but model name is NULL\n");
+[0xb80270] LoggingSystem_Log(VScript, 2, "Initializing CSGO VScript Game System\n");
+[0xd04280] LoggingSystem_Log(SaveRestore, 3, "Error reading kv3 data\n");
+[0xd04280] LoggingSystem_Log(SaveRestore, 3, "Error reading kv3 data: %s\n");
+[0xf88290] LoggingSystem_Log(ScenePrint, 3, "InstancedAutoGeneratedSoundScene:  Expecting non-NULL pActor for sound %s\n");
+[0xf88290] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf88290] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8d62a0] LoggingSystem_Log(Server, 2, "%s:  %f tick(%d) curtime(%f) DoStartSoundEvent(%s)\n");
+[0xc1f2a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc1f2a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf162a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf162a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x6ab2b0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe54ab0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe54ab0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf9cab0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8abac0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8abac0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8afac0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8afac0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x11eeac0] LoggingSystem_Log(*(a1 + 208), 2, "  ");
+[0x11eeac0] result = LoggingSystem_Log(*(a1 + 208), 2, "%s");
+[0xd1dad0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s async %s in CEntity2SaveRestore::AppendTransitionResources\n");
+[0xd1dad0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s READ  %s in CEntity2SaveRestore::AppendTransitionResources\n");
+[0xd1dad0] LoggingSystem_Log(SaveRestore, 1, "%s:  AppendSaveGameResources - adding '%s' to restore manifest\n");
+[0xd4bad0] LoggingSystem_Log(Server, 2, "%s overrides identical base gameevent in '%s'\n");
+[0x123e2d0] LoggingSystem_Log(Entity System, 3, "Entity I/O attempted to invoke unknown global script function \"%s\"!\n");
+[0x7e62e0] LoggingSystem_Log(General, 2, "CSGO: Compute Encounter spots ");
+[0x7e62e0] LoggingSystem_Log(General, 2, "[");
+[0x7e62e0] LoggingSystem_Log(General, 2, ".");
+[0x7e62e0] LoggingSystem_Log(General, 2, "%d");
+[0x7e62e0] LoggingSystem_Log(General, 2, ".");
+[0x7e62e0] LoggingSystem_Log(General, 2, "%d");
+[0x7e62e0] LoggingSystem_Log(General, 2, "] Done (%.2f seconds)");
+[0x7e62e0] result = LoggingSystem_Log(General, 2, "\n");
+[0xe04ae0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe4d2e0] LoggingSystem_Log(
+[0xe4d2e0]     Server,
+[0xe4d2e0]     3,
+[0xe4d2e0]     "speaker DSP needs an audio mix input.  The convar is no longer used in source2\n");
+[0x8d1af0] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::GameShutdown\n");
+[0xcd3af0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcd3af0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd472f0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  transfering entities from %s [%s] (landmark='%s')\n");
+[0xd472f0] LoggingSystem_Log(SaveRestoreSyncIO, 1LL, "%s:  %s async %s in CEntity2SaveRestore::LoadAdjacentEnts\n");
+[0xd472f0] LoggingSystem_Log(SaveRestoreSyncIO, 1LL, "%s:  %s READ %s in CEntity2SaveRestore::LoadAdjacentEnts\n");
+[0xd472f0] LoggingSystem_Log(SaveRestore, 1LL, "%s:  landmark='%s' position offset ( %g, %g, %g )\n");
+[0xd472f0] LoggingSystem_Log(
+[0xd472f0]     SaveRestore,
+[0xd472f0]     3LL,
+[0xd472f0]     "%s:  level transition ERROR:  no connection from new level '%s' back to old level '%s'\n");
+[0x708300] LoggingSystem_Log(Workshop, 2, "Loading custom game \"%s\" with map \"%s\"\n");
+[0x88eb00] result = LoggingSystem_Log(Server, 3, "CSpawnGroupMgrGameSystem: flushed %d queued entity calls\n");
+[0xd4cb00] LoggingSystem_Log(Server, 2, "Event System loaded %i events from file: %s.\n");
+[0xe3a300] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x699310] LoggingSystem_Log(Server, 3LL, "SV:  Couldn't resolve offset %d in %s at path (%d = '%s')\n");
+[0x699310] LoggingSystem_Log(Server, 3LL, "SV:  All %d paths:\n");
+[0x699310] LoggingSystem_Log(Server, 3LL, "SV:     %d:  '%s'\n");
+[0xbaab10] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xeedb10] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf40b10] LoggingSystem_Log(Server, 3, "Pulse: SoundEventStart failed to find entity specified\n");
+[0xf40b10] LoggingSystem_Log(Server, 3, "Pulse: failed to emit sound event '%s'\n");
+[0xf87b10] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf87b10] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xfae310] LoggingSystem_Log(
+[0xfae310]     Server,
+[0xfae310]     3,
+[0xfae310]     "Soundscape warning: Event '%s' is being triggered by a soundscape entity and does not have dsp_override enabled!\n");
+[0xc15320] LoggingSystem_Log(Shooting, 2, "%s: TraceShapeAgainstHitboxes\n");
+[0xc15320] LoggingSystem_Log(Shooting, 2, "Player %s (%d)\n");
+[0xc15320] LoggingSystem_Log(Shooting, 2, "%s has no hitboxes\n");
+[0xc15320] LoggingSystem_Log(Shooting, 2, "Entity %d is not a player\n");
+[0xc15320] LoggingSystem_Log(Shooting, 2, "Hitbox index %d: %s\n");
+[0x123db20] LoggingSystem_Log(VScript, 3, "Encountered malformed keys in call to CallScriptFunction : \"%s\"!\n");
+[0xdd4b30] LoggingSystem_Log(
+[0xdd4b30]     Entity System,
+[0xdd4b30]     2,
+[0xdd4b30]     "%s:  %d:%f - step simulation networking the origin as ( %8.3f, %8.3f, %8.3f )\n");
+[0x8b7330] result = LoggingSystem_Log(SpawnGroup, 1, "%s %s:  SpawnGroupActuallyShutdown - Precached? %i\n");
+[0xfc6b30] LoggingSystem_Log(Server, 2, "Trigger %s is teleporting %s from ( %f %f %f ) to ( %f %f %f )\n");
+[0x1256330] LoggingSystem_Log(Entity System, 3, "Cannot create an entity because entity class is NULL %d\n");
+[0x8b9340] LoggingSystem_Log(SpawnGroup, 1, "%s:  SpawnGroupSpawnEntities\n");
+[0x8b9340] result = LoggingSystem_Log(General, 3, "Spawn entities failed for spawngroup: %u\n");
+[0x11f7b40] LoggingSystem_Log(
+[0x11f7b40]     *(*a1 + 208LL),
+[0x11f7b40]     3,
+[0x11f7b40]     "CChoreoScene::ParseEvent( %s ):  discarding invalid event of type '%s' [%f -> %f]\n");
+[0x1233340] LoggingSystem_Log(
+[0x1233340]     Entity System,
+[0x1233340]     3,
+[0x1233340]     "Bad key for entity \"%s\": Invalid parsed value for field \"%s\" of type '%s' ('%s')!\n");
+[0x1233340] LoggingSystem_Log(Entity System, 3, "    %s\n");
+[0x124cb4a] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd3cb50] LoggingSystem_Log(SaveRestore, 1LL, "\t%s%s\n");
+[0x69a350] LOWORD(v7) = LoggingSystem_Log(Server, 2LL, "SV:  %d/%s ignored %d FL_FULL_EDICT_CHANGED\n");
+[0x69a350] LOWORD(v7) = LoggingSystem_Log(Server, 2LL, "SV:  %d/%s ignored %d\n");
+[0x833350] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x833350] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8b6360] LoggingSystem_Log(
+[0x8b6360]     SpawnGroup,
+[0x8b6360]     1,
+[0x8b6360]     "CSpawnGroupMgrGameSystem::FrameBoundary:  invoking unload of spawn group %s(%s)\n");
+[0xd02360] LoggingSystem_Log(v2, 1, "%s%s\n");
+[0xd02360] LoggingSystem_Log(v2, 2, "%s%s\n");
+[0xf9cb60] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1256b60] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1256b60] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xed4370] LoggingSystem_Log(Server, 2, "SV:  Executing server defaults\n");
+[0xed4370] LoggingSystem_Log(Server, 2, "SV:  Executing dedicated server config file\n");
+[0xed4370] LoggingSystem_Log(Server, 2, "SV:  Executing listen server config file\n");
+[0xcb1b80] LoggingSystem_Log(
+[0xcb1b80]     Shooting,
+[0xcb1b80]     3LL,
+[0xcb1b80]     "sv: Clamped invalid attack history %d index in cmd to -1. Was %d, cmd size %d.\n");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "----Script Dump for entity \"%s\"\n");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\tPrivate script scope:");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\n");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\tNone\n");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\tPublic script scope:");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\n");
+[0x123cb80] LoggingSystem_Log(VScript, 2, "\tNone\n");
+[0x123cb80] result = LoggingSystem_Log(VScript, 2, "----End Script Dump\n");
+[0x124e380] LoggingSystem_Log(Entity System, 2, "=== %sEntity List Summary (%s) ===\n");
+[0x124e380] LoggingSystem_Log(Entity System, 2, "class %s - %s instance%s (%.2f%%)\n");
+[0x124e380] LoggingSystem_Log(Entity System, 2, "=== Total: %s/%s %s entities%s ===\n");
+[0xe04b90] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x123b390] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x124db90] LoggingSystem_Log(Entity System, 1, "unhandled input: (%s) -> (%s), from (%s,%s); %s\n");
+[0xc98ba0] LoggingSystem_Log(Server, 2, "%s:  %f tick(%d) curtime(%f) SetSequence(%s) seq %d=[%s] %s\n");
+[0xc98ba0] LoggingSystem_Log(Server, 2, "%s:  %f tick(%d) curtime(%f) SetSequence(%s) seq %d=[%s] %s\n");
+[0xc98ba0] result = LoggingSystem_Log(
+[0xc98ba0]     Server,
+[0xc98ba0]     2,
+[0xc98ba0]     "%s:  %f tick(%d) curtime(%f) SetSequence(%s) final cycle %6.4f\n");
+[0xd35ba0] LoggingSystem_Log(SaveRestore, 3, "ENTITY IS NOT A PLAYER: %d\n");
+[0xd35ba0] LoggingSystem_Log(
+[0xd35ba0]     SaveRestore,
+[0xd35ba0]     3,
+[0xd35ba0]     "%s:  CEntitySaveRestoreBlockHandler::Restore:  Player already exists\n");
+[0xd35ba0] LoggingSystem_Log(SaveRestore, 1, "%s:  restoring %d %s took %d bytes\n");
+[0xd35ba0] LoggingSystem_Log(SaveRestore, 1, "%s:  restoring %d %s took %d bytes\n");
+[0xd35ba0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd35ba0] LoggingSystem_Log(SaveRestore, 1, "%s:  restoring world from save data\n");
+[0xe0bbc0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x6d6bc0] LoggingSystem_Log(Workshop, 3LL, "Map %llu is a legacy map, not compatable with source 2.\n");
+[0x6d6bc0] LoggingSystem_Log(Workshop, 3LL, "Failed to start download or update for item %llu.\n");
+[0x6d6bc0] result = LoggingSystem_Log(Workshop, 2LL, "Downloading %llu (%s / %s)\n");
+[0xbaabc0] result = LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xc303c0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcf93c0] LoggingSystem_Log(SaveRestore, 3, "usage: save savename <wait> <notmostrecent>\n");
+[0xcf93c0] LoggingSystem_Log(SaveRestore, 3, "  wait forces async .sav to finish before returning\n");
+[0xcf93c0] result = LoggingSystem_Log(SaveRestore, 3, "  notmostrecent prevents tracking the name of the last .sav file\n");
+[0xcf93c0] result = LoggingSystem_Log(SaveRestore, 3, "SV:  can't save, no IEntity2SaveRestore\n");
+[0xeedbc0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcb3bd0] LoggingSystem_Log(Entity System, 1, "Input_SetRenderAttribute on %s: Set %s to [%.2f %.2f %.2f %.2f]\n");
+[0xcb3bd0] result = LoggingSystem_Log(
+[0xcb3bd0]     Entity System,
+[0xcb3bd0]     3,
+[0xcb3bd0]     "Input_SetRenderAttribute on %s: Unexpected parameter format. Had <%s>, expected <name=x[,y[,z[,w]]]>\n");
+[0xceebd0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE DirectoryClear( %s, %s )\n");
+[0xd083d0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8b7be0] LoggingSystem_Log(SpawnGroup, 1, "%s(%s):  Found %s connection to %s:  %s at %f %f %f\n");
+[0x8b7be0] LoggingSystem_Log(
+[0x8b7be0]     Server,
+[0x8b7be0]     3,
+[0x8b7be0]     "CMapSpawnGroup::OnPostSpawnGroupLoad:  Misconfigured CInfoSpawnGroupLoadUnload(%d), couldn't find landmark named %s\n");
+[0xc983e0] LoggingSystem_Log(
+[0xc983e0]     Server,
+[0xc983e0]     2,
+[0xc983e0]     "%s:  %f tick(%d) curtime(%f) [%d] AnimationFrameAdvanceInternal: %d=[%s] : %d=[%s] : %6.4f -> %6.4f rate %6.3f (finished: %s)\n");
+[0xd1cbe0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s READ %s in CEntity2SaveRestore::EntityPatchRead\n");
+[0xd1cbe0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s async %s in CEntity2SaveRestore::EntityPatchRead\n");
+[0xd1cbe0] LoggingSystem_Log(SaveRestore, 1, "%s:  EntityPatchRead( %s ) read %d entries\n");
+[0xd1cbe0] LoggingSystem_Log(SaveRestore, 1, "%s:  EntityPatchRead: marking %d %s [%s] as removed\n");
+[0xee03e0] LoggingSystem_Log(
+[0xee03e0]     Server,
+[0xee03e0]     3,
+[0xee03e0]     "func_brush with solids and clip brush contents at %s, this is not well supported\n");
+[0xf55be0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd01bf0] LoggingSystem_Log(SaveRestore, 3, "%s:  global entity found %s, wrong class %s [expects class %s]\n");
+[0xd29bf0] LoggingSystem_Log(SaveRestore, 1, "%s:  EntityPatchWrite( %s ) wrote %d entries\n");
+[0xd29bf0] LoggingSystem_Log(SaveRestore, 1, "%s:  EntityPatchWrite: marking %d %s [%s] to remove\n");
+[0xd29bf0] LoggingSystem_Log(SaveRestore, 1, "%s:  Queue AsyncWrite (%s)\n");
+[0xd29bf0] LoggingSystem_Log(
+[0xd29bf0]     SaveRestoreSyncIO,
+[0xd29bf0]     1,
+[0xd29bf0]     "%s:  %s WRITE Queue AsyncWrite(%s) in CEntity2SaveRestore::EntityPatchWrite\n");
+[0xd29bf0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE %s in CEntity2SaveRestore::EntityPatchWrite\n");
+[0xfc5bf0] LoggingSystem_Log(SaveRestore, 1, "%s:  changelevel trying %d %s (%s) %s %s\n");
+[0xfdcbf0] LoggingSystem_Log(Server, 3, "%s:  landmark '%s' but no matching trigger_transition with that name!\n");
+[0xfdcbf0] LoggingSystem_Log(Server, 3, "%s: %d volumes found\n");
+[0x708400] LoggingSystem_Log(Workshop, 3, "LaunchWorkshopMap: Can't find map idx %d in addon %llu\n");
+[0xcfec00] result = LoggingSystem_Log(Elapsed, 1, "ET:  AccumulateElapsedTime( %s ) at %d\n");
+[0xf48c10] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf48c10] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf9cc10] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xb1cc20] LoggingSystem_Log(General, 2, "Too many vertical sections for minimap (> %d), skipping.\n");
+[0xce8c20] LoggingSystem_Log(SaveRestore, 2, "SaveGame_GetLastSaveFile:  reloading from '%s'\n");
+[0xd07420] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcf3430] result = LoggingSystem_Log(Elapsed, 1, "ET:  SetMostRecentElapsedTime( %s ) at %d\n");
+[0xe04c40] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc23c50] LoggingSystem_Log(
+[0xc23c50]     v25,
+[0xc23c50]     1,
+[0xc23c50]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0xc23c50]     " construction of class referenced via pointer).\n");
+[0xc23c50] LoggingSystem_Log(
+[0xc23c50]     v22,
+[0xc23c50]     2,
+[0xc23c50]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xf57450] LoggingSystem_Log(ScenePrint, 3, "CSceneEntity %s unable to find actor \"%s\"\n");
+[0x7f6460] LoggingSystem_Log(Entity System, 2, "%s: %s(%s) '%s' [%d] thinking for %.02f ms!!!\n");
+[0xb25460] LoggingSystem_Log(General, 2, " CCSGameRules::Think bHalftime SwitchTeamsAtRoundReset() CTMDBG, %.2f \n");
+[0xe2bc60] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe2bc60] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf23460] LoggingSystem_Log(Shooting, 3LL, "Lag comp cmd had no attack history information, using target time.\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "sv: StartLagCompensation clamped invalid attack history index to -1. Was %d, cmd history size %d.");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "sv: Lag comp - full interp info doesn't match target time, using target time instead.\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "sv: Lag comp - clamping to sv_max_unlag (%.3f), using target time.\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "sv: Lag comp - Server world-space interpolated head pos for player %s at time does not match\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "Head pos cl: %.4f, %.4f, %.4f - abs pos cl: %.4f, %.4f, %.4f - abs ang cl: %.4f, %.4f, %.4f\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "Head pos sv: %.4f, %.4f, %.4f - abs pos sv: %.4f, %.4f, %.4f - abs ang sv: %.4f, %.4f, %.4f\n");
+[0xf23460] LoggingSystem_Log(
+[0xf23460]     Shooting,
+[0xf23460]     3LL,
+[0xf23460]     "Head pos diff: %.4f - abs pos diff: %.4f - abs ang diff: %.4f %.4f %.4f\n");
+[0x11f3460] LoggingSystem_Log(
+[0x11f3460]     *(*a1 + 208LL),
+[0x11f3460]     3,
+[0x11f3460]     "CChoreoScene::RestoreFromBinaryBuffer( %s ):  discarding invalid event of type '%s' [%f -> %f]\n");
+[0xc30470] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xeedc70] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8b6c90] LoggingSystem_Log(SpawnGroup, 1, "%s:  CSpawnGroupMgrGameSystem::PerformActivateSpawnGroup(%s)\n");
+[0x8b6c90] result = LoggingSystem_Log(SpawnGroup, 1, "CSpawnGroupMgrGameSystem::ActivateSpawnGroup:  no such group %s\n");
+[0x8d3c90] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::PreSpawnGroupLoad(%s: %s)\n");
+[0xd17490] result = LoggingSystem_Log(Server, 3, "Error writing kv3 data: %s\n");
+[0xea0c90] LoggingSystem_Log(Server, 2, "SV:  CInfoSpawnGroupLoadUnload:  LOAD START %s\n");
+[0xea0c90] LoggingSystem_Log(
+[0xea0c90]     Server,
+[0xea0c90]     3,
+[0xea0c90]     "CEntityLumpRequest::Start:  InputStartSpawnGroupLoad %s, couldn't find landmark named '%s' in this map!!!\n");
+[0xf17c90] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x6c44a0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x6c44a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x710ca0] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x710ca0] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x88eca0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcaeca0] LoggingSystem_Log(
+[0xcaeca0]     Server,
+[0xcaeca0]     2,
+[0xcaeca0]     "%s:  %f tick(%d) curtime(%f) [%d] StudioFrameAdvance prev %f -> next %f [dt %f]\n");
+[0xf46ca0] LoggingSystem_Log(Server, 3, "Pulse: failed to find entity '%s' by name\n");
+[0xf46ca0] LoggingSystem_Log(Server, 5LL, &v50, "Pulse: Unhandled type in SetKV3FromEntityIOParam\n", v21);
+[0x88b4b0] LoggingSystem_Log(
+[0x88b4b0]     Console,
+[0x88b4b0]     3,
+[0x88b4b0]     "CScriptConvarAccessor::GetInt failed to parse convar '%s' (value '%s') as int\n");
+[0xb314b0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xb314b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd11cb0] LoggingSystem_Log(
+[0xd11cb0]     Entity System,
+[0xd11cb0]     3,
+[0xd11cb0]     "Entity %s [%s]: Invalid keyvalue type for 'parentname' key of skeleton instance!\n");
+[0xd11cb0] LoggingSystem_Log(Entity System, 3, "LEVEL DESIGN ERROR: Entity %s is parented to itself!\n");
+[0x125f4b0] LoggingSystem_Log(VScript, 3, "Scripting disabled or no server running\n");
+[0x92dcc0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcf1cc0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd06cc0] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xeabcc0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xeabcc0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x11a24c0] LoggingSystem_Log(
+[0x11a24c0]     modellib,
+[0x11a24c0]     3,
+[0x11a24c0]     "Trying to find a flex controller (%s) that doesn't actually exist in the model.\n");
+[0x123b4c0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8d2cd0] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::PostSpawnGroupUnload(%s: %s)\n");
+[0x8df4d0] LoggingSystem_Log(Console, 2, "RegisterConVar 0x%p = %s\n");
+[0x8df4d0] result = LoggingSystem_Log(
+[0x8df4d0]     Console,
+[0x8df4d0]     3,
+[0x8df4d0]     "CScriptConvarAccessor::RegisterConvar convar '%s' already registered\n");
+[0xd5b4d0] LoggingSystem_Log(
+[0xd5b4d0]     Server,
+[0xd5b4d0]     3,
+[0xd5b4d0]     "CLoopModeGame::ReceivedServerInfo restarting loopmode game systems from '%s' to '%s'!\n");
+[0xe5ece0] LoggingSystem_Log(Server, 3, "SV:  can't save, no IEntity2SaveRestore\n");
+[0x89fcf0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x89fcf0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x89fcf0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xc494f0] LoggingSystem_Log(Developer, 2, "Zeroing deafness fade to target pawn on bot takeover.");
+[0xe04cf0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe904f0] LoggingSystem_Log(SaveRestore, 2, "Too many shards (%d), skipping any above (%d)\n");
+[0x861d00] LoggingSystem_Log(Server, 2LL, "%s:  IGameSystem::LoopDeactivateAllSystems {\n");
+[0x861d00] return LoggingSystem_Log(Server, 2LL, "%s:  } IGameSystem::LoopDeactivateAllSystems done\n");
+[0x861d00] LoggingSystem_Log(Server, 1LL, "%s:  EventGameDeactivate_t: background map %s\n");
+[0x861d00] return LoggingSystem_Log(Server, 2LL, "%s:  } IGameSystem::LoopDeactivateAllSystems done\n");
+[0xf87500] LoggingSystem_Log(ScenePrint, 3, "forcing reload of %s due to scene_flush\n");
+[0xf87500] LoggingSystem_Log(ScenePrint, 1, "%s missing from scenes.vcdlist_c\n");
+[0x8b6510] result = LoggingSystem_Log(
+[0x8b6510]     SpawnGroup,
+[0x8b6510]     1,
+[0x8b6510]     "CSpawnGroupMgrGameSystem::UnloadSpawnGroup:  queueing unload of spawn group %s(%s)\n");
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v5, v5[16]);
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v81, (v81[16] - 1));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v16, v16[16]);
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v20, (v20[16] - 1));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v26, *(v26 + 32));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v29, (v29[16] - 1));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v32, *(v32 + 32));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v38, (v38[16] - 1));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v41, *(v41 + 32));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v47, (v47[16] - 1));
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n", v52, v52[16]);
+[0xb34510] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n", v52, (v52[16] - 1));
+[0xc63d10] LoggingSystem_Log(
+[0xc63d10]     General,
+[0xc63d10]     2LL,
+[0xc63d10]     "\"%s<%i><%s><%s>\" ChangeTeam() CTMDBG , team %d, req team %d willSwitch %d, %.2f \n",
+[0xc63d10]     v19,
+[0xc63d10]     v18,
+[0xc63d10]     v24,
+[0xc63d10]     v14,
+[0xc63d10]     v25,
+[0xc63d10]     v2,
+[0xc63d10]     a2,
+[0xc63d10]     v15);
+[0xcb1510] LoggingSystem_Log(Server, 1, "SV:  %s clock correcting changing tick from %u to %u (too %s by %d)\n");
+[0xcb1510] LoggingSystem_Log(Server, 3, "SV:  %s clock correction would have gone negative, preventing\n");
+[0xd00d10] LoggingSystem_Log(
+[0xd00d10]     SaveRestore,
+[0xd00d10]     3,
+[0xd00d10]     "%s:  CEntity2SaveRestore::ExecuteSave called but entity system has queued work, flushing queued creates/deletes.\n");
+[0xd00d10] LoggingSystem_Log(SaveRestore, 2, "ExecuteSave( %s ) took %f msec\n");
+[0xf80d10] LoggingSystem_Log(Server, 2, "missing caption for '%s' [%u]\n");
+[0x123d510] result = LoggingSystem_Log(
+[0x123d510]     Entity System,
+[0x123d510]     3,
+[0x123d510]     "AddOutput fired on entity \"%s\" with unknown output name \"%s\"\n");
+[0x123d510] result = LoggingSystem_Log(
+[0x123d510]     Entity System,
+[0x123d510]     3,
+[0x123d510]     "AddOutput fired with bad string. Format: outputname>targetname>inputname>parameter>delay>max times to f"
+[0x123d510]     "ire (-1 == infinite)\n");
+[0xc30520] result = LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xeedd20] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfc5520] LoggingSystem_Log(
+[0xfc5520]     SaveRestore,
+[0xfc5520]     1,
+[0xfc5520]     "%s:  changelevel - AddTransitionToList( map: %s, landmark name: %s, entity index: %d )\n");
+[0x1049d20] LoggingSystem_Log(Server, 1, "CNavGameSystem::ActiveSpawnGroupChanged(%s) switching nav mesh\n");
+[0x11a2d20] LoggingSystem_Log(
+[0x11a2d20]     modellib,
+[0x11a2d20]     3,
+[0x11a2d20]     "Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n");
+[0x1205520] LoggingSystem_Log(Pulse, 1, "CBasePulseGraphInstance::StartGraphReload( %p ) %s\n");
+[0xbccd30] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbccd30] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf55d40] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x708550] LoggingSystem_Log(Workshop, 2, "CUGCDetailsRequest: Failed to query UGC items\n");
+[0x88ed50] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8acd50] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x8acd50] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x902d50] LoggingSystem_Log(
+[0x902d50]     v25,
+[0x902d50]     1,
+[0x902d50]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0x902d50]     " construction of class referenced via pointer).\n");
+[0x902d50] LoggingSystem_Log(
+[0x902d50]     v22,
+[0x902d50]     2,
+[0x902d50]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xf9c550] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1250550] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbcc560] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbcc560] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcf5d60] LoggingSystem_Log(SaveRestore, 2LL, "%sclassname='%s'\n");
+[0xcf5d60] LoggingSystem_Log(SaveRestore, 2LL, "%s{\n");
+[0xcf5d60] LoggingSystem_Log(SaveRestore, 2LL, "%s\t%32.32s = \"%s\"\n");
+[0xcf5d60] LoggingSystem_Log(SaveRestore, 2LL, "%s}\n");
+[0xeaa560] LoggingSystem_Log(Server, 2, "HLTVDirector: Inserted game event %s at tick %d (%d total)\n");
+[0xf52560] LoggingSystem_Log(ScenePrint, 2, "flushing & reloading scenes.cache\n");
+[0x8ae570] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::GameActivate\n");
+[0xbf4570] LoggingSystem_Log(Shooting, 2, "%s: CSBaseGunFire player %s no history - using calculated time %.4f\n");
+[0xbf4570] LoggingSystem_Log(Shooting, 2, "%s: CSBaseGunFire player %s using %s attack time %.4f [ #%d + %.3f ]\n");
+[0xbf4570] LoggingSystem_Log(Shooting, 2, "ang %.4f %.4f %.4f, pos %.4f %.4f %.4f\n");
+[0xd4d570] LoggingSystem_Log(Server, 2, "dumping all gameevents to '%s'\n");
+[0x10d0580] LoggingSystem_Log(
+[0x10d0580]     SteamUnifiedMessages,
+[0x10d0580]     2,
+[0x10d0580]     "Received method callback. Handle: %llu. Context: %llu. EResult: %d. Response Size: %d.\n");
+[0x10d0580] LoggingSystem_Log(SteamUnifiedMessages, 3, "Can't access unified message interface. Make sure Steam is up-to-date!\n");
+[0x10d0580] LoggingSystem_Log(SteamUnifiedMessages, 3, "Incorrect data received or wrong callback result!\n");
+[0x81ed90] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd09d90] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd09d90] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe2ed90] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe2ed90] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf52d90] LoggingSystem_Log(ScenePrint, 2, "Mood event on actor w/ no AnimGraph..\n");
+[0xcea597] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe04da0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf63da0] LoggingSystem_Log(ScenePrint, 3, "CSceneEntity::GenerateSceneForSound:  Couldn't determine duration of %s\n");
+[0xf63da0] LoggingSystem_Log(
+[0xf63da0]     ScenePrint,
+[0xf63da0]     3,
+[0xf63da0]     "CSceneEntity::GenerateSceneForSound:  Alloc of actor, channel, or event failed!!!\n");
+[0x11b95a0] LoggingSystem_Log(BoneSetup, 3, "Resource \"%s\" requested out of bounds animation decompressor \"%d\"\n");
+[0x11b95a0] LoggingSystem_Log(BoneSetup, 3, "Resource \"%s\" requested unknown animation decompressor \"%s\"\n");
+[0xcffdb0] LoggingSystem_Log(SaveRestore, 2, "Directory copy (%s)\n");
+[0xcffdb0] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE %s in CEntity2SaveRestore::DirectoryCopy\n");
+[0xcffdb0] LoggingSystem_Log(SaveRestore, 3, "Invalid save, failed to open file\n");
+[0xdf8db0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xdf8db0] LoggingSystem_Log(Console, 2, "%s: Could not create unknown entity %s\n");
+[0xdf8db0] LoggingSystem_Log(Console, 2, "Usage:\n\t%s <subclassname> [additional arguments]\n");
+[0xdf8db0] LoggingSystem_Log(
+[0xdf8db0]     Console,
+[0xdf8db0]     2,
+[0xdf8db0]     "\tBy default, additional arguments are of the form [{ \"key1\" \"value1\" \"key2\" \"value2\" }]\n");
+[0xdf8db0] LoggingSystem_Log(
+[0xdf8db0]     Console,
+[0xdf8db0]     2,
+[0xdf8db0]     "\tWhen creating abilities, the additional argument is the primary ability name\n");
+[0xdf8db0] result = LoggingSystem_Log(
+[0xdf8db0]     Console,
+[0xdf8db0]     2,
+[0xdf8db0]     "\tWhen creating modifiers, the additional arguments are additional keys of the form [{ \"key1\" \"value1\""
+[0xdf8db0]     " \"key2\" \"value2\" }]\n");
+[0xf215b0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf215b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x10d35b0] LoggingSystem_Log(
+[0x10d35b0]     Console,
+[0x10d35b0]     3,
+[0x10d35b0]     "job warning: Resuming job '%s (id: %lld)' due to timeout while paused for %s\n");
+[0x11f4db0] LoggingSystem_Log(
+[0x11f4db0]     *(*a1 + 208LL),
+[0x11f4db0]     3,
+[0x11f4db0]     "CChoreoScene::ImportEventFromKV3( %s ):  discarding invalid event of type '%s' [%f -> %f]\n");
+[0x84f5c0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x8d3dc0] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::GameDeactivate\n");
+[0xcfedc0] result = LoggingSystem_Log(Elapsed, 2, "ET:  elapsed time:  %s (%u seconds)\n");
+[0x1204dc0] LoggingSystem_Log(Pulse, 1, "CBasePulseGraphInstance::InitInstance_Internal( %p ) %s\n");
+[0x6ccdd0] LoggingSystem_Log(
+[0x6ccdd0]     v25,
+[0x6ccdd0]     1,
+[0x6ccdd0]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0x6ccdd0]     " construction of class referenced via pointer).\n");
+[0x6ccdd0] LoggingSystem_Log(
+[0x6ccdd0]     v22,
+[0x6ccdd0]     2,
+[0x6ccdd0]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xb03dd0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xb8a5d0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xb8a5d0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xc305d0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2c5d0] LoggingSystem_Log(SaveRestore, 1, "%s:  StartNewRestore\n");
+[0xeeddd0] LoggingSystem_Log(Shooting, 2, "Lag comp interp info\n");
+[0xeeddd0] LoggingSystem_Log(Shooting, 2, "cl [ #%d, #%d, %.3f ]\n");
+[0xeeddd0] LoggingSystem_Log(Shooting, 2, "s0 [ #%d, #%d, %.3f ]\n");
+[0xeeddd0] result = LoggingSystem_Log(Shooting, 2, "s1 [ #%d, #%d, %.3f ]\n");
+[0xd4f5e0] result = LoggingSystem_Log(Console, 2, "Usage: ent_spew_derived_classes <classname>\n");
+[0xd4f5e0] LoggingSystem_Log(Console, 2, "ent_spew_derived_classes: Found %d entities deriving from %s\n");
+[0xd4f5e0] result = LoggingSystem_Log(Console, 2, "ent_spew_derived_classes: Could not find entity class %s\n");
+[0xd2e5e0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2e5e0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe345e0] LoggingSystem_Log(Server, 1, "GetDebugHistoryWritable not available during restore.\n");
+[0xc65de0] result = LoggingSystem_Log(
+[0xc65de0]     General,
+[0xc65de0]     2,
+[0xc65de0]     "\"%s<%i><%s><%s>\" OnPreResetRound => CTMDBG, team %d  will switch %d %.2f \n");
+[0xd2dde0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd2dde0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x123b5e0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, "CSGO: Compute Hiding spots ");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, "[");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, ".");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, "%d");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, ".");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, "%d");
+[0x7e55f0] LoggingSystem_Log(General, 2LL, "] Done (%.2f seconds)");
+[0x7e55f0] result = LoggingSystem_Log(General, 2LL, "\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%s\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, ", ");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%s %.2f");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "missing all pose parameters\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "\t");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "  ");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Slerp( %s, %d, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Add( %s, %d, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Subtract( %s, %d, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Scale( %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Copy( %d )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Blend( %d, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.Worldspace( %s, %d, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.IKLockInPlace( %s, %.2f, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.IKRestoreAll( )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.FetchCycle( %s, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.FetchFrame( %s, %.1f )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "%d.CallSequence( %s, %.2f, %.2f )\n");
+[0x11a95f0] LoggingSystem_Log(
+[0x11a95f0]     BoneSetup,
+[0x11a95f0]     1LL,
+[0x11a95f0]     "%d.Transform( %s, Vector( %.2f, %.2f, %.2f ), DegreeEuler( %.2f %.2f %.2f ) )\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "\tError\n");
+[0x11a95f0] LoggingSystem_Log(BoneSetup, 1LL, "fetched: %s : %.3f\n");
+[0x11a95f0] result = LoggingSystem_Log(BoneSetup, 1LL, "\n");
+[0x860600] LoggingSystem_Log(Entity System, 2LL, v56, dword_182F921, "%s", "");
+[0x860600] LoggingSystem_Log(Entity System, 2LL, &v106[11], 4294948020LL, "\tText");
+[0x860600] LoggingSystem_Log(Entity System, 2, "\t\t");
+[0x860600] LoggingSystem_Log(Entity System, 2LL, &v106[11], 4294948020LL, "\tGoTo", v68, v67, v64);
+[0x860600] LoggingSystem_Log(Entity System, 2, "\t[%4d]: %s%s\n");
+[0xd01e00] LoggingSystem_Log(SaveRestore, 3, "%s:  entity (%d) saveindex %d with data saved, but with no classname\n");
+[0xd01e00] LoggingSystem_Log(SaveRestore, 3, "ENTITY IS NOT A PLAYER: %d\n");
+[0xd01e00] LoggingSystem_Log(SaveRestore, 1, "%s:  transition %s [%s] from %d into %d\n");
+[0xd01e00] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd01e00] LoggingSystem_Log(SaveRestore, 1, "%s:  transition %s [%s] from %d into %d\n");
+[0xe2de00] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe2de00] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf64600] LoggingSystem_Log(ScenePrint, 3, "CSceneEntity::LoadScene: Unable to load binary scene '%s'\n");
+[0xf9c600] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1256600] LoggingSystem_Log(Entity System, 1, "Attempted to create unknown entity classname \"%s\"!\n");
+[0x8a6e10] LoggingSystem_Log(VScript, 1LL, "VSCRIPT: Started VScript virtual machine using script language '%s'\n", v15);
+[0x8a6e10] LoggingSystem_Log(
+[0x8a6e10]     VScript,
+[0x8a6e10]     2LL,
+[0x8a6e10]     "WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.\n");
+[0xd1d610] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s CEntity2SaveRestore::FinishAsyncSave\n");
+[0xdd4610] LoggingSystem_Log(Server, 2, "%d : %d has %d samples\n");
+[0xdd4610] LoggingSystem_Log(Server, 2, "%d : %c %s SPEED %f ( %f %f %f )\n");
+[0xe9ae10] LoggingSystem_Log(Server, 2, "SV:  CInfoSpawnGroupLoadUnload:  LOAD FINISH %s/%s]\n");
+[0xf15610] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf15610] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd07620] LoggingSystem_Log(Entity System, 3, "Encountered %s entity '%s' with no target map specified!\n");
+[0xdebe20] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xdebe20] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe5d620] LoggingSystem_Log(Server, 2, "CSource2Server::GameServerSteamAPIDeactivated()\n");
+[0xc7be30] LoggingSystem_Log(
+[0xc7be30]     v25,
+[0xc7be30]     1LL,
+[0xc7be30]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0xc7be30]     " construction of class referenced via pointer).\n");
+[0xc7be30] LoggingSystem_Log(
+[0xc7be30]     v22,
+[0xc7be30]     2LL,
+[0xc7be30]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0x8a5e40] result = LoggingSystem_Log(
+[0x8a5e40]     SpawnGroup,
+[0x8a5e40]     1,
+[0x8a5e40]     "SV:  CSpawnGroupMgrGameSystem::ExecuteQueuedSpawnEntityCalls(count=%d)\n");
+[0xce9e40] LoggingSystem_Log(Server, 3, "Parse error on %s: %s\n");
+[0xdf8640] LoggingSystem_Log(
+[0xdf8640]     Console,
+[0xdf8640]     2LL,
+[0xdf8640]     "subclass_change: Changed entity %d from subclass %s -> subclass %s\n",
+[0xdf8640]     v31,
+[0xdf8640]     v30,
+[0xdf8640]     v34);
+[0xdf8640] LoggingSystem_Log(
+[0xdf8640]     Console,
+[0xdf8640]     2LL,
+[0xdf8640]     "subclass_change: Selected entity %s doesn't match requested subclass %s's entity type %s\n",
+[0xdf8640]     v28,
+[0xdf8640]     v4,
+[0xdf8640]     v27);
+[0xdf8640] LoggingSystem_Log(Console, 2LL, "subclass_change: Unable to find entity to apply to\n");
+[0xdf8640] LoggingSystem_Log(Console, 2LL, "subclass_change: Unknown subclass %s specified\n", v4);
+[0xdf8640] result = LoggingSystem_Log(Console, 2LL, "Usage:\n\tsubclass_change <new subclass name> [ent index/name]\n");
+[0xe95640] LoggingSystem_Log(Server, 3, "info_spawngroup_load_unload w/o specifying map name, removing entity!!!\n");
+[0xf73640] LoggingSystem_Log(ScenePrint, 3, "CSceneEntity::LoadSceneFromString: Unable to parse scene data '%s'\n");
+[0x1049e40] LoggingSystem_Log(Server, 1, "CNavGameSystem::PostSpawnGroupLoad (%s)\n");
+[0xe04e50] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1237650] LoggingSystem_Log(Entity Load Unserialize, 2, "CEntityClass::Unserialize( %d:%s:%s )\n{\n");
+[0x1237650] LoggingSystem_Log(Entity Load Unserialize, 2, "}\n");
+[0x8abe60] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0x8abe60] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0xf0ae60] LoggingSystem_Log(Shooting, 2, "sv: Running lag compensation for player %s cmd %d tick %d\n");
+[0xf52e60] LoggingSystem_Log(ScenePrint, 2, "Mood body event on actor w/ no AnimGraph..\n");
+[0x8cd670] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x7d1670] LoggingSystem_Log(Server, 3, "Cannot SetFogStrength on Entity %d - fog is not dynamic!\n");
+[0xd63e70] result = LoggingSystem_Log(Server, 1LL, "%s:  CLoopModeGame::OnFirstMapLoaded\n");
+[0xe53e80] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe53e80] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xb03e80] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc12e80] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc30680] result = LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xc65680] LoggingSystem_Log(
+[0xc65680]     General,
+[0xc65680]     2,
+[0xc65680]     "\"%s<%i><%s><%s>\" SwitchTeam => ChangeBasePlayerTeamAndPendingTeam =%d , req team %d %.2f \n");
+[0xd39e80] LoggingSystem_Log(Server, 2, "%s\n");
+[0xd39e80] LoggingSystem_Log(Server, 2, "%s\n");
+[0xd39e80] LoggingSystem_Log(Server, 2, "%s\n");
+[0xd3f690] LoggingSystem_Log(
+[0xd3f690]     SaveRestoreSyncIO,
+[0xd3f690]     1,
+[0xd3f690]     "%s:  %s using cached saverestoreheader for '%s' in CEntity2SaveRestore::OpenSaveFileAndExtractLevels\n");
+[0xd3f690] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s SaveHeaderCache_t::Reset() trying to cache new .sav (%s)\n");
+[0xd3f690] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s READ %s in CEntity2SaveRestore::OpenSaveFileAndExtractLevels %s\n");
+[0xd3f690] LoggingSystem_Log(SaveRestore, 3, "CEntity2SaveRestore::OnLoad:  no such save file '%s'\n");
+[0xd3f690] LoggingSystem_Log(SaveRestore, 3, "CEntity2SaveRestore::OnLoad:  SaveReadHeaderAndSpawnGroupList failed '%s'\n");
+[0xd3f690] LoggingSystem_Log(
+[0xd3f690]     SaveRestoreSyncIO,
+[0xd3f690]     1,
+[0xd3f690]     "%s:  %s READ %s in CEntity2SaveRestore::OpenSaveFileAndExtractLevels due to (WIPE AND EXTRACT)\n");
+[0xd3f690] LoggingSystem_Log(SaveRestore, 3, "CEntity2SaveRestore::OnLoad:  DirectoryExtract failed '%s'\n");
+[0xd3f690] LoggingSystem_Log(SaveRestore, 1, "ignoring %s.HL%s on %s\n");
+[0x7e6690] LoggingSystem_Log(General, 2, "CSGO: CSGO: Compute Hiding spots [ disabled for survival maps ]\n");
+[0x7e6690] LoggingSystem_Log(General, 2, "CSGO: Compute Encounter spots [ disabled for survival maps ]\n");
+[0x7e6690] LoggingSystem_Log(General, 2, "CSGO: Compute Approach areas [ disabled for survival maps ]\n");
+[0x7e6690] LoggingSystem_Log(General, 2, "CSGO: Compute Approach areas ");
+[0x7e6690] LoggingSystem_Log(General, 2, "[");
+[0x7e6690] LoggingSystem_Log(General, 2, ".");
+[0x7e6690] LoggingSystem_Log(General, 2, "%d");
+[0x7e6690] LoggingSystem_Log(General, 2, ".");
+[0x7e6690] LoggingSystem_Log(General, 2, "%d");
+[0x7e6690] LoggingSystem_Log(General, 2, "] Done (%.2f seconds)");
+[0x7e6690] LoggingSystem_Log(General, 2, "\n");
+[0x8da690] LoggingSystem_Log(
+[0x8da690]     Server,
+[0x8da690]     3,
+[0x8da690]     "%s:  CSpawnGroupMgrGameSystem::AllocateSpawnGroup( %s ):  spawn group already allocated!\n");
+[0xd28e90] LoggingSystem_Log(GlobalState, 2, "%s");
+[0xd28e90] LoggingSystem_Log(GlobalState, 1, "%s");
+[0xd2fe90] LoggingSystem_Log(SaveRestore, 1, "%s:  StreamEntitiesToFile:  '%s' [%d entities]\n");
+[0xd2fe90] LoggingSystem_Log(
+[0xd2fe90]     SaveRestore,
+[0xd2fe90]     2,
+[0xd2fe90]     "%s:  StreamEntitiesToFile:  %s using %s of %s [%.3f %%] available buffer size\n");
+[0xd2fe90] LoggingSystem_Log(
+[0xd2fe90]     SaveRestoreSyncIO,
+[0xd2fe90]     1,
+[0xd2fe90]     "%s:  %s WRITE Queue WriteFile(%s) in CEntity2SaveRestore::StreamEntitiesToFile\n");
+[0x1242e9a] LoggingSystem_Log(Entity System, 3, "Failed to load nested keys: %s\n");
+[0x1242e9a] LoggingSystem_Log(
+[0x1242e9a]     Entity System,
+[0x1242e9a]     3,
+[0x1242e9a]     "CEntityKeyValues::Unserialize: Unsupported keyvalue variant type (%d)!\n");
+[0xd3e6a0] LoggingSystem_Log(SaveRestore, 1, "! Failed to read symbol length for %s (read 0x%x)! (prev: %s)\n");
+[0xd3e6a0] LoggingSystem_Log(SaveRestore, 1, "! Expected %s (0x%x)%s found %s (0x%x)! (prev: %s)%s\n");
+[0xe06ea0] LoggingSystem_Log(Console, 2, "Usage:\n\tgive <subclassname> [additional arguments]\n");
+[0xe06ea0] LoggingSystem_Log(
+[0xe06ea0]     Console,
+[0xe06ea0]     2,
+[0xe06ea0]     "\tBy default, additional arguments are of the form [{ \"key1\" \"value1\" \"key2\" \"value2\" }]\n");
+[0xe06ea0] result = LoggingSystem_Log(
+[0xe06ea0]     Console,
+[0xe06ea0]     2,
+[0xe06ea0]     "\tWhen giving modifiers, the additional arguments are additional keys [{ \"key1\" \"value1\" \"key2\" \"value2\" }]\n");
+[0x852ea0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbbdea0] LoggingSystem_Log(
+[0xbbdea0]     Shooting,
+[0xbbdea0]     3,
+[0xbbdea0]     "sv: ERROR: Player %s calculated shoot time [ #%d + %.3f ] does not match time from cmd [ #%d + %.3f ]\n");
+[0xbbdea0] LoggingSystem_Log(
+[0xbbdea0]     Shooting,
+[0xbbdea0]     3,
+[0xbbdea0]     "sv: ERROR: Shoot pos for player %s does not match, diff = %.3f. Using server position.\n");
+[0x8896b0] LoggingSystem_Log(Elapsed, 2, "ET:  SaveGame_Start at %u %s : '%s'\nET:  '%s'\n");
+[0xbc56b0] LoggingSystem_Log(Shooting, 3LL, "sv: GetWeaponAttackTime - null player\n");
+[0xbc56b0] LoggingSystem_Log(Shooting, 3LL, "sv: GetWeaponAttackTime - null player controller\n");
+[0xbc56b0] LoggingSystem_Log(Shooting, 3LL, "sv: GetWeaponAttackTime - null cmd\n");
+[0xbc56b0] LoggingSystem_Log(
+[0xbc56b0]     Shooting,
+[0xbc56b0]     3LL,
+[0xbc56b0]     "sv: Player tick from command clamped by server, %d -> %d, server player tick = %d\n");
+[0xbc56b0] LoggingSystem_Log(
+[0xbc56b0]     Shooting,
+[0xbc56b0]     2LL,
+[0xbc56b0]     "sv: GetWeaponAttackTime player %s cmd %d attack [ #%d + %.3f ] sv tick %d\n");
+[0xbc56b0] LoggingSystem_Log(Shooting, 2LL, "Player interp: [%d, %d, %.3f]\n");
+[0xbc56b0] LoggingSystem_Log(
+[0xbc56b0]     Shooting,
+[0xbc56b0]     3LL,
+[0xbc56b0]     "sv: Firing first shot, sv tick %d, but no attack information present in command %d with %d history entries\n");
+[0xce16b0] LoggingSystem_Log(General, 3, "Couldn't paste command: %s\n");
+[0xdeb6b0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xdeb6b0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe956b0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf6f6b0] result = LoggingSystem_Log(SoundOpGameSystem, 2, "Trying to change volume on invalid sound event %s\n");
+[0xf9c6b0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x701ec0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd006c0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd246c0] LoggingSystem_Log(Entity System, 1, "%s");
+[0xc136d0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc51ed0] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xc51ed0] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0xc5aed0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xc5aed0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xe2c6e0] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe2c6e0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x11f66e0] LoggingSystem_Log(*(*a1 + 208LL), 3, "error %s:  %s\n");
+[0x11f66e0] LoggingSystem_Log(
+[0x11f66e0]     *(*a1 + 208LL),
+[0x11f66e0]     3,
+[0x11f66e0]     "%s restored from text format, should be converted to keyvalues3 text format using sceneimagebuilder -kv3conver"
+[0x11f66e0]     "t -game <dota, etc.>\n");
+[0x1260ee0] LoggingSystem_Log(VScript, 3, "Script not found (%s) \n");
+[0x1260ee0] LoggingSystem_Log(VScript, 3, "Scripting disabled or no server running\n");
+[0xcea6f0] result = LoggingSystem_Log(Server, 2LL, "debug of origin changes for %d set to %s\n");
+[0x838700] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x838700] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xd3ef00] LoggingSystem_Log(SaveRestore, 3, "Can't load saved game, incorrect FILEID\n");
+[0xd3ef00] LoggingSystem_Log(SaveRestore, 3, "Can't load saved game, incorrect version (got %i expecting %i)\n");
+[0xe04f00] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe58700] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe58700] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf0ef00] LoggingSystem_Log(Command Queue, 2LL, "SV: changing command queue to %s\n");
+[0xd65710] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xd65710] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x8d3710] LoggingSystem_Log(Server, 2, "Created physics for %s\n");
+[0x699f10] LoggingSystem_Log(Server, 2LL, "SV:  %d/%s %s%s\n");
+[0xcfdf10] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x123cf10] LoggingSystem_Log(VScript, 3, "Entity \"%s\" encountered an error in RunPrivateScript()\n");
+[0x1256710] LoggingSystem_Log(Entity System, 3, "CEntitySystem::PrecacheEntity: Classname missing from entity!\n");
+[0x8d3f20] LoggingSystem_Log(Physics, 1, "%s:  CPhysicsGameSystem::GameInit\n");
+[0xc52720] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xc52720] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x124ef20] LoggingSystem_Log(
+[0x124ef20]     Entity System,
+[0x124ef20]     3,
+[0x124ef20]     "ConcreteEntityList:  approaching limit, allocating entity chuck %d/%d for ents [%d -> %d]\n");
+[0x8a5f30] result = LoggingSystem_Log(
+[0x8a5f30]     Server,
+[0x8a5f30]     3,
+[0x8a5f30]     "%s:  GetEntitiesBySpawnGroup skipping %d:%s, CEntityInstance is nullptr\n");
+[0x92df30] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xc30730] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcf2f30] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xcf2f30] LoggingSystem_Log(
+[0xcf2f30]     SaveRestore,
+[0xcf2f30]     1,
+[0xcf2f30]     "SV:  CLoadingSpawnGroup::RestoreEntities destroying ignored precached entity:  %d %s [%s]\n");
+[0xd12f30] LoggingSystem_Log(
+[0xd12f30]     Entity System,
+[0xd12f30]     2,
+[0xd12f30]     "%s:  %d:%f - %s origin changed ( %8.3f, %8.3f, %8.3f ) to ( %8.3f, %8.3f, %8.3f )\n");
+[0xd55730] LoggingSystem_Log(Server, 1, "%s:  SetGameSystemState( %d : '%s' to '%s' )\n");
+[0xe81730] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe81730] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf4b730] LoggingSystem_Log(
+[0xf4b730]     Server,
+[0xf4b730]     2,
+[0xf4b730]     "Failed to set animgraph enum param %s because it has no matching value %s\n");
+[0x106df30] LoggingSystem_Log(Server, 1, "CNavGameSystem::PreSpawnGroupLoad (%s)\n");
+[0x8b6f40] LoggingSystem_Log(SpawnGroup, 2LL, "%d spawn groups:\n");
+[0x8b6f40] result = LoggingSystem_Log(SpawnGroup, 2LL, "%s %s\n");
+[0x123f740] result = LoggingSystem_Log(VScript, 1, "Script failed to find output \"%s\"\n");
+[0x901f50] LoggingSystem_Log(
+[0x901f50]     v25,
+[0x901f50]     1,
+[0x901f50]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0x901f50]     " construction of class referenced via pointer).\n");
+[0x901f50] LoggingSystem_Log(
+[0x901f50]     v22,
+[0x901f50]     2,
+[0x901f50]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0xba1750] LoggingSystem_Log(General, 2LL, "kv 0x%p AddRef refcount == %d\n");
+[0xba1750] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "Failed to compute mesh tangents for mesh using material %s -- %s\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "\t# Mesh:\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "\tv %f %f %f\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "\tvn %f %f %f\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "\tvt %f %f\n");
+[0x11d5750] LoggingSystem_Log(General, 3, "\tf %d %d %d\n");
+[0x802760] LoggingSystem_Log(
+[0x802760]     Entity System,
+[0x802760]     2LL,
+[0x802760]     "Format: ent_filter <list of flags to toggle, or all/none, parsed in order>\n");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "Available: ");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "      ");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, &v30, 4294948020LL, "all");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "          ");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, &v30, 4294948020LL, "none");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "\n");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, &v25, 4294948020LL, "%9s", v6);
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "  ");
+[0x802760] LoggingSystem_Log(Entity System, 2LL, "\n");
+[0x802760] result = LoggingSystem_Log(Entity System, 2LL, "\n");
+[0xcf4760] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE DirectoryCopy( %s, %p )\n");
+[0xcf4760] LoggingSystem_Log(SaveRestoreSyncIO, 1, "%s:  %s WRITE DirectoryCopy Append( %s [%u] )\n");
+[0xd45760] LoggingSystem_Log(SaveRestore, 1LL, "%s:  FindOrAddRestoreLookupTable( %s )\n");
+[0xe5d760] LoggingSystem_Log(Server, 3, "Forcing S1 g_pNetworkStringTable to use version from engine.dll\n");
+[0xea0f60] LoggingSystem_Log(Server, 2, "SV:  InputStartSpawnGroupLoad(%s)\n");
+[0xea0f60] result = LoggingSystem_Log(
+[0xea0f60]     Server,
+[0xea0f60]     3,
+[0xea0f60]     "InputStartSpawnGroupLoad(%s) w/o specifying landmark name, ignoring!!!\n");
+[0xf9c760] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0x1204760] LoggingSystem_Log(Pulse, 1, "CBasePulseGraphInstance::EndGraphReload( %p ) %s\n");
+[0x1205760] LoggingSystem_Log(Pulse, 1, "CBasePulseGraphInstance::~CBasePulseGraphInstance( %p )\n");
+[0x700770] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd2770] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd2770] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x6d6780] result = LoggingSystem_Log(
+[0x6d6780]     Workshop,
+[0x6d6780]     3,
+[0x6d6780]     "Item %llu installed, but failed to get install directory from steam.\n");
+[0x872f80] result = LoggingSystem_Log(Server, 2, "%s:  IGameSystem::LoopActivateAllSystems {\n");
+[0x872f80] LoggingSystem_Log(Server, 1, "%s:  EventGameActivate_t: background map %s\n");
+[0x872f80] result = LoggingSystem_Log(Server, 2, "%s:  } IGameSystem::LoopActivateAllSystems done\n");
+[0xbc4f80] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xbc4f80] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0xf0c780] result = LoggingSystem_Log(a2, 2, "%s\n");
+[0xe39f90] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xe61f90] LoggingSystem_Log(Server, 3, v11);
+[0xf3ff90] LoggingSystem_Log(
+[0xf3ff90]     Server,
+[0xf3ff90]     3,
+[0xf3ff90]     "(executing entity '%s') Pulse domain value entity was not found: (def) '%s' -> (runtime) '%s'\n");
+[0xf49790] LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xf49790] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x11a2f90] LoggingSystem_Log(modellib, 3, "unable to load mesh \"%s\"\n");
+[0x11a2f90] result = LoggingSystem_Log(modellib, 3, "unable to load mesh \"%s\"\n");
+[0xc717a0] LoggingSystem_Log(Shooting, 2LL, "%s: GetInterpolatedShootPosition time [ #%d, #%d, %.3f ]\n");
+[0xc717a0] LoggingSystem_Log(
+[0xc717a0]     Shooting,
+[0xc717a0]     2LL,
+[0xc717a0]     "Interpolating between %.3f, %.3f, %.3f tick %d (%.3f) and %.3f, %.3f, %.3f tick %d (%.3f)\n");
+[0xc717a0] LoggingSystem_Log(
+[0xc717a0]     Shooting,
+[0xc717a0]     3LL,
+[0xc717a0]     "%s: Player %s, tick base %d, weapon services didn't find a shoot position history entry for [ #%d, #%d, %.3f ] -"
+[0xc717a0]     "- history only has entries %d to %d. Player interp amount is %.3f\n");
+[0xd317a0] LoggingSystem_Log(Server, 2, "%s:  variants # %d of %d\n");
+[0xd317a0] LoggingSystem_Log(Server, 2, "  %d : %s\n");
+[0xd317a0] LoggingSystem_Log(Server, 2, "\n");
+[0xdf2fa0] LoggingSystem_Log(Server, 1, "%d:%s clamping stepsimulation from %d to %d ticks\n");
+[0x10227a0] LoggingSystem_Log(
+[0x10227a0]     v25,
+[0x10227a0]     1,
+[0x10227a0]     "CNetworkUtlVectorEmbedded: failed to resolve 0x%p in entity %d:%s (possibly from adding to CUtlVector during"
+[0x10227a0]     " construction of class referenced via pointer).\n");
+[0x10227a0] LoggingSystem_Log(
+[0x10227a0]     v22,
+[0x10227a0]     2,
+[0x10227a0]     "CNetworkUtlVectorEmbedded: successfully late-resolved 0x%p in entity %d:%s to %s:'%s'.\n");
+[0x12457a0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x88b7b0] LoggingSystem_Log(
+[0x88b7b0]     Console,
+[0x88b7b0]     3,
+[0x88b7b0]     "CScriptConvarAccessor::GetBool failed to parse convar '%s' (value '%s') as bool\n");
+[0xd217b0] LoggingSystem_Log(Entity System, 1, "%s");
+[0xe04fb0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xfd6fc0] LoggingSystem_Log(General, 2, "kv 0x%p Release refcount == %d\n");
+[0x124a7c0] LoggingSystem_Log(
+[0x124a7c0]     a1,
+[0x124a7c0]     3,
+[0x124a7c0]     "m_16ByteOrLessStack out of space, falling through after %d entries, consider upping NETWORKFIELDSCRATCHDATA_16BYTE_COUNT\n");
+[0x124a7c0] LoggingSystem_Log(*(v6 + 68), 1, "CNetworkFieldScratchData::Alloc created buffer %s of size %s\n");
+[0xb91fd0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcdb7d0] LoggingSystem_Log(General, 2LL, "kv 0x%p Release refcount == %d\n");
+[0xf0afd0] result = LoggingSystem_Log(Shooting, 2, "Lag comp using target time [ #%d + %.3f ]\n");
+[0xf0afd0] result = LoggingSystem_Log(Shooting, 2, "Lag comp using full interp\n");
+[0xf0afd0] LoggingSystem_Log(Shooting, 2, "Lag comp using single interp\n");
+[0xf0afd0] result = LoggingSystem_Log(Shooting, 2, "[ #%d, #%d, %.3f ]\n");
+[0xc307e0] result = LoggingSystem_Log(General, 2, "kv 0x%p AddRef refcount == %d\n");
+[0xcff7e0] LoggingSystem_Log(SaveRestore, 3, "Token Table Save/Restore overflow on token [%d]!");
+[0x7ef7f0] LoggingSystem_Log(Server, 2, "%d:%s::%s %s");

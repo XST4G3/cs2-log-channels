@@ -1,0 +1,2378 @@
+[0x1f9000] LoggingSystem_Log(InputService, 3LL, "Cannot set convar '%s', missing required FCVAR flag\n", v5);
+[0x1f9000] LoggingSystem_Log(InputService, 3LL, "Invalid splitscreen slot %d specified for convar in '%s'.\n", v29, v5);
+[0x1f9000] LoggingSystem_Log(InputService, 3LL, "Cannot execute concommand '%s', missing required FCVAR flag\n", v5);
+[0x279800] LoggingSystem_Log(Demo, 2LL, "Unknown message in DemoSpawnGroups %d.\n", *(v46 + 24));
+[0x279800] LoggingSystem_Log(Demo, 2LL, "Unknown message in DemoSpawnGroups %d.\n", *(v15 + 24));
+[0x279800] LoggingSystem_Log(SpawnGroup, 1LL, "CDemoPlayer::LoadSpawnGroups Preloading spawngroup %s\n", v36);
+[0x279800] LoggingSystem_Log(Demo, 2LL, "Unspected spawngroup message in DemoSpawnGroups %d.\n", *(v23 + 24));
+[0x279800] LoggingSystem_Log(SpawnGroup, 1LL, "CDemoPlayer::LoadSpawnGroups Premanifest update spawngroup %s\n", v38);
+[0x28d800] LoggingSystem_Log(SignonState, 1LL, "CL:  CConnectGameClient::ContinueConnecting()\n");
+[0x2b1800] result = LoggingSystem_Log(Client, 2LL, "client send move at tick sv(%d) cl(%d) %f\n", v8, v7, v9);
+[0x2b1800] result = LoggingSystem_Log(
+[0x2b1800]     SignonState,
+[0x2b1800]     1LL,
+[0x2b1800]     "CL:  CNetworkGameClient::SendMove Transmit Suppressed waiting for levelload\n");
+[0x2b2000] LoggingSystem_Log(
+[0x2b2000]     Client,
+[0x2b2000]     2LL,
+[0x2b2000]     "CL:  Signon traffic \"%s\":  incoming %s [%d pkts], outgoing %s [%d pkts]\n",
+[0x2b2000]     v17,
+[0x2b2000]     v37,
+[0x2b2000]     v36,
+[0x2b2000]     v16,
+[0x2b2000]     v14);
+[0x2b2000] LoggingSystem_Log(
+[0x2b2000]     Client,
+[0x2b2000]     2LL,
+[0x2b2000]     "ProfileMapLoad: ============================================================\n");
+[0x2b2000] LoggingSystem_Log(Client, 2LL, "ProfileMapLoad: Map load complete @ %.2fsec\n", a2);
+[0x2b2000] LoggingSystem_Log(
+[0x2b2000]     Client,
+[0x2b2000]     2LL,
+[0x2b2000]     "ProfileMapLoad: ============================================================\n");
+[0x1a7010] LoggingSystem_Log(General, 2LL, "Writing perf stats...");
+[0x1a7010] LoggingSystem_Log(General, 2LL, "Done.\n Perf stats saved to %s\n File log saved to %s\n", v16, v15);
+[0x1bf010] LoggingSystem_Log(General, 2LL, "%f LONG FRAME DETECTED: %f seconds computation, %f dt.\n", v115, v47, *&v259);
+[0x2e7810] LoggingSystem_Log(SignonState, v6, "Client %d '%s' signon state %s -> %s\n", *(a1 + 168), v15, *v14, v12);
+[0x2b4810] LoggingSystem_Log(Client, 2LL, "CNetworkGameClient::ProcessClassInfo: create on client %s\n", v2);
+[0x2b4810] LoggingSystem_Log(
+[0x2b4810]     Client,
+[0x2b4810]     2LL,
+[0x2b4810]     "CNetworkGameClient::ProcessClassInfo: parsing serializers from cache due to matching crc %u\n",
+[0x2b4810]     *(a1 + 612));
+[0x2b4810] LoggingSystem_Log(
+[0x2b4810]     Client,
+[0x2b4810]     2LL,
+[0x2b4810]     "CNetworkGameClient::ProcessClassInfo: creating client serializers from local server serializers (crc %u, server api %s)\n",
+[0x2b4810]     *(a1 + 612),
+[0x2b4810]     v6);
+[0x2de810] result = LoggingSystem_Log(
+[0x2de810]     SpawnGroup,
+[0x2de810]     1LL,
+[0x2de810]     "%s:  CNetworkServerSpawnGroup_LoadSaveGamePrerequisiteBase async started...\n",
+[0x2de810]     v3);
+[0x30c010] LoggingSystem_Log(Server, 2LL, "%s\n", v26);
+[0x30c010] LoggingSystem_Log(Server, 2LL, "\n");
+[0x35c810] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast Streaming error %d %s\n", v6, v5, v8);
+[0x35c810] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast IO error. Please try again later.\n", v7);
+[0x1e3820] LoggingSystem_Log(
+[0x1e3820]     General,
+[0x1e3820]     3LL,
+[0x1e3820]     "CGameResourceManifest::AddPendingUGCDownload failed to get SteamUGC interface.\n");
+[0x1e3820] LoggingSystem_Log(
+[0x1e3820]     General,
+[0x1e3820]     3LL,
+[0x1e3820]     "CGameResourceManifest::AddPendingUGCDownload failed to download item %llu.\n",
+[0x1e3820]     v37);
+[0x1e3820] LoggingSystem_Log(General, 2LL, "%s - requesting %llu (%p)\n", v33, v37, a1, a7, a8, a9);
+[0x23c020] LoggingSystem_Log(NetworkP2PService, 2LL, "Accepting P2PSessionRequest_t from %s\n", v10);
+[0x23c020] LoggingSystem_Log(NetworkP2PService, 2LL, "Ignoring P2PSessionRequest_t from %s\n", v10);
+[0x2b5020] LoggingSystem_Log(
+[0x2b5020]     Client,
+[0x2b5020]     2LL,
+[0x2b5020]     ":    processpacketentities: server executed through command %d\n",
+[0x2b5020]     *(&loc_285EE8 + a1));
+[0x2b5020] LoggingSystem_Log(
+[0x2b5020]     Client,
+[0x2b5020]     1LL,
+[0x2b5020]     "CL: ProcessPacketEntities server executed command %d but we only had created %d, adding %d fake commands, ne"
+[0x2b5020]     "w outgoing command is %d\n",
+[0x2b5020]     *(&loc_285EE8 + a1),
+[0x2b5020]     v23,
+[0x2b5020]     v22,
+[0x2b5020]     v8);
+[0x19e030] LoggingSystem_Log(GameEventSystem, 2LL, "GameEvent:  Posting %s (id:%d group:'%s') from network\n", v17, v20, v18);
+[0x2ba830] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkClientSpawnGroup_WaitForChildSpawnGroups completed...\n", v4);
+[0x2d7830] LoggingSystem_Log(HLTV, 2LL, "SV_InstallHLTVStringTableMirrors! Missing client table \"%s\".\n ", v13);
+[0x2f4030] LoggingSystem_Log(
+[0x2f4030]     Server,
+[0x2f4030]     2LL,
+[0x2f4030]     "HLTV send %d-delta of frame %d: %d bytes\n",
+[0x2f4030]     (*(v78 + 2080) - *(v77 + 2080)),
+[0x2f4030]     *(v78 + 2080),
+[0x2f4030]     (v69 >> 3));
+[0x2f4030] LoggingSystem_Log(Server, 2LL, "HLTV send full frame %d: %d bytes\n", *(v78 + 2080), (v68 >> 3));
+[0x19a840] return LoggingSystem_Log(EngineServiceManager, 3LL, v22, v23);
+[0x19a840] return LoggingSystem_Log(EngineServiceManager, 3LL, v22, v23);
+[0x19a840] LoggingSystem_Log(EngineServiceManager, 2LL, "Unmounting addon '%s'\n", v9);
+[0x19a840] LoggingSystem_Log(EngineServiceManager, 2LL, "Mounting addon '%s'\n", v17);
+[0x24e840] LoggingSystem_Log(SplitScreen, 2LL, "Game supporting (%d) split screen players\n", *(a1 + 116));
+[0x24e840] LoggingSystem_Log(SplitScreen, 2LL, "Clamping split screen users to 1 due to -tools mode.\n");
+[0x1a9050] LoggingSystem_Log(General, 2LL, "host_sleep: %d msecs remaining\n", dword_668A10);
+[0x27a050] LoggingSystem_Log(stringtables, 2LL, "CreateStringTable @%d\n", a5);
+[0x27a050] LoggingSystem_Log(stringtables, 2LL, "UpdateStringTable @%d\n", a5);
+[0x27a050] LoggingSystem_Log(stringtables, 2LL, "PacketEntities @%d\n", a5);
+[0x27a050] LoggingSystem_Log(Client, 3LL, "DecodeDemoNetMessage Failed to parse spawn group message\n");
+[0x280050] LoggingSystem_Log(InstantReplay, 1LL, "SkipToTick: tick=%d relative=%s pause=%s\n", a2, v6, v7);
+[0x280050] result = LoggingSystem_Log(InstantReplay, 1LL, "SkipToTick: No replay frames\n");
+[0x280050] LoggingSystem_Log(
+[0x280050]     InstantReplay,
+[0x280050]     1LL,
+[0x280050]     "SkipToTick: doskip newPackFrameIndex=%d m_nSkipFullFrameServerTick=%d tick=%d\n",
+[0x280050]     v15,
+[0x280050]     *(a1 + 52),
+[0x280050]     v9);
+[0x280050] result = LoggingSystem_Log(
+[0x280050]     InstantReplay,
+[0x280050]     1LL,
+[0x280050]     "Skipping to tick=%d starting at full from %d\n",
+[0x280050]     *(a1 + 48),
+[0x280050]     *(*(a1 + 88) + 40LL * v15));
+[0x2b0850] LoggingSystem_Log(
+[0x2b0850]     Client,
+[0x2b0850]     3LL,
+[0x2b0850]     "CL:  WARNING:  Connection Problem, not requesting uncompressed update due to sv_snapshot_unlimited == true\n");
+[0x2b0850] LoggingSystem_Log(Client, 3LL, "CL:  WARNING:  Connection Problem, requesting uncompressed update\n");
+[0x2b4050] LoggingSystem_Log(SignonState, 1LL, "CNetworkGameClient::Clear setting state to SIGNONSTATE_CONNECTED\n");
+[0x2c6850] LoggingSystem_Log(Server, v39, "Sending S2C_CHALLENGE [%u auth %d] to %s\n", 0LL, v6, v45);
+[0x2c3060] LoggingSystem_Log(
+[0x2c3060]     Server,
+[0x2c3060]     2LL,
+[0x2c3060]     "CheckTimeouts: Disconnecting client: %s %s, after a server-decided timeout of %0.2fs with no acks received\n",
+[0x2c3060]     v11,
+[0x2c3060]     v10,
+[0x2c3060]     v15);
+[0x2c3060] LoggingSystem_Log(
+[0x2c3060]     Server,
+[0x2c3060]     2LL,
+[0x2c3060]     "CheckTimeouts: Disconnecting client: %s %s, after a netchan-decided timeout of %0.2fs with no acks received\n",
+[0x2c3060]     v9,
+[0x2c3060]     v8,
+[0x2c3060]     v14);
+[0x223867] LoggingSystem_Log(Client, 2LL, "CL:  connection to '%s' already started\n", v7);
+[0x336070] LoggingSystem_Log(
+[0x336070]     HLTV,
+[0x336070]     1LL,
+[0x336070]     "AddSpawnMessageToDemoSpawnGroups storing message %s (spawn group %s)\n",
+[0x336070]     v31,
+[0x336070]     v30);
+[0x35308a] LoggingSystem_Log(
+[0x35308a]     HLTV,
+[0x35308a]     2LL,
+[0x35308a]     "GOTV[%d] memory consumption: (%.1fms)\n%s",
+[0x35308a]     *(*(a1 + 1312) + 2824772LL),
+[0x35308a]     v21 * (1000.0 / v22),
+[0x35308a]     v24);
+[0x33e890] LoggingSystem_Log(
+[0x33e890]     HLTV,
+[0x33e890]     2LL,
+[0x33e890]     "Completed SourceTV demo \"%s\", recording time %.1f, size %d (%d per tick)\n",
+[0x33e890]     v17,
+[0x33e890]     v16,
+[0x33e890]     v15,
+[0x33e890]     v29);
+[0x2de8a0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkServerSpawnGroup_LoadEntitiesPrerequisite completed...\n", v2);
+[0x1f50a0] LoggingSystem_Log(InputService, 2LL, "Cheat code \"%s\" activated by player %d!\n", v13, v4);
+[0x2978a0] LoggingSystem_Log(
+[0x2978a0]     SignonState,
+[0x2978a0]     3LL,
+[0x2978a0]     "CL:  Removing SuppressTransmit to allow 'disconnect' command to send\n");
+[0x2c60a0] result = LoggingSystem_Log(Server, 2LL, "CNetworkGameServerBase::SetServerState (%s -> %s)\n", v3, v5);
+[0x2de0a0] result = LoggingSystem_Log(Server, 2LL, "Changelevel %s %s\n", a2, a3);
+[0x2de0a0] LoggingSystem_Log(Server, 3LL, "SV:  ChangeLevel( \"%s\", \"%s\" ) failed, map is not valid\n", a2, a3);
+[0x2758b0] LoggingSystem_Log(Demo, 2LL, "StartupDemoFile: couldn't open demo file header.\n");
+[0x2758b0] LoggingSystem_Log(Demo, 2LL, "Recording to %s...\n", v69);
+[0x46c8b0] LoggingSystem_Log(Entity, 2LL, "=== %sEntity List Summary (%s) ===\n", v60, a4);
+[0x46c8b0] LoggingSystem_Log(Entity, 2LL, "class %s - %s instance%s (%.2f%%)\n", v21, v24, v93, (v78 * 100.0));
+[0x46c8b0] LoggingSystem_Log(Entity, 2LL, "=== Total: %s/%s %s entities%s ===\n", v35, v34, v33, v32);
+[0x2e08c0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkServerSpawnGroup_WaitForChildSpawnGroups completed...\n", v4);
+[0x1a08c0] result = LoggingSystem_Log(
+[0x1a08c0]     GameEventSystem,
+[0x1a08c0]     2LL,
+[0x1a08c0]     "GameEvent:  Event %s (id:%d group:'%s') added listener.\n",
+[0x1a08c0]     v16,
+[0x1a08c0]     v17,
+[0x1a08c0]     v14);
+[0x2be8c0] LoggingSystem_Log(Steam, 3LL, "Steam init failed!  %s\n", v5);
+[0x2be8c0] LoggingSystem_Log(
+[0x2be8c0]     Steam,
+[0x2be8c0]     2LL,
+[0x2be8c0]     "CSteam3Client::Activate succeeded.  SteamID is %s (%llu), AppID is %d\n",
+[0x2be8c0]     v3,
+[0x2be8c0]     v1,
+[0x2be8c0]     v2);
+[0x2be8c0] LoggingSystem_Log(Steam, 3LL, "Client is running in anonymous mode.  Many steam features will not work\n");
+[0x2458d0] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot async write failure on '%s', error == %s\n", v19, v18);
+[0x2458d0] LoggingSystem_Log(ScreenShot, 2LL, "Screenshot async write success: %s\n", v20);
+[0x24d0d0] LoggingSystem_Log(
+[0x24d0d0]     SplitScreen,
+[0x24d0d0]     3LL,
+[0x24d0d0]     "FileRead for cloud file '%s' returned %d, even though GetFileSize returned size %d\n",
+[0x24d0d0]     v14,
+[0x24d0d0]     v20,
+[0x24d0d0]     v10);
+[0x24d0d0] LoggingSystem_Log(SplitScreen, 2LL, "Loaded '%s' from SteamRemoteStorage, %d bytes OK\n", v19, v10);
+[0x24d0d0] LoggingSystem_Log(
+[0x24d0d0]     SplitScreen,
+[0x24d0d0]     3LL,
+[0x24d0d0]     "Tried to read clouded file, but we don't have Steam interfaces?  Probably bug with order of initialization, or t"
+[0x24d0d0]     "rying to run without steam\n");
+[0x2778e0] LoggingSystem_Log(Demo, 2LL, "Demo %s finished\n", v21);
+[0x2e50e0] LoggingSystem_Log(Server, 2LL, "'%s' already awaiting full update\n", v11);
+[0x31f8e0] LoggingSystem_Log(Server, 2LL, "SV:  %s", v20);
+[0x34d8e0] LoggingSystem_Log(
+[0x34d8e0]     HLTV,
+[0x34d8e0]     3LL,
+[0x34d8e0]     "CHLTVServer::SendClientMessages skipping on relay -- not connected to remote server\n");
+[0x34f0e0] LoggingSystem_Log(HLTV, 3LL, "CHLTVServer::Shutdown\n");
+[0x34f0e0] LoggingSystem_Log(
+[0x34f0e0]     HLTV,
+[0x34f0e0]     3LL,
+[0x34f0e0]     "CHLTVServer::Shutdown:  Calling Plat_ExitProcess as tv_relay_hard_shutdown is set and this is a relay server.\n");
+[0x2f38f0] LoggingSystem_Log(Server, 3LL, "WARNING: msg overflowed for %s\n", v31);
+[0x29e0f0] result = LoggingSystem_Log(SignonState, 3LL, "CL:  Multiple calls to CNetworkGameClientBase::DeferActivate!!\n");
+[0x29e0f0] LoggingSystem_Log(SignonState, 2LL, "CL:  Suppress INetchannel::Transmit() in loopmode( %s )\n", v4);
+[0x29e0f0] result = LoggingSystem_Log(
+[0x29e0f0]     SignonState,
+[0x29e0f0]     1LL,
+[0x29e0f0]     "CL:  Skipping suppress INetchannel::Transmit() in loopmode( %s )\n",
+[0x29e0f0]     v5);
+[0x34a0f0] LoggingSystem_Log(
+[0x34a0f0]     HLTV,
+[0x34a0f0]     2LL,
+[0x34a0f0]     "CHLTVServer::IsCorrectUniqueTVCode: pszUniqueCode=%s s_nTVSecretCode=%llu clientAccount=%u nCombined=%llu\n",
+[0x34a0f0]     a2,
+[0x34a0f0]     qword_6BEA88,
+[0x34a0f0]     a3,
+[0x34a0f0]     v4);
+[0x34b0f0] LoggingSystem_Log(HLTV, 2LL, "Game Server is not running\n");
+[0x34b0f0] result = LoggingSystem_Log(HLTV, 2LL, "No Active SourceTV servers found\n");
+[0x34b0f0] LoggingSystem_Log(HLTV, 3LL, "HLTV has frame snapshot manager different from the server\n");
+[0x25f900] LoggingSystem_Log(
+[0x25f900]     General,
+[0x25f900]     3LL,
+[0x25f900]     "Driver version below recommended version. Required: %d.%02d Got: %d.%02d",
+[0x25f900]     v20,
+[0x25f900]     v47,
+[0x25f900]     v41,
+[0x25f900]     v40);
+[0x26c100] LoggingSystem_Log(Demo, 2LL, "Requesting playback of %s\n", v12);
+[0x26c100] LoggingSystem_Log(Demo, 3LL, "%s:  unable to extract addons from file\n", v13);
+[0x26c100] result = LoggingSystem_Log(
+[0x26c100]     Demo,
+[0x26c100]     2LL,
+[0x26c100]     "benchframe <demoname> <frame> <tgafilename>: takes a snapshot of a particular frame in a demo\n");
+[0x294900] LoggingSystem_Log(Client, 2LL, "%s\n", v5);
+[0x294900] LoggingSystem_Log(Client, 2LL, "%s", *(*(a2 + 24) & 0xFFFFFFFFFFFFFFFCLL));
+[0x331900] LoggingSystem_Log(
+[0x331900]     Server,
+[0x331900]     5LL,
+[0x331900]     &v43,
+[0x331900]     "SV:  CNetworkStringTableContainer::WriteBaselines, error writing string table baseline %s\n",
+[0x331900]     v30);
+[0x331900] LoggingSystem_Log(
+[0x331900]     Server,
+[0x331900]     5LL,
+[0x331900]     &v43,
+[0x331900]     "SV:  CNetworkStringTableContainer::WriteBaselines, overflowed writing uncompressed string table data for %s\n",
+[0x331900]     v24);
+[0x331900] LoggingSystem_Log(
+[0x331900]     Server,
+[0x331900]     5LL,
+[0x331900]     &v43,
+[0x331900]     "SV:  CNetworkStringTableContainer::WriteBaselines, overflow error writing string table baseline %s\n",
+[0x331900]     v26);
+[0x331900] LoggingSystem_Log(
+[0x331900]     Server,
+[0x331900]     1LL,
+[0x331900]     "SV:  WriteBaselines:  %20.20s wrote %6d bytes [%36.36s], headroom %6d bytes\n",
+[0x331900]     v14,
+[0x331900]     v12,
+[0x331900]     v10,
+[0x331900]     v11);
+[0x331900] LoggingSystem_Log(
+[0x331900]     Server,
+[0x331900]     1LL,
+[0x331900]     "SV:  WriteBaselines:  %d tables required %d bytes\n",
+[0x331900]     *(a1 + 56),
+[0x331900]     (((*(a2 + 16) + 7) >> 3) - ((v35 + 7) >> 3)));
+[0x347100] LoggingSystem_Log(HLTV Broadcast, 2LL, "Broadcast[%d] Recording started at %s\n", v3, v14);
+[0x347100] LoggingSystem_Log(HLTV Broadcast, 2LL, "Broadcast[%d] cannot start: no game server\n", v3);
+[0x35d900] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast playback requesting %s\n", v17, v18);
+[0x1a9110] LoggingSystem_Log(General, 3LL, "cq disabled, re-syncing usercmd and simulation clock remainders\n");
+[0x1ed910] LoggingSystem_Log(InputService, 2LL, "queuing %s for async execution\n", v26);
+[0x1ed910] result = LoggingSystem_Log(InputService, 2LL, "%s <filename> [path id]: execute a script file over time\n", v25);
+[0x286910] LoggingSystem_Log(
+[0x286910]     Client,
+[0x286910]     0LL,
+[0x286910]     "CopyNewEntity:  Skipping create of %d %s [fake class] for replay\n",
+[0x286910]     *(a2 + 52),
+[0x286910]     *(a3 + 8));
+[0x29d110] LoggingSystem_Log(
+[0x29d110]     General,
+[0x29d110]     3LL,
+[0x29d110]     "ParseDeltaHeader Failure: Previously parsed entity id: %d class: %s entity: %s\n",
+[0x29d110]     v24,
+[0x29d110]     v113,
+[0x29d110]     v112);
+[0x29d110] LoggingSystem_Log(General, 3LL, "ParseDeltaHeader Failure: Previously parsed entity id: %d\n", v24);
+[0x29d110] LoggingSystem_Log(General, 3LL, "ParseDeltaHeader Failure: last update flags = %d\n", v18);
+[0x29e910] LoggingSystem_Log(Client, 2LL, "CheckServerReservation: %d @ %s (%d conn)\n", a4, v31, v19);
+[0x27b120] LoggingSystem_Log(
+[0x27b120]     Demo,
+[0x27b120]     2LL,
+[0x27b120]     "Demo playback finished ( %.1f seconds, %i render frames, %.2f fps).\n",
+[0x27b120]     v9,
+[0x27b120]     (v6 - v8),
+[0x27b120]     ((v6 - v8) / v9));
+[0x2f5120] LoggingSystem_Log(Server, 3LL, "Send Table signon buffer overflowed %i bytes!!!\n", ((*(v12 + 16) + 7) >> 3));
+[0x34d120] LoggingSystem_Log(
+[0x34d120]     HLTV,
+[0x34d120]     3LL,
+[0x34d120]     "CHLTVServer::UpdateHibernationState:  Terminating after relaying game.\n");
+[0x34d120] result = LoggingSystem_Log(HLTV, 2LL, v7);
+[0x34d120] LoggingSystem_Log(
+[0x34d120]     HLTV,
+[0x34d120]     3LL,
+[0x34d120]     "Relay shutting down because sv_shutdown was done and a game has ended.\n");
+[0x284930] LoggingSystem_Log(
+[0x284930]     General,
+[0x284930]     3LL,
+[0x284930]     "ParseDeltaHeader Failure: Previously parsed entity id: %d class: %s entity: %s\n",
+[0x284930]     v22,
+[0x284930]     v48,
+[0x284930]     v47);
+[0x284930] LoggingSystem_Log(General, 3LL, "ParseDeltaHeader Failure: Previously parsed entity id: %d\n", v22);
+[0x284930] LoggingSystem_Log(General, 3LL, "ParseDeltaHeader Failure: last update flags = %d\n", v15);
+[0x31e940] LoggingSystem_Log(Server, 2LL, "SteamGameServer_Init()\n");
+[0x31e940] LoggingSystem_Log(Server, 2LL, "SteamGameServer_Init() OK, logging on to Steam\n");
+[0x20a950] LoggingSystem_Log(
+[0x20a950]     Server,
+[0x20a950]     3LL,
+[0x20a950]     "~CServerChangelevelState with non empty m_Clients, failed change level to %s!!!\n",
+[0x20a950]     v2);
+[0x2de950] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  LoadEntities\n", v1);
+[0x2ee950] LoggingSystem_Log(HLTV, 2LL, "CServerSideClient::Await took %.1f ms\n", v11);
+[0x245160] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected context!\n");
+[0x245160] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected JPEG pixels!\n");
+[0x2b4160] result = LoggingSystem_Log(Client, 2LL, "CL:  Connected to '%s'\n", v13);
+[0x31c960] LoggingSystem_Log(Server, 2LL, "checking for metadata field duplication\n");
+[0x31c960] LoggingSystem_Log(Server, 2LL, " -- finished\n");
+[0x31c960] LoggingSystem_Log(Server, 2LL, "Unable to %s, couldn't load class metadata from networking system\n", v26);
+[0x345960] LoggingSystem_Log(HLTV Broadcast, 2LL, "Dropping %d bytes to %s%s\n", a4, v9, a2);
+[0x180970] LoggingSystem_Log(CommandLine, 3LL, "Mismatched { } braces in command line arguments\n");
+[0x180970] LoggingSystem_Log(CommandLine, 3LL, "Mismatched { } braces in command line arguments\n", v11, v12);
+[0x26e970] result = LoggingSystem_Log(Demo, 2LL, "Jumping to random tick %d (%.2f min)\n", v6, a4);
+[0x26e970] LoggingSystem_Log(
+[0x26e970]     Demo,
+[0x26e970]     2LL,
+[0x26e970]     "Demo skipping to tick %d from current %d, full packet tick %d\n",
+[0x26e970]     *(a1 + 548),
+[0x26e970]     v29,
+[0x26e970]     v28);
+[0x270170] LoggingSystem_Log(Demo, 3LL, "%s. Ack, Net Buffer overflowed.\n", "GetNetCmd");
+[0x2ce170] LoggingSystem_Log(Server, 2LL, "SV:  CNetworkServerService::StartChangeLevel( %s )\n", v6);
+[0x2ce170] LoggingSystem_Log(
+[0x2ce170]     Server,
+[0x2ce170]     3LL,
+[0x2ce170]     "StartChangeLevel unable to save game from %s -> %s (landmark %s)\n",
+[0x2ce170]     v40,
+[0x2ce170]     v39,
+[0x2ce170]     v38);
+[0x2cf170] LoggingSystem_Log(
+[0x2cf170]     Server,
+[0x2cf170]     v174,
+[0x2cf170]     "CNetworkGameServerBase::ConnectClient( name='%s', remote='%s' )\n",
+[0x2cf170]     v16,
+[0x2cf170]     v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "Server not active, ignoring %s\n", v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "Bad auth data from %s\n", v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "Protocol error from %s\n", v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "Malicious user attempted to connect with too many players from %s\n", v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "%s:  password failed.\n", v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "%s:%d reconnecting\n", v183, v72);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, " -> removing old session %s:%d\n", v183, v162);
+[0x2cf170] LoggingSystem_Log(
+[0x2cf170]     Server,
+[0x2cf170]     3LL,
+[0x2cf170]     "NETWORK_DISCONNECT_REJECT_SERVERFULL to %s: GetNumClients()[%d] - GetNumFakeClients()[%d] + numSlotsRequested["
+[0x2cf170]     "%d] > m_numGameSlots[%d]\n",
+[0x2cf170]     v183,
+[0x2cf170]     v145,
+[0x2cf170]     v143,
+[0x2cf170]     v168,
+[0x2cf170]     v178);
+[0x2cf170] LoggingSystem_Log(
+[0x2cf170]     Server,
+[0x2cf170]     3LL,
+[0x2cf170]     "NETWORK_DISCONNECT_REJECT to %s: rejected by game rules with code %d\n",
+[0x2cf170]     v183,
+[0x2cf170]     v47);
+[0x2cf170] LoggingSystem_Log(
+[0x2cf170]     Server,
+[0x2cf170]     3LL,
+[0x2cf170]     "NETWORK_DISCONNECT_REJECT_SERVERFULL to %s: Cannot get free client\n",
+[0x2cf170]     v183);
+[0x2cf170] LoggingSystem_Log(Server, v174, "Creating NetChan for user %d '%s' @ %s\n", v48, v16, v183);
+[0x2cf170] LoggingSystem_Log(Server, 2LL, "Processing Split Screen connection packet.\n");
+[0x2cf170] LoggingSystem_Log(Server, v174, "Client #%d \"%s\" connected @ %s\n", v96, v95, v94);
+[0x279180] LoggingSystem_Log(
+[0x279180]     Demo,
+[0x279180]     2LL,
+[0x279180]     "Inserting client StringTable baselines in listenserver case, %d bits\n",
+[0x279180]     (*(v7 + 16) - v20));
+[0x279180] LoggingSystem_Log(Demo, 2LL, "Recorded %s [%d -> %d:  %d bits\n", v12, v24, v9, v9 - v24);
+[0x303180] LoggingSystem_Log(HLTV, 2LL, "Entity Class '%s' : ", a3);
+[0x26f990] LoggingSystem_Log(Demo, 3LL, "CDemoRecorder::OnCrashed:  Finalizing demo file due to crash!\n");
+[0x18f9a0] LoggingSystem_Log(General, 2LL, "Dispatching EventAppShutdown_t {\n");
+[0x18f9a0] LoggingSystem_Log(General, 2LL, "} Dispatched EventAppShutdown_t\n");
+[0x18f9a0] LoggingSystem_Log(General, 2LL, "MainLoop returning\n");
+[0x1f89a0] result = LoggingSystem_Log(Console, 3LL, "Unknown command '%s'!\n", v30);
+[0x1f89a0] result = LoggingSystem_Log(Console, 3LL, "SV: Cheat command '%s' ignored.\n", v29);
+[0x22c9a0] LoggingSystem_Log(Client, 2LL, v12, a3, v11, v10, v9);
+[0x22c9a0] LoggingSystem_Log(Client, 2LL, "---\n");
+[0x26b1a0] LoggingSystem_Log(Demo, 2LL, "Closed demo frame stats file '%s'\n", v1);
+[0x2889aa] LoggingSystem_Log(RCon, 2LL, "Saved console spew to %s\n", v10);
+[0x32d9b0] LoggingSystem_Log(
+[0x32d9b0]     stringtables,
+[0x32d9b0]     2LL,
+[0x32d9b0]     "%s %s: AddString(%s) : %s (data %d bytes) at tick %d\n",
+[0x32d9b0]     v14,
+[0x32d9b0]     v13,
+[0x32d9b0]     v11,
+[0x32d9b0]     a3,
+[0x32d9b0]     v10,
+[0x32d9b0]     v9);
+[0x32d9b0] LoggingSystem_Log(stringtables, 3LL, "Warning:  Can't add nullptr string to table %s\n", v23);
+[0x32d9b0] LoggingSystem_Log(
+[0x32d9b0]     stringtables,
+[0x32d9b0]     1LL,
+[0x32d9b0]     "CNetworkStringTable::AddString:  client added string which server didn't put into table (consider SetAllowClient"
+[0x32d9b0]     "SideAddString?): %s %s\n",
+[0x32d9b0]     v22,
+[0x32d9b0]     a3);
+[0x3309b0] LoggingSystem_Log(
+[0x3309b0]     stringtables,
+[0x3309b0]     2LL,
+[0x3309b0]     "%s %s: WriteBaselines at tick %d. %d entries, %d bits\n",
+[0x3309b0]     v42,
+[0x3309b0]     v41,
+[0x3309b0]     a3,
+[0x3309b0]     v30,
+[0x3309b0]     v39);
+[0x2f01c0] LoggingSystem_Log(
+[0x2f01c0]     Server,
+[0x2f01c0]     2LL,
+[0x2f01c0]     "Client %d (eidx %d, user id %d) %s - aborting wait for ack for tick %d, stopping replay at %d>=%d\n",
+[0x2f01c0]     *(a1 + 200),
+[0x2f01c0]     *(a1 + 204),
+[0x2f01c0]     v8,
+[0x2f01c0]     v6,
+[0x2f01c0]     v7,
+[0x2f01c0]     v4,
+[0x2f01c0]     v5);
+[0x2ed1c0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending spawn group manifest update to client '%s'\n", v10, v9);
+[0x2ed1c0] result = LoggingSystem_Log(
+[0x2ed1c0]     SpawnGroup,
+[0x2ed1c0]     1LL,
+[0x2ed1c0]     "%s:  Can't send spawn group manifest update because haven't sent initial spawn groups to '%s'\n",
+[0x2ed1c0]     v16,
+[0x2ed1c0]     v15);
+[0x1971c0] LoggingSystem_Log(EngineServiceManager, 2LL, "----- Status -----\n");
+[0x1971c0] LoggingSystem_Log(EngineServiceManager, 2LL, "  Requested:  %s\n", v5);
+[0x1971c0] LoggingSystem_Log(EngineServiceManager, 2LL, "  Queued   :  %s\n", v2);
+[0x1971c0] result = LoggingSystem_Log(EngineServiceManager, 2LL, "@ Current  :  %s\n", v4);
+[0x2729c0] LoggingSystem_Log(Demo, 2LL, "Demo paused at server tick %i\n", v10);
+[0x2a99c0] LoggingSystem_Log(
+[0x2a99c0]     SpawnGroup,
+[0x2a99c0]     1LL,
+[0x2a99c0]     "skipping %s during demo playback because haven't gotten sentinel yet\n",
+[0x2a99c0]     *(*(a2 + 24) & 0xFFFFFFFFFFFFFFFCLL));
+[0x2a99c0] LoggingSystem_Log(
+[0x2a99c0]     SpawnGroup,
+[0x2a99c0]     1LL,
+[0x2a99c0]     "CL: ProcessSpawnGroup_Load setting max spawn group creation sequence to (%u) due to tickcount\n",
+[0x2a99c0]     *(a1 + 600));
+[0x2a99c0] LoggingSystem_Log(SpawnGroup, 1LL, "CL:  [%s: %s | %s | %s] Load\n", v36, v34, v35, v8);
+[0x2a99c0] LoggingSystem_Log(Client, 2LL, "writing %d resources to %s\n", v49, v50);
+[0x2a99c0] LoggingSystem_Log(SpawnGroup, 3LL, "ProcessSpawnGroup: Failed to parse the spawn group manifest!\n");
+[0x2e79d0] LoggingSystem_Log(Server, 2LL, "Reactivate moving '%s' from slot %d to slot %d\n", v4, *(a1 + 200), a2);
+[0x29c1d0] result = LoggingSystem_Log(Client, 2LL, "% 4d : %s matched to %s\n", v2, v7, v4);
+[0x2e59d0] LoggingSystem_Log(SignonState, 3LL, "Client %d(%s) tried to send a RebroadcastSourceId msg.\n", *(a1 + 88), v4);
+[0x25b9d7] LoggingSystem_Log(HLTV, 2LL, "%s:  SourceTV shutting down, type %s\n", a2, v6);
+[0x1e41e0] LoggingSystem_Log(General, 3LL, "Failed to get requested UGC id %llu. Result %d\n", *(a2 + 4), *(a2 + 12));
+[0x23b9e0] LoggingSystem_Log(
+[0x23b9e0]     NetworkP2PService,
+[0x23b9e0]     3LL,
+[0x23b9e0]     "CNetworkP2PService::InternalBroadcastP2PNetMessage: SerializeAbstract for message %s overflowed!\n",
+[0x23b9e0]     v34);
+[0x23b9e0] LoggingSystem_Log(
+[0x23b9e0]     NetworkP2PService,
+[0x23b9e0]     3LL,
+[0x23b9e0]     "SendMessageToUser failed with result %d sending %d byte message %s to %s!\n",
+[0x23b9e0]     v25,
+[0x23b9e0]     v42,
+[0x23b9e0]     v30,
+[0x23b9e0]     v48);
+[0x23b9e0] LoggingSystem_Log(
+[0x23b9e0]     NetworkP2PService,
+[0x23b9e0]     3LL,
+[0x23b9e0]     "CNetworkP2PService::InternalBroadcastP2PNetMessage: SerializeAbstract for message %s failed!\n",
+[0x23b9e0]     v28);
+[0x25e1e0] LoggingSystem_Log(General, 3LL, "Failed to initialize video!\n");
+[0x25e1e0] LoggingSystem_Log(General, 3LL, "Reset video config to desktop mode %dx%d!\n", v43, v44[0]);
+[0x25e1e0] LoggingSystem_Log(General, 3LL, "Reset video config to defaults!\n");
+[0x2961e0] LoggingSystem_Log(Client, 3LL, "ServerCmd called with %d bytes, cropping to %d\n", v13, 1024LL);
+[0x2b91e0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkClientSpawnGroup_LoadEntitiesPrerequisite completed...\n", v10);
+[0x2bb9f0] LoggingSystem_Log(
+[0x2bb9f0]     v11,
+[0x2bb9f0]     1LL,
+[0x2bb9f0]     "CL:  %s CNetworkClientSpawnGroup_LoadSaveGamePrerequisiteBase::OnSaveFileDataLoadedInternal( %s, %d bytes )...\n",
+[0x2bb9f0]     v12,
+[0x2bb9f0]     a2,
+[0x2bb9f0]     a4);
+[0x1a39f0] result = LoggingSystem_Log(HostStateManager, 3LL, "No previous save\n");
+[0x28e9f0] LoggingSystem_Log(
+[0x28e9f0]     Client,
+[0x28e9f0]     1LL,
+[0x28e9f0]     "CL:  Ignoring S2C_CHALLENGE [%u auth %d] from %s because SignonState (%s) != SIGNONSTATE_CHALLENGE\n",
+[0x28e9f0]     a1[9].m128i_u32[2],
+[0x28e9f0]     a1[9].m128i_u8[12],
+[0x28e9f0]     v64,
+[0x28e9f0]     v52);
+[0x28e9f0] LoggingSystem_Log(Client, v14, "Received S2C_CHALLENGE [%u auth %d] from %s\n", v47, v46, v64);
+[0x185a00] LoggingSystem_Log(General, 2LL, "test mode - initialized steam in anonymous user mode\n");
+[0x185a00] LoggingSystem_Log(General, 3LL, "Failed to init steam in anonymous mode?\n");
+[0x185a00] LoggingSystem_Log(General, 3LL, "SteamAPI_Init failed.  %s\n", v20);
+[0x185a00] LoggingSystem_Log(
+[0x185a00]     General,
+[0x185a00]     2LL,
+[0x185a00]     "SteamAPI_Init succeeded.  SteamID is %s (%llu), AppID is %d\n",
+[0x185a00]     v18,
+[0x185a00]     v16,
+[0x185a00]     v14);
+[0x2a7200] result = LoggingSystem_Log(SpawnGroup, 1LL, "%s:  OnSpawnGroupActivate\n", v11);
+[0x2d4200] result = LoggingSystem_Log(Server, 3LL, "SV:  AsyncUnloadSpawnGroup( %s ) -- no such group\n", v8);
+[0x191210] LoggingSystem_Log(General, 2LL, "Source2Init OK\n");
+[0x290210] LoggingSystem_Log(SignonState, 3LL, "CL:  Connection to %s failed, server requires a password\n", v12);
+[0x2b0a10] LoggingSystem_Log(Shooting, 2LL, "cl: Sending commands %d to %d\n", a6, a7);
+[0x2b0a10] LoggingSystem_Log(
+[0x2b0a10]     Client,
+[0x2b0a10]     2LL,
+[0x2b0a10]     "CL:  WARNING! User command buffer overflow (start:%i, current:%i, end:%i), buffer size %d bytes\n",
+[0x2b0a10]     a6,
+[0x2b0a10]     v12,
+[0x2b0a10]     a7,
+[0x2b0a10]     0x2000LL);
+[0x2b2a10] LoggingSystem_Log(
+[0x2b2a10]     Client,
+[0x2b2a10]     3LL,
+[0x2b2a10]     "CL: CNetworkGameClient::ProcessTick server tick %d went backward from previous of %d, resetting previous\n",
+[0x2b2a10]     v3,
+[0x2b2a10]     *(a1 + 2645732));
+[0x35ea10] LoggingSystem_Log(HLTV Broadcast, 3LL, "Ignoring unexpected sync, %d bytes, resync %d\n", a3, a4);
+[0x322220] LoggingSystem_Log(
+[0x322220]     SpawnGroup,
+[0x322220]     3LL,
+[0x322220]     "%s:  Note:  synchronously loading client spawn groups should not be creating work!!!\n",
+[0x322220]     v27);
+[0x1a9a30] LoggingSystem_Log(General, 2LL, "%f FRAME start %d ticks\n", *(a1 + 224), v3);
+[0x1a9a30] result = LoggingSystem_Log(General, 2LL, "%f LONG FRAME DETECTED: %d ticks.\n", *(a1 + 224), v3);
+[0x1e2230] LoggingSystem_Log(General, 2LL, "CEntityResourceManifest::AddResourceInternal( %s )\n", v19);
+[0x1e2230] LoggingSystem_Log(General, 2LL, "AddResourceInternal: %s\n", a2);
+[0x2a2230] LoggingSystem_Log(
+[0x2a2230]     Client,
+[0x2a2230]     2LL,
+[0x2a2230]     "Server is awaiting players %s [%u] v%d t%u (%u, %d): %d player(s) pending\n",
+[0x2a2230]     v103,
+[0x2a2230]     v48,
+[0x2a2230]     a4,
+[0x2a2230]     v5,
+[0x2a2230]     v26,
+[0x2a2230]     v97,
+[0x2a2230]     v91);
+[0x2a2230] LoggingSystem_Log(
+[0x2a2230]     Client,
+[0x2a2230]     2LL,
+[0x2a2230]     "Server confirmed all players %s [%u] v%d t%u (%u, %d)\n",
+[0x2a2230]     v103,
+[0x2a2230]     v52,
+[0x2a2230]     a4,
+[0x2a2230]     v5,
+[0x2a2230]     v26,
+[0x2a2230]     v97);
+[0x2a2230] LoggingSystem_Log(Client, 2LL, "Response arrived from %s [%u] v%d t%u\n", v103, v16, a4, v5);
+[0x2d2a30] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  OnSpawnGroupActivate (CreationSequence=%d)\n", v12, v11);
+[0x24f240] LoggingSystem_Log(
+[0x24f240]     Console,
+[0x24f240]     2LL,
+[0x24f240]     "%-32s: %6.3f ms (+/- %6.3f) ms (%6.3f ave fps)\n",
+[0x24f240]     "Total Frame Time",
+[0x24f240]     v5,
+[0x24f240]     v6,
+[0x24f240]     v9);
+[0x24f240] LoggingSystem_Log(Console, 2LL, "%-32s: %6.3f ms (+/- %6.3f) ms\n", *v12, v31 * 1000.0, v30 * 1000.0);
+[0x26b240] LoggingSystem_Log(Demo, 2LL, "Opened demo frame stats file '%s'\n", v4);
+[0x273240] LoggingSystem_Log(Demo, 2LL, "playing %d: %s\n", *(a1 + 8), v12);
+[0x273240] LoggingSystem_Log(Demo, 3LL, "No demos listed with startdemos\n");
+[0x2efa40] LoggingSystem_Log(Server, 3LL, "Replay tick %d older than the oldest HLTV Server tick %d", v3, v7);
+[0x351240] result = LoggingSystem_Log(
+[0x351240]     HLTV,
+[0x351240]     1LL,
+[0x351240]     "SourceTV SpawnGroup Buffering: tick=%d storing message %s (spawn group %s)\n",
+[0x351240]     *(a2 + 16),
+[0x351240]     v12,
+[0x351240]     v10);
+[0x309a50] result = LoggingSystem_Log(Server, 2LL, "log:  unknown parameter %s, 'on' and 'off' are valid\n", v13);
+[0x309a50] LoggingSystem_Log(Server, 2LL, "Server logging enabled.\n");
+[0x309a50] result = LoggingSystem_Log(Server, 2LL, "Server logging disabled.\n");
+[0x309a50] LoggingSystem_Log(Server, 2LL, "Usage:  log < on | off >\n");
+[0x309a50] result = LoggingSystem_Log(Server, 2LL, "not currently logging\n");
+[0x29ba60] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending load completed message to server\n", v10);
+[0x29ba60] result = LoggingSystem_Log(SpawnGroup, 3LL, v12, v11);
+[0x2afa70] LoggingSystem_Log(Client, 2LL, "client read networking at tick sv(%d) cl(%d) %f\n", a1[661433], v13, v15);
+[0x1a1a80] LoggingSystem_Log(
+[0x1a1a80]     HostStateManager,
+[0x1a1a80]     2LL,
+[0x1a1a80]     "HostStateRequest::Start(HSR_SOURCETV_RELAY):  loop(%s) id(%u) addons(%s) desc(%s)\n",
+[0x1a1a80]     v16,
+[0x1a1a80]     a1[7],
+[0x1a1a80]     v15,
+[0x1a1a80]     v14);
+[0x1a1a80] LoggingSystem_Log(HostStateManager, 2LL, "HostStateRequest::Start(HSR_QUIT)\n");
+[0x1a1a80] LoggingSystem_Log(
+[0x1a1a80]     HostStateManager,
+[0x1a1a80]     2LL,
+[0x1a1a80]     "HostStateRequest::Start(HSR_IDLE):  loop(%s) id(%u) addons(%s) desc(%s)\n",
+[0x1a1a80]     v25,
+[0x1a1a80]     a1[7],
+[0x1a1a80]     v24,
+[0x1a1a80]     v23);
+[0x1a1a80] LoggingSystem_Log(HostStateManager, 3LL, "Changlevel found save %s\n", v39);
+[0x1a1a80] LoggingSystem_Log(
+[0x1a1a80]     HostStateManager,
+[0x1a1a80]     2LL,
+[0x1a1a80]     "HostStateRequest::Start(HSR_GAME):  loop(%s) id(%u) addons(%s) desc(%s)\n",
+[0x1a1a80]     v22,
+[0x1a1a80]     a1[7],
+[0x1a1a80]     v21,
+[0x1a1a80]     v20);
+[0x2eba80] LoggingSystem_Log(
+[0x2eba80]     SpawnGroup,
+[0x2eba80]     3LL,
+[0x2eba80]     "WARNING: Received SpawnGroup_LoadCompleted for an unknown spawngrouphandle(%s) from client '%s'\n",
+[0x2eba80]     v16,
+[0x2eba80]     v13);
+[0x2eba80] LoggingSystem_Log(SpawnGroup, 1LL, "%s Received SpawnGroup_LoadCompleted on client '%s'\n", v11, v10);
+[0x358a80] LoggingSystem_Log(HLTV Broadcast, 2LL, "Stream Re-sync @%d...\n", *(a1 + 272));
+[0x256a90] LoggingSystem_Log(VProf, 2LL, "VProf Enabled.\n");
+[0x256a90] LoggingSystem_Log(VProf, 2LL, "VProf Disabled.\n");
+[0x25ba90] LoggingSystem_Log(HLTV, 3LL, "CLoopModeSourceTVRelay:  Terminating after relaying game.\n");
+[0x29c290] LoggingSystem_Log(a2, 2LL, "%s\n", v5);
+[0x29c290] result = LoggingSystem_Log(a2, 2LL, "\n");
+[0x32ca90] LoggingSystem_Log(
+[0x32ca90]     stringtables,
+[0x32ca90]     2LL,
+[0x32ca90]     "%s %s: ClearTick %d %s - tick %d - remaining userdata %d\n",
+[0x32ca90]     v15,
+[0x32ca90]     v14,
+[0x32ca90]     v3,
+[0x32ca90]     v12,
+[0x32ca90]     a2,
+[0x32ca90]     v21);
+[0x32ca90] LoggingSystem_Log(stringtables, 2LL, "%s %s: ClearTick tick %d - %d items\n", v18, v17, a2, v22);
+[0x35ea90] result = LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast sync: cannot read response body\n", v12);
+[0x35ea90] result = LoggingSystem_Log(
+[0x35ea90]     HLTV Broadcast,
+[0x35ea90]     2LL,
+[0x35ea90]     "%.2f. Broadcast sync: response buffer overflow (%d bytes)\n",
+[0x35ea90]     v11,
+[0x35ea90]     v10);
+[0x20daa0] LoggingSystem_Log(
+[0x20daa0]     Server,
+[0x20daa0]     3LL,
+[0x20daa0]     "CNetworkServerService::OnWriteNetworkingMetaFile:  unable to build full path to metadata file '%s'\n",
+[0x20daa0]     v17);
+[0x20daa0] LoggingSystem_Log(Server, 2LL, "wrote CSVCMsg_FlattenedSerializer_t to '%s'\n", v12);
+[0x20daa0] LoggingSystem_Log(Server, 2LL, "  %d classes, %d bytes\n", v24, v34);
+[0x20daa0] result = LoggingSystem_Log(
+[0x20daa0]     Server,
+[0x20daa0]     3LL,
+[0x20daa0]     "CNetworkServerService::OnWriteNetworkingMetaFile:  unable to build full path to metadata file, no server interface\n");
+[0x2422a0] LoggingSystem_Log(ScreenShot, 3LL, "screenshot resampling failed (error code %d)\n", v18);
+[0x29e2a0] LoggingSystem_Log(SignonState, 1LL, "CL:  CNetworkGameClientBase::ResumeActivate sending %s:%d\n", *v11, v9);
+[0x29e2a0] LoggingSystem_Log(SignonState, 3LL, "CL:  CNetworkGameClientBase::ResumeActivate call unexpected\n");
+[0x346aa0] LoggingSystem_Log(
+[0x346aa0]     HLTV Broadcast,
+[0x346aa0]     2LL,
+[0x346aa0]     "Broadcast[%d] Re-sending signon data\n",
+[0x346aa0]     *(&stru_11AD0.st_name + *(a1 + 64)));
+[0x1f82b0] LoggingSystem_Log(Console, 3LL, "SV: Convar '%s' is cheat protected, change ignored.\n", v29);
+[0x1f82b0] result = LoggingSystem_Log(Console, 3LL, "Unknown convar '%s'!\n", v21);
+[0x186ab0] LoggingSystem_Log(General, 2LL, "Setting main thread priority to %d\n", v7);
+[0x2a7ac0] LoggingSystem_Log(SpawnGroup, 1LL, v11, v10);
+[0x2a82c0] LoggingSystem_Log(Client, 3LL, "Bad maxclients (%u) from server.\n", *(a1 + 624));
+[0x2a82c0] LoggingSystem_Log(
+[0x2a82c0]     Client,
+[0x2a82c0]     1LL,
+[0x2a82c0]     "CL:  FCVAR_CHEAT and FCVAR_REPLICATED cvars reverted to defaults (remote connection).\n");
+[0x2a82c0] LoggingSystem_Log(
+[0x2a82c0]     Client,
+[0x2a82c0]     3LL,
+[0x2a82c0]     "Interval_per_tick %f out of range [%f to %f]\n",
+[0x2a82c0]     *(a2 + 104),
+[0x2a82c0]     0.001000000047497451,
+[0x2a82c0]     0.1000000014901161);
+[0x2a82c0] LoggingSystem_Log(Client, 3LL, "ProcessServerInfo: Failed to initialize the game client!\n");
+[0x2a82c0] LoggingSystem_Log(Client, 3LL, "ProcessServerInfo: Failed to parse the game session manifest!\n");
+[0x2a82c0] LoggingSystem_Log(Client, 3LL, "Game indicated network version %d is incompatible.\n", *(a2 + 80));
+[0x23c2d0] LoggingSystem_Log(General, 2LL, "Listing known P2P networking peers from all peer groups:\n");
+[0x23c2d0] LoggingSystem_Log(General, 2LL, "\t\"%s\" has no known peers.\n", v16);
+[0x23c2d0] LoggingSystem_Log(General, 2LL, "\t\"%s\" has %d known peers:\n", v23, v22);
+[0x23c2d0] LoggingSystem_Log(General, 2LL, v40, "%s %s [", v52, v50);
+[0x23c2d0] LoggingSystem_Log(General, 2LL, &v63, "Ping", v34, v35);
+[0x23c2d0] LoggingSystem_Log(General, 2LL, "]\n");
+[0x280ad0] LoggingSystem_Log(InstantReplay, 1LL, "CheckLimits culling until tick=%d\n", *(*(a1 + 88) + v8));
+[0x2bd2d0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Spawn group loading failed\n", v16);
+[0x28f2f0] LoggingSystem_Log(Client, 3LL, "Bad connectionless packet ( CL '%c') from %s.\n", v10, v65);
+[0x28f2f0] LoggingSystem_Log(Client, v11, "Received S2C_CONNECTION from %s [addons:'%s']\n", v65, v35);
+[0x28f2f0] LoggingSystem_Log(Client, 3LL, "CL:  Invalid S2C_CONNECTION packet.\n");
+[0x2c62f0] LoggingSystem_Log(Server, v17, "Sending RejectConnection to %s: %d: %s\n", v21, a4, v8);
+[0x22c300] LoggingSystem_Log(Client, 3LL, "CL:  Connection to '%s' failed\n", v7);
+[0x22c300] LoggingSystem_Log(Client, 2LL, "CL:  Successfully connected to %s\n", v6);
+[0x294b00] LoggingSystem_Log(SignonState, 1LL, "CL:  SetSignonState changing from %s to %s\n", *v13, v11);
+[0x2e0b00] LoggingSystem_Log(
+[0x2e0b00]     v11,
+[0x2e0b00]     1LL,
+[0x2e0b00]     "SV:  %s CNetworkServerSpawnGroup_LoadSaveGamePrerequisiteBase::OnSaveFileDataLoadedInternal( %s, %d bytes )...\n",
+[0x2e0b00]     v12,
+[0x2e0b00]     a2,
+[0x2e0b00]     a4);
+[0x35db00] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Playcast cannot retrieve fragment %d, retrying\n", a3, v13);
+[0x35db00] result = LoggingSystem_Log(
+[0x35db00]     HLTV Broadcast,
+[0x35db00]     2LL,
+[0x35db00]     "%.2f. Playcast failed to retrieve fragment %d (succ=%d, %.1f sec)\n",
+[0x35db00]     a3,
+[0x35db00]     *(a1 + 152),
+[0x35db00]     v13,
+[0x35db00]     v13 - *(a1 + 144));
+[0x35db00] result = LoggingSystem_Log(HLTV Broadcast, 2LL, "Playcast Canceling Fragment %d\n", a3);
+[0x24cb10] LoggingSystem_Log(SplitScreen, 1LL, "[%d] Changing player name to Steam name '%s'\n", v6[0], v4);
+[0x2f1310] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending load spawn group\n", v6);
+[0x245320] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected context!\n");
+[0x245320] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected PNG pixels!\n");
+[0x274320] LoggingSystem_Log(Demo, 2LL, "Demo contents for %s:\n", v3);
+[0x274320] LoggingSystem_Log(Demo, 2LL, "DemoFileHeader: %s\n", v22);
+[0x274320] LoggingSystem_Log(Demo, 2LL, "DemoFileInfo: %s\n", v25);
+[0x274320] LoggingSystem_Log(Demo, 2LL, "%s is not a valid demo file\n", v6);
+[0x274320] LoggingSystem_Log(Demo, 2LL, "ERROR: couldn't open.\n");
+[0x352320] LoggingSystem_Log(HLTV, 1LL, "CHLTVServer::SendClientMessages client %s is inactive.\n", v24);
+[0x352320] LoggingSystem_Log(
+[0x352320]     HLTV,
+[0x352320]     1LL,
+[0x352320]     "CHLTVServer::SendClientMessages client %s SendSnapshot() returned false on tick %d.\n",
+[0x352320]     v29,
+[0x352320]     v36);
+[0x352320] LoggingSystem_Log(
+[0x352320]     HLTV,
+[0x352320]     1LL,
+[0x352320]     "CHLTVServer::SendClientMessages skipping client %s updating to %d from %d: CanPacket()? %s\n",
+[0x352320]     v23,
+[0x352320]     v35,
+[0x352320]     v34,
+[0x352320]     v33);
+[0x1e9b30] LoggingSystem_Log(InputService, 3LL, "Invalid binding:  Tried to GetConVarValue from ConCommand( %s )\n", a1);
+[0x24d330] LoggingSystem_Log(SplitScreen, 2LL, "Saved '%s' to SteamRemoteStorage, %d bytes OK\n", v19, *(a4 + 20));
+[0x24d330] LoggingSystem_Log(
+[0x24d330]     SplitScreen,
+[0x24d330]     3LL,
+[0x24d330]     "Tried to write clouded file, but we don't have Steam interfaces?  Probably bug with order of initialization,"
+[0x24d330]     " or trying to run without steam\n");
+[0x24d330] LoggingSystem_Log(SplitScreen, 2LL, "Saved user config file '%s': type %d\n", v18, a1);
+[0x24d330] LoggingSystem_Log(SplitScreen, 3LL, "Error writing user config file '%s'\n", v16);
+[0x329b30] LoggingSystem_LogDirect(Console, 2LL, v29);
+[0x329b30] LoggingSystem_Log(Console, 3LL, "Failed to serialize KV3 to JSON.  %s\n", v21);
+[0x281b40] LoggingSystem_Log(InstantReplay, 1LL, "FullFrameSplit tick=%d, chunk=%d of %d\n", v4, a2[9], a2[10]);
+[0x281b40] LoggingSystem_Log(
+[0x281b40]     InstantReplay,
+[0x281b40]     3LL,
+[0x281b40]     "Received new full frame at tick %d!  Had %d chunks of previous frame %d!\n",
+[0x281b40]     v4,
+[0x281b40]     *(a1 + 168),
+[0x281b40]     *(**(a1 + 176) + 32LL));
+[0x281b40] LoggingSystem_Log(
+[0x281b40]     InstantReplay,
+[0x281b40]     3LL,
+[0x281b40]     "Received section %d but wanted section %d, removing full frame\n",
+[0x281b40]     a2[9],
+[0x281b40]     (*(*(*(a1 + 176) + 8LL * (*(a1 + 168) - 1)) + 36LL) + 1));
+[0x2e7b40] LoggingSystem_Log(
+[0x2e7b40]     Server,
+[0x2e7b40]     v13,
+[0x2e7b40]     "CServerSideClientBase::Connect( name='%s', userid=%d, fake=%d, chan->addr=%s )\n",
+[0x2e7b40]     a3,
+[0x2e7b40]     a4,
+[0x2e7b40]     a6,
+[0x2e7b40]     v25);
+[0x289b4a] LoggingSystem_Log(RCon, 2LL, "Saved screenshot to %s\n", v10);
+[0x1ff350] result = LoggingSystem_Log(Console, 2LL, "Usage: changelevel <mapname> [option1=value1 option2=value2 etc]\n");
+[0x1ff350] result = LoggingSystem_Log(Console, 3LL, "changelevel %s:  invalid map name\n", v16);
+[0x1ff350] LoggingSystem_Log(Console, 2LL, "Changelevel to %s\n", v13);
+[0x1ff350] LoggingSystem_Log(Console, 2LL, "changelevel \"%s\" (addon '%s')\n", v18, v11);
+[0x1ff350] LoggingSystem_Log(Console, 2LL, "changelevel \"%s\"\n", v19);
+[0x1ff350] result = LoggingSystem_Log(Console, 3LL, "Can't changelevel, server not in a map\n");
+[0x29b350] LoggingSystem_Log(
+[0x29b350]     Client,
+[0x29b350]     3LL,
+[0x29b350]     "Disconnection during connection phase. Sign-on state: %d (%s). Disconnect reason: %d (%s).\n",
+[0x29b350]     *(a1 + 608),
+[0x29b350]     *v7,
+[0x29b350]     a2,
+[0x29b350]     v5);
+[0x2a3360] LoggingSystem_Log(Client, 2LL, "CheckServerReservationResponse: %s (%d/%d conn)\n", v54, v16, v23);
+[0x2a3360] result = LoggingSystem_Log(
+[0x2a3360]     Client,
+[0x2a3360]     2LL,
+[0x2a3360]     "CheckServerReservationResponse: %d connections outstanding\n",
+[0x2a3360]     qword_6B2BA0);
+[0x2bfb60] LoggingSystem_Log(Server, 2LL, "%d clients:\n", *a1);
+[0x2bfb60] LoggingSystem_Log(Server, 2LL, "\t%s", v4);
+[0x22cb70] LoggingSystem_Log(Client, 2LL, "CL:  CGameClientConnectPrerequisite status\n");
+[0x291370] LoggingSystem_Log(
+[0x291370]     Clock Drift,
+[0x291370]     2LL,
+[0x291370]     "CL: %8.3f : clock drifted too much (abs(%d) > (delta %d + sim ticks %d) this frame), adopting server tick\n",
+[0x291370]     v15,
+[0x291370]     v14 - a2,
+[0x291370]     v11,
+[0x291370]     a3);
+[0x338370] LoggingSystem_Log(
+[0x338370]     HLTV,
+[0x338370]     1LL,
+[0x338370]     "SourceTV WriteSpawnGroupUpdateMessages client %s(%d): tick=%d (from %d) sending message %s (%d bits)\n",
+[0x338370]     v13,
+[0x338370]     v19,
+[0x338370]     a2,
+[0x338370]     v16,
+[0x338370]     v14,
+[0x338370]     v21);
+[0x349370] LoggingSystem_Log(HLTV, 2LL, "SourceTV[%d] broadcast active.\n", *(a1 + 2824772));
+[0x349370] LoggingSystem_Log(HLTV, 2LL, "SourceTV[%d] relay active.\n", *(a1 + 2824772));
+[0x275380] LoggingSystem_Log(
+[0x275380]     Demo,
+[0x275380]     1LL,
+[0x275380]     "AddSpawnMessageToDemoSpawnGroups storing message %s (spawn group %s)\n",
+[0x275380]     v16,
+[0x275380]     v14);
+[0x27db80] LoggingSystem_Log(Demo, 2LL, "Playing demo from '%s'.\n", v6);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "unable to get demo version from '%s'.\n", v53);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "couldn't Open demo file '%s'.\n", v54);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "Failed to read demo header on '%s'.\n", v78);
+[0x27db80] LoggingSystem_Log(
+[0x27db80]     Demo,
+[0x27db80]     3LL,
+[0x27db80]     "Demo recorded for game '%s', current game is '%s' [demo_allow_game_mismatch = %d]\n",
+[0x27db80]     v93,
+[0x27db80]     v92,
+[0x27db80]     v99);
+[0x27db80] LoggingSystem_Log(
+[0x27db80]     Demo,
+[0x27db80]     3LL,
+[0x27db80]     "Demo recorded with '%s' addons, currently have '%s' addons.\n",
+[0x27db80]     *(*(a1 + 120) & 0xFFFFFFFFFFFFFFFCLL),
+[0x27db80]     v94);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "CDemo::Play: failed to create demo net channel for %s\n", v90);
+[0x27db80] LoggingSystem_Log(Demo, 2LL, "demo file version '%s' engine version '%s' on file '%s'.\n", v19, v17, v100);
+[0x27db80] LoggingSystem_Log(Demo, 2LL, "upconverting demo file '%s'.\n", v55);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "unable to load demo upconverter (%s)\n", "DemoUpconverterVersion001");
+[0x27db80] LoggingSystem_Log(
+[0x27db80]     Demo,
+[0x27db80]     2LL,
+[0x27db80]     "Demo upconversion to '%s' succeeded, playback using converted file : %s\n",
+[0x27db80]     v71,
+[0x27db80]     v70);
+[0x27db80] LoggingSystem_Log(Demo, 2LL, "Demo upconversion failed, reason: %s\n", v88);
+[0x27db80] LoggingSystem_Log(Demo, 3LL, "can't play back, no CNetworkGameClient for demo '%s'!!!\n", v4);
+[0x2c8b80] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  RegisterLoadingSpawnGroups %s\n", v12, v17);
+[0x346b80] LoggingSystem_Log(HLTV Broadcast, 2LL, "Broadcast[%d] IO Failure, Http code %d on %s\n", v7, v4, v6);
+[0x346b80] LoggingSystem_Log(HLTV Broadcast, 2LL, "Broadcast[%d] Relay returned Http code %d on %s\n", v11, v4, v10);
+[0x34f380] LoggingSystem_Log(HLTV, 3LL, "CHLTVServer::StartRelay: WriteSendTables overflow.\n");
+[0x34f380] LoggingSystem_Log(HLTV, 3LL, "CHLTVServer::StartRelay: WriteClassInfosBuffer overflow.\n");
+[0x34f380] LoggingSystem_Log(HLTV, 2LL, "StartRelay: not connected.\n");
+[0x1a2390] LoggingSystem_Log(HostStateManager, 2LL, "Discarding pending request '%s, %u'\n", v5, *(v4 + 28));
+[0x225b90] LoggingSystem_Log(Client, 2LL, "CL:  %s\n", v4);
+[0x325390] LoggingSystem_Log(
+[0x325390]     Movie,
+[0x325390]     2LL,
+[0x325390]     "Finishing movie: %s.* [%d frames @ %f == %f seconds]%s\n",
+[0x325390]     v9,
+[0x325390]     *(a1 + 296),
+[0x325390]     *(a1 + 308),
+[0x325390]     v5,
+[0x325390]     "");
+[0x325390] LoggingSystem_Log(
+[0x325390]     Movie,
+[0x325390]     2LL,
+[0x325390]     "Finishing movie: %s.* [%d frames @ %f == %f seconds]%s\n",
+[0x325390]     v12,
+[0x325390]     v16,
+[0x325390]     v15,
+[0x325390]     v14,
+[0x325390]     v13);
+[0x325390] result = LoggingSystem_Log(Movie, 2LL, "No movie started.\n");
+[0x33d390] LoggingSystem_Log(HLTV, 2LL, "Server (%s) is not a SourceTV proxy.\n", v20);
+[0x33d390] LoggingSystem_Log(HLTV, 2LL, "Couldn't unserialize CCompressedResourceManifest\n");
+[0x34bb90] LoggingSystem_Log(HLTV, 2LL, "Can't retry, no previous SourceTV connection\n");
+[0x34bb90] LoggingSystem_Log(HLTV, 2LL, "Commencing SourceTV connection retry to %s\n", v37);
+[0x34bb90] LoggingSystem_Log(HLTV, 2LL, "SourceTV in Primary-Only mode.\n");
+[0x34bb90] result = LoggingSystem_Log(HLTV, 2LL, "SourceTV not active.\n");
+[0x2e8ba0] LoggingSystem_Log(SignonState, 1LL, "SV:  ProcessSignonStateMsg on client '%s' ( %s )\n", v27, *v26);
+[0x2e8ba0] LoggingSystem_Log(SignonState, 1LL, "SV:  Sending server info and initial spawn groups to %s\n", v28);
+[0x2b8ba0] LoggingSystem_Log(
+[0x2b8ba0]     SpawnGroup,
+[0x2b8ba0]     1LL,
+[0x2b8ba0]     "%s:  CNetworkClientSpawnGroup_WaitForAssetLoadPrerequisite completed %s...\n",
+[0x2b8ba0]     v10,
+[0x2b8ba0]     v9);
+[0x342ba0] LoggingSystem_Log(HLTV, 2LL, "StartRecording: cannot record without game server.\n");
+[0x342ba0] LoggingSystem_Log(HLTV, 2LL, "StartRecording: couldn't open replay file %s.\n", a2);
+[0x342ba0] LoggingSystem_Log(HLTV, 2LL, "Recording SourceTV replay to %s...\n", a2);
+[0x342ba0] LoggingSystem_Log(HLTV, 2LL, "playdemo %s\n", a2);
+[0x3593b0] LoggingSystem_Log(HLTV Broadcast, 1LL, "Playcast packet tick %d, %d Bytes\n", v4, a2);
+[0x192bc0] LoggingSystem_Log(CommandLine, 2LL, "command line arguments:\n");
+[0x192bc0] LoggingSystem_Log(CommandLine, 2LL, "%s\n", v12);
+[0x192bc0] LoggingSystem_Log(CommandLine, 2LL, "protected command line arguments (stripped from above):\n");
+[0x192bc0] LoggingSystem_Log(CommandLine, 2LL, "%s\n", v29);
+[0x192bc0] LoggingSystem_Log(CommandLine, 2LL, "parameter file(s):  %s\n", v15);
+[0x2713c0] LoggingSystem_Log(
+[0x2713c0]     Demo,
+[0x2713c0]     2LL,
+[0x2713c0]     "%i frames %5.3f seconds %5.2f fps (%5.2f ms/f) %5.3f fps variability\n",
+[0x2713c0]     v52,
+[0x2713c0]     v8,
+[0x2713c0]     (v11 / v8),
+[0x2713c0]     ((1000.0 * v8) / v11));
+[0x26b3d0] result = LoggingSystem_Log(Demo, 2LL, &off_56F5E8 + 4, v5, v2, v4);
+[0x26b3d0] result = LoggingSystem_Log(
+[0x26b3d0]     Demo,
+[0x26b3d0]     2LL,
+[0x26b3d0]     "No demos in list, use startdemos <demoname> <demoname2> to specify\n");
+[0x272bd0] return LoggingSystem_Log(Demo, 2LL, v9);
+[0x272bd0] result = LoggingSystem_Log(Demo, 2LL, "Already recording.\n");
+[0x272bd0] return LoggingSystem_Log(Demo, 2LL, v9);
+[0x272bd0] LoggingSystem_Log(
+[0x272bd0]     Demo,
+[0x272bd0]     2LL,
+[0x272bd0]     "Unable to find a valid incremental demo filename for %s, try clearing the directory of %snnn.dem\n",
+[0x272bd0]     v27,
+[0x272bd0]     v26);
+[0x272bd0] LoggingSystem_Log(Demo, 3LL, "%s\n", v25);
+[0x272bd0] result = LoggingSystem_Log(Demo, 2LL, "record %s: invalid path.\n", a1);
+[0x2ddbd0] result = LoggingSystem_Log(Server, 3LL, "ClientCommand, 0 length string supplied.\n");
+[0x35ebd0] LoggingSystem_Log(
+[0x35ebd0]     HLTV Broadcast,
+[0x35ebd0]     2LL,
+[0x35ebd0]     "%.2f. Requesting sync from GC, start fragment %d match id %llu instance %d\n",
+[0x35ebd0]     v16,
+[0x35ebd0]     v15,
+[0x35ebd0]     v6,
+[0x35ebd0]     v8);
+[0x35ebd0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Requesting sync from relay %s\n", v17, v18);
+[0x2e93e0] LoggingSystem_Log(
+[0x2e93e0]     Server,
+[0x2e93e0]     1LL,
+[0x2e93e0]     "%s ProcessBaselineAck wrong baseline index %d != expected %d\n",
+[0x2e93e0]     v25,
+[0x2e93e0]     a2[1],
+[0x2e93e0]     *(a1 + 2492));
+[0x2e93e0] LoggingSystem_Log(Server, 1LL, "ProcessBaselineAck: invalid packed entity bit (%i)\n", v7);
+[0x2e93e0] LoggingSystem_Log(Server, 1LL, "%s ProcessBaselineAck: null frame snapshot (%d)\n", v29, *(a1 + 440));
+[0x25f3e0] LoggingSystem_Log(
+[0x25f3e0]     General,
+[0x25f3e0]     3LL,
+[0x25f3e0]     "No display adapters found. Falling back to software rasterizer. (nAdapterCount=%d, nAdapter=%d)\n",
+[0x25f3e0]     0LL,
+[0x25f3e0]     0LL);
+[0x25f3e0] LoggingSystem_Log(
+[0x25f3e0]     VR,
+[0x25f3e0]     3LL,
+[0x25f3e0]     4278255615LL,
+[0x25f3e0]     "Specified too high an adapter number on the command line (%d/%d)!\n",
+[0x25f3e0]     v6,
+[0x25f3e0]     v25);
+[0x26fbe0] LoggingSystem_Log(
+[0x26fbe0]     Demo,
+[0x26fbe0]     2LL,
+[0x26fbe0]     "ProcessingCompleted: %d/%d skipping zero payload packet\n",
+[0x26fbe0]     v12,
+[0x26fbe0]     *(a1 + 440));
+[0x26fbe0] LoggingSystem_Log(
+[0x26fbe0]     Demo,
+[0x26fbe0]     2LL,
+[0x26fbe0]     "ProcessingCompleted: %d/%d storing %d bytes/%d bits\n",
+[0x26fbe0]     v12,
+[0x26fbe0]     *(a1 + 440),
+[0x26fbe0]     ((*(v13 + 16) + 7) >> 3),
+[0x26fbe0]     *(v13 + 16));
+[0x28fbe0] LoggingSystem_Log(Client, 3LL, "GetConnectionInfo failed.  Did somebody else close the connection?\n");
+[0x28fbe0] LoggingSystem_Log(Client, 3LL, "Failed to connect to %s.  Reason code %d.  %s\n", v36, v18, v40);
+[0x28fbe0] LoggingSystem_Log(Client, v4, "Sending connect to %s\n", v36);
+[0x28fbe0] LoggingSystem_Log(Client, 3LL, "CL:  Connection failed after %i retries.\n", *(a1 + 172));
+[0x2f53e0] LoggingSystem_Log(Server, 3LL, "HLTV client has no HLTV server connected\n");
+[0x1fc3f0] LoggingSystem_Log(Console, 2LL, "Encountered malformed map options \"%s\"\n", v10);
+[0x2723f0] result = LoggingSystem_Log(Demo, 3LL, "Warning - Tick mark is locked, ignoring change.\n");
+[0x2723f0] result = LoggingSystem_Log(Demo, 2LL, "Marked tick %u in '%s'\n", dword_65FBF8, v12);
+[0x2723f0] result = LoggingSystem_Log(Demo, 2LL, "  tick mark is locked\n");
+[0x2723f0] result = LoggingSystem_Log(Demo, 2LL, "  tick mark is unlocked\n");
+[0x2723f0] result = LoggingSystem_Log(Demo, 3LL, "Error - Not currently playing back a demo.\n");
+[0x29ebf0] LoggingSystem_Log(
+[0x29ebf0]     Client,
+[0x29ebf0]     (*(a2 + 7) != 4) + 1,
+[0x29ebf0]     "Sending A2S_RESERVE_CHECK [%u protocol] %08X:%08X [%llu] to %s\n",
+[0x29ebf0]     v43,
+[0x29ebf0]     a4,
+[0x29ebf0]     v42,
+[0x29ebf0]     v41,
+[0x29ebf0]     v57);
+[0x2a93f0] result = LoggingSystem_Log(SpawnGroup, 3LL, "SynchronouslySpawnGroup for group '%s' took %lluus\n", v17, v16);
+[0x33f3f0] LoggingSystem_Log(
+[0x33f3f0]     HLTV,
+[0x33f3f0]     1LL,
+[0x33f3f0]     "CHLTVDemoRecorder::WriteSpawnGroupUpdateMessages AddSpawnMessageToDemoSpawnGroups tick=%d (from %d) sending "
+[0x33f3f0]     "message %s (spawn group %s)\n",
+[0x33f3f0]     v37,
+[0x33f3f0]     *(v9 + 2),
+[0x33f3f0]     v21,
+[0x33f3f0]     v19);
+[0x33f3f0] LoggingSystem_Log(
+[0x33f3f0]     HLTV,
+[0x33f3f0]     1LL,
+[0x33f3f0]     "CHLTVDemoRecorder::WriteSpawnGroupUpdateMessages tick=%d (from %d) sending message %s (spawn group %s)\n",
+[0x33f3f0]     v37,
+[0x33f3f0]     *(v9 + 2),
+[0x33f3f0]     v29,
+[0x33f3f0]     v27);
+[0x35e3f0] LoggingSystem_Log(
+[0x35e3f0]     HLTV Broadcast,
+[0x35e3f0]     3LL,
+[0x35e3f0]     "Ignoring unexpected sync from gc, match %llu:%d, expected %llu:%d\n",
+[0x35e3f0]     *(a2 + 24),
+[0x35e3f0]     *(a2 + 32),
+[0x35e3f0]     v6,
+[0x35e3f0]     v8);
+[0x35e3f0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Ignoring unexpected sync from gc, match %llu:%d\n", *(a2 + 24), *(a2 + 32));
+[0x35e3f0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Waiting %.2f seconds\n", v16, v14);
+[0x296400] LoggingSystem_Log(
+[0x296400]     Client,
+[0x296400]     2LL,
+[0x296400]     "ProcessTick: %d received, delta %d, current rate is %.1f/s\n",
+[0x296400]     a2,
+[0x296400]     a2 - v16,
+[0x296400]     1.0 / *&qword_6B2B60);
+[0x296400] result = LoggingSystem_Log(
+[0x296400]     Client,
+[0x296400]     2LL,
+[0x296400]     "ProcessTick: delta %d (%d - %d), loss %d%% bps %d, deltaTick %d\n",
+[0x296400]     v12,
+[0x296400]     dword_6B2B70,
+[0x296400]     a2,
+[0x296400]     (v18 * 100.0),
+[0x296400]     v15,
+[0x296400]     v14);
+[0x311c00] LoggingSystem_Log(a2, 2LL, "%s", v16);
+[0x33ac00] LoggingSystem_Log(HLTV, 2LL, "CHLTVClientState::ProcessClassInfo: LinkClasses failed.\n");
+[0x33ac00] LoggingSystem_Log(
+[0x33ac00]     HLTV,
+[0x33ac00]     2LL,
+[0x33ac00]     "CHLTVClientState::ProcessClassInfo: CreateClientClassInfosFromServerClasses failed.\n");
+[0x33ac00] LoggingSystem_Log(
+[0x33ac00]     HLTV,
+[0x33ac00]     2LL,
+[0x33ac00]     "CHLTVClientState::ProcessClassInfo: expecting to re-create serializers from server serializers! (i.e., host serv"
+[0x33ac00]     "er for relay server cannot run with sv_sendtables 2?)\n");
+[0x35cc00] result = LoggingSystem_Log(HLTV Broadcast, 1LL, "%.2f. Set playcast URL %s\n", v7, v6);
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "Render Coordination State:\n");
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * ToolFramework.AlwaysRenderAllWindows = %d\n", v5);
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * (No toolframework)\n");
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * VConComm.IsVConsoleForeground() = %d\n", v4);
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * (No VConComm)\n");
+[0x23fc10] LoggingSystem_Log(
+[0x23fc10]     RenderService,
+[0x23fc10]     2LL,
+[0x23fc10]     "  * m_bRenderCoordination_RequestAllWindowsRenderNextFrame = %d\n",
+[0x23fc10]     *(a1 + 433));
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * m_bRenderCoordination_GlobalRenderRequestedThisFrame = %d\n", *(a1 + 432));
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * r_vconsole_foregroundforcerender = %d\n", *v7);
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * r_always_render_all_windows = %d\n", *v6);
+[0x23fc10] LoggingSystem_Log(RenderService, 2LL, "  * g_pInputService->IsAppActive() = %d\n", v1);
+[0x23fc10] result = LoggingSystem_Log(RenderService, 2LL, "  * g_pInputService->HasMouseFocus() = %d\n", v3);
+[0x29b410] LoggingSystem_Log(Client, 2LL, "CheckServerReservationUpdate: %d conn periodic update\n", qword_6B2BA0);
+[0x29b410] LoggingSystem_Log(
+[0x29b410]     Client,
+[0x29b410]     2LL,
+[0x29b410]     "CheckServerReservationUpdate: %d -> %d conn for update\n",
+[0x29b410]     dword_6B2B88,
+[0x29b410]     qword_6B2BA0);
+[0x29b410] LoggingSystem_Log(
+[0x29b410]     Client,
+[0x29b410]     2LL,
+[0x29b410]     "CheckServerReservationUpdate: %d -> %d conn after update\n",
+[0x29b410]     dword_6B2B88,
+[0x29b410]     qword_6B2BA0);
+[0x29b410] LoggingSystem_Log(
+[0x29b410]     Client,
+[0x29b410]     2LL,
+[0x29b410]     "CheckServerReservationUpdate: %d -> %d conn after completion\n",
+[0x29b410]     dword_6B2B88,
+[0x29b410]     qword_6B2BA0);
+[0x2d5c10] LoggingSystem_Log(HLTV, 2LL, "SourceTV shutting down, type %s, tv_enable is %s\n", v23, v22);
+[0x2d5c10] LoggingSystem_Log(HLTV, 2LL, "SourceTV is disabled on this server.\n");
+[0x2d5c10] LoggingSystem_Log(HLTV, 2LL, "Starting SourceTV server listening on port %d, type %s\n", v10, v13, v37);
+[0x2d5c10] LoggingSystem_Log(
+[0x2d5c10]     HLTV,
+[0x2d5c10]     2LL,
+[0x2d5c10]     "GOTV[%d] must be explicitly enabled (with -addhltv1) on this server. tv_enable%d 0 to hide this message\n",
+[0x2d5c10]     1LL,
+[0x2d5c10]     1LL);
+[0x34d410] LoggingSystem_Log(
+[0x34d410]     HLTV,
+[0x34d410]     3LL,
+[0x34d410]     "CHLTVServer::OnHLTVClientStateConnectionClosing:  Terminating after uplink disconnected.\n");
+[0x304420] LoggingSystem_Log(HLTV, 2LL, " frame snapshot pool      : %12s allocated     -> %12s bytes\n", v35, v34);
+[0x304420] LoggingSystem_Log(HLTV, 2LL, "                            %12s peak, %s block\n", v30, v29);
+[0x304420] LoggingSystem_Log(
+[0x304420]     HLTV,
+[0x304420]     2LL,
+[0x304420]     "     frame snapshots      : %12s allocated     -> %12s bytes\n               ticks      : %d = %d - %d\n",
+[0x304420]     v38,
+[0x304420]     v37,
+[0x304420]     v36,
+[0x304420]     v177,
+[0x304420]     v178);
+[0x304420] LoggingSystem_Log(HLTV, 2LL, "%d snapshot creation ticks referred\n", v206);
+[0x304420] LoggingSystem_Log(
+[0x304420]     HLTV,
+[0x304420]     2LL,
+[0x304420]     "     packed entity list   : %s (refs:%s) -> %12s bytes, %s in changeframelists\n"
+[0x304420]     "                    max   : %s bytes in entindex %d\n"
+[0x304420]     "                          : %s snapshots (%s-%s) in entindex %d\n",
+[0x304420]     v123,
+[0x304420]     v181,
+[0x304420]     v174.m128i_i64[0],
+[0x304420]     v179.m128i_i64[0],
+[0x304420]     v180.m128i_i64[0],
+[0x304420]     v89,
+[0x304420]     v122,
+[0x304420]     v121,
+[0x304420]     v120,
+[0x304420]     v90);
+[0x304420] LoggingSystem_Log(HLTV, 2LL, "Top %d (of %d) classes have %s (of %s) bytes:\n", v127, v102, v166, v165);
+[0x304420] LoggingSystem_Log(HLTV, 2LL, "           bytes class                            entind Packed\n");
+[0x304420] LoggingSystem_Log(
+[0x304420]     HLTV,
+[0x304420]     2LL,
+[0x304420]     "    %12s %-32s %6d %4d\n",
+[0x304420]     v157,
+[0x304420]     v156,
+[0x304420]     v180.m128i_u32[0],
+[0x304420]     v179.m128i_u32[0]);
+[0x304420] LoggingSystem_Log(HLTV, 2LL, "Top %d (of %d) entities have %s (of %s) bytes:\n", v131, v198, v168, v167);
+[0x304420] LoggingSystem_Log(
+[0x304420]     HLTV,
+[0x304420]     2LL,
+[0x304420]     "    %4d\t%32s\t%12s\n",
+[0x304420]     v142,
+[0x304420]     *(*(v196 + 8 * v180.m128i_i64[0]) + 8LL),
+[0x304420]     v143);
+[0x26ac30] LoggingSystem_Log(Demo, 3LL, "Can't record demo, no local client!\n");
+[0x324430] LoggingSystem_Log(Movie, 2LL, "%s <filename>\n [\n", v29);
+[0x324430] LoggingSystem_Log(Movie, 2LL, " (default = .tga + .wav file)\n");
+[0x324430] LoggingSystem_Log(Movie, 2LL, " ]\n");
+[0x324430] LoggingSystem_Log(Movie, 2LL, "e.g.:  startmovie testmovie jpg wav jpeg_qality 75 framerate 30\n");
+[0x346430] LoggingSystem_Log(
+[0x346430]     HLTV Broadcast,
+[0x346430]     2LL,
+[0x346430]     "Is fixup operator client running at low FPS? Only %d/%d fixup ticks available for %s\n",
+[0x346430]     *(v2 + 32),
+[0x346430]     *(v2 + 8),
+[0x346430]     v8);
+[0x2ff440] result = LoggingSystem_Log(HLTV, 2LL, "%d", **(a1 + 328));
+[0x2ff440] LoggingSystem_Log(HLTV, 2LL, v8, *(*(a1 + 328) + v2 - 4));
+[0x2ff440] result = LoggingSystem_Log(HLTV, 2LL, &off_5810F9, *(*(a1 + 328) + v2));
+[0x2ff440] result = LoggingSystem_Log(HLTV, 2LL, &off_5810F5, *(*(a1 + 328) + 4LL * (*(a1 + 320) - 1)));
+[0x2ff440] result = LoggingSystem_Log(HLTV, 2LL, "\n(%d dupes)", v4);
+[0x1d5450] LoggingSystem_Log(Console, 3LL, "%d CS2 maps loaded.\n", v29);
+[0x1d5450] LoggingSystem_Log(Console, 3LL, "%d) %s [%d refs]\n", j, v26, *(v25 + 13984));
+[0x1eec50] result = LoggingSystem_Log(InputService, 2LL, "CInputService:  mouse focus %s, active %s\n", v9, v10);
+[0x1eec50] result = LoggingSystem_Log(InputService, 2LL, "CInputService:  cursor position ( %d, %d )\n", v13, v14[0]);
+[0x297450] LoggingSystem_Log(
+[0x297450]     Client,
+[0x297450]     3LL,
+[0x297450]     "Being asked to use steam authentication, but we are running in anonymous testing mode\n");
+[0x297450] LoggingSystem_Log(Client, 1LL, "CL:  CSteam3Client::GetAuthSessionTicket to SteamID %llu\n", a2);
+[0x297450] LoggingSystem_Log(Client, 1LL, "CL:  CSteam3Client::GetAuthSessionTicket to localhost\n");
+[0x297450] LoggingSystem_Log(Client, 1LL, "CL:  CSteam3Client::GetAuthSessionTicket to IP %x : %d\n", v11, v10);
+[0x341c50] LoggingSystem_Log(
+[0x341c50]     HLTV,
+[0x341c50]     2LL,
+[0x341c50]     "SourceTV: RecordPacket %i bytes at %i (%d)\n",
+[0x341c50]     ((*(a1 + 456) + 7) >> 3),
+[0x341c50]     v12,
+[0x341c50]     v11);
+[0x358c50] LoggingSystem_Log(
+[0x358c50]     HLTV Broadcast,
+[0x358c50]     2LL,
+[0x358c50]     "%d. playcast: Adjusting fragment %d->%d, tick %d->%d\n",
+[0x358c50]     v32,
+[0x358c50]     v31,
+[0x358c50]     v20,
+[0x358c50]     v30,
+[0x358c50]     v21);
+[0x358c50] LoggingSystem_Log(
+[0x358c50]     HLTV Broadcast,
+[0x358c50]     2LL,
+[0x358c50]     "%d. playcast: Fragment %d keyframe and delta frames ready, delayed precache took %.2f sec\n",
+[0x358c50]     v42,
+[0x358c50]     v40,
+[0x358c50]     v7);
+[0x358c50] LoggingSystem_Log(HLTV Broadcast, 2LL, "%d. playcast: Play keyframe Fragment %d\n", v35, v33);
+[0x358c50] LoggingSystem_Log(HLTV Broadcast, 2LL, "%d. playcast: Play delta Fragment %d\n", v39, v37);
+[0x333460] LoggingSystem_Log(
+[0x333460]     stringtables,
+[0x333460]     2LL,
+[0x333460]     "%s: CNetworkStringTableContainer::RemoveAllTables:  removing %d tables\n",
+[0x333460]     v5,
+[0x333460]     v3);
+[0x35a460] LoggingSystem_Log(HLTV Broadcast, 1LL, "Spawn Group %d creation sequence %d create tick %d\n", v25, v23, v18);
+[0x35a460] LoggingSystem_Log(HLTV Broadcast, 1LL, "Spawn Group %d unload at tick %d ignored\n", *(v11 + 24), *(v11 + 32));
+[0x35a460] LoggingSystem_Log(HLTV Broadcast, 1LL, "Unknown message in SpawnGroups %d.\n", *(v6 + 24));
+[0x35a460] LoggingSystem_Log(HLTV Broadcast, 1LL, "Playcast Spawn Group %d load at %d\n", v14, v16);
+[0x35a460] LoggingSystem_Log(HLTV Broadcast, 1LL, "Spawn Group %d manifest update (create tick %d)\n", v24, v22);
+[0x1f0c70] LoggingSystem_Log(General, 2LL, ">>> %s: %s\n", v10, a5 + 12);
+[0x2a4470] LoggingSystem_Log(
+[0x2a4470]     SpawnGroup,
+[0x2a4470]     1LL,
+[0x2a4470]     "CL: ProcessSpawnGroup_SetCreationTick setting max spawn group creation sequence to (%u) due to increase from (%u)\n",
+[0x2a4470]     *(a1 + 600),
+[0x2a4470]     v2);
+[0x2a4470] LoggingSystem_Log(SpawnGroup, 1LL, "%s SetCreationTick\n", v7);
+[0x2a4470] LoggingSystem_Log(
+[0x2a4470]     SpawnGroup,
+[0x2a4470]     3LL,
+[0x2a4470]     "CL:  CNetworkGameClientBase::ProcessSpawnGroup_SetCreationTick:  couldn't find spawn group %s\n",
+[0x2a4470]     v15);
+[0x308c70] result = LoggingSystem_Log(Server, 2LL, "currently logging to: %s\n", v4);
+[0x308c70] LoggingSystem_Log(Server, 2LL, "currently logging to: no destinations! (file or console)\n");
+[0x308c70] result = LoggingSystem_Log(Server, 2LL, "check \"sv_logfile\", \"sv_logecho\"");
+[0x30d470] LoggingSystem_Log(
+[0x30d470]     Server,
+[0x30d470]     2LL,
+[0x30d470]     "PackEntity: ent(%d) at tick %d Encountered field %s in incremental change that was not in the diff change. T"
+[0x30d470]     "his can lead to slight network inefficiency\n",
+[0x30d470]     a6,
+[0x30d470]     a8,
+[0x30d470]     v91);
+[0x30d470] LoggingSystem_Log(
+[0x30d470]     Server,
+[0x30d470]     2LL,
+[0x30d470]     "PackEntity: ent(%d) at tick %d Encountered field %s in diff change that was not in the incremental change. T"
+[0x30d470]     "his can lead to values not making it down to the client\n",
+[0x30d470]     a6,
+[0x30d470]     a8,
+[0x30d470]     v90);
+[0x31fc70] result = LoggingSystem_Log(SpawnGroup, 1LL, "%s:  SpawnGroupState_t set to %s\n", v5, v3);
+[0x336470] LoggingSystem_Log(
+[0x336470]     HLTV,
+[0x336470]     1LL,
+[0x336470]     "CHLTVDemoRecorder::CullSpawnGroups culling message at unknown handle\n");
+[0x336470] LoggingSystem_Log(
+[0x336470]     HLTV,
+[0x336470]     1LL,
+[0x336470]     "CHLTVDemoRecorder::CullSpawnGroups culling message %s, spawngroup %s was never created\n",
+[0x336470]     v19,
+[0x336470]     v17);
+[0x336470] LoggingSystem_Log(
+[0x336470]     HLTV,
+[0x336470]     1LL,
+[0x336470]     "CHLTVDemoRecorder::CullSpawnGroups culling message at %d unable to unserialize\n",
+[0x336470]     i);
+[0x1e3c80] LoggingSystem_Log(General, 2LL, "%s - processing %llu(%p)\n", v7, v6, a1);
+[0x30c480] LoggingSystem_Log(Server, 2LL, "SV:  %d/%s:  changes %d, expected %d\n", a5, *(a6 + 8), *a16, *(a15 + 2));
+[0x30c480] LoggingSystem_Log(
+[0x30c480]     Server,
+[0x30c480]     3LL,
+[0x30c480]     "SV:  %d/%s:  requested resolve all %d changes, actually resolved only %d changes\n",
+[0x30c480]     a5,
+[0x30c480]     *(a6 + 8),
+[0x30c480]     *(a15 + 2),
+[0x30c480]     *a16);
+[0x30c480] LoggingSystem_Log(Server, 3LL, "SV:  % 3d %40.40s not resolved\n", *v22, v36);
+[0x18a4a0] LoggingSystem_Log(General, 2LL, "Steam AppId(%d)\n", dword_66782C);
+[0x18a4a0] LoggingSystem_Log(General, 2LL, "Steam AppId(%d), BreakpadId(%d)\n", dword_66782C, dword_667828);
+[0x26bca0] LoggingSystem_Log(Demo, 2LL, "Requesting playback of %s\n", v6);
+[0x26bca0] LoggingSystem_Log(Demo, 2LL, "playdemo <demoname> [\n");
+[0x26bca0] LoggingSystem_Log(Demo, 2LL, "]\n");
+[0x26bca0] LoggingSystem_Log(Demo, 2LL, "- plays a demo file\n");
+[0x26bca0] result = LoggingSystem_Log(Demo, 2LL, "e.g.: playdemo replays/foo jpg wav framerate 30\n");
+[0x2c6ca0] LoggingSystem_Log(Server, 2LL, "SV:  Unable to parse C2S_CONNECT_Message_t payload from '%s'\n", &v75);
+[0x2c6ca0] LoggingSystem_Log(Server, v39, "Receiving C2S_CONNECT [protocol %u %u auth %d] from %s\n", v37, v8, v38, &v75);
+[0x3584a0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%d. Stream State %s -> %s, fragment %d\n", v7, v5, v4, v3);
+[0x35d4a0] LoggingSystem_Log(
+[0x35d4a0]     HLTV Broadcast,
+[0x35d4a0]     2LL,
+[0x35d4a0]     "%.2f. Broadcast playback failed to retrieve %s frame of fragment %d\n",
+[0x35d4a0]     v16,
+[0x35d4a0]     v15,
+[0x35d4a0]     v7);
+[0x17dcb0] result = LoggingSystem_Log(
+[0x17dcb0]     BitBuf,
+[0x17dcb0]     3LL,
+[0x17dcb0]     "Error in bitbuf [%s]: buffer overrun. Debug in bitbuf_errorhandler.cpp\n",
+[0x17dcb0]     v2);
+[0x17dcb0] result = LoggingSystem_Log(
+[0x17dcb0]     BitBuf,
+[0x17dcb0]     3LL,
+[0x17dcb0]     "Error in bitbuf [%s]: out of range value. Debug in bitbuf_errorhandler.cpp\n",
+[0x17dcb0]     v2);
+[0x25a4b0] LoggingSystem_Log(
+[0x25a4b0]     HLTV,
+[0x25a4b0]     2LL,
+[0x25a4b0]     "CLoopModeSourceTVRelay::OnLoopActivate:  SourceTV activating server, type %s\n",
+[0x25a4b0]     v1);
+[0x26b4b0] return LoggingSystem_Log(Demo, 3LL, v7);
+[0x26b4b0] return LoggingSystem_Log(Demo, 3LL, v7);
+[0x26b4b0] LoggingSystem_Log(Demo, 2LL, "Going to tick %u...\n", dword_65FBF8);
+[0x28dcb0] LoggingSystem_Log(Client, 3LL, "Not logged into Steam, Steam auth will fail\n");
+[0x28dcb0] LoggingSystem_Log(Client, 3LL, "CL:  Unexpected authentication protocol %i!\n", v63);
+[0x28dcb0] LoggingSystem_Log(Client, 3LL, "CL:  Failed to successfully serialize connect message\n");
+[0x28dcb0] LoggingSystem_Log(
+[0x28dcb0]     Client,
+[0x28dcb0]     (*(a1 + 31) != 4) + 1,
+[0x28dcb0]     "Sending C2S_CONNECT [%u protocol %u auth %d] to %s\n",
+[0x28dcb0]     v58,
+[0x28dcb0]     a2,
+[0x28dcb0]     v63,
+[0x28dcb0]     s);
+[0x2e04b0] LoggingSystem_Log(
+[0x2e04b0]     SpawnGroup,
+[0x2e04b0]     1LL,
+[0x2e04b0]     "%s:  CNetworkServerSpawnGroup_LoadSaveGamePrerequisiteBase async FULLY completed...\n",
+[0x2e04b0]     v9);
+[0x2e04b0] LoggingSystem_Log(
+[0x2e04b0]     SpawnGroup,
+[0x2e04b0]     3LL,
+[0x2e04b0]     "%s:  CNetworkServerSpawnGroup_LoadSaveGamePrerequisiteBase async failed on %s\n",
+[0x2e04b0]     v7,
+[0x2e04b0]     v6);
+[0x35dcb0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Failed to retrieve %s fragment %d\n", a3, v7, v6);
+[0x17f4c0] LoggingSystem_Log(General, 2LL, "Plain general text (no prefix)\n");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "Plain assert text (has prefix)\n");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "Split ");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "line ");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "text\n");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "Text without newline");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "\n");
+[0x17f4c0] LoggingSystem_Log(Console, 2LL, "Change ");
+[0x17f4c0] LoggingSystem_Log(Assert, 2LL, "channels in ");
+[0x17f4c0] LoggingSystem_Log(Client, 2LL, "line\n");
+[0x17f4c0] LoggingSystem_Log(General, 2LL, 4278190335LL, "Red ");
+[0x17f4c0] LoggingSystem_Log(General, 2LL, 4278255360LL, "Green ");
+[0x17f4c0] result = LoggingSystem_Log(General, 2LL, 4294901760LL, "Blue\n");
+[0x288cc0] result = LoggingSystem_Log(RCon, 3LL, "rcon: Unable to resolve rcon address %s\n", v7);
+[0x2b14c0] LoggingSystem_Log(
+[0x2b14c0]     Client,
+[0x2b14c0]     1LL,
+[0x2b14c0]     "CNetworkGameClient::SendMoveInternal: Send delayed due to !CanPacket, tick=%d\n",
+[0x2b14c0]     a1[159]);
+[0x3174c0] result = LoggingSystem_Log(ServerLog, 3LL, "CServerRemoteAccess::ScreenshotJPEG failed to CreateZipZ\n");
+[0x33ecc0] result = LoggingSystem_Log(HLTV, 3LL, "CDemoRecorder::OnCrashed:  Finalizing demo file due to crash!\n");
+[0x259cd0] LoggingSystem_Log(
+[0x259cd0]     Client,
+[0x259cd0]     2LL,
+[0x259cd0]     "CL:  CLoopModeRemoteConnect::OnClientFrameSimulate switching to \"%s\" loopmode with addons:  %s\n",
+[0x259cd0]     "levelload",
+[0x259cd0]     v7);
+[0x26f4d0] LoggingSystem_Log(Demo, 1LL, "demo header buffer is %d bytes\n", *(a1 + 372));
+[0x26f4d0] LoggingSystem_Log(
+[0x26f4d0]     Demo,
+[0x26f4d0]     2LL,
+[0x26f4d0]     "Completed demo '%s' [duration = %.2fs., frames = %d, ticks = %d].\n",
+[0x26f4d0]     v13,
+[0x26f4d0]     v27,
+[0x26f4d0]     v26,
+[0x26f4d0]     v25);
+[0x292cd0] LoggingSystem_Log(
+[0x292cd0]     Client,
+[0x292cd0]     3LL,
+[0x292cd0]     "CL:  m_pStringTableContainer is NULL in CBaseClientState::ProcessUpdateStringTable\n");
+[0x2ad4d0] LoggingSystem_Log(Client, 2LL, "CNetworkGameClientBase::LinkClasses took %.3f msec\n", v64 * (1000.0 / v65));
+[0x2ad4d0] LoggingSystem_Log(
+[0x2ad4d0]     Client,
+[0x2ad4d0]     1LL,
+[0x2ad4d0]     "CL: CNetworkGameClientBase::LinkClasses renamed %s to %s for replay compatability\n",
+[0x2ad4d0]     v56,
+[0x2ad4d0]     v55,
+[0x2ad4d0]     v75,
+[0x2ad4d0]     &Client);
+[0x2ad4d0] LoggingSystem_Log(Client, 3LL, "LinkClasses: unable to match serializer for '%s'.\n", v51);
+[0x2ad4d0] LoggingSystem_Log(Client, 3LL, "%s serializer on %s\n", v53, v52);
+[0x2ad4d0] LoggingSystem_Log(Client, 3LL, "Unable to create fake serializer for entity class %s\n", v57);
+[0x2ad4d0] LoggingSystem_Log(Client, 2LL, "Client missing networkable entity class %s\n", v58);
+[0x1fcce0] return LoggingSystem_Log(Console, 3LL, v8);
+[0x1fcce0] return LoggingSystem_Log(Console, 3LL, v8);
+[0x1fcce0] result = LoggingSystem_Log(Console, 3LL, "CSource2SaveRestore::OnLoad:  no such save file '%s'\n", v9);
+[0x2824e0] LoggingSystem_Log(InstantReplay, 1LL, "Set pending disconnect %d:%s\n", *(a4 + 24), *v12);
+[0x2824e0] LoggingSystem_Log(InstantReplay, 1LL, "svc_PacketEntities has pending_full_frame tick=%d\n", *(a1 + 44));
+[0x2824e0] LoggingSystem_Log(
+[0x2824e0]     InstantReplay,
+[0x2824e0]     1LL,
+[0x2824e0]     "svc_PacketEntities delta from m_nFullFrameSplitAckTick %d at tick=%d\n",
+[0x2824e0]     *(a1 + 56),
+[0x2824e0]     *(a1 + 44));
+[0x2a8ce0] result = LoggingSystem_Log(Client, 3LL, "CL:  AsyncUnloadSpawnGroup( %s ) -- no such spawn group\n", v11);
+[0x2bdce0] LoggingSystem_Log(Steam, 2LL, "CSteam3Client::Shutdown\n");
+[0x3094e0] LoggingSystem_Log(Server, 2LL, "Server logging data to file %s\n", v31, v29, v38, v38, &v42);
+[0x22ecf0] LoggingSystem_Log(Client, 2LL, "CL:  Connection to server '%s' timed out, disconnecting\n", v18);
+[0x22ecf0] LoggingSystem_Log(Client, 3LL, "CL:  CGameClientConnectPrerequisite connection failed\n");
+[0x22ecf0] LoggingSystem_Log(Client, 2LL, "CL:  CGameClientConnectPrerequisite connection succeeded\n");
+[0x2224f0] LoggingSystem_Log(
+[0x2224f0]     HLTV,
+[0x2224f0]     2LL,
+[0x2224f0]     "SourceTV[%d] shutting down (%s) due to server disconnecting game.\n",
+[0x2224f0]     v3,
+[0x2224f0]     v5);
+[0x2224f0] LoggingSystem_Log(Server, 2LL, "SV:  Server shutting down: %s (%d)\n", *v7, a2);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     1LL,
+[0x1e9cf0]     "Cheat \"%s\" is not being loaded because it is restricted to developer mode.\n",
+[0x1e9cf0]     v39);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" has exceeded the maximum sequence length of %llu! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v39,
+[0x1e9cf0]     16LL,
+[0x1e9cf0]     v39);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" has no button codes! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v39,
+[0x1e9cf0]     v39);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" uses the same button sequence as cheat \"%s\"! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v42.m128i_i8,
+[0x1e9cf0]     (*(a1 + 257128) + v40),
+[0x1e9cf0]     v42.m128i_i8);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" defines a button sequence that matches a sequence in cheat \"%s\" at index %d and would"
+[0x1e9cf0]     " clobber the longer cheat! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v42.m128i_i8,
+[0x1e9cf0]     (*(a1 + 257128) + v40),
+[0x1e9cf0]     v21,
+[0x1e9cf0]     v42.m128i_i8);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" contains a button sequence starting at index %d that matches shorter cheat \"%s\" and wou"
+[0x1e9cf0]     "ld never be executed! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v42.m128i_i8,
+[0x1e9cf0]     v21,
+[0x1e9cf0]     (*(a1 + 257128) + v40),
+[0x1e9cf0]     v42.m128i_i8);
+[0x1e9cf0] LoggingSystem_Log(
+[0x1e9cf0]     InputService,
+[0x1e9cf0]     3LL,
+[0x1e9cf0]     "Cheat \"%s\" has no command! Ignoring definition of \"%s\".\n",
+[0x1e9cf0]     v39,
+[0x1e9cf0]     v39);
+[0x1e9cf0] LoggingSystem_Log(InputService, 3LL, "Error reading cheat commands!\n");
+[0x1ffcf0] LoggingSystem_Log(NetworkServic, 3LL, "Not creating socket NS_HLTV due to -nohltv command line option.\n");
+[0x2b0cf0] LoggingSystem_Log(Client, 2LL, "Move msg num cmds = %d, total size = %d B\n", v43, v28);
+[0x2b0cf0] LoggingSystem_Log(
+[0x2b0cf0]     Client,
+[0x2b0cf0]     2LL,
+[0x2b0cf0]     "CL: SendMovePacket sending % 3d commands at tick % 5d %8.3f [% 4d bytes] %s\n",
+[0x2b0cf0]     v43,
+[0x2b0cf0]     v8,
+[0x2b0cf0]     v35,
+[0x2b0cf0]     v32,
+[0x2b0cf0]     v7);
+[0x186d00] LoggingSystem_Log(General, 2LL, "ShutdownSource2Logging\n");
+[0x283d00] LoggingSystem_Log(Client, 3LL, "%s", v8);
+[0x28a500] LoggingSystem_Log(RCon, 3LL, "rcon: Bad RCON password\n");
+[0x2bed00] LoggingSystem_Log(Steam, 2LL, "Running SteamAPI_RunCallbacks for first time\n");
+[0x2e8500] LoggingSystem_Log(Server, 2LL, "SV:  Dropped client '%s' from server(%d): %s\n", v14, a2, *v13);
+[0x2e1d00] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkServerSpawnGroup_WaitForAssetLoadPrerequisite %s...\n", v12, v11);
+[0x2f2d10] result = LoggingSystem_Log(
+[0x2f2d10]     Server,
+[0x2f2d10]     2LL,
+[0x2f2d10]     "Pure server CRC check: client %s passed check for [%s]\\%s\n",
+[0x2f2d10]     v12,
+[0x2f2d10]     v2,
+[0x2f2d10]     v3);
+[0x2f2d10] LoggingSystem_Log(Server, 2LL, "[%s] %s\n", v10, &v14);
+[0x1e3510] LoggingSystem_Log(General, 2LL, "AddUGCResources: %s\n", v10);
+[0x2ecd10] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending creation tick for group to client '%s\n", v3, v2);
+[0x2f0d10] LoggingSystem_Log(Server, 2LL, "Hltv Replay failure: already in replay\n");
+[0x2f0d10] LoggingSystem_Log(
+[0x2f0d10]     Server,
+[0x2f0d10]     2LL,
+[0x2f0d10]     "Hltv Replay failure: requests are rate limited to no more than 1 per %g seconds\n",
+[0x2f0d10]     *v29);
+[0x2f0d10] LoggingSystem_Log(Server, 2LL, "Hltv replay delay %u cannot match the requested delay %u\n", v16, v17);
+[0x2f0d10] LoggingSystem_Log(Server, 2LL, "Hltv Replay failure: HLTV frame is not ready\n");
+[0x2bb520] LoggingSystem_Log(
+[0x2bb520]     SpawnGroup,
+[0x2bb520]     1LL,
+[0x2bb520]     "%s:  CNetworkClientSpawnGroup_AllocateSpawnGroupPrerequisite allocated...\n",
+[0x2bb520]     v8);
+[0x2c2520] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  OnSpawnGroupLoad\n", v6);
+[0x31c530] LoggingSystem_Log(Server, 2LL, "Unable to %s, couldn't load class metadata from networking system\n", v13);
+[0x31c530] LoggingSystem_Log(Server, 2LL, "META for '%s'\n", v8);
+[0x31c530] LoggingSystem_Log(Server, 3LL, "no serializer '%s' in database!\n", v8);
+[0x31c530] result = LoggingSystem_Log(Server, 2LL, "Usage %s classname\n", v14);
+[0x34ad30] LoggingSystem_Log(HLTV, 2LL, "GOTV[%u]\n", v23[0]);
+[0x34ad30] LoggingSystem_Log(
+[0x34ad30]     HLTV,
+[0x34ad30]     2LL,
+[0x34ad30]     "ID: %i, \"%s\" %s, Time %s, %s, In %.1f, Out %.1f.\n",
+[0x34ad30]     v9,
+[0x34ad30]     v20,
+[0x34ad30]     v19,
+[0x34ad30]     v18,
+[0x34ad30]     v17,
+[0x34ad30]     v7,
+[0x34ad30]     v21);
+[0x34ad30] result = LoggingSystem_Log(HLTV, 2LL, "--- Total %i connected clients ---\n", v4);
+[0x34ad30] result = LoggingSystem_Log(HLTV, 2LL, "SourceTV not active.\n");
+[0x244540] LoggingSystem_Log(ScreenShot, 2LL, "Screenshot async write queued for : %s\n", v43);
+[0x244540] LoggingSystem_Log(ScreenShot, 2LL, "Screenshot written to: %s\n", v45);
+[0x244540] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failure: Could not save screenshot to: %s\n", v46);
+[0x244540] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failure: Unexpected empty screenshot buffer.\n");
+[0x250540] LoggingSystem_Log(Console, 2LL, "stats_print_gpu requires stats_display to be set greater than 0.\n");
+[0x250540] LoggingSystem_Log(Console, 2LL, "stats_print_gpu requires stats_collect_gpu to be true.\n");
+[0x250540] LoggingSystem_Log(Console, 2LL, "%-32s: %6.3f ms (+/- %6.3f) ms\n", v34, *(v33 + 8), *(v33 + 12));
+[0x250540] result = LoggingSystem_Log(Console, 3LL, "Unable to open '%s' for writing.", v60);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v178 + 7) != 4) + 1,
+[0x2c8d40]     "Sending S2A_RESERVE_CHECK_RESPONSE %08X:%08X [%d/%d] to %s @ %s\n",
+[0x2c8d40]     v12,
+[0x2c8d40]     v15,
+[0x2c8d40]     v170,
+[0x2c8d40]     v169,
+[0x2c8d40]     v134,
+[0x2c8d40]     v192);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v97 + 7) != 4) + 1,
+[0x2c8d40]     "Sending S2A_RESERVE_CHECK_RESPONSE to all [%d/%d] (%d clients)\n",
+[0x2c8d40]     v170,
+[0x2c8d40]     v169,
+[0x2c8d40]     qword_6B3980);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v152 + 7) != 4) + 1,
+[0x2c8d40]     "Reservation for game in-progress from client %s %08X:%08X @ %s\n",
+[0x2c8d40]     v153,
+[0x2c8d40]     v12,
+[0x2c8d40]     v15,
+[0x2c8d40]     v192);
+[0x2c8d40] LoggingSystem_Log(Server, (*(v178 + 7) != 4) + 1, "Reservation time extended +%d sec\n", v151);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v178 + 7) != 4) + 1,
+[0x2c8d40]     "Reservation check request from client %s %08X:%08X @ %s\n",
+[0x2c8d40]     v150,
+[0x2c8d40]     v12,
+[0x2c8d40]     v15,
+[0x2c8d40]     v192);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v172 + 7) != 4) + 1,
+[0x2c8d40]     "QueueMatchPlayer overwriting connection from client [U:1:%d] %08X:%08X %s -> %s\n",
+[0x2c8d40]     *v63,
+[0x2c8d40]     v63[38],
+[0x2c8d40]     v63[39],
+[0x2c8d40]     v188,
+[0x2c8d40]     v192);
+[0x2c8d40] LoggingSystem_Log(Server, (*(v155 + 7) != 4) + 1, "Match start status: %u/%u\n", v156, *v192);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v158 + 7) != 4) + 1,
+[0x2c8d40]     "Initiating forceful connect: awaiting %d @ %d\n",
+[0x2c8d40]     v170,
+[0x2c8d40]     2LL);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v178 + 7) != 4) + 1,
+[0x2c8d40]     "Reservation time extended +%d sec (%d, %d)\n",
+[0x2c8d40]     v165,
+[0x2c8d40]     v170,
+[0x2c8d40]     v157);
+[0x2c8d40] LoggingSystem_Log(
+[0x2c8d40]     Server,
+[0x2c8d40]     (*(v178 + 7) != 4) + 1,
+[0x2c8d40]     "Pre-match interface command from [U:1:%u]: %s\n",
+[0x2c8d40]     *v63,
+[0x2c8d40]     v126);
+[0x31dd40] LoggingSystem_Log(Server, 2LL, "CSteam3ServerS1::ShutdownGameServer\n");
+[0x32dd40] LoggingSystem_Log(stringtables, 2LL, "%s %s: SetStringUserData : %d %s (data %d bytes)\n", v19, v18, v5, v16, v15);
+[0x359550] LoggingSystem_Log(HLTV Broadcast, 2LL, "Broadcast Player: failed to create demo net channel\n");
+[0x302560] LoggingSystem_Log(HLTV, 2LL, "PackedEntity size=%s includes SerializedEntity size=%s\n", v44, v43);
+[0x302560] LoggingSystem_Log(HLTV, 2LL, "Top %d fields memory usage (field, data, metadata)\n", v34);
+[0x302560] LoggingSystem_Log(HLTV, 2LL, "    %32s\t%12s\t%12s\n", *(v63 + v46 + 16), v49, v48);
+[0x31a560] LoggingSystem_Log(a3, 2LL, "%s%s\n", "meta ", v11);
+[0x34dd60] LoggingSystem_Log(HLTV, 2LL, "Redirecting spectator %s to SourceTV relay %s\n", v35, v14);
+[0x32cd70] LoggingSystem_Log(
+[0x32cd70]     stringtables,
+[0x32cd70]     1LL,
+[0x32cd70]     "%s %s: UpdateMirrorTable forcing AddString of item %d '%s' change tick %d because it was not in the table.\n",
+[0x32cd70]     v24,
+[0x32cd70]     v23,
+[0x32cd70]     v12,
+[0x32cd70]     v21,
+[0x32cd70]     v50);
+[0x32cd70] LoggingSystem_Log(
+[0x32cd70]     stringtables,
+[0x32cd70]     2LL,
+[0x32cd70]     "%s %s: UpdateMirrorTable %d %s change tick %d mirror change tick %d - %d bytes\n",
+[0x32cd70]     v40,
+[0x32cd70]     v39,
+[0x32cd70]     v12,
+[0x32cd70]     v37,
+[0x32cd70]     v36,
+[0x32cd70]     v4,
+[0x32cd70]     v51);
+[0x32cd70] LoggingSystem_Log(
+[0x32cd70]     stringtables,
+[0x32cd70]     2LL,
+[0x32cd70]     "%s %s: m_nLastChangedTick[0]=%d, nMirrorChangeTick=%d, %d changes\n",
+[0x32cd70]     v44,
+[0x32cd70]     v43,
+[0x32cd70]     v41,
+[0x32cd70]     v4,
+[0x32cd70]     v10);
+[0x2df580] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Spawn group loading for success\n", v7);
+[0x2df580] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Spawn group loading failed\n", v3);
+[0x279580] LoggingSystem_Log(Demo, 2LL, "startdemos:  %i demo(s) in loop\n", (v3 - 1));
+[0x29ad80] LoggingSystem_Log(
+[0x29ad80]     SignonState,
+[0x29ad80]     1LL,
+[0x29ad80]     "CL:  CNetworkGameClientBase::Connect() calling SetSignonState( SIGNONSTATE_CONNECTED )\n");
+[0x35bd80] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Could not get http response body (size %d bytes)\n", v8, v7);
+[0x242d90] LoggingSystem_Log(ScreenShot, 3LL, "AVI recording failed! Missing expected pixels!\n");
+[0x2a2d90] LoggingSystem_Log(Client, 2LL, "Message received from %s [%u] %d byte(s)\n", v57, v8, v4);
+[0x2c3d90] result = LoggingSystem_Log(
+[0x2c3d90]     Server,
+[0x2c3d90]     2LL,
+[0x2c3d90]     "BroadcastMessage: Reliable broadcast message overflow for client %s\n",
+[0x2c3d90]     v11);
+[0x2e9d90] LoggingSystem_Log(Server, 2LL, "SV: Queuing k_EAuthSessionResponseAuthTicketCanceled for %s.\n", v4);
+[0x2efda0] LoggingSystem_Log(Server, 2LL, "Start HLMV Replay at %d, delay %d, until %d\n", v6, *(a2 + 1), *a2);
+[0x23dda0] LoggingSystem_Log(NetworkP2PService, 3LL, "Failed to parse P2P message from '%s'\n", v25);
+[0x2e7da0] LoggingSystem_Log(Server, 2LL, "SV:  Forcing client reconnect (%s) for client '%s'\n", *v5, v3);
+[0x2f35a0] LoggingSystem_Log(
+[0x2f35a0]     Server,
+[0x2f35a0]     3LL,
+[0x2f35a0]     "SV: ProcessMove %s on tick %d, packet had too many Move messages (expected only 1, this is %d), disconnecting user\n",
+[0x2f35a0]     v21,
+[0x2f35a0]     v20,
+[0x2f35a0]     v19);
+[0x339da0] LoggingSystem_Log(
+[0x339da0]     HLTV,
+[0x339da0]     1LL,
+[0x339da0]     "CHLTVClient::ShouldSendMessages: Send delayed due to !CanPacket, tick=%d NetTime=%f client=%s\n",
+[0x339da0]     *(*(a1 + 88) + 52LL),
+[0x339da0]     a2,
+[0x339da0]     v6);
+[0x3495a0] return LoggingSystem_Log(HLTV, 2LL, v12);
+[0x3495a0] return LoggingSystem_Log(HLTV, 2LL, v12);
+[0x3495a0] result = LoggingSystem_Log(HLTV, 2LL, "SourceTV can't connect to localhost.\n");
+[0x19adb0] LoggingSystem_Log(EngineServiceManager, 3LL, "Switch to loop '%s' failed\n", v46);
+[0x19adb0] LoggingSystem_Log(EngineServiceManager, 1LL, "CEngineServiceMgr::Activating loop ( %s, %u )\n", v26, *(v25 + 28));
+[0x31b5b0] LoggingSystem_Log(
+[0x31b5b0]     Server,
+[0x31b5b0]     3LL,
+[0x31b5b0]     "%s:  duplicate field %s (path: %s, prior path:%s)\n",
+[0x31b5b0]     a2,
+[0x31b5b0]     v52,
+[0x31b5b0]     v51,
+[0x31b5b0]     v61);
+[0x32f5b0] LoggingSystem_Log(
+[0x32f5b0]     stringtables,
+[0x32f5b0]     2LL,
+[0x32f5b0]     "%s %s: WriteUpdateAtTick %d %s userdata %d %s [t %d ack %d change %d]\n",
+[0x32f5b0]     v53,
+[0x32f5b0]     v52,
+[0x32f5b0]     v11,
+[0x32f5b0]     v179,
+[0x32f5b0]     v180,
+[0x32f5b0]     v49,
+[0x32f5b0]     a4,
+[0x32f5b0]     a5,
+[0x32f5b0]     v50);
+[0x32f5b0] LoggingSystem_Log(
+[0x32f5b0]     stringtables,
+[0x32f5b0]     2LL,
+[0x32f5b0]     "%s %s: WriteUpdateAtTick %d entries [t %d ack %d] %d bits\n",
+[0x32f5b0]     v125,
+[0x32f5b0]     v124,
+[0x32f5b0]     v170,
+[0x32f5b0]     a4,
+[0x32f5b0]     a5,
+[0x32f5b0]     v122);
+[0x1a25c0] LoggingSystem_Log(HostStateManager, 2LL, "CHostStateMgr::QueueNewRequest( %s, %u )\n", v4, *(a2 + 28));
+[0x1de5c0] LoggingSystem_Log(General, 3LL, "CGameResourceManifest::IsUGCDownloaded failed to get SteamUGC interface.\n");
+[0x274dc0] LoggingSystem_Log(
+[0x274dc0]     Demo,
+[0x274dc0]     2LL,
+[0x274dc0]     "ParsingCompleted %d bits used, resizing packet buffer from %d to %d bytes\n",
+[0x274dc0]     *(v1 + 16),
+[0x274dc0]     *(*v9 - 24LL),
+[0x274dc0]     v7);
+[0x33cdc0] LoggingSystem_Log(HLTV, 1LL, "HLTV:  SetSignonState( %s )\n", *v17);
+[0x2d95d0] LoggingSystem_Log(Server, 2LL, "SV:  %i player server started\n", v15);
+[0x2d95d0] LoggingSystem_Log(Server, 2LL, "SV:  Game started\n");
+[0x2d95d0] LoggingSystem_Log(Server, 2LL, "SV:  addon='%s'\n", v14);
+[0x1ec5d0] LoggingSystem_Log(InputService, 3LL, "Error: Unable to process input keybinding %s\n", v24);
+[0x287dd0] LoggingSystem_Log(
+[0x287dd0]     SpawnGroup,
+[0x287dd0]     2LL,
+[0x287dd0]     "Packet Entities has a larger spawn group creation sequence (%u) than we received, discarding, our max is %u\n",
+[0x287dd0]     *(a2 + 96),
+[0x287dd0]     *(a1 + 600));
+[0x287dd0] LoggingSystem_Log(
+[0x287dd0]     SpawnGroup,
+[0x287dd0]     3LL,
+[0x287dd0]     "Packet Entities has a larger spawn group creation sequence (%u) than we received, forcing to max %u\n",
+[0x287dd0]     *(a2 + 96),
+[0x287dd0]     *(a1 + 600));
+[0x287dd0] LoggingSystem_Log(
+[0x287dd0]     Client,
+[0x287dd0]     1LL,
+[0x287dd0]     "CL:  skipping back: %d -> %d. Calling RemoveAllFrames()\n",
+[0x287dd0]     *(v26 + 2080),
+[0x287dd0]     v5);
+[0x287dd0] LoggingSystem_Log(Client, 2LL, "CL:  Receiving uncompressed update from server\n");
+[0x287dd0] LoggingSystem_Log(Client, 3LL, "Update self-referencing, connection dropped.\n");
+[0x287dd0] LoggingSystem_Log(Client, 3LL, "CL:  ProcessPacketEntities: frame window too big (>=%i)\n", 128LL);
+[0x35cdd0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast: Synchronizing stream\n", v15);
+[0x35cdd0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Cannot get Steam HTTP interface\n");
+[0x26c5e0] LoggingSystem_Log(Demo, 2LL, "stopdemos: exiting demo loop\n");
+[0x25fdea] LoggingSystem_Log(
+[0x25fdea]     General,
+[0x25fdea]     3LL,
+[0x25fdea]     "Failed to load %s. Your launch options or video config may be incorrect or out-of-date.  Falling back to the def"
+[0x25fdea]     "ault rendersystem %s.\n",
+[0x25fdea]     v6,
+[0x25fdea]     v8);
+[0x2b85f0] result = LoggingSystem_Log(
+[0x2b85f0]     SpawnGroup,
+[0x2b85f0]     1LL,
+[0x2b85f0]     "%s:  CNetworkClientSpawnGroup_LoadSaveGamePrerequisiteBase async started...\n",
+[0x2b85f0]     v3);
+[0x19cdf0] LoggingSystem_Log(GameEventSystem, 2LL, "GameEvent:  Posting %s (id:%d group:'%s') from code\n", v19, v18, v16);
+[0x295610] LoggingSystem_Log(Client, 2LL, "client has %d orphaned classes\n", v42);
+[0x295610] LoggingSystem_Log(
+[0x295610]     Client,
+[0x295610]     2LL,
+[0x295610]     "client orphan %s: server class associated %s\n",
+[0x295610]     *(*(v36 + 8) + 8LL),
+[0x295610]     **(v36 + 8));
+[0x295610] LoggingSystem_Log(Client, 2LL, "server has %d orphaned classes\n", v45);
+[0x295610] LoggingSystem_Log(
+[0x295610]     Client,
+[0x295610]     2LL,
+[0x295610]     "server orphan %s: client class associated %s\n",
+[0x295610]     (*v33)[1],
+[0x295610]     **v33);
+[0x295610] result = LoggingSystem_Log(Client, 2LL, "Usage: %s only valid on listen server process.\n", v37);
+[0x2a3e10] LoggingSystem_Log(SpawnGroup, 1LL, "%s ManifestUpdate\n", v9);
+[0x2a3e10] LoggingSystem_Log(
+[0x2a3e10]     SpawnGroup,
+[0x2a3e10]     3LL,
+[0x2a3e10]     "CL:  ProcessSpawnGroup_ManifestUpdate( %s ) -- spawn group manifest update received for an unknown manifest!\n",
+[0x2a3e10]     v13);
+[0x2a3e10] LoggingSystem_Log(
+[0x2a3e10]     SpawnGroup,
+[0x2a3e10]     3LL,
+[0x2a3e10]     "%s:  ProcessSpawnGroup_ManifestUpdate -- spawn group manifest update not supported for already loaded manifests\n",
+[0x2a3e10]     v11);
+[0x2a3e10] LoggingSystem_Log(SpawnGroup, 3LL, "ProcessSpawnGroup: Failed to parse the spawn group manifest!\n");
+[0x2a9610] result = LoggingSystem_Log(
+[0x2a9610]     Client,
+[0x2a9610]     1LL,
+[0x2a9610]     "CL:  Blocking load of %s during demo playback took %.3f msecs\n",
+[0x2a9610]     v30,
+[0x2a9610]     v32);
+[0x2a9610] result = LoggingSystem_Log(SpawnGroup, 3LL, v21, v20);
+[0x2c8610] LoggingSystem_Log(Server, 2LL, "%s:  Entity Group loaded\n", v10);
+[0x2c8610] LoggingSystem_Log(Server, 2LL, "SV:  Loading groups %d\n", *(a1 + 790));
+[0x2b2610] LoggingSystem_Log(Client, 2LL, "CL:  Got pure server whitelist: sv_pure = 2.\n");
+[0x2b2610] LoggingSystem_Log(Client, 2LL, "CL:  Got pure server whitelist: sv_pure = 1.\n");
+[0x2b2610] LoggingSystem_Log(Client, 1LL, "CL:  No pure server whitelist. sv_pure = 0\n");
+[0x2ba610] LoggingSystem_Log(
+[0x2ba610]     SpawnGroup,
+[0x2ba610]     1LL,
+[0x2ba610]     "%s:  CNetworkClientSpawnGroup_LoadSaveGamePrerequisiteBase async FULLY completed...\n",
+[0x2ba610]     v9);
+[0x2ba610] LoggingSystem_Log(
+[0x2ba610]     SpawnGroup,
+[0x2ba610]     3LL,
+[0x2ba610]     "%s:  CNetworkClientSpawnGroup_LoadSaveGamePrerequisiteBase async failed on %s\n",
+[0x2ba610]     v7,
+[0x2ba610]     v6);
+[0x33fe10] LoggingSystem_Log(
+[0x33fe10]     HLTV,
+[0x33fe10]     1LL,
+[0x33fe10]     "CHLTVDemoRecorder::WriteNetMessage %s with %u bytes at %i (%d)\n",
+[0x33fe10]     v23,
+[0x33fe10]     v24,
+[0x33fe10]     v18,
+[0x33fe10]     v27);
+[0x34c610] result = LoggingSystem_Log(HLTV, 2LL, "Broadcast on GOTV[%d] is already active\n", v1);
+[0x34c610] result = LoggingSystem_Log(HLTV, 2LL, "Broadcast on GOTV[%d] started\n", v1);
+[0x34c610] result = LoggingSystem_Log(HLTV, 3LL, "GOTV[%d] is a relay.", v1);
+[0x34c610] result = LoggingSystem_Log(HLTV, 2LL, "Broadcast on GOTV[%d] stopped\n", v1);
+[0x34c610] result = LoggingSystem_Log(HLTV, 2LL, "Broadcast on GOTV[%d] is not active\n", v1);
+[0x2e9e28] result = LoggingSystem_Log(
+[0x2e9e28]     Server,
+[0x2e9e28]     2LL,
+[0x2e9e28]     "SV: Canceling k_EAuthSessionResponseAuthTicketCanceled for %s because %s.\n",
+[0x2e9e28]     v3,
+[0x2e9e28]     a2);
+[0x17ee30] LoggingSystem_Log(
+[0x17ee30]     General,
+[0x17ee30]     2LL,
+[0x17ee30]     "Use \"force_assert any_argument_here\" to test the assertion evaluating to true\n");
+[0x17ee30] LoggingSystem_Log(General, 2LL, "VerifyTest( %s ) start\n", v3);
+[0x17ee30] LoggingSystem_Log(General, 2LL, "VerifyTest() vanilla result = Pass\n");
+[0x17ee30] LoggingSystem_Log(General, 2LL, "VerifyTest( %s ) end\n", "true");
+[0x17ee30] LoggingSystem_Log(General, 2LL, "VerifyTest() vanilla result = Fail\n");
+[0x17ee30] LoggingSystem_Log(General, 2LL, "VerifyTest( %s ) end\n", "false");
+[0x17ee30] LoggingSystem_Log(General, 2LL, "AssertTest( %s ) start\n", v5);
+[0x17ee30] LoggingSystem_Log(General, 2LL, "AssertTest( %s ) end\n", v6);
+[0x17ee30] LoggingSystem_Log(General, 2LL, "AssertMsgTest( %s ) start\n", v7);
+[0x17ee30] LoggingSystem_Log(General, 2LL, "AssertMsgTest( %s ) end\n", v8);
+[0x17ee30] LoggingSystem_Log(General, 2LL, "AssertOnceTest( %s ) start\n", v9);
+[0x17ee30] result = LoggingSystem_Log(General, 2LL, "AssertOnceTest( %s ) end\n", v11);
+[0x1c7e30] LoggingSystem_Log(
+[0x1c7e30]     General,
+[0x1c7e30]     2LL,
+[0x1c7e30]     "Vector vPos( %.1f, %.1f, %.1f )\n"
+[0x1c7e30]     "out of bounds - LOS needs to pass through outside space, hint this in the level!\n",
+[0x1c7e30]     v58,
+[0x1c7e30]     v59,
+[0x1c7e30]     v60);
+[0x2aee30] result = LoggingSystem_Log(
+[0x2aee30]     SignonState,
+[0x2aee30]     2LL,
+[0x2aee30]     "CL:  CNetworkGameClient::OnSwitchLoopModeFinished( %s : %s )\n",
+[0x2aee30]     a2,
+[0x2aee30]     v6);
+[0x2aee30] LoggingSystem_Log(SignonState, 2LL, "CL:  Permit INetchannel::Transmit()\n");
+[0x2b4e30] LoggingSystem_Log(SignonState, 2LL, "CL:  CNetworkGameClient::ProcessServerInfo\n");
+[0x302e30] LoggingSystem_Log(HLTV, 2LL, "entindex %d snaps: ", a3);
+[0x2e5640] LoggingSystem_Log(
+[0x2e5640]     Server,
+[0x2e5640]     1LL,
+[0x2e5640]     "CServerSideClientBase::ShouldSendMessages: Send delayed due to !CanPacket, tick=%d\n",
+[0x2e5640]     *(*(a1 + 88) + 52LL));
+[0x202650] LoggingSystem_Log(Server, 2LL, "SV:  Setting game load failed flag.\n");
+[0x329650] LoggingSystem_Log(Console, 1LL, "%s\n", v0);
+[0x224657] LoggingSystem_Log(Client, 2LL, "CL:  CWaitForGameServerStartupPrerequisite done waiting for server\n");
+[0x186e60] LoggingSystem_Log(General, 2LL, "Source2Shutdown\n");
+[0x196e60] LoggingSystem_Log(EngineServiceManager, 2LL, "Tearing off console log, will continue using suffix '%s'\n", v4);
+[0x197660] result = LoggingSystem_Log(EngineServiceManager, 2LL, "%d addons loaded\n", v1);
+[0x197660] result = LoggingSystem_Log(EngineServiceManager, 2LL, "%d:  '%s'\n", v6, v5);
+[0x1ed660] LoggingSystem_Log(InputService, 3LL, "%s '%s': invalid path.\n", a2, haystack);
+[0x1ed660] LoggingSystem_Log(InputService, 3LL, "%s '%s': invalid file type.\n", a2, haystack);
+[0x1ed660] LoggingSystem_Log(InputService, 1LL, "%s: couldn't exec '%s', missing file\n", a2, haystack);
+[0x1ed660] LoggingSystem_Log(InputService, 3LL, "%s '%s': file size larger than 1 MB!\n", a2, haystack);
+[0x1ed660] LoggingSystem_Log(InputService, 3LL, "%s: couldn't exec '%s', unable to read file\n", a2, haystack);
+[0x2bde60] result = LoggingSystem_Log(v6, v5, "[STEAM] %s\n", v4);
+[0x2dee60] LoggingSystem_Log(SpawnGroup, 1LL, "Timed out for spawn group: %s\n", v15);
+[0x2dee60] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  CNetworkServerSpawnGroup_WaitForClients completed...\n", v14);
+[0x32e660] result = LoggingSystem_Log(stringtables, 2LL, "table %32.32s  %5i\n", v10, v9);
+[0x32e660] LoggingSystem_Log(stringtables, 2LL, "   %i : %s\n", i, v16);
+[0x32e660] LoggingSystem_Log(stringtables, 2LL, "%s\n", v20);
+[0x32e660] LoggingSystem_Log(stringtables, 2LL, "   (c)%i : %s\n", j, v30);
+[0x32e660] LoggingSystem_Log(stringtables, 2LL, "%s\n", v34);
+[0x32e660] result = LoggingSystem_Log(stringtables, 2LL, "\n");
+[0x24ce70] LoggingSystem_Log(SplitScreen, 2LL, "Writing configuration for slot %d\n", v3);
+[0x289670] LoggingSystem_Log(RCon, 2LL, "%s\n", v6);
+[0x35e670] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast sync redirect >> '%s' = '%s'\n", v25, v11, v29);
+[0x35e670] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast sync: malformed response: %s\n", v23, a2);
+[0x18d67a] LoggingSystem_Log(
+[0x18d67a]     General,
+[0x18d67a]     2LL,
+[0x18d67a]     "stackstats_dump usage:\n"
+[0x18d67a]     "\tstackstats_dump struct [\"filename\"]. There's a single instance registered, auto-picking: %s\n",
+[0x18d67a]     v8);
+[0x18d67a] LoggingSystem_Log(General, 2LL, "Dumped stack stats struct \"%s\" to file \"%s\"\n", v4, v5);
+[0x18d67a] LoggingSystem_Log(General, 2LL, "Failed to dump struct \"%s\"\n", v4);
+[0x18d67a] LoggingSystem_Log(General, 3LL, "stackstats_dump usage:\n\tstackstats_dump %s [\"filename\"]\n", v9);
+[0x18d67a] LoggingSystem_Log(General, 3LL, "stackstats has no registered instances, try running with -memstackstats\n");
+[0x25b680] LoggingSystem_Log(HLTV, 2LL, "CLoopModeSourceTVRelay::LoopInit:  Created SourceTV Server, type %s\n", v14);
+[0x25b680] LoggingSystem_Log(
+[0x25b680]     HLTV,
+[0x25b680]     3LL,
+[0x25b680]     "SourceTV in Primary-Only mode (-tvprimaryonly or -tvmasteronly), aborting startup.\n");
+[0x17fe90] LoggingSystem_Log(General, 2LL, "Causing a fatal error...\n");
+[0x2e4690] LoggingSystem_Log(Server, 2LL, "Client %d '%s' setting rate to %d\n", *(a1 + 168), v4, a2);
+[0x2e4ea0] LoggingSystem_Log(SignonState, 3LL, "Client %d(%s) tried to send a RebroadcastSourceId msg.\n", *(a1 + 168), v4);
+[0x2e9eb0] LoggingSystem_Log(
+[0x2e9eb0]     Server,
+[0x2e9eb0]     2LL,
+[0x2e9eb0]     "SV: Disconnecting due to unresolved k_EAuthSessionResponseAuthTicketCanceled for %s.\n",
+[0x2e9eb0]     v5);
+[0x1a7eb0] LoggingSystem_Log(
+[0x1a7eb0]     Server,
+[0x1a7eb0]     2LL,
+[0x1a7eb0]     "SV:  CLoopTypeClientServer::AllocateLoopMode:  dedicated servers disallowed for game '%s', shutting down...\n",
+[0x1a7eb0]     v21);
+[0x35c6b0] result = LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Received signup fragment %d\n", v14, v13);
+[0x35c6b0] LoggingSystem_Log(
+[0x35c6b0]     HLTV Broadcast,
+[0x35c6b0]     2LL,
+[0x35c6b0]     "%.2f. Broadcast failed to start: cannot retrieve startup packet data\n",
+[0x35c6b0]     v15);
+[0x203ec0] LoggingSystem_Log(v2, 1LL, "%s%s", v4, v3);
+[0x20f6c0] result = LoggingSystem_Log(
+[0x20f6c0]     Server,
+[0x20f6c0]     3LL,
+[0x20f6c0]     "CNetworkServerService::StartupServer called but we still have extant instance!\n");
+[0x20f6c0] LoggingSystem_Log(Server, 3LL, "SV:  PrepareForAssetLoad failed, aborting map load\n");
+[0x20f6c0] result = LoggingSystem_Log(Server, 5LL, &v11, "Failed to open/bind server socket");
+[0x20f6c0] result = LoggingSystem_Log(Server, 3LL, "Failed to open/bind server socket\n");
+[0x29aec0] LoggingSystem_Log(Client, 2LL, "CL:  CNetworkGameClientBase::FinishChangeLevel:  reconnecting client\n");
+[0x2a8ec0] LoggingSystem_Log(SpawnGroup, 1LL, "%s Unload\n", v4);
+[0x2c0ed0] LoggingSystem_Log(Server, 3LL, "C2S_CONNECTION_Message_t::GetProtobufBinding()->WriteToBuffer failed\n");
+[0x2c0ed0] LoggingSystem_Log(Server, (*(v23 + 28) != 4) + 1, "Sending S2C_CONNECTION to %s [addons:'%s']\n", v22, v21);
+[0x2726d0] LoggingSystem_Log(Demo, 2LL, "Requesting timedemo of %s\n", v7);
+[0x2726d0] LoggingSystem_Log(Demo, 3LL, "%s:  unable to extract addons from file\n", v12);
+[0x2b36e0] LoggingSystem_Log(SignonState, 1LL, "CL:  SetSignonState( %s )\n", *v41);
+[0x2b36e0] LoggingSystem_Log(
+[0x2b36e0]     SignonState,
+[0x2b36e0]     1LL,
+[0x2b36e0]     "CL:  Deferring SIGNONSTATE_SPAWN (spawn count %d) message\n",
+[0x2b36e0]     *(a1 + 688));
+[0x2b36e0] LoggingSystem_Log(SignonState, 1LL, "CL:  Queue CNETMsg_SignonState_t(%s:%d) message\n", *v46, v7);
+[0x2c46e0] LoggingSystem_Log(Server, 2LL, "%s\n", v6);
+[0x2c46e0] LoggingSystem_Log(Server, 2LL, "%s", a3);
+[0x2c76e0] LoggingSystem_Log(Server, 2LL, "Player %s attempting reconnect, but prior connection still active\n", v39);
+[0x2c76e0] LoggingSystem_Log(Server, 2LL, "Player %s reconnecting, disconnecting prior connection\n", v39);
+[0x2cdee0] LoggingSystem_Log(
+[0x2cdee0]     Server,
+[0x2cdee0]     2LL,
+[0x2cdee0]     "SV:  CNetworkServerService::FinishChangeLevel:  reactivating previous clients\n");
+[0x35d6e0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Cannot set http X-Origin-Auth for %s\n", a2);
+[0x35d6e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast streaming: unexpected failure getting %s\n", v17, a2);
+[0x1eaef0] LoggingSystem_Log(InputService, 3LL, "Invalid binding:  Tried to GetConVarValue from ConCommand( %s )\n", a1);
+[0x1f06f0] LoggingSystem_Log(
+[0x1f06f0]     InputService,
+[0x1f06f0]     3LL,
+[0x1f06f0]     "Syntax error with array notation or invalid splitscreen slot in '%s'.\n",
+[0x1f06f0]     v8);
+[0x2396f0] LoggingSystem_Log(Client, 2LL, "CL:  CNetworkGameClient already exists for connection to '%s'\n", v1);
+[0x2396f0] LoggingSystem_Log(Client, 2LL, "CL:  CCreateGameClientJob creating client connection to '%s'\n", v3);
+[0x242ef0] LoggingSystem_Log(ScreenShot, 3LL, "MP4 recording failed! Missing expected pixels!\n");
+[0x31eef0] LoggingSystem_Log(Server, 2LL, "SV:  Connection to Steam servers successful.\n");
+[0x31eef0] LoggingSystem_Log(Server, 2LL, "SV:  ServerSteamID=%s (%llu).\n", v6, v5);
+[0x3226f0] LoggingSystem_Log(
+[0x3226f0]     SpawnGroup,
+[0x3226f0]     1LL,
+[0x3226f0]     "%s: Transfering creation sequence %d to owner spawn group %s\n",
+[0x3226f0]     v22,
+[0x3226f0]     v25,
+[0x3226f0]     v21,
+[0x3226f0]     &v28);
+[0x35def0] LoggingSystem_Log(
+[0x35def0]     HLTV Broadcast,
+[0x35def0]     2LL,
+[0x35def0]     "%.2f. Broadcast resync %d: the stream seems to have stopped (rcvage %.1f, rtdelay %.1f)\n",
+[0x35def0]     a2,
+[0x35def0]     v17,
+[0x35def0]     v44,
+[0x35def0]     v43);
+[0x35def0] LoggingSystem_Log(
+[0x35def0]     HLTV Broadcast,
+[0x35def0]     2LL,
+[0x35def0]     "%.2f. Broadcast m_SyncResponse: unexpected response. fragment %d must be at/after start fragment %d\n",
+[0x35def0]     v12,
+[0x35def0]     v11,
+[0x35def0]     v10);
+[0x35def0] LoggingSystem_Log(
+[0x35def0]     HLTV Broadcast,
+[0x35def0]     2LL,
+[0x35def0]     "%.2f. Broadcast: Buffering stream tick %d fragment %d signup fragment %d\n",
+[0x35def0]     v29,
+[0x35def0]     v28,
+[0x35def0]     v27,
+[0x35def0]     v27);
+[0x35def0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Broadcast resync failed: Client not connected to Stream\n", v42);
+[0x35def0] LoggingSystem_Log(
+[0x35def0]     HLTV Broadcast,
+[0x35def0]     2LL,
+[0x35def0]     "%.2f. Resync %d response requires full stream restart because signup fragment changed from %d to %d\n",
+[0x35def0]     v5,
+[0x35def0]     a2,
+[0x35def0]     v39,
+[0x35def0]     v38);
+[0x2226f7] LoggingSystem_Log(Server, 2LL, "Server is hibernating, HLTV activation postponed until Activate\n");
+[0x2226f7] LoggingSystem_Log(
+[0x2226f7]     Server,
+[0x2226f7]     2LL,
+[0x2226f7]     "Server is in background map, HLTV activation postponed until Activate\n");
+[0x244f10] LoggingSystem_Log(
+[0x244f10]     ScreenShot,
+[0x244f10]     3LL,
+[0x244f10]     "TGAWriter: Failed to serialize screenshot pixels (%d x %d, %s).\n",
+[0x244f10]     a2,
+[0x244f10]     a3,
+[0x244f10]     *v16);
+[0x244f10] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected context!\n");
+[0x244f10] LoggingSystem_Log(ScreenShot, 3LL, "Screenshot Failed! Missing expected pixels!\n");
+[0x2ecf10] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending load group to client '%s'\n", v6, v5);
+[0x2f5710] LoggingSystem_Log(
+[0x2f5710]     Server,
+[0x2f5710]     3LL,
+[0x2f5710]     "SV: Cheat command '%s' ignored. Set sv_cheats to 1 enable cheats.\n",
+[0x2f5710]     v13);
+[0x2f5710] LoggingSystem_Log(
+[0x2f5710]     Server,
+[0x2f5710]     2LL,
+[0x2f5710]     "Client %s(%d) tried to execute command \"%s\" before being fully connected.\n",
+[0x2f5710]     v16,
+[0x2f5710]     v15,
+[0x2f5710]     v14);
+[0x2f5710] LoggingSystem_Log(
+[0x2f5710]     Server,
+[0x2f5710]     2LL,
+[0x2f5710]     "Client %s(%d) tried to execute command \"%s\" but it is not marked FCVAR_CLIENT_CAN_EXECUTE.\n",
+[0x2f5710]     v12,
+[0x2f5710]     v11,
+[0x2f5710]     v10);
+[0x31bf10] LoggingSystem_Log(Server, 2LL, "checking %s\n", a4);
+[0x31bf10] LoggingSystem_Log(Server, 2LL, "found duplicate in %s\n", a4);
+[0x33a710] LoggingSystem_Log(
+[0x33a710]     HLTV,
+[0x33a710]     3LL,
+[0x33a710]     "Received acknowledgement tick=%d after the full frame of %d, discarding current fullframe and rebuilding\n",
+[0x33a710]     *(a1 + 324),
+[0x33a710]     *(a1 + 2892));
+[0x358710] result = LoggingSystem_Log(
+[0x358710]     HLTV Broadcast,
+[0x358710]     2LL,
+[0x358710]     "Jumping to random tick %d (%.2f min)\n",
+[0x358710]     v4,
+[0x358710]     ((v4 * 0.015625) / 60.0));
+[0x358710] result = LoggingSystem_Log(
+[0x358710]     HLTV Broadcast,
+[0x358710]     2LL,
+[0x358710]     "%d. Skipping %d ticks, jumping to fragment %d\n",
+[0x358710]     v16,
+[0x358710]     v10,
+[0x358710]     v13);
+[0x1ca720] LoggingSystem_Log(
+[0x1ca720]     Console,
+[0x1ca720]     2LL,
+[0x1ca720]     "pos [player %d]: %.3f,%.3f,%.3f\n",
+[0x1ca720]     v2,
+[0x1ca720]     *(a1 + 1120LL * v2 + 336),
+[0x1ca720]     *(a1 + 1120LL * v2 + 340),
+[0x1ca720]     *(a1 + 1120LL * v2 + 344));
+[0x1ca720] result = LoggingSystem_Log(
+[0x1ca720]     Console,
+[0x1ca720]     2LL,
+[0x1ca720]     "angles[player %d]: %.3f,%.3f,%.3f\n",
+[0x1ca720]     v2,
+[0x1ca720]     *(1120LL * v2 + a1 + 348),
+[0x1ca720]     *(1120LL * v2 + a1 + 352),
+[0x1ca720]     *(1120LL * v2 + a1 + 356));
+[0x1dcf20] LoggingSystem_Log(a2, 2LL, "Resource Manifest: \"%s\" %s [pass %d]\n", v7, v6, (*(a1 + 72) + 1));
+[0x1dcf20] LoggingSystem_Log(a2, 2LL, "\t%s\n", v9);
+[0x1dcf20] result = LoggingSystem_Log(a2, 2LL, "\t%s manifest end\n", v11);
+[0x29e720] LoggingSystem_Log(Client, 2LL, "CheckServerReservationRelease: %s -> %d (%d conn)\n", v17, v11, v10);
+[0x2c2720] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  OnSpawnGroupDeactivate\n", v5);
+[0x2a7f30] LoggingSystem_Log(Client, 2LL, "CL:  Disconnecting from server: changelevel\n");
+[0x2a7f30] LoggingSystem_Log(Client, 2LL, "CL:  Disconnecting from server: %s\n", v15);
+[0x334f30] LoggingSystem_Log(
+[0x334f30]     Console,
+[0x334f30]     5LL,
+[0x334f30]     &v14,
+[0x334f30]     "CNetworkStringTableItem::SetUserData(%s) tried to write userdata of %d bytes, max possible size is %d\n",
+[0x334f30]     a2,
+[0x334f30]     v13,
+[0x334f30]     &off_B71B0);
+[0x334f30] LoggingSystem_Log(
+[0x334f30]     Console,
+[0x334f30]     3LL,
+[0x334f30]     "CNetworkStringTableItem::SetUserData(%s) userdata of %d bytes is very large, threshold is %d bytes\n",
+[0x334f30]     a2,
+[0x334f30]     *(a4 + 2),
+[0x334f30]     &stru_186A0);
+[0x337f30] LoggingSystem_Log(
+[0x337f30]     HLTV,
+[0x337f30]     1LL,
+[0x337f30]     "SourceTV WriteInitialSpawnGroups client %s(%d): sending message %s (%d bits)\n",
+[0x337f30]     v16,
+[0x337f30]     v15,
+[0x337f30]     v13,
+[0x337f30]     v14);
+[0x1fef40] LoggingSystem_Log(
+[0x1fef40]     Console,
+[0x1fef40]     2LL,
+[0x1fef40]     "Usage: map <mapname> [option1=value1 option2=value2 etc]. Use \"map %s\" to load an empty level.\n",
+[0x1fef40]     "<empty>");
+[0x1fef40] LoggingSystem_Log(Console, 3LL, "map %s:  invalid map name\n", v13);
+[0x1fef40] LoggingSystem_Log(Console, 2LL, "Loading map \"%s\" (addon '%s')\n", v10, v8);
+[0x1fef40] LoggingSystem_Log(Console, 2LL, "Loading map \"%s\"\n", v14);
+[0x2aff40] LoggingSystem_Log(Client, 2LL, "Precache table %s:  %i slots used\n", v4, v3);
+[0x2aff40] LoggingSystem_Log(Client, 2LL, &off_576F58 + 7, v6, v7, v21);
+[0x2aff40] LoggingSystem_Log(Client, 2LL, " never used\n");
+[0x2aff40] LoggingSystem_Log(Client, 2LL, " %i refs\n", v13);
+[0x2aff40] result = LoggingSystem_Log(Client, 2LL, "\n");
+[0x308f40] LoggingSystem_Log(Server, 2LL, "%s", v8);
+[0x293750] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  SyncUnloadSpawnGroup shutdown/destroy...\n", v1);
+[0x2f1750] LoggingSystem_Log(Server, 3LL, "SourceTV Source client to add new frame to inactive hltv server\n");
+[0x299760] LoggingSystem_Log(Client, 2LL, "CL:  CNetworkGameClientBase::StartChangeLevel\n");
+[0x2b2760] LoggingSystem_Log(
+[0x2b2760]     SignonState,
+[0x2b2760]     1LL,
+[0x2b2760]     "CNetworkGameClient::FinishSignonState_New() setting state to %s:%d\n",
+[0x2b2760]     *v10,
+[0x2b2760]     v8);
+[0x2e9f60] LoggingSystem_Log(Server, 2LL, "SV:  Disconnect client '%s' from server(%d): %s\n", v31, a2, *v30);
+[0x33df60] LoggingSystem_Log(HLTV, 2LL, "SourceTV connection timed out.\n");
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. (%d) stream resync failed. Error %d %s", v15, v14, v13, &v18);
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "Starting sync retry timeout %.2f\n", v4);
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "Retrying sync\n");
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "Not retrying sync\n");
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "Stopping.\n");
+[0x35ef60] LoggingSystem_Log(HLTV Broadcast, 2LL, "%.2f. Retrying sync\n", v4);
+[0x2ed770] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Sending unload group to client '%s'\n", v12, v11);
+[0x2ed770] LoggingSystem_Log(
+[0x2ed770]     SpawnGroup,
+[0x2ed770]     1LL,
+[0x2ed770]     "%s:  Not sending unload group to client '%s' due to not being sent\n",
+[0x2ed770]     v10,
+[0x2ed770]     v9);
+[0x271f80] LoggingSystem_Log(Demo, 2LL, "Syntax: demo_goto <tick> [relative] [pause]\n");
+[0x271f80] result = LoggingSystem_Log(
+[0x271f80]     Demo,
+[0x271f80]     2LL,
+[0x271f80]     "  eg: 'demo_goto 6666' or 'demo_gototick 25%%' or 'demo_gototick 42min'\n");
+[0x271f80] result = LoggingSystem_Log(
+[0x271f80]     Demo,
+[0x271f80]     2LL,
+[0x271f80]     "  Currently playing %d of %d ticks. Minutes:%.2f File:%s\n",
+[0x271f80]     v38,
+[0x271f80]     v36,
+[0x271f80]     (v28 / 60.0),
+[0x271f80]     v33);
+[0x29ff80] LoggingSystem_Log(Client, 2LL, "%s:  Entity Group loaded\n", v7);
+[0x29ff80] result = LoggingSystem_Log(Client, 2LL, "CL:  Loading groups %d\n", *(a1 + 990));
+[0x334780] LoggingSystem_Log(stringtables, 2LL, "forcing debug of %s from commandline -stringtabledebug\n", *a2);
+[0x34f780] result = LoggingSystem_Log(HLTV, 2LL, "Can't tv_stop SourceTV relay, use disconnect or quit instead.\n");
+[0x34f780] LoggingSystem_Log(HLTV, 2LL, "SourceTV shutting down (%s), %d clients disconnected\n", v5, v4);
+[0x34f780] result = LoggingSystem_Log(HLTV, 2LL, "SourceTV not active.\n");
+[0x353780] LoggingSystem_Log(
+[0x353780]     HLTV,
+[0x353780]     1LL,
+[0x353780]     "BuildFullFrameSplit: buildTime=%4.2fms client=%d, tick=%d, chunks=%d, chunkSize=%d, total compressed size=%d\n",
+[0x353780]     1000.0 / v68 * v95,
+[0x353780]     v90,
+[0x353780]     v65,
+[0x353780]     v76,
+[0x353780]     v87,
+[0x353780]     v92);
+[0x353780] LoggingSystem_Log(
+[0x353780]     HLTV,
+[0x353780]     2LL,
+[0x353780]     "BuildFullFrameSplit LONG buildTime=%4.2fms client=%d, tick=%d, chunks=%d, chunkSize=%d, total compressed size=%d\n",
+[0x353780]     1000.0 / v72 * v95,
+[0x353780]     v70,
+[0x353780]     v69,
+[0x353780]     v76,
+[0x353780]     v87,
+[0x353780]     v93);
+[0x323790] LoggingSystem_Log(a2, 2LL, " avi = .avi vido and audio\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " raw = outputs .tga + .wav file (same as default)\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " tga = outputs .tga files\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " jpg/jpeg = outputs .jpg files\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " png = outputs .png files\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " wav = write .wav file\n");
+[0x323790] LoggingSystem_Log(a2, 2LL, " jpeg_quality nnn = sets jpeq quality to nnn (range 1 to 100), default %d\n", 50LL);
+[0x323790] LoggingSystem_Log(a2, 2LL, " framerate mmm = sets fixed framerate for recording, default %d\n", 30LL);
+[0x323790] LoggingSystem_Log(
+[0x323790]     a2,
+[0x323790]     2LL,
+[0x323790]     "Using AVI will bring up a dialog for choosing the codec, which may not show if you are running the engine in fullscreen mode!\n");
+[0x323790] result = LoggingSystem_Log(a2, 2LL, "  Specify nocodecprompt to use the default raw output.");
+[0x2747a0] LoggingSystem_Log(Demo, 2LL, "Demo contents for %s:\n", v6);
+[0x2747a0] LoggingSystem_Log(Demo, 2LL, "DemoFileHeader: %s\n", qword_6B1A68);
+[0x2747a0] result = LoggingSystem_Log(Demo, 2LL, "DemoFileInfo: %s\n", qword_6B1AA8);
+[0x2747a0] result = LoggingSystem_Log(Demo, 3LL, "Error - Not currently playing back a demo.\n");
+[0x2d6fa0] LoggingSystem_Log(Server, 2LL, "SV:  Spawn Server: %s: [%s]\n", v46, a2);
+[0x2d6fa0] LoggingSystem_Log(Server, 2LL, "SV:  Spawn Server: %s\n", v39);
+[0x2d6fa0] LoggingSystem_Log(Server, 2LL, "SV:  Spawn Server: %s\n", v48);
+[0x2d6fa0] LoggingSystem_Log(Server, 3LL, "SV:  CSVCMsg_FlattenedSerializer_t overflow.\n");
+[0x2d6fa0] LoggingSystem_Log(Server, 3LL, "SV:  WriteClassInfosBuffer overflow.\n");
+[0x1a27b0] LoggingSystem_Log(HostStateManager, 2LL, "Discarding queued request '%s, %u'\n", v3, v5[7]);
+[0x257fb0] LoggingSystem_Log(Client, 1LL, "CL:  CLoopModeLevelLoad::OnLoopActivate (%f)\n", v15);
+[0x257fb0] LoggingSystem_Log(Server, 2LL, "SV:  Level loading started for '%s'\n", v14);
+[0x280fb0] LoggingSystem_Log(InstantReplay, 2LL, "Skipped to tick=%d clientTick=%d\n", *(a1 + 12), v63);
+[0x280fb0] LoggingSystem_Log(
+[0x280fb0]     InstantReplay,
+[0x280fb0]     1LL,
+[0x280fb0]     "SKIPPING: Skip limit reached, processed %d frames in skip\n",
+[0x280fb0]     *(a1 + 41));
+[0x280fb0] LoggingSystem_Log(
+[0x280fb0]     InstantReplay,
+[0x280fb0]     1LL,
+[0x280fb0]     "SKIPPING: ReadReplayMessage returning fullFrame tick=%d\n",
+[0x280fb0]     *(a1 + 13));
+[0x280fb0] LoggingSystem_Log(
+[0x280fb0]     InstantReplay,
+[0x280fb0]     1LL,
+[0x280fb0]     "SKIPPING: ReadReplayMessage returning deltaFrame tick=%d\n",
+[0x280fb0]     *(a1[11] + 40LL * *(a1 + 4)));
+[0x280fb0] LoggingSystem_Log(InstantReplay, 2LL, "Skipped to LIVE\n");
+[0x280fb0] LoggingSystem_Log(InstantReplay, 1LL, "PLAYBACK: At end of data\n");
+[0x280fb0] LoggingSystem_Log(
+[0x280fb0]     InstantReplay,
+[0x280fb0]     1LL,
+[0x280fb0]     "PLAYBACK: ReadReplayMessage returning deltaFrame clientTick=%d tick=%d delta=%d\n",
+[0x280fb0]     v62,
+[0x280fb0]     v34,
+[0x280fb0]     v61);
+[0x280fb0] LoggingSystem_Log(
+[0x280fb0]     InstantReplay,
+[0x280fb0]     1LL,
+[0x280fb0]     "PLAYBACK: ReadReplayMessage waiting for next tick at clientTick=%d\n",
+[0x280fb0]     v59);
+[0x2b9fb0] LoggingSystem_Log(SpawnGroup, 1LL, "%s: SetCreationTick forcing blocking load due to creation tick %d", v6, a2);
+[0x22b7c0] result = LoggingSystem_Log(
+[0x22b7c0]     Client,
+[0x22b7c0]     1LL,
+[0x22b7c0]     "CL:  CLoadSpawnGroupsPrerequisite::UnloadInitialSpawnGroup unloaded spawn group %s\n",
+[0x22b7c0]     v7);
+[0x2adfc0] LoggingSystem_Log(Client, 2LL, "CNetworkGameClientBase::ProcessClassInfo parsing %d server classes\n", v5);
+[0x324fc0] LoggingSystem_Log(Movie, 2LL, "Started recording movie: %s.*: %s\n", v29, v28, v22);
+[0x3267c0] result = LoggingSystem_Log(Client, 2LL, "CL:  Server disconnected: %d: %s\n", a1, v2);
+[0x35bfc0] LoggingSystem_Log(
+[0x35bfc0]     HLTV Broadcast,
+[0x35bfc0]     3LL,
+[0x35bfc0]     "Playcast HTTP error code: %d\n(tv_playcast_showerrors will display the following headers: %s)\n",
+[0x35bfc0]     v13,
+[0x35bfc0]     v28);
+[0x35bfc0] LoggingSystem_Log(HLTV Broadcast, 3LL, "   Header \"%s\": %s\n", *(v34 + 8 * v20), v25);
+[0x35bfc0] LoggingSystem_Log(HLTV Broadcast, 3LL, "   Body (%d bytes): %s\n", v29, v31);
+[0x2577d0] LoggingSystem_Log(
+[0x2577d0]     Client,
+[0x2577d0]     1LL,
+[0x2577d0]     "CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop (%f) trans %s\n",
+[0x2577d0]     v6,
+[0x2577d0]     v5);
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "active loop:\n");
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "  name   : %s\n", v7);
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "  addons : %s\n", v8);
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "  request: %u\n", *(a1 + 72));
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "  valid  : %s\n", v9);
+[0x2577d0] LoggingSystem_Log(Client, 1LL, "  keys   :\n%s\n", v11);
+[0x2577d0] LoggingSystem_Log(
+[0x2577d0]     Client,
+[0x2577d0]     2LL,
+[0x2577d0]     "CL:  CLoopModeLevelLoad::MaybeSwitchToGameLoop switching to \"%s\" loopmode with addons (%s)\n",
+[0x2577d0]     v13,
+[0x2577d0]     v14);
+[0x283fd0] LoggingSystem_Log(
+[0x283fd0]     Client,
+[0x283fd0]     2LL,
+[0x283fd0]     "%32.32s: % 4d->% 4d: min: %8.3f (ms) max: %8.3f (ms) average: %8.3f (ms) : ~ per entity %8.3f\n",
+[0x283fd0]     a2,
+[0x283fd0]     v26,
+[0x283fd0]     (v26 + 3),
+[0x283fd0]     v34,
+[0x283fd0]     v35,
+[0x283fd0]     *v36,
+[0x283fd0]     v27);
+[0x283fd0] LoggingSystem_Log(Client, 2LL, "\n");
+[0x2bcfd0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  Shutdown [%x] [%x]\n", v4, v3, v2);
+[0x2d3fd0] LoggingSystem_Log(
+[0x2d3fd0]     Server,
+[0x2d3fd0]     2LL,
+[0x2d3fd0]     "SV:  AsyncUnloadSpawnGroup( %s ) -- unloading loading spawngroup\n",
+[0x2d3fd0]     v15);
+[0x2e97e0] result = LoggingSystem_Log(Server, 2LL, "%s:  client '%s' has spawn group fully loaded\n", v5, v6);
+[0x2f8fe0] LoggingSystem_Log(
+[0x2f8fe0]     Server,
+[0x2f8fe0]     2LL,
+[0x2f8fe0]     "SV: CNetworkGameServerBase::WriteDeltaEntity merging changes added in %d additional fields!\n",
+[0x2f8fe0]     (*(v55 + 16) - *(v92 + 16)));
+[0x2f8fe0] LoggingSystem_Log(
+[0x2f8fe0]     Server,
+[0x2f8fe0]     2LL,
+[0x2f8fe0]     "  %s = %s was changed between from/to ticks but is missed by CalcDelta (i.e., encoded values are same)\n",
+[0x2f8fe0]     v71,
+[0x2f8fe0]     v70);
+[0x2f8fe0] LoggingSystem_Log(
+[0x2f8fe0]     Server,
+[0x2f8fe0]     2LL,
+[0x2f8fe0]     "baseline counter change %d:%s [%d changes] to %d:%s [%d changes]\n",
+[0x2f8fe0]     *(*(a2 + 144) + 40LL),
+[0x2f8fe0]     v78,
+[0x2f8fe0]     v91,
+[0x2f8fe0]     *(*(a2 + 152) + 40LL),
+[0x2f8fe0]     v77,
+[0x2f8fe0]     v86);
+[0x35a7e0] LoggingSystem_Log(
+[0x35a7e0]     HLTV Broadcast,
+[0x35a7e0]     3LL,
+[0x35a7e0]     "Invalid broadcast packet size %d in fragment buffer size %d\n",
+[0x35a7e0]     v14,
+[0x35a7e0]     *(*(a1 + 32) + 4LL));
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "%d. parsing tick %d; %d bytes\n", v68, v66, v14);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "playcast: Demo message, tick %i, %i bytes\n", v65, v14);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "playcast: %d dem_stop\n", v108);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "playcast: %d dem_consolecmd [%s]\n", v108, v106);
+[0x35a7e0] LoggingSystem_Log(
+[0x35a7e0]     HLTV Broadcast,
+[0x35a7e0]     3LL,
+[0x35a7e0]     "Unable to decode custom demo data %d bytes, callback %d not supported.\n",
+[0x35a7e0]     v36,
+[0x35a7e0]     v35);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "playcast: %d dem_usercmd\n", v108);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Invalid user cmd length %d\n", v104);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Error loading spawn group %d.\n", v25);
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 3LL, "Unepxected spawn group %d, %d was expected.\n", v25, *(a1 + 540));
+[0x35a7e0] LoggingSystem_Log(HLTV Broadcast, 2LL, "Playcast Debug String: %s\n", v19);
+[0x2c27f0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  SyncUnloadSpawnGroup shutdown/destroy...\n", v3);
+[0x1eeff0] LoggingSystem_Log(InputService, 2LL, "Usage: alias <alias_name> [command]\n");
+[0x1eeff0] LoggingSystem_Log(InputService, 2LL, "Current alias commands: %d\n", *(a1 + 257432));
+[0x1eeff0] result = LoggingSystem_Log(InputService, 2LL, "%s : %s\n", v17, v16);
+[0x1eeff0] result = LoggingSystem_Log(
+[0x1eeff0]     InputService,
+[0x1eeff0]     2LL,
+[0x1eeff0]     "A command with the specified name already exists. Cannot create an alias with the same name.\n");
+[0x274ff0] LoggingSystem_Log(Demo, 2LL, "Recording %s\n", v16);
+[0x2937f0] LoggingSystem_Log(SpawnGroup, 1LL, "%s:  SyncUnloadSpawnGroup shutdown/destroy...\n", v1);
+[0x331ff0] LoggingSystem_Log(
+[0x331ff0]     stringtables,
+[0x331ff0]     2LL,
+[0x331ff0]     "%s %s:  updating %d:'%s' (%d total) userdata %d\n",
+[0x331ff0]     v59,
+[0x331ff0]     v58,
+[0x331ff0]     v6,
+[0x331ff0]     v57,
+[0x331ff0]     v55,
+[0x331ff0]     v3);
+[0x331ff0] LoggingSystem_Log(
+[0x331ff0]     stringtables,
+[0x331ff0]     2LL,
+[0x331ff0]     "%s %s:  adding %d:'%s' (%d total) userdata %d\n",
+[0x331ff0]     v49,
+[0x331ff0]     v48,
+[0x331ff0]     v6,
+[0x331ff0]     v7,
+[0x331ff0]     v46,
+[0x331ff0]     v3);

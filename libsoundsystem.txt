@@ -1,0 +1,1226 @@
+[0xd0e00] LoggingSystem_Log(
+[0xd0e00]     SndOperators,
+[0xd0e00]     1LL,
+[0xd0e00]     "Warning: Soundevent %s, failed to get mix layer %s!\n",
+[0xd0e00]     v11,
+[0xd0e00]     v5);
+[0xd0e00] LoggingSystem_Log(
+[0xd0e00]     SndOperators,
+[0xd0e00]     2LL,
+[0xd0e00]     (unsigned int)dword_2E08F0,
+[0xd0e00]     "Operator Error: Event %s: %s\n",
+[0xd0e00]     v12,
+[0xd0e00]     "CSosOperatorMixLayer");
+[0xd0e00] result = (char *)LoggingSystem_Log(SndOperators, 1LL, "Error: Failed to get mix group %s!\n", v8);
+[0x136a00] LoggingSystem_Log(
+[0x136a00]     SoundOperatorSystem,
+[0x136a00]     1LL,
+[0x136a00]     "Group Index: %i does not reference a valid group.\n",
+[0x136a00]     (unsigned int)a2);
+[0x174a00] LoggingSystem_Log(
+[0x174a00]     SoundSystem,
+[0x174a00]     2LL,
+[0x174a00]     "Device active: %.2fs.  Active Voices: %d\n",
+[0x174a00]     v9,
+[0x174a00]     (unsigned int)v15);
+[0x174a00] LoggingSystem_Log(
+[0x174a00]     SoundSystem,
+[0x174a00]     2LL,
+[0x174a00]     "Catch up mixing failed: %d times\n",
+[0x174a00]     (unsigned int)dword_2F55A0);
+[0x174a00] LoggingSystem_Log(
+[0x174a00]     SoundSystem,
+[0x174a00]     2LL,
+[0x174a00]     "  %d: %s (%08lx :: %08lx) %s [%.1fs]\n",
+[0x174a00]     (unsigned int)v3,
+[0x174a00]     v7,
+[0x174a00]     v6,
+[0x174a00]     v12,
+[0x174a00]     v14,
+[0x174a00]     v13);
+[0x174a00] result = LoggingSystem_Log(SoundSystem, 2LL, "Sound system not started\n");
+[0x19d200] LoggingSystem_Log(SoundSystem, 1LL, "AddSoundEvent:AddSoundEvent event with empty name\n");
+[0x19d200] LoggingSystem_Log(
+[0x19d200]     SoundSystem,
+[0x19d200]     1LL,
+[0x19d200]     "AddSoundEvent:  %s has a hash collision with existing %s\n",
+[0x19d200]     a2,
+[0x19d200]     v26);
+[0x19d200] LoggingSystem_Log(
+[0x19d200]     SoundSystem,
+[0x19d200]     1LL,
+[0x19d200]     "AddSoundEventDefinition: Overwriting existing soundevent %s\n",
+[0x19d200]     a2);
+[0x1ae100] LoggingSystem_Log(SoundSystem, 1LL, "%s set to %.2f\n", v8, v7);
+[0x14f410] LoggingSystem_Log(
+[0x14f410]     SndOperators,
+[0x14f410]     2LL,
+[0x14f410]     "Usage:  snd_sos_set_operator_field <stackname> <operator> <field> <index> <float>\n");
+[0x163810] LoggingSystem_Log(
+[0x163810]     SoundSystem,
+[0x163810]     1LL,
+[0x163810]     "SEQUENCER ERROR: Loading sequence file(error %s)!\n",
+[0x163810]     v10);
+[0x163810] LoggingSystem_Log(SoundSystem, 1LL, "SEQUENCER ERROR: Reading sequence file %s!\n", v8);
+[0x163810] LoggingSystem_Log(
+[0x163810]     SoundSystem,
+[0x163810]     1LL,
+[0x163810]     "SEQUENCER ERROR: Loading vmidi manifest file(error %s)!\n",
+[0x163810]     v9);
+[0x163810] LoggingSystem_Log(
+[0x163810]     SoundSystem,
+[0x163810]     1LL,
+[0x163810]     "SEQUENCER ERROR: Reading vmidi manifest file %s!\n",
+[0x163810]     "scripts/vmidi/vmidi_manifest.txt");
+[0x1a7410] result = LoggingSystem_Log(
+[0x1a7410]     SoundSystem,
+[0x1a7410]     2LL,
+[0x1a7410]     "Usage: snd_get_physics_surface_properties <all|null|assigned|default|material-name>.\n");
+[0x1a7410] LoggingSystem_Log(General, 2LL, "Running snd_get_physics_surface_properties for %s mod.\n", v4);
+[0x1a7410] result = LoggingSystem_Log(General, 2LL, "%d %s %s\n", v19, v8, v7);
+[0x1ae210] LoggingSystem_Log(SoundSystem, 1LL, "Transient input %s set to %.2f\n", v8, v7);
+[0xd1220] result = (char *)LoggingSystem_Log(
+[0xd1220]     SndOperators,
+[0xd1220]     1LL,
+[0xd1220]     "Warning: Soundevent %s, failed to get mix layer %s!\n",
+[0xd1220]     v7,
+[0xd1220]     v5);
+[0x191e20] LoggingSystem_Log(
+[0x191e20]     SoundSystem,
+[0x191e20]     3LL,
+[0x191e20]     "CFieldSelectionWordAllocator: Total number of array selection bytes on soundevent exceeded.\n"
+[0x191e20]     "\t%i required\n"
+[0x191e20]     "\t%i available\n",
+[0x191e20]     *(unsigned __int16 *)(a1 + 8),
+[0x191e20]     64LL);
+[0x151230] LoggingSystem_Log(
+[0x151230]     SndOperators,
+[0x151230]     1LL,
+[0x151230]     (unsigned int)dword_2EC2E4,
+[0x151230]     "CSosOperatorSystem::StartSoundEvent called with invalid soundevent hash\n");
+[0x151230] LoggingSystem_Log(
+[0x151230]     SoundSystem,
+[0x151230]     1LL,
+[0x151230]     "Attempted re-use of a soundevent guid to start a new soundevent: %s",
+[0x151230]     v3);
+[0xf2e30] LoggingSystem_Log(
+[0xf2e30]     SndOperators,
+[0xf2e30]     3LL,
+[0xf2e30]     "opvar_get_float8 operator %s in %s failed to get field %s\n",
+[0xf2e30]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf2e30]     (const char *)(a3 + 44),
+[0xf2e30]     v10);
+[0xf3230] LoggingSystem_Log(
+[0xf3230]     SndOperators,
+[0xf3230]     3LL,
+[0xf3230]     "opvar_get_sndevt operator %s in %s failed to get field %s\n",
+[0xf3230]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf3230]     (const char *)(a3 + 44),
+[0xf3230]     v9);
+[0xfc830] LoggingSystem_Log(SndOperators, 2LL, "Voice Elapsed Time: %f\n", v77);
+[0xfc830] LoggingSystem_Log(
+[0xfc830]     SoundOperatorSystem,
+[0xfc830]     1LL,
+[0xfc830]     "vmix_start_voice: %s invalid track name %s, using default track\n",
+[0xfc830]     v62,
+[0xfc830]     v67);
+[0x147c30] LoggingSystem_Log(SndOperators, 2LL, "** %s -> %s\n", v3, (const char *)(v2 + 44));
+[0x14ce30] LoggingSystem_Log(
+[0x14ce30]     SndOperators,
+[0x14ce30]     3LL,
+[0x14ce30]     "Error: Operator %s, problems parsing operator field %s\n",
+[0x14ce30]     *(_QWORD *)(a3 + 32),
+[0x14ce30]     v10);
+[0x14ce30] LoggingSystem_Log(
+[0x14ce30]     SndOperators,
+[0x14ce30]     3LL,
+[0x14ce30]     "Error: Operator %s, unknown sound operator attribute %s\n",
+[0x14ce30]     *(_QWORD *)(a3 + 32),
+[0x14ce30]     v10);
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "CSosOperatorStack::ParseKV: Operator %s : Unknown sound operator type %s in stack %s\n",
+[0x15ac30]     v14,
+[0x15ac30]     v22,
+[0x15ac30]     (const char *)(a1 + 44));
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "CSosOperatorStack::ParseKV: Operator %s index differs in stack %s\n",
+[0x15ac30]     v14,
+[0x15ac30]     (const char *)(a1 + 44));
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "CSosOperatorStack::ParseKV: Stack %s, has operator %s already declared, second declaration ignored\n",
+[0x15ac30]     (const char *)(a1 + 44),
+[0x15ac30]     v14);
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "CSosOperatorStack::ParseKV: Operator %s invalid index in stack %s\n",
+[0x15ac30]     v41,
+[0x15ac30]     a1 + 44);
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "CSosOperatorStack::ParseKV Trying illegal operator overwrite %s in stack %s\n",
+[0x15ac30]     v41,
+[0x15ac30]     a1 + 44);
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     2LL,
+[0x15ac30]     "NOTE: soundevent_start field soundevent_name, source unresoved\n");
+[0x15ac30] LoggingSystem_Log(
+[0x15ac30]     SndOperators,
+[0x15ac30]     1LL,
+[0x15ac30]     (unsigned int)dword_2EC2E4,
+[0x15ac30]     "Warning: Stack %s has %i VSND operators\n",
+[0x15ac30]     (const char *)(a1 + 44),
+[0x15ac30]     *(unsigned __int8 *)(a1 + 793));
+[0x163e30] result = LoggingSystem_Log(SoundSystem, 1LL, "BPM: %f\n", *(float *)(a1 + 20));
+[0x174e30] LoggingSystem_Log(
+[0x174e30]     SoundSystem,
+[0x174e30]     2LL,
+[0x174e30]     "Sound Initialization: Finish, Sampling Rate: %i\n",
+[0x174e30]     *(unsigned int *)(qword_339750 + 152));
+[0x188430] LoggingSystem_Log(SoundSystem, 3LL, "Did not find valid MixGroups entry in soundmixers.txt\n");
+[0x188430] LoggingSystem_Log(SoundSystem, 3LL, "Did not find valid SoundMixers entry in soundmixers.txt\n");
+[0x188430] LoggingSystem_Log(SoundSystem, 3LL, "Did not find valid MixLayers entry in soundmixers.txt\n");
+[0x188430] LoggingSystem_Log(SoundSystem, 3LL, "No 'Mixers' member found in MixLayer in soundmixers.txt\n");
+[0xf2840] LoggingSystem_Log(
+[0xf2840]     SndOperators,
+[0xf2840]     3LL,
+[0xf2840]     "opvar_get_float operator %s in %s failed to get field %s\n",
+[0xf2840]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32LL * (int)v6 + 16),
+[0xf2840]     (const char *)(a3 + 44),
+[0xf2840]     v16);
+[0x136c40] LoggingSystem_Log(
+[0x136c40]     SoundOperatorSystem,
+[0x136c40]     1LL,
+[0x136c40]     "Group Index: %i does not reference a valid group.\n",
+[0x136c40]     (unsigned int)v2);
+[0x14bc40] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Attempting to pause non-existent soundevent: %s\n", a2);
+[0x13d650] result = LoggingSystem_Log(
+[0x13d650]     SoundOperatorSystem,
+[0x13d650]     1LL,
+[0x13d650]     "Can't write to type %d for field %s\n",
+[0x13d650]     v22,
+[0x13d650]     v14);
+[0x183850] result = (void *)LoggingSystem_Log(SoundSystem, 2LL, "Parameters: mixer name, mix amount\n");
+[0x19f050] LODWORD(v4) = LoggingSystem_Log(SoundSystem, 2LL, (const char *)&off_29E184, *(_QWORD *)(v10 + v5));
+[0x1d6650] LoggingSystem_Log(SoundSystem, 2LL, "%s: params.pSfx is NULL.\n", a3);
+[0x1d6650] LoggingSystem_Log(SoundSystem, 2LL, "Unable to allocate voice for %s\n", a3);
+[0x1d6650] LoggingSystem_Log(SoundSystem, 3LL, "Used main graph %s on voice %s\n", v51, v50);
+[0x1d6650] LoggingSystem_Log(SoundSystem, 2LL, "Unable to find graph for vmix %s\n", v53);
+[0x1d6650] LoggingSystem_Log(
+[0x1d6650]     SoundSystem,
+[0x1d6650]     2LL,
+[0x1d6650]     "[%s] %s : src %d : vol %.2f : time %.3f\n",
+[0x1d6650]     v45,
+[0x1d6650]     a3,
+[0x1d6650]     v44,
+[0x1d6650]     v55,
+[0x1d6650]     v54);
+[0x1d6650] LoggingSystem_Log(
+[0x1d6650]     SoundSystem,
+[0x1d6650]     2LL,
+[0x1d6650]     "\t dspmix %1.2f : lvol %1.2f : cvol %1.2f : rvol %1.2f : rlvol %1.2f : rrvol %1.2f\n",
+[0x1d6650]     *(float *)(v23 + 12),
+[0x1d6650]     *(float *)(v23 + 96),
+[0x1d6650]     *(float *)(v23 + 104),
+[0x1d6650]     *(float *)(v23 + 100),
+[0x1d6650]     *(float *)(v23 + 112),
+[0x1d6650]     *(float *)(v23 + 116));
+[0x1d6650] LoggingSystem_Log(
+[0x1d6650]     SoundSystem,
+[0x1d6650]     2LL,
+[0x1d6650]     "\t x: %4f y: %4f z: %4f\n",
+[0x1d6650]     *(float *)v23,
+[0x1d6650]     *(float *)(v23 + 4),
+[0x1d6650]     *(float *)(v23 + 8));
+[0xfb260] LoggingSystem_Log(
+[0xfb260]     SoundOperatorSystem,
+[0xfb260]     1LL,
+[0xfb260]     "vmix_start_vsnd: %s No available voices (%d in use), aborting starting vsnd %s\n",
+[0xfb260]     v42,
+[0xfb260]     v41,
+[0xfb260]     v161);
+[0xfb260] LoggingSystem_Log(
+[0xfb260]     SndOperators,
+[0xfb260]     2LL,
+[0xfb260]     (unsigned int)dword_2E08F0,
+[0xfb260]     "Operator Error: Event %s: %s\n",
+[0xfb260]     v45,
+[0xfb260]     v44);
+[0xfb260] LoggingSystem_Log(
+[0xfb260]     SoundOperatorSystem,
+[0xfb260]     1LL,
+[0xfb260]     "vmix_start_voice: %s specified invalid voicegraph %s, using %s\n",
+[0xfb260]     v98,
+[0xfb260]     v160,
+[0xfb260]     v156);
+[0xfb260] LoggingSystem_Log(
+[0xfb260]     SoundOperatorSystem,
+[0xfb260]     3LL,
+[0xfb260]     "Unable to create voice for vmix \"%s\" check script for %s.\n",
+[0xfb260]     v160,
+[0xfb260]     v74);
+[0x14f860] result = LoggingSystem_Log(
+[0x14f860]     SndOperators,
+[0x14f860]     2LL,
+[0x14f860]     "Usage:  snd_sos_resolve_execute_operator <stackname> <operator>\n");
+[0x151c60] LoggingSystem_Log(
+[0x151c60]     SoundSystem,
+[0x151c60]     1LL,
+[0x151c60]     "~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n",
+[0x151c60]     (const char *)(*(_QWORD *)(*((_QWORD *)a1 + 1182) + 8 * v2) + 44LL));
+[0x185660] LoggingSystem_Log(SoundSystem, 2LL, "(%s:%s) \n", "", v22);
+[0x185660] LoggingSystem_Log(SoundSystem, 2LL, "%s", v19);
+[0x185660] LoggingSystem_Log(
+[0x185660]     SoundSystem,
+[0x185660]     2LL,
+[0x185660]     " : %s : vol: %4.2f, sndlvl: %4.2f \n",
+[0x185660]     v9,
+[0x185660]     *(float *)v26,
+[0x185660]     75.0);
+[0x185660] LoggingSystem_Log(SoundSystem, 2LL, "\n%s:%s: ", &byte_309E80, v21);
+[0x185660] LoggingSystem_Log(SoundSystem, 2LL, "%s ", v9);
+[0x18c860] LoggingSystem_Log(SoundSystem, 2LL, "\tRefs %16s : Name (Locks)\n", "Size in bytes");
+[0x18c860] LoggingSystem_Log(
+[0x18c860]     SoundSystem,
+[0x18c860]     2LL,
+[0x18c860]     "\t[%2d] %16.16s : %s (%d) priority: %d\n",
+[0x18c860]     v22,
+[0x18c860]     v25,
+[0x18c860]     v26,
+[0x18c860]     v20,
+[0x18c860]     v23);
+[0x18c860] LoggingSystem_Log(
+[0x18c860]     SoundSystem,
+[0x18c860]     2LL,
+[0x18c860]     "CAsyncWavDataCache:  %i sounds total %s, %.2f %% of capacity\n",
+[0x18c860]     *(unsigned int *)(v2 + 48),
+[0x18c860]     v8,
+[0x18c860]     v4);
+[0x1a0260] result = LoggingSystem_Log(SoundSystem, 2LL, "Unable to find soundevent: %s\n", v4);
+[0x1a0260] result = LoggingSystem_Log(SoundSystem, 2LL, "Usage:  snd_print_soundevent <soundeventname>\n");
+[0xd9870] result = LoggingSystem_Log(
+[0xd9870]     SndOperators,
+[0xd9870]     2LL,
+[0xd9870]     "Usage:  snd_cast <eventname> [<retrigger time>] [<max distance>]\n");
+[0xd9870] LoggingSystem_Log(
+[0xd9870]     SndOperators,
+[0xd9870]     2LL,
+[0xd9870]     "Triggering %s with retrigger interval = %f; maximum distance = %f\n",
+[0xd9870]     v31,
+[0xd9870]     *(float *)&dword_2DB064,
+[0xd9870]     *(float *)&dword_2DB060);
+[0xd9870] result = LoggingSystem_Log(SndOperators, 2LL, "Sound services not available.\n");
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, "CSoundEvent: %s\nBase: %s\nType: %s\nFields:\n", v7, v1, v3);
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, "Starts VSND: %s\nStarts Event(s): %s\n", v36, v37);
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, "Error: unable to access stack topology report\n");
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, "Note: Stack topology report only available in -tools mode\n");
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, (unsigned int)dword_338FB8, "%s: %s\n", v22, v49);
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, (unsigned int)dword_338FBC, "%s: %s\n", v31, v49);
+[0x19fa70] LoggingSystem_Log(
+[0x19fa70]     SoundSystem,
+[0x19fa70]     2LL,
+[0x19fa70]     (unsigned int)dword_338FB4,
+[0x19fa70]     "Event Data: %i\n",
+[0x19fa70]     *(unsigned int *)(a1 + 152));
+[0x19fa70] LoggingSystem_Log(
+[0x19fa70]     SoundSystem,
+[0x19fa70]     2LL,
+[0x19fa70]     (unsigned int)dword_338FB4,
+[0x19fa70]     "%s: %s (%i : %i)\n",
+[0x19fa70]     v30,
+[0x19fa70]     haystack,
+[0x19fa70]     v29 & 0x7FF,
+[0x19fa70]     v42);
+[0x19fa70] LoggingSystem_Log(SoundSystem, 2LL, (unsigned int)dword_338FB0, "Event VSNDS:\n");
+[0x19fa70] result = LoggingSystem_Log(SoundSystem, 2LL, (unsigned int)dword_338FB0, asc_29E183, v35);
+[0xce880] result = LoggingSystem_Log(SndOperators, 1LL, "Error: Unable to find mixgroup %s\n", v8);
+[0xce880] LoggingSystem_Log(
+[0xce880]     SndOperators,
+[0xce880]     2LL,
+[0xce880]     (unsigned int)dword_2E08F0,
+[0xce880]     "Operator Error: Event %s: %s\n",
+[0xce880]     v16,
+[0xce880]     "CSosOperatorMixGroup");
+[0xce880] result = LoggingSystem_Log(
+[0xce880]     SndOperators,
+[0xce880]     3LL,
+[0xce880]     "Error: Unable to find mixgroup for filepath %s\n",
+[0xce880]     v10);
+[0xf2a80] LoggingSystem_Log(
+[0xf2a80]     SndOperators,
+[0xf2a80]     3LL,
+[0xf2a80]     "opvar_get_bool operator %s in %s failed to get field %s\n",
+[0xf2a80]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32LL * (int)v6 + 16),
+[0xf2a80]     (const char *)(a3 + 44),
+[0xf2a80]     v16);
+[0x185e80] result = LoggingSystem_Log(
+[0x185e80]     SoundSystem,
+[0x185e80]     2LL,
+[0x185e80]     "Parameters: mix layer name, mix group name, trigger amount\n");
+[0x18c080] LoggingSystem_Log(SoundSystem, 3LL, "Async read of %s failed: ERROR_FILEOPEN", v21);
+[0xd1090] result = (char *)LoggingSystem_Log(
+[0xd1090]     SndOperators,
+[0xd1090]     1LL,
+[0xd1090]     "Warning: Soundevent %s, failed to get mix layer %s!\n",
+[0xd1090]     v7,
+[0xd1090]     v5);
+[0x139890] result = LoggingSystem_Log(
+[0x139890]     SoundOperatorSystem,
+[0x139890]     3LL,
+[0x139890]     "WARNING: snd_sos_soundevent_profile disabled - ignoring!\n");
+[0x13f890] LoggingSystem_Log(
+[0x13f890]     SoundOperatorSystem,
+[0x13f890]     1LL,
+[0x13f890]     "Warning: Can't find sos strings file: %s!\n",
+[0x13f890]     "soundstacks/sosstrings.txt");
+[0x13f890] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Warning: %s (error %s)!\n", "soundstacks/sosstrings.txt", v3);
+[0x164090] LoggingSystem_Log(
+[0x164090]     SoundSystem,
+[0x164090]     1LL,
+[0x164090]     "NOTE OFF: %u : %f\n",
+[0x164090]     *(_DWORD *)(a1 + 8) + (unsigned int)*(unsigned __int8 *)(v9 + 5),
+[0x164090]     v71);
+[0x164090] LoggingSystem_Log(
+[0x164090]     SoundSystem,
+[0x164090]     1LL,
+[0x164090]     "NOTE ON: %u : %f : %s\n",
+[0x164090]     *(_DWORD *)(a1 + 8) + (unsigned int)*(unsigned __int8 *)(v9 + 5),
+[0x164090]     v24,
+[0x164090]     v71);
+[0x184690] result = LoggingSystem_Log(SoundSystem, 2LL, "Setting MixLayer %s\n", v4);
+[0x184690] result = LoggingSystem_Log(
+[0x184690]     SoundSystem,
+[0x184690]     2LL,
+[0x184690]     "Parameters: mix group name, layer name, [vol, mute, solo], value, amount\n");
+[0x1e2690] LoggingSystem_Log(
+[0x1e2690]     SoundSystem,
+[0x1e2690]     3LL,
+[0x1e2690]     "File %s had sound/ instead of sounds/, path needs to be fixed in resource file.\n",
+[0x1e2690]     a1);
+[0x1e2690] LoggingSystem_Log(
+[0x1e2690]     SoundSystem,
+[0x1e2690]     3LL,
+[0x1e2690]     "File %s did not have sounds directory in path, appending path and loading, but path needs to be fixed in resource file.\n",
+[0x1e2690]     a1);
+[0x140497] LoggingSystem_Log(
+[0x140497]     SoundOperatorSystem,
+[0x140497]     1LL,
+[0x140497]     "%s: Sound event executionlist has too many active voices (%d). Index %i : %s\n",
+[0x140497]     a1,
+[0x140497]     v5,
+[0x140497]     v4,
+[0x140497]     a1);
+[0xf349a] LoggingSystem_Log(
+[0xf349a]     SndOperators,
+[0xf349a]     3LL,
+[0xf349a]     "opvar_get_vsnd operator %s in %s failed to get field %s\n",
+[0xf349a]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v6 + 16),
+[0xf349a]     (const char *)(a3 + 44),
+[0xf349a]     v11);
+[0xabea0] LoggingSystem_Log(
+[0xabea0]     SndOperators,
+[0xabea0]     2LL,
+[0xabea0]     (unsigned int)dword_2E08F0,
+[0xabea0]     "Operator Error: Event %s: %s\n",
+[0xabea0]     v11,
+[0xabea0]     "CSosOperatorLogicSwitchSpeakers");
+[0xabea0] LoggingSystem_Log(
+[0xabea0]     SndOperators,
+[0xabea0]     3LL,
+[0xabea0]     "Error: Operator %s, unknown sound operator attribute %s\n",
+[0xabea0]     *(const char **)(a2 + 32),
+[0xabea0]     v6);
+[0x13fea0] result = LoggingSystem_Log(SoundOperatorSystem, 1LL, "Field Name String Count: %i\n", (unsigned int)v0);
+[0x13fea0] result = LoggingSystem_Log(SoundOperatorSystem, 1LL, (const char *)&off_29E184, v5);
+[0x1914a0] LoggingSystem_Log(SoundSystem, 2LL, "%s:\n", v8);
+[0x1914a0] result = LoggingSystem_Log(SoundSystem, 2LL, "Unable to find soundevent: %s\n", v7);
+[0x1914a0] result = LoggingSystem_Log(
+[0x1914a0]     SoundSystem,
+[0x1914a0]     2LL,
+[0x1914a0]     "Usage:  snd_print_soundevent_default_public_properties <soundeventname>\n");
+[0x275aaa] LoggingSystem_Log(SoundSystemLowLevel, 2LL, "SDL Audio Device: %s (status: %d, driver: %s)\n", v4, v3, v2);
+[0x275aaa] LoggingSystem_Log(
+[0x275aaa]     SoundSystemLowLevel,
+[0x275aaa]     2LL,
+[0x275aaa]     "%d channels, %d bits per sample, %d Hz\n",
+[0x275aaa]     *(unsigned __int16 *)(a1 + 148),
+[0x275aaa]     *(unsigned __int8 *)(a1 + 176),
+[0x275aaa]     *(unsigned int *)(a1 + 184));
+[0x275aaa] LoggingSystem_Log(
+[0x275aaa]     SoundSystemLowLevel,
+[0x275aaa]     2LL,
+[0x275aaa]     "Status: \t%d, %d (mix channels:%d)\n",
+[0x275aaa]     *(unsigned int *)(a1 + 2340),
+[0x275aaa]     *(unsigned int *)(a1 + 2344),
+[0x275aaa]     *(unsigned int *)(a1 + 2348));
+[0x1526b0] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Start Sound Event: %s\n", v7);
+[0x147ab0] result = LoggingSystem_Log(SndOperators, 2LL, "Usage:  snd_sos_stop_soundevent_guid <guid>\n");
+[0x163cb0] LoggingSystem_Log(SoundSystem, 2LL, "CSequence: %s\n", v5);
+[0x163cb0] LoggingSystem_Log(
+[0x163cb0]     SoundSystem,
+[0x163cb0]     2LL,
+[0x163cb0]     "CSequence:\t%f : %i : %i\n",
+[0x163cb0]     *(float *)v4,
+[0x163cb0]     *(unsigned __int8 *)(v4 + 5),
+[0x163cb0]     *(unsigned __int8 *)(v4 + 6));
+[0x1ae6b0] LoggingSystem_Log(SoundSystem, 2LL, "Input %s: %.3f\n", v4, v3);
+[0x1ae6b0] LoggingSystem_Log(SoundSystem, 2LL, "Input %s: %x (%s)\n", v8, v7, v6);
+[0x1ae6b0] LoggingSystem_Log(SoundSystem, 2LL, "Input %s: (%s)\n", v13, v12);
+[0x1e28ba] LoggingSystem_Log(SoundSystem, 2LL, "L");
+[0x1e28ba] LoggingSystem_Log(SoundSystem, 2LL, " ");
+[0x1e28ba] LoggingSystem_Log(SoundSystem, 2LL, "(%2db) %6i : %s\n", v13, v9, v12);
+[0x1e28ba] LoggingSystem_Log(SoundSystem, 2LL, "Total: %.2f MB\n", (float)((float)v14 * 0.00000095367432));
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler: Sampler: %s\n", v12);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler: SoundEvent: %s\n", v1);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler: Min: %i\n", *((unsigned __int8 *)a1 + 5));
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler: Max: %i\n", *((unsigned __int8 *)a1 + 6));
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler: Key Groups: %i\n", **((unsigned int **)a1 + 4));
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\tCenter: %i\n", *v14);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\tMin: %i\n", v14[1]);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\tMax: %i\n", v14[2]);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\tZones: %i\n", v14[3]);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\t\tMax: %i\n", *v4);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\t\tSamples: %i\n", v4[2]);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\t\t\tSample: %s\n", v7);
+[0x15f6c0] LoggingSystem_Log(SoundSystem, 2LL, "CSoundSampler:\tKey: %i : %i\n", v11, *v10);
+[0x21a2c0] result = LoggingSystem_Log(SoundSystemLowLevel, 3LL, "mpg123_init() failed");
+[0x12f8d0] LoggingSystem_Log(
+[0x12f8d0]     SndOperators,
+[0x12f8d0]     1LL,
+[0x12f8d0]     "Warning: cannot sync to soundevent %s on track %s, because it has no start/end points defined\n",
+[0x12f8d0]     v23,
+[0x12f8d0]     v67);
+[0x12f8d0] LoggingSystem_Log(
+[0x12f8d0]     SndOperators,
+[0x12f8d0]     1LL,
+[0x12f8d0]     "Queued: elapsed time: %f, next sync time: %f, length: %f\n",
+[0x12f8d0]     v53,
+[0x12f8d0]     v52,
+[0x12f8d0]     v54);
+[0x1776d0] LoggingSystem_Log(SoundSystem, 3LL, "DSP: Warning, failed to allocate mod delay.\n");
+[0x188ed0] LoggingSystem_Log(SoundSystem, 3LL, "Failed to read soundmixers.txt as KV3: %s\n", v21);
+[0x188ed0] LoggingSystem_Log(
+[0x188ed0]     SoundSystem,
+[0x188ed0]     1LL,
+[0x188ed0]     "Total Mix Groups Rules: %i\n",
+[0x188ed0]     (unsigned int)dword_338CD0);
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "Total Mix Layers: %i\n", (unsigned int)dword_338CC8);
+[0x188ed0] LoggingSystem_Log(
+[0x188ed0]     SoundSystem,
+[0x188ed0]     3LL,
+[0x188ed0]     "Error: Too many mix groups! MixGroup %s ignored\n",
+[0x188ed0]     v38);
+[0x188ed0] LoggingSystem_Log(
+[0x188ed0]     SoundSystem,
+[0x188ed0]     3LL,
+[0x188ed0]     "Error: Too many sound mixers! SoundMixer %s ignored\n",
+[0x188ed0]     v38);
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "SoundMixer %s:\n", v38);
+[0x188ed0] LoggingSystem_Log(
+[0x188ed0]     SoundSystem,
+[0x188ed0]     3LL,
+[0x188ed0]     "Error: Too many mix layers! MixLayer %s ignored\n",
+[0x188ed0]     v38);
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "MixLayers %s:\n", v38);
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "Parsing MixGroups:\n");
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "Parsing SoundMixers:\n");
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "Parsing MixLayers:\n");
+[0x188ed0] LoggingSystem_Log(SoundSystem, 1LL, "Parsing LayerTriggers:\n");
+[0x188ed0] LoggingSystem_Log(
+[0x188ed0]     SoundSystem,
+[0x188ed0]     5LL,
+[0x188ed0]     v38,
+[0x188ed0]     "Unable to load sound system data.\n"
+[0x188ed0]     "Starting verification of Steam Game Cache.\n"
+[0x188ed0]     "Retry launching after completion.\n");
+[0x1998d0] LoggingSystem_Log(
+[0x1998d0]     SoundSystem,
+[0x1998d0]     1LL,
+[0x1998d0]     "ProcessSoundEvent: %s `field name %s either in public or event data on stack %s.\n",
+[0x1998d0]     v102,
+[0x1998d0]     v19,
+[0x1998d0]     v14 + 44);
+[0x1998d0] LoggingSystem_Log(
+[0x1998d0]     SoundSystem,
+[0x1998d0]     1LL,
+[0x1998d0]     "ProcessSoundEvent: %s found field %s with \"data_type\" during conversion comparison, which is no longer sup"
+[0x1998d0]     "ported. Please add \"soundevent_data\" to stack %s\n",
+[0x1998d0]     (const char *)v17,
+[0x1998d0]     v19,
+[0x1998d0]     v14 + 44);
+[0x1998d0] LoggingSystem_Log(
+[0x1998d0]     SoundSystem,
+[0x1998d0]     1LL,
+[0x1998d0]     "ProcessSoundEvent:  %s unable to get referenced stack %s. Soundevent deleted and removed.\n",
+[0x1998d0]     v14,
+[0x1998d0]     v11);
+[0xf2ce0] LoggingSystem_Log(
+[0xf2ce0]     SndOperators,
+[0xf2ce0]     3LL,
+[0xf2ce0]     "opvar_get_float3 operator %s in %s failed to get field %s\n",
+[0xf2ce0]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf2ce0]     (const char *)(a3 + 44),
+[0xf2ce0]     v10);
+[0x1492e0] LoggingSystem_Log(
+[0x1492e0]     SoundOperatorSystem,
+[0x1492e0]     3LL,
+[0x1492e0]     "CVSoundStackScriptTypeManager::Allocate stack with empty name\n");
+[0x1492e0] LoggingSystem_Log(
+[0x1492e0]     SoundOperatorSystem,
+[0x1492e0]     3LL,
+[0x1492e0]     "CVSoundStackScriptTypeManager::Allocate can't parse stack %s\n",
+[0x1492e0]     v9);
+[0x1648e0] LoggingSystem_Log(SoundSystem, 2LL, "%f: %f : %f : %f : %f\n", v4, v16, v6, v20, v8);
+[0x1764e0] LoggingSystem_Log(
+[0x1764e0]     SoundSystemLowLevel,
+[0x1764e0]     2LL,
+[0x1764e0]     "Increased audio mix latency to %d buffers\n",
+[0x1764e0]     *(unsigned int *)(a1 + 20));
+[0x1b0ae0] LoggingSystem_Log(
+[0x1b0ae0]     SoundSystem,
+[0x1b0ae0]     1LL,
+[0x1b0ae0]     "Prewview VMIX voice on the game graph, preview will be different!\n");
+[0x20fee0] result = LoggingSystem_Log(SoundSystemLowLevel, 2LL, "Sound Disabled.\n");
+[0x980f0] LoggingSystem_Log(
+[0x980f0]     SndOperators,
+[0x980f0]     2LL,
+[0x980f0]     (unsigned int)dword_2E08F0,
+[0x980f0]     "Operator Error: Event %s: %s\n",
+[0x980f0]     v11,
+[0x980f0]     "CSosOperatorConvar");
+[0x980f0] result = LoggingSystem_Log(SndOperators, 3LL, "Warning: Unable to acquire convar value: %s\n", v7);
+[0xb1af0] result = LoggingSystem_Log(
+[0xb1af0]     SndOperators,
+[0xb1af0]     3LL,
+[0xb1af0]     "Unrecognized symbol in Sound Operator Stack math expression.\n");
+[0xb1af0] LoggingSystem_Log(
+[0xb1af0]     SndOperators,
+[0xb1af0]     3LL,
+[0xb1af0]     "Unrecognized symbol in Sound Operator Stack math expression.\n");
+[0x14f8f0] result = LoggingSystem_Log(SndOperators, 2LL, "Usage:  snd_sos_print_operator_stack <stackname>\n");
+[0xad500] result = LoggingSystem_Log(
+[0xad500]     SndOperators,
+[0xad500]     1LL,
+[0xad500]     "Error: math_curve_2d in %s. Unable to find curve field \"%s\"n",
+[0xad500]     v28,
+[0xad500]     v11);
+[0xad500] result = LoggingSystem_Log(
+[0xad500]     SndOperators,
+[0xad500]     1LL,
+[0xad500]     "Error: math_curve_2d in %s. Curve \"%s\" with < 1 knot or is not declared \"soundevent_data\"\n",
+[0xad500]     v27,
+[0xad500]     v11);
+[0xf3100] LoggingSystem_Log(
+[0xf3100]     SndOperators,
+[0xf3100]     3LL,
+[0xf3100]     "opvar_get_string operator %s in %s failed to get field %s\n",
+[0xf3100]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf3100]     (const char *)(a3 + 44),
+[0xf3100]     v9);
+[0x108b00] LoggingSystem_Log(
+[0x108b00]     SoundOperatorSystem,
+[0x108b00]     3LL,
+[0x108b00]     "Couldn't set effect on %s because we currently don't support setting effect names on voice graphs.\n",
+[0x108b00]     v21);
+[0x136500] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Group: %s\n", v5);
+[0x136500] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Num Match groups: %i\n", *(unsigned int *)(a1 + 80));
+[0x136500] result = LoggingSystem_Log(SoundOperatorSystem, 1LL, "Groups %i: %i\n", v3, *(unsigned int *)(v4 + 32));
+[0x14f700] result = LoggingSystem_Log(
+[0x14f700]     SndOperators,
+[0x14f700]     2LL,
+[0x14f700]     "Usage:  snd_sos_get_operator_field <stackname> <operator> <field>\n");
+[0x162b00] result = LoggingSystem_Log(SoundSystem, 2LL, "Track: %s\n", v4);
+[0x187700] LoggingSystem_Log(
+[0x187700]     SoundSystem,
+[0x187700]     3LL,
+[0x187700]     "Error: Parsing soundmixers.txt, soundmixer mix group values incomplete!\n");
+[0x187700] LoggingSystem_Log(
+[0x187700]     SoundSystem,
+[0x187700]     3LL,
+[0x187700]     "Error: MixGroup %s, in SoundMixer %s, cannot be resolved!\n",
+[0x187700]     a3,
+[0x187700]     (const char *)(a2 + 16));
+[0x187700] LoggingSystem_Log(
+[0x187700]     SoundSystem,
+[0x187700]     1LL,
+[0x187700]     "MixGroup %s: %f : %f : %f : %f : %f \n",
+[0x187700]     s2,
+[0x187700]     v24,
+[0x187700]     v22,
+[0x187700]     v21,
+[0x187700]     v20,
+[0x187700]     v23);
+[0x197700] LoggingSystem_Log(
+[0x197700]     SoundSystem,
+[0x197700]     1LL,
+[0x197700]     "PurgeAndDeleteAll: Deleting orphaned CSoundEvent pointer for %s via shutdown\n",
+[0x197700]     v20);
+[0x19a700] LoggingSystem_Log(
+[0x19a700]     SoundSystem,
+[0x19a700]     1LL,
+[0x19a700]     "CVSoundEventScriptTypeManager::AddSoundEvent:  %s has a hash collision with existing %s\n",
+[0x19a700]     v4,
+[0x19a700]     v22);
+[0x19a700] LoggingSystem_Log(SoundSystem, 1LL, "AddSoundEvent event with empty name\n");
+[0x1a1900] LoggingSystem_Log(SoundSystem, 2LL, "Addon unloaded, unloading sound resources.\n");
+[0xf2310] LoggingSystem_Log(SndOperators, 3LL, "%s::Execute: Can't find operator stack %s in %s\n", a2, v5, v15);
+[0x155710] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Attempting to pause non-existent soundevent: %s\n", a2);
+[0x186910] LoggingSystem_Log(SoundSystem, 1LL, "MixGroup %s:\n", a2);
+[0x186910] LoggingSystem_Log(
+[0x186910]     SoundSystem,
+[0x186910]     3LL,
+[0x186910]     "Error: Parsing soundmixers.txt, mixgroup rules incomplete at group %s!\n",
+[0x186910]     &s[148 * v5]);
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x186910] LoggingSystem_Log(SoundSystem, 3LL, "Error: Parsing soundmixers.txt, mixgroup rules incomplete!\n");
+[0x191110] LoggingSystem_Log(SoundSystem, 1LL, "Loading deferred Sound Event %s\n", (const char *)v7);
+[0x191110] LoggingSystem_Log(
+[0x191110]     SoundSystem,
+[0x191110]     1LL,
+[0x191110]     "Deferred Sound Event %s has timed out and will be removed from the deferred list\n",
+[0x191110]     (const char *)v7);
+[0x153320] LoggingSystem_Log(SndOperators, 2LL, "Usage:  snd_sos_start_soundevent <eventname> <x> <y> <z> \n");
+[0x15c320] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Adding operator stack matching existing name: %s\n", a2);
+[0x174920] LoggingSystem_Log(SoundSystem, 2LL, "Speaker Config: %i\n", *v1);
+[0x174920] result = LoggingSystem_Log(SoundSystem, 2LL, "Sound system not started\n");
+[0x19eb20] LoggingSystem_Log(SoundSystem, 1LL, "FIELDATA COMPARE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] LoggingSystem_Log(SoundSystem, 1LL, "FIELINFO COMPARE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] result = LoggingSystem_Log(
+[0x19eb20]     SoundSystem,
+[0x19eb20]     1LL,
+[0x19eb20]     "VSNDVEC COMPARE FAIL: %s->%s\n",
+[0x19eb20]     a2,
+[0x19eb20]     a3);
+[0x19eb20] result = LoggingSystem_Log(
+[0x19eb20]     SoundSystem,
+[0x19eb20]     1LL,
+[0x19eb20]     "SOUNDEVENT COMPARE SUCCESS: %s->%s\n",
+[0x19eb20]     a2,
+[0x19eb20]     a3);
+[0x19eb20] result = LoggingSystem_Log(SoundSystem, 1LL, "VSNDVEC COMPARE SIZE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] result = LoggingSystem_Log(SoundSystem, 1LL, "FIELDATASIZE COMPARE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] LoggingSystem_Log(SoundSystem, 1LL, "PARAMDATA COMPARE FAIL: %s->%s : %s\n", a2, a3, v13);
+[0x19eb20] result = LoggingSystem_Log(SoundSystem, 1LL, "PARAMINFO COMPARE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] result = LoggingSystem_Log(SoundSystem, 1LL, "PARAM COUNT COMPARE FAIL: %s->%s\n", a2, a3);
+[0x19eb20] result = LoggingSystem_Log(SoundSystem, 1LL, "STACK COMPARE FAIL: %s->%s\n", a2, a3);
+[0x1e2120] LoggingSystem_Log(
+[0x1e2120]     SoundSystem,
+[0x1e2120]     3LL,
+[0x1e2120]     "WARNING: Invalid vsnd version '%d' for file: %s\n",
+[0x1e2120]     *(unsigned __int16 *)(a4 + 6),
+[0x1e2120]     v14);
+[0x1e2120] LoggingSystem_Log(SoundSystem, 3LL, "WARNING: Invalid vsnd file: %s\n", v15);
+[0x183126] LoggingSystem_Log(SoundSystem, 2LL, "%s: %f\n", v1 + 16, *(float *)v1);
+[0x183126] LoggingSystem_Log(SoundSystem, 2LL, "g_mastermixlayer:\n");
+[0xd0d30] return LoggingSystem_Log(SndOperators, 1LL, v5);
+[0xd0d30] return LoggingSystem_Log(SndOperators, 1LL, v5);
+[0x150330] LoggingSystem_Log(SoundOperatorSystem, 3LL, "Can't find sound event to remove for %s!\n", v27);
+[0x1a2330] result = LoggingSystem_Log(
+[0x1a2330]     SoundSystem,
+[0x1a2330]     1LL,
+[0x1a2330]     "Attempted preload of soundevent %s with no vsnds\n",
+[0x1a2330]     v6);
+[0x1e1330] LODWORD(v9) = LoggingSystem_Log(
+[0x1e1330]     SoundSystem,
+[0x1e1330]     2LL,
+[0x1e1330]     "Dropping Voice data (%d bytes)\n",
+[0x1e1330]     (unsigned int)(2 * a5));
+[0x9d940] LoggingSystem_Log(
+[0x9d940]     SndOperators,
+[0x9d940]     1LL,
+[0x9d940]     "SoundEvent %s, input_entity_index %i found but specified attachment %s was not\n",
+[0x9d940]     v27,
+[0x9d940]     v5,
+[0x9d940]     v26);
+[0x9d940] LoggingSystem_Log(
+[0x9d940]     SndOperators,
+[0x9d940]     1LL,
+[0x9d940]     "SoundEvent %s, input_entity_index %i was valid but no longer is\n",
+[0x9d940]     v44,
+[0x9d940]     v5);
+[0xd1140] LoggingSystem_Log(SndOperators, 1LL, "Warning: Soundevent %s, failed to get mix layer %s!\n", v7, v5);
+[0x148740] LoggingSystem_Log(SndOperators, 2LL, "Stop sound event: %s\n", v15);
+[0x148740] result = LoggingSystem_Log(SndOperators, 2LL, "Usage:  snd_sos_stop_soundevent_index <index>\n");
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "CSosOperatorStack: %i\n", 856LL);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "SosOpFieldInfo_t: %i\n", 48LL);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "SosBaseDataTypeDef_t: %i\n", 24LL);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total Stacks: %i\n", *(unsigned int *)(v0 + 68));
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total Stack Fields: %i\n", v3);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total Stack Ref Fields: %i\n", v23);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total Stack Fields mem: %i\n", 48 * (v3 - v23));
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total Stack Pool Mem: %i\n", v26);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total USED Stacks: %i\n", v25);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total USED Stack Fields: %i\n", v4);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total USED Stack Ref Fields: %i\n", v17);
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total USED Stack Fields mem: %i\n", 48 * (v4 - v17));
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Total USED Stack Pool Mem: %i\n", v24);
+[0x14a140] LoggingSystem_Log(
+[0x14a140]     SoundOperatorSystem,
+[0x14a140]     2LL,
+[0x14a140]     "Total Stack Mem Usage(ish): %i : %ik\n",
+[0x14a140]     856 * v12 + v11 + v20,
+[0x14a140]     (unsigned int)((int)(856 * v12 + v11 + v20) / 1024));
+[0x14a140] result = LoggingSystem_Log(
+[0x14a140]     SoundOperatorSystem,
+[0x14a140]     2LL,
+[0x14a140]     "Total USED Stack Mem Usage(ish): %i : %ik\n",
+[0x14a140]     v22,
+[0x14a140]     (unsigned int)((int)v22 / 1024));
+[0x14a140] LoggingSystem_Log(SoundOperatorSystem, 2LL, "Used stack: %s\n", (const char *)(v15 + 44));
+[0x152d40] result = LoggingSystem_Log(
+[0x152d40]     SndOperators,
+[0x152d40]     2LL,
+[0x152d40]     "Usage:  snd_sos_start_soundevent <eventname> <ent id> \n");
+[0x187f40] LoggingSystem_Log(
+[0x187f40]     SoundSystem,
+[0x187f40]     3LL,
+[0x187f40]     "Error: MixGroup %s, in LayerTriggers cannot be resolved!\n",
+[0x187f40]     v5);
+[0x1a5740] LoggingSystem_Log(SoundSystem, 3LL, v7);
+[0x1ae340] LoggingSystem_Log(SoundSystem, 1LL, "%s changed to [ ", v18);
+[0x1ae340] LoggingSystem_Log(SoundSystem, 1LL, "%f  ", *(float *)(*(_QWORD *)(a1 + 8) + 4 * i));
+[0x1ae340] LoggingSystem_Log(SoundSystem, 1LL, "]\n");
+[0xac350] LoggingSystem_Log(
+[0xac350]     SndOperators,
+[0xac350]     2LL,
+[0xac350]     (unsigned int)dword_2E08F0,
+[0xac350]     "Operator Error: Event %s: %s\n",
+[0xac350]     v8,
+[0xac350]     "CSosOperatorFloatAccumulate12");
+[0xac350] result = LoggingSystem_Log(
+[0xac350]     SndOperators,
+[0xac350]     3LL,
+[0xac350]     "Error: %s : Math expression type not currently supported in sound operator math_accumulate12_float\n",
+[0xac350]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16));
+[0xf3950] LoggingSystem_Log(
+[0xf3950]     SndOperators,
+[0xf3950]     3LL,
+[0xf3950]     "opvar_increment_float operator %s in %s failed to get field\n",
+[0xf3950]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32LL * a4 + 16),
+[0xf3950]     (const char *)(a3 + 44));
+[0x137750] LoggingSystem_Log(
+[0x137750]     SoundOperatorSystem,
+[0x137750]     1LL,
+[0x137750]     "Group Index: %i does not reference a valid group.\n",
+[0x137750]     (unsigned int)a2);
+[0x183f5a] LoggingSystem_Log(SoundSystem, 2LL, "(%s:%s) \n", v25, v24);
+[0x183f5a] LoggingSystem_Log(SoundSystem, 2LL, "\n%s:%s: ", &byte_309E80, v23);
+[0x183f5a] LoggingSystem_Log(SoundSystem, 2LL, "%s ", v12);
+[0xf3360] LoggingSystem_Log(
+[0xf3360]     SndOperators,
+[0xf3360]     3LL,
+[0xf3360]     "opvar_get_dsp_preset operator %s in %s failed to get field %s\n",
+[0xf3360]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf3360]     (const char *)(a3 + 44),
+[0xf3360]     v9);
+[0x137370] LoggingSystem_Log(SoundOperatorSystem, 1LL, "ERROR: Invalid Group Branch Index\n", v14);
+[0x13d170] result = LoggingSystem_Log(
+[0x13d170]     SoundOperatorSystem,
+[0x13d170]     1LL,
+[0x13d170]     "Can't read from type %d for field %s\n",
+[0x13d170]     v30,
+[0x13d170]     v14);
+[0x188b70] LoggingSystem_Log(SoundSystem, 1LL, "MixLayer triggered %s:\n", a2);
+[0x188b70] LoggingSystem_Log(SoundSystem, 3LL, "Can't find mix layer %s\n", a2);
+[0x188b70] LoggingSystem_Log(
+[0x188b70]     SoundSystem,
+[0x188b70]     3LL,
+[0x188b70]     "Error: MixGroup %s, in LayerTriggers cannot be resolved!\n",
+[0x188b70]     a2);
+[0x188b70] LoggingSystem_Log(
+[0x188b70]     SoundSystem,
+[0x188b70]     3LL,
+[0x188b70]     "Error: MixLayer Trigger entries require minimum 2 arguments after layer trigger for %s\n",
+[0x188b70]     a2);
+[0x18eb70] result = LoggingSystem_Log(SoundSystem, 3LL, "mpg123_new() failed: %s\n", v20);
+[0x18eb70] result = LoggingSystem_Log(SoundSystem, 3LL, "mpg123_format_none() failed: %s\n", v21);
+[0x18eb70] LoggingSystem_Log(
+[0x18eb70]     SoundSystem,
+[0x18eb70]     3LL,
+[0x18eb70]     "Incorrect sampling rate in %s (mp3 frames are at %dHz, .vsnd file has %dHz)\n",
+[0x18eb70]     v19,
+[0x18eb70]     *(unsigned int *)(a1 + 8408),
+[0x18eb70]     v18);
+[0x18eb70] result = LoggingSystem_Log(SoundSystem, 3LL, "mpg123_open_feed() failed: %s\n", v22);
+[0x1b0370] LoggingSystem_Log(SoundSystem, 2LL, "%s: %s\n", "$toolgraphs", v3);
+[0x1b0370] LoggingSystem_Log(SoundSystem, 2LL, "%s: %s\n", v9, v12);
+[0x1b0370] result = LoggingSystem_Log(SoundSystem, 2LL, "%s: %s\n", "$procedural", v15);
+[0x1b0370] result = LoggingSystem_Log(SoundSystem, 2LL, "%s: %s\n", "**unload**", v19);
+[0x12f580] LoggingSystem_Log(
+[0x12f580]     SndOperators,
+[0x12f580]     1LL,
+[0x12f580]     "Warning: track_queue: No track name specified on %s, playing without track features\n",
+[0x12f580]     v10);
+[0x12f580] LoggingSystem_Log(
+[0x12f580]     SndOperators,
+[0x12f580]     1LL,
+[0x12f580]     "Continue: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f\n",
+[0x12f580]     v6,
+[0x12f580]     *(float *)(a2 + 88),
+[0x12f580]     (float)(*(float *)(a2 + 88) - *(float *)(a2 + 84)),
+[0x12f580]     (float)(v11 - *(float *)(a2 + 84)));
+[0x12f580] LoggingSystem_Log(
+[0x12f580]     SndOperators,
+[0x12f580]     1LL,
+[0x12f580]     "Wait: elapsed time: %f, next sync time: %f, local elapsed: %f, local sync: %f, length: %f, num loops: %i\n",
+[0x12f580]     *(float *)&v6,
+[0x12f580]     *(float *)(a2 + 88),
+[0x12f580]     (float)(*(float *)&v6 - (float)((float)(int)(float)((float)(*(float *)&v6 - v13) / v12) * v12)),
+[0x12f580]     (float)(*(float *)(a2 + 88) - (float)((float)(int)(float)((float)(*(float *)&v6 - v13) / v12) * v12)),
+[0x12f580]     *(float *)(a2 + 80),
+[0x12f580]     (unsigned int)(int)(float)((float)(*(float *)&v6 - v13) / v12));
+[0x16a380] LoggingSystem_Log(SoundSystem, 3LL, "Cleaning up leaked audio stream!\n");
+[0x170780] LoggingSystem_Log(
+[0x170780]     SoundSystem,
+[0x170780]     1LL,
+[0x170780]     "NEW DSP NODE: size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f \n",
+[0x170780]     v7,
+[0x170780]     v9,
+[0x170780]     v13,
+[0x170780]     *(float *)(a1 + 824),
+[0x170780]     v12,
+[0x170780]     v11,
+[0x170780]     v10);
+[0x170780] result = LoggingSystem_Log(
+[0x170780]     SoundSystem,
+[0x170780]     1LL,
+[0x170780]     "DSP PRESET: %.0f size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f \n",
+[0x170780]     a3,
+[0x170780]     v7,
+[0x170780]     v9,
+[0x170780]     v13,
+[0x170780]     *(float *)(a1 + 824),
+[0x170780]     v12,
+[0x170780]     v11,
+[0x170780]     v10);
+[0x176580] LoggingSystem_Log(
+[0x176580]     SoundSystemLowLevel,
+[0x176580]     2LL,
+[0x176580]     "Decreased audio mix latency to %d buffers\n",
+[0x176580]     *(unsigned int *)(a1 + 20));
+[0x198f80] LoggingSystem_Log(SoundSystem, 2LL, "%s : param size = %i, field size = %i\n", v9, v7, v8);
+[0x198f80] LoggingSystem_Log(
+[0x198f80]     SoundSystem,
+[0x198f80]     2LL,
+[0x198f80]     "Total soundevents %i\nTotal param bytes: %i\nTotal field bytes: %i\nTotal combined bytes: %i\n",
+[0x198f80]     (unsigned int)v21,
+[0x198f80]     v14,
+[0x198f80]     v15,
+[0x198f80]     v16);
+[0x1ad580] result = LoggingSystem_Log(SoundSystem, 3LL, "Can't find mixgroup name %s for submix\n", v3);
+[0x1ae980] result = LoggingSystem_Log(SoundSystem, 2LL, "Output %s: %.3f\n", v5, v4);
+[0x1c4d80] LoggingSystem_Log(SoundSystem, 2LL, "Unknown graph input %s\n", v22);
+[0xaef90] return LoggingSystem_Log(SndOperators, 3LL, v13);
+[0xf2f90] LoggingSystem_Log(
+[0xf2f90]     SndOperators,
+[0xf2f90]     3LL,
+[0xf2f90]     "opvar_get_float12 operator %s in %s failed to get field %s\n",
+[0xf2f90]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16),
+[0xf2f90]     (const char *)(a3 + 44),
+[0xf2f90]     v10);
+[0x14d190] LoggingSystem_Log(SoundOperatorSystem, 3LL, "Unknown field type %s for field %s\n", v29, v28);
+[0x14d190] LoggingSystem_Log(SoundOperatorSystem, 3LL, "Invalid field type %s for field %s\n", v29, v27);
+[0x185d90] result = LoggingSystem_Log(
+[0x185d90]     SoundSystem,
+[0x185d90]     3LL,
+[0x185d90]     "Error: MixGroup %s, in LayerTriggers cannot be resolved!\n",
+[0x185d90]     a2);
+[0x1a5b90] return LoggingSystem_Log(SoundSystem, 2LL, v39);
+[0x1a5b90] return LoggingSystem_Log(SoundSystem, 2LL, v39);
+[0x1a5b90] return LoggingSystem_Log(SoundSystem, 2LL, v39);
+[0x1a5b90] return LoggingSystem_Log(SoundSystem, 2LL, v39);
+[0x1a5b90] result = LoggingSystem_Log(SoundSystem, 2LL, "No map found.");
+[0x1a5b90] result = LoggingSystem_Log(SoundSystem, 2LL, "No probes found in %s.\n", v38);
+[0x1a5b90] LoggingSystem_Log(SoundSystem, 2LL, "Found %d probes in %s.\n", (unsigned int)v74, v9);
+[0x1a5b90] LoggingSystem_Log(
+[0x1a5b90]     SoundSystem,
+[0x1a5b90]     2LL,
+[0x1a5b90]     "Displaying %d probes around (%.1f, %.1f, %.1f) within %.2f radius for %.2f seconds.\n",
+[0x1a5b90]     v32,
+[0x1a5b90]     *(float *)&v13,
+[0x1a5b90]     v14,
+[0x1a5b90]     v15,
+[0x1a5b90]     v69,
+[0x1a5b90]     v70);
+[0x1a5b90] result = LoggingSystem_Log(SoundSystem, 2LL, "Steam Audio could not create probes.");
+[0x1bd990] LoggingSystem_Log(SoundSystem, 3LL, "VMIX: Unknown processor type %s (name %s)\n", v26, v25);
+[0x21a390] LoggingSystem_Log(SoundSystemLowLevel, 3LL, "Can't parse mp3 encoding %u\n", v17);
+[0x21a390] result = LoggingSystem_Log(SoundSystemLowLevel, 3LL, "No MP3 support, can't compile!\n");
+[0xd0fa0] result = LoggingSystem_Log(
+[0xd0fa0]     SndOperators,
+[0xd0fa0]     1LL,
+[0xd0fa0]     "Warning: Soundevent %s, failed to get mix layer %s!\n",
+[0xd0fa0]     v8,
+[0xd0fa0]     v6);
+[0x136ba0] LoggingSystem_Log(
+[0x136ba0]     SoundOperatorSystem,
+[0x136ba0]     1LL,
+[0x136ba0]     "Group Index: %i does not reference a valid group.\n",
+[0x136ba0]     (unsigned int)v2);
+[0x13a5a0] LoggingSystem_Log(SndOperators, 1LL, "%s", v1);
+[0x156da0] LoggingSystem_Log(
+[0x156da0]     SoundOperatorSystem,
+[0x156da0]     3LL,
+[0x156da0]     "Detected %d-level recursion in sound operator stack, abort!\n",
+[0x156da0]     v6);
+[0x156da0] LoggingSystem_Log(
+[0x156da0]     SoundOperatorSystem,
+[0x156da0]     3LL,
+[0x156da0]     "Abort processing sound event %s (scheduled recursively will not process this frame)\n",
+[0x156da0]     v56);
+[0x156da0] result = (__int64 *)LoggingSystem_Log(SndOperators, 3LL, "Stack execution list overflow!\n");
+[0x156da0] result = (__int64 *)LoggingSystem_Log(SndOperators, 3LL, "%d) %s\n", v58, v59);
+[0x1845a0] LoggingSystem_Log(
+[0x1845a0]     SoundSystem,
+[0x1845a0]     2LL,
+[0x1845a0]     "Setting Mixer %s: MixGroup %s: %s : %f\n",
+[0x1845a0]     v9,
+[0x1845a0]     v8,
+[0x1845a0]     a2,
+[0x1845a0]     a5);
+[0x1981a0] result = LoggingSystem_Log(SoundSystem, 1LL, "AddSoundEvents: event with empty name\n");
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s unable to get \"base\" sound event %s, deferring load.\n",
+[0x19b1a0]     v256,
+[0x19b1a0]     v9);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s unable to get referenced stack %s. Soundevent load deferred.\n",
+[0x19b1a0]     v103,
+[0x19b1a0]     v232);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s Attempting to set more static groups than allowed\n",
+[0x19b1a0]     v87);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s unable to find field name %s either in public or event data on stack %s.\n",
+[0x19b1a0]     v221,
+[0x19b1a0]     v37,
+[0x19b1a0]     (const char *)(v244 + 44));
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: Sound Event %s field %s data count doesn't match field type.\n",
+[0x19b1a0]     v176,
+[0x19b1a0]     v37);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: Sound Event %s field %s illegal empty array detected.\n",
+[0x19b1a0]     v216,
+[0x19b1a0]     v37);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: Sound Event %s, field %s: array length exceeds currently maximum of %i\".\n",
+[0x19b1a0]     v212,
+[0x19b1a0]     v37,
+[0x19b1a0]     255LL);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: Sound Event %s, field %s: total array length of all soundevent_data has exceeded maximum sele"
+[0x19b1a0]     "ction bits for \"random_exclusive\".\n"
+[0x19b1a0]     "\t%i selection bytes reguired\n"
+[0x19b1a0]     "\t%i bytes available!\n",
+[0x19b1a0]     v223,
+[0x19b1a0]     v37,
+[0x19b1a0]     (unsigned int)v230,
+[0x19b1a0]     64LL);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s unable to find field name %s either in public or event data on stack %s.\n",
+[0x19b1a0]     v210,
+[0x19b1a0]     v249,
+[0x19b1a0]     (const char *)(v244 + 44));
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s field %s has a different number of atomic elements than the field data type. Skipping\n",
+[0x19b1a0]     v184,
+[0x19b1a0]     v203);
+[0x19b1a0] LoggingSystem_Log(
+[0x19b1a0]     SoundSystem,
+[0x19b1a0]     1LL,
+[0x19b1a0]     "ProcessSoundEvent: %s field %s has more elements than stack %s has allocated and the field is no"
+[0x19b1a0]     "t specified as soundevent_data. Element count constrained.\n",
+[0x19b1a0]     v175,
+[0x19b1a0]     v252,
+[0x19b1a0]     v232);
+[0x19f1a0] LoggingSystem_Log(SoundSystem, 1LL, "SetSoundEventDefinitionField: field not found on %s\n", v12);
+[0x19f1a0] LoggingSystem_Log(
+[0x19f1a0]     SoundSystem,
+[0x19f1a0]     1LL,
+[0x19f1a0]     "SetSoundEventDefinitionField: attempt to set an array element on an instance field beyond it's element count on %s\n",
+[0x19f1a0]     v53);
+[0x19f1a0] LoggingSystem_Log(
+[0x19f1a0]     SoundSystem,
+[0x19f1a0]     1LL,
+[0x19f1a0]     "SetSoundEventDefinitionField: unable to add new static field on %s\n",
+[0x19f1a0]     v84);
+[0x19f1a0] LoggingSystem_Log(
+[0x19f1a0]     SoundSystem,
+[0x19f1a0]     1LL,
+[0x19f1a0]     "SetSoundEventDefinitionField: pOpFieldInfo Data type does not MATCH fieldData type on %s\n",
+[0x19f1a0]     v77);
+[0x19f1a0] LoggingSystem_Log(
+[0x19f1a0]     SoundSystem,
+[0x19f1a0]     1LL,
+[0x19f1a0]     "SetSoundEventDefinitionField: fieldData type does not match pOpFieldInfo data type on %s\n",
+[0x19f1a0]     v46);
+[0x951b0] LoggingSystem_Log(
+[0x951b0]     SoundSystem,
+[0x951b0]     1LL,
+[0x951b0]     "Note: sound event %s operator %s has empty \"match all\" match settings\n",
+[0x951b0]     v17,
+[0x951b0]     v16);
+[0x951b0] LoggingSystem_Log(
+[0x951b0]     SndOperators,
+[0x951b0]     3LL,
+[0x951b0]     "Error: Operator %s, EntryMatchList has no free slots!\n",
+[0x951b0]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v5 + 16));
+[0xabbb0] LoggingSystem_Log(
+[0xabbb0]     SndOperators,
+[0xabbb0]     2LL,
+[0xabbb0]     (unsigned int)dword_2E08F0,
+[0xabbb0]     "Operator Error: Event %s: %s\n",
+[0xabbb0]     v11,
+[0xabbb0]     "CSosOperatorSpeakers");
+[0xabbb0] LoggingSystem_Log(
+[0xabbb0]     SndOperators,
+[0xabbb0]     3LL,
+[0xabbb0]     "Error: Operator %s, unknown sound operator attribute %s\n",
+[0xabbb0]     *(const char **)(a2 + 32),
+[0xabbb0]     v6);
+[0x1271c0] LoggingSystem_Log(SndOperators, 3LL, "%s::Execute: Can't find operator stack %s in %s\n", a2, v5, v15);
+[0x15d3c0] LoggingSystem_Log(
+[0x15d3c0]     SoundOperatorSystem,
+[0x15d3c0]     3LL,
+[0x15d3c0]     "CVSoundStackScriptTypeManager::Allocate can't parse stack KV %s\n",
+[0x15d3c0]     v12);
+[0x15d3c0] LoggingSystem_Log(
+[0x15d3c0]     SoundOperatorSystem,
+[0x15d3c0]     3LL,
+[0x15d3c0]     "CVSoundStackScriptTypeManager::Allocate stack with empty name\n");
+[0x1adfc0] LoggingSystem_Log(SoundSystem, 2LL, "%s set to %x (%s)\n", v8, a3, v7);
+[0x1b81c0] LOWORD(v7) = LoggingSystem_Log(SoundSystem, 3LL, "Bad command in vmix!\n");
+[0x220dc0] LoggingSystem_Log(SoundSystemLowLevel, 2LL, "VMIX %s switching to subgraph %s\n", v39, v40);
+[0xf3fd0] result = LoggingSystem_Log(
+[0xf3fd0]     SndOperators,
+[0xf3fd0]     3LL,
+[0xf3fd0]     "opvar_get_random_array_index operator %s in %s failed to get field %s\n",
+[0xf3fd0]     *(const char **)(*(_QWORD *)(*(_QWORD *)(a3 + 672) + 8LL) + 32 * v4 + 16),
+[0xf3fd0]     (const char *)(a3 + 44),
+[0xf3fd0]     v15);
+[0x14f7d0] result = LoggingSystem_Log(
+[0x14f7d0]     SndOperators,
+[0x14f7d0]     2LL,
+[0x14f7d0]     "Usage:  snd_sos_print_operator_stack <stackname> <operator>\n");
+[0x190dd0] LoggingSystem_Log(SoundSystem, 1LL, "deferred Sound Events:\n");
+[0x190dd0] result = LoggingSystem_Log(SoundSystem, 1LL, (const char *)&off_29E184, v3);
+[0x1cf7d0] LoggingSystem_Log(SoundSystem, 3LL, "Unable to connect convar input %s\n", v18);
+[0x275c30] LoggingSystem_Log(
+[0x275c30]     SoundSystemLowLevel,
+[0x275c30]     2LL,
+[0x275c30]     "Audio device starved %d samples \n",
+[0x275c30]     (a2 - v6) / (unsigned int)(*(unsigned __int16 *)(a1 + 148) * (*(unsigned __int16 *)(a1 + 150) >> 3)));
+[0x1557e0] result = LoggingSystem_Log(
+[0x1557e0]     SndOperators,
+[0x1557e0]     2LL,
+[0x1557e0]     "Usage: snd_sos_unpause_soundevent <soundevent index>\n");
+[0x10abe0] LoggingSystem_Log(
+[0x10abe0]     SoundOperatorSystem,
+[0x10abe0]     3LL,
+[0x10abe0]     "Couldn't set effect on %s because we currently don't support setting effect names on voice graphs.\n",
+[0x10abe0]     v20);
+[0x1485e0] LoggingSystem_Log(
+[0x1485e0]     SndOperators,
+[0x1485e0]     2LL,
+[0x1485e0]     "Usage:  snd_sos_set_operator_field <stackname> <operator> <field> <index> <float>\n");
+[0x14b3e0] result = LoggingSystem_Log(
+[0x14b3e0]     SndOperators,
+[0x14b3e0]     2LL,
+[0x14b3e0]     "Usage: snd_sos_pause_first_soundevent <soundevent index>\n");
+[0x14bde0] LoggingSystem_Log(SoundOperatorSystem, 1LL, "Attempting to stop non-existent soundevent: %s\n", a2);
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "%s: %s", v3, v9);
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "vol: %3.2f ", *(float *)(v8 + 4 * v4 + 48));
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "lvl: %3.2f ", *(float *)(v8 + 4 * v4 + 560));
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "dsp: %3.2f ", *(float *)(v8 + 4 * v4 + 1072));
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "solo: %3.2f ", *(float *)(v8 + 4 * v4 + 1584));
+[0x182de0] LoggingSystem_Log(SoundSystem, 2LL, "mute: %3.2f\n", *(float *)(v8 + 4 * v4 + 2096));
+[0x1861e0] result = LoggingSystem_Log(SoundSystem, 3LL, "Too many mix groups specified.\n");
+[0x198de0] LoggingSystem_Log(
+[0x198de0]     SoundSystem,
+[0x198de0]     1LL,
+[0x198de0]     "AddNewSoundEvent:  %s has a hash collision with existing %s\n",
+[0x198de0]     a2,
+[0x198de0]     v7);
+[0x1a7fe0] LoggingSystem_Log(SoundSystem, 2LL, "Loading mapping from %s file.\n", v3);
+[0x1a7fe0] LoggingSystem_Log(General, 2LL, "Running snd_set_physics_surface_properties for %s mod.\n", v11);
+[0x1a7fe0] LoggingSystem_Log(General, 2LL, (const char *)&off_29E184, v49);
+[0x1a7fe0] LoggingSystem_Log(General, 2LL, "Number of materials not mapped = %d.\n", v23);
+[0x1a7fe0] LoggingSystem_Log(General, 2LL, "%d) %s %s -> %s\n", v62, v66, v65, *(_QWORD *)(v102 + 8 * v61));
+[0x1a7fe0] LoggingSystem_Log(General, 2LL, "Number of materials updated with new mapping = %d.\n", v62);
+[0x1a7fe0] LoggingSystem_Log(General, 3LL, v81, v80);
+[0x1a7fe0] LoggingSystem_Log(SoundSystem, 3LL, "Couldn't parse the input.\n");
+[0x1a7fe0] LoggingSystem_Log(
+[0x1a7fe0]     SoundSystem,
+[0x1a7fe0]     2LL,
+[0x1a7fe0]     "Usage: snd_set_physics_surface_properties <diffmaterials|diffmapping|set|overwrite|single> <mapping-file|material-"
+[0x1a7fe0]     "name,material,...>\n");
+[0x999f0] return LoggingSystem_Log(SndOperators, 3LL, "Warning: Unable to set convar value: %s\n", v6);
+[0x999f0] LoggingSystem_Log(
+[0x999f0]     SndOperators,
+[0x999f0]     2LL,
+[0x999f0]     (unsigned int)dword_2E08F0,
+[0x999f0]     "Operator Error: Event %s: %s\n",
+[0x999f0]     v9,
+[0x999f0]     "CSosOperatorSetConvar");
+[0x999f0] return LoggingSystem_Log(SndOperators, 3LL, "Warning: Unable to set convar value: %s\n", v6);
+[0x1661f0] LoggingSystem_Log(SoundSystem, 2LL, "Arrangement: %s\n", v6);
+[0x1661f0] LoggingSystem_Log(SoundSystem, 2LL, "\tTrack: %s\n", v15);
+[0x1661f0] LoggingSystem_Log(SoundSystem, 2LL, "\t\tInstrument: %s\n", v14);
+[0x1661f0] LoggingSystem_Log(SoundSystem, 2LL, "\t\t\tBeat:\t%f\n", *(float *)v13);
+[0x1661f0] LoggingSystem_Log(SoundSystem, 2LL, aSequence_0, v12);
+[0x175df0] LoggingSystem_Log(SoundSystem, 1LL, "Stopping All Sounds...\n");
+[0x1847f0] LoggingSystem_Log(SoundSystem, 2LL, "Parameters: mix group name, [vol, mute, solo], value\n");
+[0x1871f0] LoggingSystem_Log(SoundSystem, 3LL, "Too many sound mixers specified\n");
+[0x1871f0] LoggingSystem_Log(
+[0x1871f0]     SoundSystem,
+[0x1871f0]     3LL,
+[0x1871f0]     "Error: MixGroup %s, in SoundMixer %s, cannot be resolved!\n",
+[0x1871f0]     v2,
+[0x1871f0]     (const char *)(a1 + 16));
+[0x1871f0] LoggingSystem_Log(
+[0x1871f0]     SoundSystem,
+[0x1871f0]     3LL,
+[0x1871f0]     "Error: MixGroup %s, in SoundMixer %s, cannot be resolved!\n",
+[0x1871f0]     v2,
+[0x1871f0]     (const char *)(a1 + 16));

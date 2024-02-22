@@ -1,0 +1,159 @@
+[0xfcc00] LoggingSystem_Log(modellib, 3LL, "unable to load mesh \"%s\"\n", v23);
+[0xfcc00] result = LoggingSystem_Log(modellib, 3LL, "unable to load mesh \"%s\"\n", v22);
+[0x97390] LoggingSystem_Log(
+[0x97390]     General,
+[0x97390]     2LL,
+[0x97390]     "kv 0x%p AddRef refcount == %d\n",
+[0x97390]     (const void *)v21,
+[0x97390]     (unsigned int)*(__int16 *)(v21 + 32));
+[0x9bc10] LoggingSystem_Log(
+[0x9bc10]     TypeManager,
+[0x9bc10]     3LL,
+[0x9bc10]     "AllocateResource: Cannot find DATA block in resource %s!\n",
+[0x9bc10]     v42);
+[0x9bc10] LoggingSystem_Log(TypeManager, 3LL, "Bad KV3 data for resource '%s': %s\n", v29, v27);
+[0x9bc10] LoggingSystem_Log(TypeManager, 3LL, "KV3 load transfer failed for resource '%s': %s", v44, v43);
+[0x9bc10] LoggingSystem_Log(
+[0x9bc10]     TypeManager,
+[0x9bc10]     3LL,
+[0x9bc10]     "AllocateResource: Cannot find VXVS data in resource %s!\n",
+[0x9bc10]     v41);
+[0xebf90] LoggingSystem_Log(
+[0xebf90]     TypeManager,
+[0xebf90]     3LL,
+[0xebf90]     "WARNING: Failed to convert introspected block for file: %s\n",
+[0xebf90]     v9);
+[0xfc990] LoggingSystem_Log(
+[0xfc990]     modellib,
+[0xfc990]     3LL,
+[0xfc990]     "Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n",
+[0xfc990]     v18,
+[0xfc990]     v19);
+[0x9df20] LoggingSystem_Log(WorldRenderer, 2LL, "\tWorld: %s", v1);
+[0x9df20] result = LoggingSystem_Log(
+[0x9df20]     WorldRenderer,
+[0x9df20]     2LL,
+[0x9df20]     "\t\t\tNodes Loaded: %d / %d\n",
+[0x9df20]     v5,
+[0x9df20]     (unsigned int)v3);
+[0x9df20] result = LoggingSystem_Log(WorldRenderer, 2LL, "\n");
+[0xb2120] LoggingSystem_Log(WorldRenderer, 1LL, "Creating %i scene objects for node %i\n", v10, a3);
+[0xebc20] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s' (%s)\n", v15, v14);
+[0xebc20] LoggingSystem_Log(TypeManager, 3LL, "AllocateAndLoad failed for '%s'\n", v13);
+[0xa1730] LoggingSystem_Log(WorldRenderer, 3LL, "Failed to load geometry for level %s\n", v30);
+[0xa1730] LoggingSystem_Log(WorldRenderer, 3LL, "Warning: Error resource loaded for level %s\n", v29);
+[0xb1230] LoggingSystem_Log(
+[0xb1230]     WorldRenderer,
+[0xb1230]     2LL,
+[0xb1230]     "Long grass load frame: %f ms for %d grass tiles\n",
+[0xb1230]     v52,
+[0xb1230]     (unsigned int)(i - *((_DWORD *)v77 + 16)));
+[0xfc130] LoggingSystem_Log(
+[0xfc130]     modellib,
+[0xfc130]     3LL,
+[0xfc130]     "Trying to find a flex controller (%s) that doesn't actually exist in the model.\n",
+[0xfc130]     v11);
+[0x99440] LoggingSystem_Log(WorldRenderer, 1LL, "++%s is at refcount %d\n", v1, *(unsigned int *)(a1 + 92));
+[0xa0ec0] LoggingSystem_Log(
+[0xa0ec0]     TypeManager,
+[0xa0ec0]     3LL,
+[0xa0ec0]     "WARNING: Invalid worldnode version '%d' for file: %s\n",
+[0xa0ec0]     *(unsigned __int16 *)(a4 + 6),
+[0xa0ec0]     v16);
+[0xee64a] LoggingSystem_Log(Entity System, 3LL, "Failed to load nested keys: %s\n", v32);
+[0xee64a] LoggingSystem_Log(
+[0xee64a]     Entity System,
+[0xee64a]     3LL,
+[0xee64a]     "CEntityKeyValues::Unserialize: Unsupported keyvalue variant type (%d)!\n",
+[0xee64a]     v13);
+[0xef84a] LoggingSystem_Log(a2, 2LL, "%s DynamicAtr:%s = '%s'\n", a3, v15, v11);
+[0xef84a] LoggingSystem_Log(a2, 2LL, "%s0x%08X:%s = \"%s\"\n", a3, v16, v9, v10);
+[0x9e4d0] LoggingSystem_Log(WorldRenderer, 2LL, "World '%s' Lump '%s' ", v6, v11);
+[0x9e4d0] LoggingSystem_Log(WorldRenderer, 2LL, &v24, "(spew)");
+[0x9e4d0] LoggingSystem_Log(WorldRenderer, 2LL, "\n");
+[0xa04d0] LoggingSystem_Log(WorldRenderer, 1LL, "--%s is at refcount %d\n", v1, *(unsigned int *)(a1 + 92));
+[0xa0650] LoggingSystem_Log(
+[0xa0650]     WorldRenderer,
+[0xa0650]     1LL,
+[0xa0650]     "MountWorldVPK() ++%s is at refcount %d\n",
+[0xa0650]     v15,
+[0xa0650]     *(unsigned int *)((char *)v21 + *(_QWORD *)(a1 + 632)));
+[0xa0650] LoggingSystem_Log(
+[0xa0650]     WorldRenderer,
+[0xa0650]     2LL,
+[0xa0650]     "Failed to mount world vpk file %s, file could not be found.\n",
+[0xa0650]     v10);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%s== World '%s' Entity Lump '%s': %d entities ==\n", a4, v27, v26, (unsigned int)v29);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%sEntity %d (%s '%s'):\n", a4, v7, v11, v15);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%s{\n", a4);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, v10, v8);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%s}\n", a4);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%s\n", a4);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%sI/O Connections:\n", v19);
+[0xa4750] LoggingSystem_Log(WorldRenderer, 2LL, "%s{\n", v20);
+[0xa4750] LoggingSystem_Log(
+[0xa4750]     WorldRenderer,
+[0xa4750]     2LL,
+[0xa4750]     "%s  '%s' --> '%s' : %s (%s) [delay=%.2f;times=%d;type=%d]\n",
+[0xa4750]     v24,
+[0xa4750]     *(const char **)v23,
+[0xa4750]     *(const char **)(v23 + 16),
+[0xa4750]     *(const char **)(v23 + 24),
+[0xa4750]     *(const char **)(v23 + 32),
+[0xa4750]     *(float *)(v23 + 40),
+[0xa4750]     *(unsigned int *)(v23 + 44),
+[0xa4750]     *(unsigned int *)(v23 + 8));
+[0xa4750] result = LoggingSystem_Log(WorldRenderer, 2LL, "%s\n", a4);
+[0xa7fd0] LoggingSystem_Log(
+[0xa7fd0]     General,
+[0xa7fd0]     2LL,
+[0xa7fd0]     "kv 0x%p AddRef refcount == %d\n",
+[0xa7fd0]     (const void *)v8,
+[0xa7fd0]     (unsigned int)*(__int16 *)(v8 + 32));
+[0x9dc5a] LoggingSystem_Log(
+[0x9dc5a]     WorldRenderer,
+[0x9dc5a]     1LL,
+[0x9dc5a]     "UnmountWorldVPK() --%s is at refcount %d\n",
+[0x9dc5a]     v15,
+[0x9dc5a]     *(unsigned int *)(*(_QWORD *)(a1 + 632) + 4 * v6));
+[0x98ee0] LoggingSystem_Log(
+[0x98ee0]     TypeManager,
+[0x98ee0]     3LL,
+[0x98ee0]     "WARNING: Invalid worldnode version '%d' for file: %s\n",
+[0x98ee0]     *(unsigned __int16 *)(a4 + 6),
+[0x98ee0]     v17);
+[0x98060] LoggingSystem_Log(
+[0x98060]     General,
+[0x98060]     2LL,
+[0x98060]     "kv 0x%p Release refcount == %d\n",
+[0x98060]     (const void *)v6,
+[0x98060]     (unsigned int)(*(__int16 *)(v6 + 32) - 1));
+[0x9e060] LoggingSystem_Log(WorldRenderer, 2LL, "Deletion List:\n");
+[0x9e060] LoggingSystem_Log(WorldRenderer, 2LL, "\nLoaded List:\n");
+[0x9e060] LoggingSystem_Log(WorldRenderer, 2LL, "\nPending List:\n");
+[0x9e860] LoggingSystem_Log(WorldRenderer, 2LL, "World '%s' layer '%s' ", v6, v13);
+[0x9e860] LoggingSystem_Log(WorldRenderer, 2LL, &v36, "(show)");
+[0x9e860] LoggingSystem_Log(WorldRenderer, 2LL, "\n");
+[0x9e860] LoggingSystem_Log(WorldRenderer, 2LL, &v36, "(hide)");
+[0xa1c60] LoggingSystem_Log(
+[0xa1c60]     WorldRenderer,
+[0xa1c60]     3LL,
+[0xa1c60]     "CWorldRendererMgr::CreateWorld_Internal( %s ):  Blocking load because marked for deletion during load\n",
+[0xa1c60]     v22);
+[0xa38e0] LoggingSystem_Log(WorldRenderer, 3LL, "Unknown lightmap texture: %s\n", v48);
+[0xa38e0] LoggingSystem_Log(
+[0xa38e0]     WorldRenderer,
+[0xa38e0]     2LL,
+[0xa38e0]     "Lightmap version number is out of date! Reverting to dynamic lighting");
+[0xacf60] LoggingSystem_Log(
+[0xacf60]     TypeManager,
+[0xacf60]     3LL,
+[0xacf60]     "WARNING: Invalid worldnode version '%d' for file: %s\n",
+[0xacf60]     *(unsigned __int16 *)(a4 + 6),
+[0xacf60]     v16);
+[0xec160] LoggingSystem_Log(
+[0xec160]     TypeManager,
+[0xec160]     3LL,
+[0xec160]     "WARNING: Invalid resource version (%d): %s\n",
+[0xec160]     *(unsigned __int16 *)(a4 + 6),
+[0xec160]     v23);

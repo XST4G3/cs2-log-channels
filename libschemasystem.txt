@@ -1,0 +1,304 @@
+[0x2b390] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v23);
+[0x2b390] LoggingSystem_Log(
+[0x2b390]     SchemaSystem,
+[0x2b390]     5LL,
+[0x2b390]     &v107,
+[0x2b390]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2b390]     v27);
+[0x2f990] LoggingSystem_Log(
+[0x2f990]     SchemaSystem,
+[0x2f990]     2LL,
+[0x2f990]     "----------------------------------------------------------------------------------------------------------\n",
+[0x2f990]     v1);
+[0x2f990] LoggingSystem_Log(SchemaSystem, 2LL, "Class '%s\n", *(const char **)(a1 + 8));
+[0x2f990] LoggingSystem_Log(
+[0x2f990]     SchemaSystem,
+[0x2f990]     2LL,
+[0x2f990]     "----------------------------------------------------------------------------------------------------------\n");
+[0x2f990] return LoggingSystem_Log(
+[0x2f990]     SchemaSystem,
+[0x2f990]     2LL,
+[0x2f990]     "----------------------------------------------------------------------------------------------------------\n");
+[0x2f990] LoggingSystem_Log(
+[0x2f990]     SchemaSystem,
+[0x2f990]     2LL,
+[0x2f990]     "%-10s%-10s %-8s %-40s %-40s %-40s\n",
+[0x2f990]     &s2,
+[0x2f990]     "OuterOffset",
+[0x2f990]     "Offset",
+[0x2f990]     "Class",
+[0x2f990]     "Field",
+[0x2f990]     "Type");
+[0x2f990] return LoggingSystem_Log(
+[0x2f990]     SchemaSystem,
+[0x2f990]     2LL,
+[0x2f990]     "----------------------------------------------------------------------------------------------------------\n");
+[0x338a0] LoggingSystem_Log(SchemaSystem, 3LL, "ERROR: CResourceToKV3 failed to resolve extref  %016llX\n", a2);
+[0x34320] LoggingSystem_Log(SchemaSystem, 3LL, "ERROR: CResourceToKV3 failed to DeduceDerivedTypeFromDisk\n");
+[0x36820] LoggingSystem_Log(SchemaSystem, 3LL, "ConvertOldIntrospectedResourceDataToKV3 - Bad arguments!\n");
+[0x36820] LoggingSystem_Log(
+[0x36820]     SchemaSystem,
+[0x36820]     3LL,
+[0x36820]     "ConvertOldIntrospectedResourceDataToKV3 - No introspection dictionary!\n");
+[0x36820] LoggingSystem_Log(
+[0x36820]     SchemaSystem,
+[0x36820]     3LL,
+[0x36820]     "ConvertOldIntrospectedResourceDataToKV3 - Out-of-date source introspection dictionary\n");
+[0x36820] LoggingSystem_Log(SchemaSystem, 3LL, "ConvertOldIntrospectedResourceDataToKV3 - No root struct\n");
+[0x1bbb0] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v19);
+[0x1bbb0] LoggingSystem_Log(
+[0x1bbb0]     SchemaSystem,
+[0x1bbb0]     5LL,
+[0x1bbb0]     &v59,
+[0x1bbb0]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x1bbb0]     v23);
+[0x130b0] result = (void *)LoggingSystem_Log(
+[0x130b0]     SchemaSystem,
+[0x130b0]     3LL,
+[0x130b0]     "Multiple instances of schema system are initialized. %p != %p\n",
+[0x130b0]     (const void *)a1,
+[0x130b0]     qword_700F8);
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "%s", v9);
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "*************************************************\n");
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "*************************************************\n");
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "***!        ENTERING THE DANGER ZONE         !***\n");
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "***! Disregarding mismatched schema bindings !***\n");
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "*************************************************\n");
+[0x10cc0] LoggingSystem_Log(SchemaSystem, 3LL, "*************************************************\n");
+[0x10cc0] LoggingSystem_Log(
+[0x10cc0]     SchemaSystem,
+[0x10cc0]     5LL,
+[0x10cc0]     &v25,
+[0x10cc0]     "ERROR: Schema mismatches reported! Aborting to prevent data corruption.\n"
+[0x10cc0]     "\n"
+[0x10cc0]     "All errors logged to console. First error (of %d):\n"
+[0x10cc0]     "%s",
+[0x10cc0]     v21);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v152);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v149);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v11);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v15);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v21);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v25);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v31);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v35);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v41);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v45);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v52);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v56);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v62);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v66);
+[0x2bf40] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v75);
+[0x2bf40] LoggingSystem_Log(
+[0x2bf40]     SchemaSystem,
+[0x2bf40]     5LL,
+[0x2bf40]     &v187,
+[0x2bf40]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x2bf40]     v72);
+[0x30a40] LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "----------------------------------------------------------------------------------------------------------\n");
+[0x30a40] LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "Enum '%s' (binary '%s' project '%s')\n",
+[0x30a40]     *(const char **)(v2 + 8),
+[0x30a40]     v18,
+[0x30a40]     v17);
+[0x30a40] result = LoggingSystem_Log(SchemaSystem, 2LL, "%d enumerators:\n", *(unsigned __int16 *)(v2 + 28));
+[0x30a40] LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "%-40s = 0x%016llX (%lld)\n",
+[0x30a40]     *(const char **)(32 * v4 + v5),
+[0x30a40]     *(_QWORD *)(32 * v4 + v5 + 8),
+[0x30a40]     *(_QWORD *)(32 * v4 + v5 + 8));
+[0x30a40] LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "----------------------------------------------------------------------------------------------------------\n");
+[0x30a40] LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "Size: %d bytes (%d unaccounted, of which %d is likely alignment)\n",
+[0x30a40]     *(unsigned int *)(v6 + 24),
+[0x30a40]     v21,
+[0x30a40]     v22[0]);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "Alignment: %d bytes%s\n", *(unsigned __int8 *)(v6 + 34), v8);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "Is Polymorphic: %s\n", v9);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "Has Trivial Constructor: %s\n", v10);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "Has Trivial Destructor: %s\n", v11);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "%d base classe%s:\n", (unsigned int)v12, v13);
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, " - %s\n", *(const char **)(v16 + 8));
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "No base classes.\n");
+[0x30a40] LoggingSystem_Log(SchemaSystem, 2LL, "Registered binary: %s (project '%s')\n", v20, v19);
+[0x30a40] result = LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     2LL,
+[0x30a40]     "----------------------------------------------------------------------------------------------------------\n");
+[0x30a40] result = LoggingSystem_Log(
+[0x30a40]     SchemaSystem,
+[0x30a40]     3LL,
+[0x30a40]     "No class or enum found named '%s'\n",
+[0x30a40]     *(const char **)a2);
+[0x31cc0] LoggingSystem_Log(SchemaSystem, 2LL, "Top %u metadata item counts:\n", (unsigned int)v9);
+[0x31cc0] LoggingSystem_Log(
+[0x31cc0]     SchemaSystem,
+[0x31cc0]     2LL,
+[0x31cc0]     "%s %s bindings with metadata (out of %s); %s total metadata items; %s unique metadata names\n",
+[0x31cc0] LoggingSystem_Log(SchemaSystem, 2LL, "%5s: %s (%.3f%% of all %s bindings)\n", v16, v13, v35, v41);
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s+-- Schema Class: %s\n", a3, *(const char **)(a1 + 8));
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s| SizeOf: %d\n", a3, *(unsigned int *)(a1 + 24));
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s| AlignOf: %d\n", a3, *(unsigned __int8 *)(a1 + 34));
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s| Project: '%s' Binary: '%s'\n", a3, v22, v21);
+[0x43b40] LoggingSystem_Log(
+[0x43b40]     a2,
+[0x43b40]     2LL,
+[0x43b40]     "%s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s\n",
+[0x43b40]     a3,
+[0x43b40]     v6,
+[0x43b40]     v9,
+[0x43b40]     v8,
+[0x43b40]     v7);
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s| Base Class%s: %d\n", a3, v11, (unsigned int)v10);
+[0x43b40] LoggingSystem_Log(
+[0x43b40]     a2,
+[0x43b40]     2LL,
+[0x43b40]     "%s|  % 2d: %s [Offset: %d]\n",
+[0x43b40]     a3,
+[0x43b40]     v13,
+[0x43b40]     *(const char **)(*((_QWORD *)v14 + 1) + 8LL),
+[0x43b40]     *v14);
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s| Fields:\n", a3);
+[0x43b40] LoggingSystem_Log(a2, 2LL, "%s|  % 2d: [% 3d] %-12s %s\n", a3, v15, v16, v18, v23);
+[0x43b40] result = LoggingSystem_Log(a2, 2LL, "%s+--\n", a3);
+[0x16950] LoggingSystem_Log(
+[0x16950]     SchemaSystem,
+[0x16950]     3LL,
+[0x16950]     "WARNING: SchemaSystem tried to load schema data for module '%s' but failed to load the module.\n",
+[0x16950]     *v5);
+[0x16950] LoggingSystem_Log(
+[0x16950]     SchemaSystem,
+[0x16950]     3LL,
+[0x16950]     "WARNING: SchemaSystem tried to load schema data for module '%s' but InstallSchemaBindings returned false.\n",
+[0x16950]     a2[v13]);
+[0x16950] LoggingSystem_Log(
+[0x16950]     SchemaSystem,
+[0x16950]     3LL,
+[0x16950]     "WARNING: SchemaSystem tried to load schema data for module '%s' but failed to locate InstallSchemaBindings.\n",
+[0x16950]     a2[v13]);
+[0x30650] LoggingSystem_Log(
+[0x30650]     SchemaSystem,
+[0x30650]     2LL,
+[0x30650]     "%-10s[ Inline %s ]\n",
+[0x30650]     v23,
+[0x30650]     *(const char **)(*(_QWORD *)(v18 + 32) + 8LL));
+[0x29560] LoggingSystem_Log(SchemaSystem, 1LL, "Promoting unresolved type '%s' to global scope.\n", v23);
+[0x29560] LoggingSystem_Log(
+[0x29560]     SchemaSystem,
+[0x29560]     5LL,
+[0x29560]     &v107,
+[0x29560]     "Type '%s' was unresolved at local scope, but already exists at global scope!\n",
+[0x29560]     v27);
+[0x2fde0] LoggingSystem_Log(
+[0x2fde0]     SchemaSystem,
+[0x2fde0]     2LL,
+[0x2fde0]     "Listing %d %s schema bindings (%d classes and %d enums)\n",
+[0x2fde0]     (unsigned int)*a3,
+[0x2fde0]     a2,
+[0x2fde0]     a4,
+[0x2fde0]     v5);
+[0x2fde0] LoggingSystem_Log(
+[0x2fde0]     SchemaSystem,
+[0x2fde0]     2LL,
+[0x2fde0]     "----------------------------------------------------------------------------------------------------------\n");
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "%-60s %-25s %-25s %s\n", "Name", "Binary", "Project", "Info");
+[0x2fde0] LoggingSystem_Log(
+[0x2fde0]     SchemaSystem,
+[0x2fde0]     2LL,
+[0x2fde0]     "----------------------------------------------------------------------------------------------------------\n");
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "%-60s %-25s %-25s ", *v35, v30, v29);
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "Enum: %3d enumerators ", *((unsigned __int16 *)v12 + 14));
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "%-60s ", *v35);
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "BAD BINDING\n");
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, &v36, "(dump)");
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, asc_5A466);
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, "%-60s %-25s %-25s ", *v35, v32, v31);
+[0x2fde0] LoggingSystem_Log(
+[0x2fde0]     SchemaSystem,
+[0x2fde0]     2LL,
+[0x2fde0]     "Class: %7d bytes, %4d fields, %4d nonderived fields ",
+[0x2fde0]     *(unsigned int *)(v11 + 24),
+[0x2fde0]     v20,
+[0x2fde0]     *(unsigned __int16 *)(v11 + 28));
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, " ");
+[0x2fde0] LoggingSystem_Log(SchemaSystem, 2LL, &v36, "(detailed layout)");
+[0x30fe0] LoggingSystem_Log(
+[0x30fe0]     SchemaSystem,
+[0x30fe0]     2LL,
+[0x30fe0]     "----------------------------------------------------------------------------------------------------------\n");
+[0x30fe0] LoggingSystem_Log(
+[0x30fe0]     SchemaSystem,
+[0x30fe0]     2LL,
+[0x30fe0]     "Size: %d bytes (%d unaccounted, of which %d is likely alignment)\n",
+[0x30fe0]     *(unsigned int *)(a2 + 24),
+[0x30fe0]     v3,
+[0x30fe0]     v4[0]);
+[0x30fe0] result = LoggingSystem_Log(
+[0x30fe0]     SchemaSystem,
+[0x30fe0]     2LL,
+[0x30fe0]     "----------------------------------------------------------------------------------------------------------\n");
+[0x31970] LoggingSystem_Log(
+[0x31970]     SchemaSystem,
+[0x31970]     2LL,
+[0x31970]     "%s schema bindings in %u modules (%s classes, %s enums)\n",
+[0x31970]     v21,
+[0x31970]     v19,
+[0x31970]     v20,
+[0x31970]     v17);
+[0x31970] LoggingSystem_Log(SchemaSystem, 2LL, "%s bytes in static binding info\n", v16);
+[0x31970] LoggingSystem_Log(
+[0x31970]     SchemaSystem,
+[0x31970]     2LL,
+[0x31970]     "%s registrations; %s were redundant; %s were ignored (%s bytes of ignored data)\n",
+[0x31970]     v15,
+[0x31970]     v14,
+[0x31970]     v13,
+[0x31970]     v12);
+[0x422f0] result = LoggingSystem_Log(a2, 2LL, "%s Schema Type: %s\n", a3, v5);

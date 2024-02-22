@@ -1,0 +1,2223 @@
+[0x104c00] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: %s LoadStreamingData (%s)\n", "LoadStreamingData", v8);
+[0x168c00] LoggingSystem_Log(
+[0x168c00]     RenderSystem,
+[0x168c00]     3LL,
+[0x168c00]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x168c00]     v9,
+[0x168c00]     "vkEndCommandBuffer( pCommandBuffer->m_pCmdBuffer )");
+[0x181000] LoggingSystem_Log(
+[0x181000]     RenderSystem,
+[0x181000]     1LL,
+[0x181000]     "Descriptor pool allocation failed, reducing descriptors to attempt allocating in pool to %d\n",
+[0x181000]     *((unsigned int *)v8 + 3));
+[0x181000] LoggingSystem_Log(
+[0x181000]     RenderSystem,
+[0x181000]     3LL,
+[0x181000]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x181000]     v78,
+[0x181000]     "vkCreateDescriptorPool( m_pDeviceVulkan, &descriptorPoolCreateInfo, NULL, &pDescriptorPool )",
+[0x181000]     &v92);
+[0x181000] LoggingSystem_Log(
+[0x181000]     RenderSystem,
+[0x181000]     3LL,
+[0x181000]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x181000]     v60,
+[0x181000]     "vkAllocateDescriptorSets( m_pDeviceVulkan, &allocInfo, &pCurrentDescriptorSetPool->m_ppDescriptorSets[ p"
+[0x181000]     "CurrentDescriptorSetPool->m_nCurrentDescriptorSet - 1 ] )");
+[0x181000] LoggingSystem_Log(
+[0x181000]     RenderSystem,
+[0x181000]     3LL,
+[0x181000]     "Descriptor pool allocation failed on available pool, reducing descriptors to attempt allocating in pool to %d\n",
+[0x181000]     *(unsigned int *)(v80 + 12));
+[0x1a5400] LoggingSystem_Log(
+[0x1a5400]     RenderSystem,
+[0x1a5400]     3LL,
+[0x1a5400]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5400]     v18,
+[0x1a5400]     "vkResetCommandBuffer( pResetQueriesCommandBuffer, 0 )");
+[0x1a5400] LoggingSystem_Log(
+[0x1a5400]     RenderSystem,
+[0x1a5400]     3LL,
+[0x1a5400]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5400]     v20,
+[0x1a5400]     "vkBeginCommandBuffer( pResetQueriesCommandBuffer, &beginInfo )");
+[0x1a5400] LoggingSystem_Log(
+[0x1a5400]     RenderSystem,
+[0x1a5400]     3LL,
+[0x1a5400]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5400]     v19,
+[0x1a5400]     "vkEndCommandBuffer( pResetQueriesCommandBuffer )");
+[0x1a93e0] LoggingSystem_Log(
+[0x1a93e0]     RenderSystem,
+[0x1a93e0]     3LL,
+[0x1a93e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a93e0]     v81,
+[0x1a93e0]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, VK_NULL_HANDLE )");
+[0x1a93e0] LoggingSystem_Log(
+[0x1a93e0]     RenderSystem,
+[0x1a93e0]     3LL,
+[0x1a93e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a93e0]     v67,
+[0x1a93e0]     "vkResetCommandBuffer( pCommandBuffer, 0 )");
+[0x1a93e0] LoggingSystem_Log(
+[0x1a93e0]     RenderSystem,
+[0x1a93e0]     3LL,
+[0x1a93e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a93e0]     v65,
+[0x1a93e0]     "vkBeginCommandBuffer( pCommandBuffer, &beginInfo )");
+[0x1a93e0] LoggingSystem_Log(
+[0x1a93e0]     RenderSystem,
+[0x1a93e0]     3LL,
+[0x1a93e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a93e0]     v66,
+[0x1a93e0]     "vkEndCommandBuffer( pCommandBuffer )");
+[0x1a93e0] LoggingSystem_Log(
+[0x1a93e0]     RenderSystem,
+[0x1a93e0]     3LL,
+[0x1a93e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a93e0]     v34,
+[0x1a93e0]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, presentFence.m_pFence )");
+[0x1a93e0] LoggingSystem_Log(RenderSystem, 3LL, "vkQueuePresentKHR failed with error %d\n", (unsigned int)v100);
+[0x125810] LoggingSystem_Log(
+[0x125810]     RenderSystem,
+[0x125810]     3LL,
+[0x125810]     "*** IB \"%s\": Tried to lock too much memory for subregion (%d>%d)!\n",
+[0x125810]     v8,
+[0x125810]     v5,
+[0x125810]     v7);
+[0x127610] LoggingSystem_Log(
+[0x127610]     RenderSystem,
+[0x127610]     3LL,
+[0x127610]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x127610]     v6,
+[0x127610]     "nResult = vmaCreateAllocator( &allocatorCreateInfo, &m_pVmaAllocator )");
+[0x129610] LoggingSystem_Log(
+[0x129610]     RenderSystem,
+[0x129610]     3LL,
+[0x129610]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x129610]     v18,
+[0x129610]     "vkCreateBuffer( m_pDeviceVulkan, &bufferCreateInfo, NULL, ppVKBufferOut )");
+[0x149810] LoggingSystem_Log(
+[0x149810]     RenderSystem,
+[0x149810]     3LL,
+[0x149810]     "Unable to parse Vulkan pipeline cache %s file.  Error: %s\n",
+[0x149810]     v28,
+[0x149810]     v27);
+[0x149810] LoggingSystem_Log(v10, 3LL, v11, v9, v8, v7);
+[0x149810] LoggingSystem_Log(
+[0x149810]     RenderSystem,
+[0x149810]     3LL,
+[0x149810]     "Vendor ID mismatch in pipeline cache file (Got: %x Expected: %x).  Deleting %s in order to regenerate it.\n",
+[0x149810]     v147,
+[0x149810]     *(unsigned int *)(a1 + 1424),
+[0x149810]     v32);
+[0x149810] LoggingSystem_Log(
+[0x149810]     RenderSystem,
+[0x149810]     3LL,
+[0x149810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x149810]     v109,
+[0x149810]     "vkCreateDescriptorSetLayout( m_pDeviceVulkan, &descriptorSetLayoutCreateInfo, NULL, &p"
+[0x149810]     "ipelineLayout.m_ppDescriptorSetLayouts[ nDescriptorSet ] )");
+[0x149810] LoggingSystem_Log(
+[0x149810]     RenderSystem,
+[0x149810]     3LL,
+[0x149810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x149810]     v104,
+[0x149810]     "vkCreatePipelineLayout( m_pDeviceVulkan, &pipelineLayoutCreateInfo, NULL, &pipelineLayout."
+[0x149810]     "m_pPipelineLayout )");
+[0x149810] LoggingSystem_Log(v29, 3LL, v31, v30);
+[0x149810] LoggingSystem_Log(
+[0x149810]     RenderSystem,
+[0x149810]     3LL,
+[0x149810]     "Unable to open Vulkan pipeline cache %s file - might not exist yet.\n",
+[0x149810]     v15);
+[0x192810] LoggingSystem_Log(
+[0x192810]     RenderSystem,
+[0x192810]     3LL,
+[0x192810]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1aa810] result = LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "OnMultiGpuTransferTexture: No texture specification for destination texture, skipping transfer.\n");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v76,
+[0x1aa810]     "vkCreateSemaphore( VulkanDevice(), &semaphoreCreateInfo, NULL, &m_pMultiGpuTransferSemaphores[ nTransfer ] )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v18,
+[0x1aa810]     "vkResetCommandBuffer( pCommandBuffer, 0 )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v20,
+[0x1aa810]     "vkBeginCommandBuffer( pCommandBuffer, &beginInfo )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v33,
+[0x1aa810]     "vkEndCommandBuffer( pCommandBuffer )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v38,
+[0x1aa810]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, VK_NULL_HANDLE )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x1aa810]     v94);
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v59,
+[0x1aa810]     "vkResetCommandBuffer( pCommandBuffer, 0 )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v61,
+[0x1aa810]     "vkBeginCommandBuffer( pCommandBuffer, &beginInfo )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v68,
+[0x1aa810]     "vkEndCommandBuffer( pCommandBuffer )");
+[0x1aa810] LoggingSystem_Log(
+[0x1aa810]     RenderSystem,
+[0x1aa810]     3LL,
+[0x1aa810]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1aa810]     v84,
+[0x1aa810]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, VK_NULL_HANDLE )");
+[0x116820] LoggingSystem_Log(
+[0x116820]     RenderSystem,
+[0x116820]     1LL,
+[0x116820]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x116820]     "LoadExplicitlyRequestedTextures",
+[0x116820]     v49);
+[0x12f620] LoggingSystem_Log(
+[0x12f620]     RenderSystem,
+[0x12f620]     3LL,
+[0x12f620]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x12f620]     v68,
+[0x12f620]     "nResult = vmaBindImageMemory( m_pVmaAllocator, pMove->dstTmpAllocation, ( VkImage ) nNewObject )");
+[0x12f620] LoggingSystem_Log(
+[0x12f620]     RenderSystem,
+[0x12f620]     3LL,
+[0x12f620]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x12f620]     v17,
+[0x12f620]     "nResult = vmaBindBufferMemory( m_pVmaAllocator, pMove->dstTmpAllocation, ( VkBuffer ) nNewObject )");
+[0x12f620] LODWORD(v5) = LoggingSystem_Log(
+[0x12f620]     RenderSystem,
+[0x12f620]     3LL,
+[0x12f620]     "VmaCreateNewVulkanObject '%s' unexpectedly failed to create an object.\n",
+[0x12f620]     v32);
+[0x130a20] result = LoggingSystem_Log(v10, v9, v11, v8);
+[0x130a20] result = LoggingSystem_Log(RenderSystem, 5LL, &s, "Fossilize ERROR:\n\t%s", v12);
+[0x141820] LoggingSystem_Log(
+[0x141820]     RenderSystem,
+[0x141820]     3LL,
+[0x141820]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x141820]     v99,
+[0x141820]     "vkCreateDescriptorUpdateTemplateKHR( m_pDeviceVulkan, &descriptorUpdateTemplateCreateInfo, NULL, &pPipelineO"
+[0x141820]     "ut->m_pDescriptorUpdateTemplate )");
+[0x15c020] LoggingSystem_Log(
+[0x15c020]     RenderSystem,
+[0x15c020]     3LL,
+[0x15c020]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x15c020]     v15,
+[0x15c020]     "vkResetCommandBuffer( (*ppCommandBuffer)->m_pCmdBuffer, 0 )");
+[0x15c020] LoggingSystem_Log(
+[0x15c020]     RenderSystem,
+[0x15c020]     3LL,
+[0x15c020]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x15c020]     v14,
+[0x15c020]     "vkBeginCommandBuffer( (*ppCommandBuffer)->m_pCmdBuffer, &beginInfo )");
+[0x15c020] LoggingSystem_Log(
+[0x15c020]     RenderSystem,
+[0x15c020]     5LL,
+[0x15c020]     &v48,
+[0x15c020]     "Too many threads (%d), increase m_nMaxDeviceAccessThreads (%d) in CRenderDeviceBase when a new thread is added.\n",
+[0x15c020]     v13);
+[0x15dc20] LoggingSystem_Log(
+[0x15dc20]     RenderSystem,
+[0x15dc20]     3LL,
+[0x15dc20]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x15dc20]     v17,
+[0x15dc20]     &qword_903F90);
+[0x15dc20] LoggingSystem_Log(
+[0x15dc20]     RenderSystem,
+[0x15dc20]     3LL,
+[0x15dc20]     "CRenderContextVulkan::ClearUnorderedAccessViewUint could not get CVulkanImage for texture %s.",
+[0x15dc20]     v21);
+[0x167020] LoggingSystem_Log(
+[0x167020]     RenderSystem,
+[0x167020]     3LL,
+[0x167020]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x167020] LoggingSystem_Log(
+[0x167020]     RenderSystem,
+[0x167020]     3LL,
+[0x167020]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x167020]     &qword_8B5E10,
+[0x167020]     v27,
+[0x167020]     v32);
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     3LL,
+[0x194020]     4278190335LL,
+[0x194020]     "Subgroup wave op support required because VulkanRequireSubgroupWaveOpSupport is set in gameinfo.gi, but subgroup"
+[0x194020]     " wave ops are not supported.  Vulkan device creation failed.\n");
+[0x194020] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan Physical Device: %s\n", v177 + 28);
+[0x194020] LoggingSystem_Log(RenderSystem, 2LL, "Initializing streaming texture manager.\n");
+[0x194020] LoggingSystem_Log(RenderSystem, 3LL, v84);
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     3LL,
+[0x194020]     4278190335LL,
+[0x194020]     "VK_EXT_descriptor_indexing support required because VulkanRequireDescriptorIndxing is set in gameinfo.gi, but ar"
+[0x194020]     "e not supported.  Vulkan device creation failed.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     3LL,
+[0x194020]     "'%s' not supported, vkAllocateDescriptorSets validation errors may be reported.\n",
+[0x194020]     "VK_KHR_maintenance1");
+[0x194020] LoggingSystem_Log(RenderSystem, 3LL, v146);
+[0x194020] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan extension enabled: %s\n", *v81);
+[0x194020] LoggingSystem_Log(RenderSystem, 3LL, 4294967040LL, "Vulkan MultiGPU Rendering - Enabled!\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     3LL,
+[0x194020]     4294967040LL,
+[0x194020]     "Vulkan MultiGPU Rendering - using %d GPUs\n",
+[0x194020]     v174);
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_EXT_descriptor_indexing does not support required features, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_EXT_subgroup_size_control does not support required features, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     3LL,
+[0x194020]     "Vulkan device does not support precise occlusion queries, this may result in incorrect rendering that relies on ac"
+[0x194020]     "curate occlusion queries (such as tonemapping).\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_EXT_extended_dynamic_state_2 does not support extendedDynamicState2PatchControlPoints, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_EXT_extended_dynamic_state_2 does not support extendedDynamicState3DepthClampEnable, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "Disabling VK_EXT_graphics_pipeline_library dependent extensions.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_KHR_shader_float16_int8 does not support shaderFloat16, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_KHR_separate_depth_stencil_layouts does not support separateDepthStencilLayouts, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_KHR_shader_clock does not support shaderDeviceClock, disabling.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "VK_EXT_graphics_pipeline_library and dependent extensions enabled.\n");
+[0x194020] LoggingSystem_Log(RenderSystem, 2LL, "Using VK_GOOGLE_display_timing for frame pacing.\n");
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "Vulkan driver version: %d.%d.%d.%d\n",
+[0x194020]     HIWORD(v251),
+[0x194020]     (unsigned __int16)v251,
+[0x194020]     HIWORD(v252),
+[0x194020]     (unsigned __int16)v252);
+[0x194020] LoggingSystem_Log(
+[0x194020]     RenderSystem,
+[0x194020]     2LL,
+[0x194020]     "Vulkan using external subpass dependencies for all renderpasses.\n");
+[0x194020] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan lazily allocating render targets.\n");
+[0x194020] LoggingSystem_Log(RenderSystem, 3LL, "Failed to initialize Vulkan memory manager.\n");
+[0x1a2220] LoggingSystem_Log(
+[0x1a2220]     RenderSystem,
+[0x1a2220]     3LL,
+[0x1a2220]     "Checking for VK_NV_device_diagnostic_checkpoints indicating queue failure...\n");
+[0x1a2220] LoggingSystem_Log(RenderSystem, 3LL, "Found %d checkpoints.\n", v10);
+[0x1a2220] LoggingSystem_Log(RenderSystem, 3LL, "Checkpoint data: '%s' at pipeline stage %s\n", v6, v5);
+[0x1b57e0] LoggingSystem_Log(
+[0x1b57e0]     RenderSystem,
+[0x1b57e0]     3LL,
+[0x1b57e0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b57e0]     v8,
+[0x1b57e0]     "vmaBindImageMemory( GetVmaAllocator(), m_pVulkanImage->m_pVmaAllocation, m_pVulkanImage->m_pImage )");
+[0x119230] LoggingSystem_Log(RenderSystem, 3LL, "Barrier Builder didn't submit barriers\n");
+[0x154e30] result = LoggingSystem_Log(
+[0x154e30]     RenderSystem,
+[0x154e30]     3LL,
+[0x154e30]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x154e30]     v13,
+[0x154e30]     "vkCreateAccelerationStructureKHR( Device(), &asci, nullptr, &m_pAccelerationStructure )");
+[0x16ae30] LoggingSystem_Log(
+[0x16ae30]     RenderSystem,
+[0x16ae30]     3LL,
+[0x16ae30]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x16ae30]     v64,
+[0x16ae30]     (unsigned int)v63,
+[0x16ae30]     v62);
+[0x16ae30] LoggingSystem_Log(
+[0x16ae30]     RenderSystem,
+[0x16ae30]     3LL,
+[0x16ae30]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x193030] LoggingSystem_Log(RenderSystem, 2LL, "RTX\n");
+[0x193030] LoggingSystem_Log(RenderSystem, 2LL, "  VB-BLAS: %llu buffers, %.2f MB\n", v7 + v20, v18);
+[0x193030] LoggingSystem_Log(RenderSystem, 2LL, "    Uncompacted: %llu buffers, %.2f MB\n", v20, v13);
+[0x193030] result = LoggingSystem_Log(
+[0x193030]     RenderSystem,
+[0x193030]     2LL,
+[0x193030]     "    Compacted: %llu buffers, %.2f MB (%.1f%% of %.2f MB uncompacted)\n",
+[0x193030]     v7,
+[0x193030]     v15,
+[0x193030]     (float)((float)(v15 * 100.0) / v22),
+[0x193030]     v22);
+[0x1a1e30] LoggingSystem_Log(RenderSystem, 3LL, "Failed to create renderpass.\n");
+[0x1b5430] LoggingSystem_Log(
+[0x1b5430]     RenderSystem,
+[0x1b5430]     3LL,
+[0x1b5430]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b5430]     v3,
+[0x1b5430]     "vkCreateImage( VulkanDevice(), &imageCreateInfo, NULL, &pImage )");
+[0x1b99e0] LoggingSystem_Log(
+[0x1b99e0]     RenderSystem,
+[0x1b99e0]     3LL,
+[0x1b99e0]     "UpdateExternalTexture called on unknown external texture '%s'\n",
+[0x1b99e0]     v18);
+[0x112840] LoggingSystem_Log(RenderSystem, 1LL, "Removing texture from streamable list (%s)\n", v23);
+[0x112840] LoggingSystem_Log(RenderSystem, 1LL, "Removing texture from pending streamable list (%s)\n", v18);
+[0x129840] LoggingSystem_Log(
+[0x129840]     RenderSystem,
+[0x129840]     3LL,
+[0x129840]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x129840]     v16,
+[0x129840]     "nResult = vmaCreateBuffer( m_pVmaAllocator, &bufferCreateInfo, &allocInfo, ppVKBufferOut, ppVmaAllocationOut, nullptr )");
+[0x14b240] LoggingSystem_Log(
+[0x14b240]     RenderSystem,
+[0x14b240]     3LL,
+[0x14b240]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14b240]     v37,
+[0x14b240]     "vkCreateDescriptorSetLayout( m_pDeviceVulkan, &descriptorSetLayoutCreateInfo, NULL, &pPipelineLayoutOut-"
+[0x14b240]     ">m_ppDescriptorSetLayouts[ nDescriptorSet ] )");
+[0x14b240] LoggingSystem_Log(
+[0x14b240]     RenderSystem,
+[0x14b240]     3LL,
+[0x14b240]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14b240]     v49,
+[0x14b240]     "vkCreatePipelineLayout( m_pDeviceVulkan, &pipelineLayoutCreateInfo, NULL, &pPipelineLayoutOut->m_pPipelineLayout )");
+[0x16d240] LoggingSystem_Log(
+[0x16d240]     (unsigned int)*v2,
+[0x16d240]     3LL,
+[0x16d240]     "Required Vulkan extension \"%s\" is not supported. Please update your Vulkan driver.\n",
+[0x16d240]     a2);
+[0x173640] LoggingSystem_Log(RenderSystem, 3LL, "TextureBecameEvicted - %s is null!\n", v10);
+[0x180040] LoggingSystem_Log(
+[0x180040]     RenderSystem,
+[0x180040]     3LL,
+[0x180040]     "Rasterizer state is VK_POLYGON_MODE_LINE but VkPhysicalDeviceFeatures.fillModeNonSolid is not supported.  Forcin"
+[0x180040]     "g to VK_POLYGON_MODE_FILL.  May result in incorrect rendering.\n");
+[0x111250] LoggingSystem_Log(
+[0x111250]     RenderSystem,
+[0x111250]     1LL,
+[0x111250]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x111250]     "MN_OnResourceLoadCompleted",
+[0x111250]     v23);
+[0x11b050] LoggingSystem_Log(
+[0x11b050]     RenderSystem,
+[0x11b050]     3LL,
+[0x11b050]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x11b050]     v8,
+[0x11b050]     "vkCreateBuffer( m_pDeviceVulkan, &bufferCreateInfo, nullptr, &pBuffer )");
+[0x15b650] LoggingSystem_Log(
+[0x15b650]     RenderSystem,
+[0x15b650]     3LL,
+[0x15b650]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x12ee60] LoggingSystem_Log(
+[0x12ee60]     RenderSystem,
+[0x12ee60]     1LL,
+[0x12ee60]     "Attempting to purge m_fencedResourceList.Count() = %d, m_pendingFencedResourceQueue.Count() = %d, nCurrentCm"
+[0x12ee60]     "dBuffersAvailable = %d, nAllocatedCommandBuffers = %d\n",
+[0x12ee60]     *(unsigned __int16 *)(a1 + 118),
+[0x12ee60]     *(unsigned int *)(a1 + 64),
+[0x12ee60]     v81,
+[0x12ee60]     (unsigned int)v87[v88 + 2]);
+[0xfb860] LoggingSystem_Log(LOG_GENERAL, 2LL, "(%s): ADD %s = %s\n", v6, v4, v5);
+[0x110860] LoggingSystem_Log(
+[0x110860]     RenderSystem,
+[0x110860]     2LL,
+[0x110860]     "Deleting texture with outstanding streaming request (%s)\n",
+[0x110860]     v12);
+[0x113060] LoggingSystem_Log(
+[0x113060]     RenderSystem,
+[0x113060]     1LL,
+[0x113060]     "GPU memory available (%d MB of %d MB used). Reducing texture pool size %d MB -> %d MB\n",
+[0x113060]     v37[0] >> 20,
+[0x113060]     v36 >> 20,
+[0x113060]     *(_QWORD *)(*(_QWORD *)(a1 + 8) + 296LL) >> 20,
+[0x113060]     v29 >> 20);
+[0x113060] LoggingSystem_Log(
+[0x113060]     RenderSystem,
+[0x113060]     1LL,
+[0x113060]     "GPU memory available (%d MB of %d MB used). Texture pool size has become smaller than the minimum pool siz"
+[0x113060]     "e, increasing pool size %d MB -> %d MB\n",
+[0x113060]     v37[0] >> 20,
+[0x113060]     v36 >> 20,
+[0x113060]     *(_QWORD *)(*(_QWORD *)(a1 + 8) + 296LL) >> 20,
+[0x113060]     v12 >> 20);
+[0x113060] LoggingSystem_Log(
+[0x113060]     RenderSystem,
+[0x113060]     1LL,
+[0x113060]     "GPU memory available (%d MB of %d MB used). Increasing texture pool size %d MB -> %d MB.\n",
+[0x113060]     v37[0] >> 20,
+[0x113060]     v36 >> 20,
+[0x113060]     *(_QWORD *)(*(_QWORD *)(a1 + 8) + 296LL) >> 20,
+[0x113060]     v22 >> 20);
+[0x116060] LoggingSystem_Log(
+[0x116060]     RenderSystem,
+[0x116060]     3LL,
+[0x116060]     "Skipping texture streaming: looks like the texture was reloaded while in the streaming list (%s).\n",
+[0x116060]     v28);
+[0x116060] result = LoggingSystem_Log(
+[0x116060]     RenderSystem,
+[0x116060]     3LL,
+[0x116060]     "Skipping texture streaming: texture resource handles don't match\n");
+[0x144260] LoggingSystem_Log(
+[0x144260]     RenderSystem,
+[0x144260]     3LL,
+[0x144260]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x144260]     v7,
+[0x144260]     "vkGetPipelineCacheData( m_pDeviceVulkan, m_pPipelineCache, &nCacheSize, NULL )");
+[0x144260] LoggingSystem_Log(
+[0x144260]     RenderSystem,
+[0x144260]     3LL,
+[0x144260]     "vkGetPipelineCacheSize failed, unable to store pipeline cache to disk.\n");
+[0x144260] LoggingSystem_Log(
+[0x144260]     RenderSystem,
+[0x144260]     3LL,
+[0x144260]     "vkGetPipelineCacheData failed, unable to store pipeline cache to disk.\n");
+[0x144260] LoggingSystem_Log(
+[0x144260]     RenderSystem,
+[0x144260]     3LL,
+[0x144260]     "Unable to write to pipeline cache file \"%s\".  Error: %s",
+[0x144260]     v34,
+[0x144260]     v33);
+[0x15d460] LoggingSystem_Log(
+[0x15d460]     RenderSystem,
+[0x15d460]     3LL,
+[0x15d460]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x15d460] LoggingSystem_Log(
+[0x15d460]     RenderSystem,
+[0x15d460]     3LL,
+[0x15d460]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x15d460] return LoggingSystem_Log(RenderSystem, 3LL, v36);
+[0x15d460] return LoggingSystem_Log(RenderSystem, 3LL, v36);
+[0x167460] result = LoggingSystem_Log(
+[0x167460]     RenderSystem,
+[0x167460]     3LL,
+[0x167460]     "Aboring OnReadBuffer because of GPU memory allocation failure.\n");
+[0x167460] result = LoggingSystem_Log(
+[0x167460]     RenderSystem,
+[0x167460]     3LL,
+[0x167460]     "CRenderContextVulkan::ReadBuffer - attempted to read invalid handle.\n");
+[0x183660] LoggingSystem_Log(
+[0x183660]     RenderSystem,
+[0x183660]     3LL,
+[0x183660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x183660]     v12,
+[0x183660]     "vkCreateSemaphore( m_pDeviceVulkan, &semaphoreCreateInfo, nullptr, &pVulkanSemaphore->m_pSemaphore )");
+[0x190660] LoggingSystem_Log(RenderSystem, 5LL, v126, "Failed to create VkSurfaceKHR.\n", v35);
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     5LL,
+[0x190660]     v126,
+[0x190660]     "Call to vkGetPhysicalDeviceSurfaceSupportKHR returned an error.\n",
+[0x190660]     v48);
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     5LL,
+[0x190660]     v126,
+[0x190660]     "The selected graphics queue does not support presenting a swapchain image.\n",
+[0x190660]     v50);
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     5LL,
+[0x190660]     v126,
+[0x190660]     "Unable to query size of supported swapchain formats.\n",
+[0x190660]     v38);
+[0x190660] LoggingSystem_Log(RenderSystem, 5LL, v126, "Unable to query supported swapchain formats.\n", v49);
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     5LL,
+[0x190660]     v126,
+[0x190660]     "No displayable format found for swapchain that supports the requested display mode.\n",
+[0x190660]     v96);
+[0x190660] LoggingSystem_Log(
+[0x190660]     (unsigned int)*v109,
+[0x190660]     3LL,
+[0x190660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x190660]     v16,
+[0x190660]     "vkGetPhysicalDeviceSurfaceCapabilitiesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &surfaceCaps )",
+[0x190660]     v110);
+[0x190660] LoggingSystem_Log(
+[0x190660]     *(unsigned int *)v108,
+[0x190660]     3LL,
+[0x190660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x190660]     v21,
+[0x190660]     "vkGetPhysicalDeviceSurfacePresentModesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &nPresentModeCount, NULL )",
+[0x190660]     v109);
+[0x190660] LoggingSystem_Log(
+[0x190660]     v26,
+[0x190660]     3LL,
+[0x190660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x190660]     v29,
+[0x190660]     "vkGetPhysicalDeviceSurfacePresentModesKHR( pPhysicalDeviceVulkan, m_pSurfaceKHR, &nPresentModeCount, pPresentModes )",
+[0x190660]     v110);
+[0x190660] LoggingSystem_Log(RenderSystem, 3LL, "Swapchain extent(s) are 0, skipping swapchain creation\n");
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     3LL,
+[0x190660]     "Vulkan swapchain does not support VK_IMAGE_USAGE_TRANSFER_SRC_BIT. Screenshots not supported.\n");
+[0x190660] LoggingSystem_Log(
+[0x190660]     RenderSystem,
+[0x190660]     3LL,
+[0x190660]     "Vulkan swapchain does not support VK_IMAGE_USAGE_TRANSFER_DST_BIT. Upscaling desktop friendly fullscreen not supported.\n",
+[0x190660]     v98,
+[0x190660]     (unsigned int)v110);
+[0x190660] LoggingSystem_Log(RenderSystem, 3LL, "Call to vkCreateSwapchainWSI returned an error.\n");
+[0x190660] LoggingSystem_Log(
+[0x190660]     (unsigned int)*v107,
+[0x190660]     3LL,
+[0x190660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x190660]     v67,
+[0x190660]     "vkGetSwapchainImagesKHR( m_pDeviceVulkan, m_pSwapChainKHR, &m_nSwapQueueImageCount, NULL )",
+[0x190660]     v108);
+[0x190660] LoggingSystem_Log(
+[0x190660]     (unsigned int)*v109,
+[0x190660]     3LL,
+[0x190660]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x190660]     v86,
+[0x190660]     "vkGetSwapchainImagesKHR( m_pDeviceVulkan, m_pSwapChainKHR, &m_nSwapQueueImageCount, pSwapChainImages )",
+[0x190660]     v110);
+[0x10d270] LoggingSystem_Log(
+[0x10d270]     RenderSystem,
+[0x10d270]     3LL,
+[0x10d270]     "Trying to create a render target with invalid image format %s\n",
+[0x10d270]     *v20);
+[0x17c470] LoggingSystem_Log(
+[0x17c470]     RenderSystem,
+[0x17c470]     2LL,
+[0x17c470]     "CRenderDeviceVulkan::OnLowMemoryNotification - evicting all textures to reduce memory pressure.\n");
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "rendersystem (%s) tracked resources:\n", v7);
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  VB: %d buffers, %.2f MB\n", (unsigned int)dword_8B6008, v22);
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  IB: %d buffers, %.2f MB\n", (unsigned int)dword_8B3560, v21);
+[0xed480] LoggingSystem_Log(
+[0xed480]     RenderSystem,
+[0xed480]     2LL,
+[0xed480]     "  CB: %u buffers, %.2f MB\n",
+[0xed480]     *(unsigned int *)((char *)&stru_24F00.st_name + a1),
+[0xed480]     v19);
+[0xed480] LoggingSystem_Log(
+[0xed480]     RenderSystem,
+[0xed480]     2LL,
+[0xed480]     "  TEX: %u textures, %.2f MB\n",
+[0xed480]     *(unsigned int *)(qword_8B5E10 + 2040),
+[0xed480]     v20);
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  FRAGMENTATION: %.2f MB\n", v23);
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  EXTERNAL: %.2f MB\n", v18);
+[0xed480] LoggingSystem_Log(
+[0xed480]     RenderSystem,
+[0xed480]     2LL,
+[0xed480]     "  TOTAL: %.2f MB\n",
+[0xed480]     (float)((float)((float)((float)((float)(v22 + v21) + v20) + v19) + v23) + v18));
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "Texture Streaming:\n");
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  %s / %s MB (non-evictable: %s MB)\n", v15, v14, v13);
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "Overall System GPU memory use:\n");
+[0xed480] LoggingSystem_Log(RenderSystem, 2LL, "  %s / %s MB\n", v12, v11);
+[0xfd680] LoggingSystem_Log(RenderSystem, 2LL, "Detected RenderDoc %i.%i.%i\n", v6, v7, v8[0]);
+[0x11ee80] LoggingSystem_Log(
+[0x11ee80]     RenderSystem,
+[0x11ee80]     3LL,
+[0x11ee80]     "CDescriptorSetVulkan::Rebake - could not allocate descriptor in new pool.\n");
+[0x127a80] LoggingSystem_Log(
+[0x127a80]     RenderSystem,
+[0x127a80]     3LL,
+[0x127a80]     "Requested memory properties that are not supported for this allocation. Requested (%x).\n",
+[0x127a80]     a3);
+[0x1aca80] LoggingSystem_Log(RenderSystem, 2LL, "Total Shader Stored: %.2fMB\n", (float)(v3 * 0.00000095367432));
+[0x1aca80] LoggingSystem_Log(RenderSystem, 2LL, "Total Shader Requested: %.2fMB\n", (float)(v5 * 0.00000095367432));
+[0x1aca80] LoggingSystem_Log(
+[0x1aca80]     RenderSystem,
+[0x1aca80]     2LL,
+[0x1aca80]     "Total Shader Modules Stored: %.2fMB\n",
+[0x1aca80]     (float)(v7 * 0.00000095367432));
+[0x1aca80] result = LoggingSystem_Log(
+[0x1aca80]     RenderSystem,
+[0x1aca80]     2LL,
+[0x1aca80]     "Total Shader Modules Requested: %.2fMB\n",
+[0x1aca80]     (float)(v9 * 0.00000095367432));
+[0x1ad280] LoggingSystem_Log(RenderSystem, 3LL, "Unable to write validation shader cache %s file.\n", v9);
+[0x110c90] LoggingSystem_Log(RenderSystem, 2LL, "Discarding abandoned streaming texture load for %s\n", v19);
+[0x128290] LoggingSystem_Log(
+[0x128290]     RenderSystem,
+[0x128290]     3LL,
+[0x128290]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x128290]     v32,
+[0x128290]     "nResult = vmaCreatePool( m_pVmaAllocator, &poolCreateInfo, &pVmaAllocInfo->pool )");
+[0x128290] LoggingSystem_Log(RenderSystem, 3LL, "vmaCreatePool failed with error: %d\n", v15);
+[0x128290] LoggingSystem_Log(RenderSystem, 3LL, "ERROR! VK call failed! result = %s ( %s )\n", v34, v35);
+[0x128890] LoggingSystem_Log(
+[0x128890]     RenderSystem,
+[0x128890]     3LL,
+[0x128890]     "vmaAllocateMemory failed for DEVICE_LOCAL memory indicating video memory is full, trying again in system memory as a fallback.\n");
+[0x128890] LoggingSystem_Log(
+[0x128890]     RenderSystem,
+[0x128890]     3LL,
+[0x128890]     "No Vulkan heaps support system memory allocation for this resource.\n");
+[0x128890] LoggingSystem_Log(
+[0x128890]     RenderSystem,
+[0x128890]     3LL,
+[0x128890]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x128890]     v18,
+[0x128890]     "vmaAllocateMemory");
+[0x128890] LoggingSystem_Log(
+[0x128890]     RenderSystem,
+[0x128890]     3LL,
+[0x128890]     "vmaAlloccateMemory failed fallback system memory allocation.  Fatal error: out of video and system memory.\n");
+[0x137290] LoggingSystem_Log(
+[0x137290]     RenderSystem,
+[0x137290]     3LL,
+[0x137290]     "Skipping pipeline layout creation, encountered null descriptor set layout.\n");
+[0x154090] LoggingSystem_Log(
+[0x154090]     RenderSystem,
+[0x154090]     3LL,
+[0x154090]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x154090]     v12,
+[0x154090]     "vkCreateAccelerationStructureKHR( Device(), &asci, nullptr, &pNewAcclerationStructure )");
+[0x161890] result = (__int16 *)LoggingSystem_Log(
+[0x161890]     RenderSystem,
+[0x161890]     3LL,
+[0x161890]     "CRenderContextVulkan:: Trying to resolve from a rect that is outside of the src rendertarget\n");
+[0x161890] LoggingSystem_Log(
+[0x161890]     RenderSystem,
+[0x161890]     3LL,
+[0x161890]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x161890] LoggingSystem_Log(
+[0x161890]     RenderSystem,
+[0x161890]     3LL,
+[0x161890]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x161890]     &qword_8B5E10,
+[0x161890]     v37);
+[0x188490] LoggingSystem_Log(
+[0x188490]     RenderSystem,
+[0x188490]     3LL,
+[0x188490]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x188490] LoggingSystem_Log(
+[0x188490]     RenderSystem,
+[0x188490]     5LL,
+[0x188490]     &v41,
+[0x188490]     "CRenderDeviceVulkan::GetDeviceSpecificTexture() failed to get texture data.\n",
+[0x188490]     v36);
+[0x1070a0] LoggingSystem_Log(
+[0x1070a0]     RenderSystem,
+[0x1070a0]     3LL,
+[0x1070a0]     "CTextureManagerBase::WasAsyncUpdatedThisFrame - Invalid texture handle.\n");
+[0x1524a0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to create Vulkan pipeline object.\n");
+[0x181ea0] LoggingSystem_Log(
+[0x181ea0]     RenderSystem,
+[0x181ea0]     3LL,
+[0x181ea0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x181ea0]     v12,
+[0x181ea0]     "vkQueueWaitIdle( VulkanQueue() )");
+[0x1b80a0] LoggingSystem_Log(
+[0x1b80a0]     RenderSystem,
+[0x1b80a0]     3LL,
+[0x1b80a0]     "CRenderDeviceVulkan::RebakeDescriptorSetsReferencing - could not allocate descriptor in new pool.\n");
+[0x1024b0] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Outstanding stream count %d -> %d (%s)\n", v8, v18, v19);
+[0x12b6b0] LoggingSystem_Log(
+[0x12b6b0]     RenderSystem,
+[0x12b6b0]     1LL,
+[0x12b6b0]     "Rebalancing command buffer pools. Largest has %d command buffers, rebalancing to size %d command buffers\n",
+[0x12b6b0]     *(unsigned int *)(v22 + 20),
+[0x12b6b0]     *(unsigned int *)(v21 + 20));
+[0x12b6b0] LoggingSystem_Log(
+[0x12b6b0]     RenderSystem,
+[0x12b6b0]     1LL,
+[0x12b6b0]     "Rebalancing command buffer pool for thread (%s). Has %d command buffers, rebalancing to size %d command buffers\n",
+[0x12b6b0]     v28,
+[0x12b6b0]     *(unsigned int *)(v5 + 20),
+[0x12b6b0]     (unsigned int)(*(_DWORD *)(v5 + 20) - *(_DWORD *)(v5 + 368)));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "Vulkan initialization failed, '%s' likely failed to load.\n",
+[0x16dab0]     "libvulkan.so.1");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 3LL, "vkEnumerateInstanceLayerProperties( ... , NULL ) failed.\n");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 3LL, "vkEnumerateInstanceLayerProperties( ... ) failed.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     2LL,
+[0x16dab0]     "Enabling validation layer: %s.\n",
+[0x16dab0]     (const char *)(v28 + *((_QWORD *)v2 + 27)));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     2LL,
+[0x16dab0]     "Enabling validation layer: %s.\n",
+[0x16dab0]     (const char *)(v82 + *((_QWORD *)v2 + 27)));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumerateInstanceExtensionProperties( layerName, ... ) failed.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumerateInstanceExtensionProperties( layerName, ... , NULL ) failed.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumerateInstanceExtensionProperties( NULL, ... , NULL ) failed.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumerateInstanceExtensionProperties( NULL, ... ) failed.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "Vulkan missing requested extension '%s'.\n",
+[0x16dab0]     *(const char **)(v202 + v185));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     2LL,
+[0x16dab0]     "Enabling instance extension: %s.\n",
+[0x16dab0]     *(const char **)(v205 + 8 * v51));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "Failed to find instance extension for validation.  '%s' and '%s' not supported.\n",
+[0x16dab0]     "VK_EXT_debug_utils",
+[0x16dab0]     "VK_EXT_debug_report");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 2LL, "Using '%s' for Vulkan validation reporting.\n", v60);
+[0x16dab0] LoggingSystem_Log(RenderSystem, 2LL, "Enabling GPU validation.\n");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 2LL, "Enabling synchronization validation.\n");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 2LL, "Disabling validation feature: %s\n", v69);
+[0x16dab0] LoggingSystem_Log(RenderSystem, 3LL, "vkCreateInstance failed, unable to create instance.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x16dab0]     v95,
+[0x16dab0]     "vkCreateDebugUtilsMessengerEXT( m_InstanceVulkan, &debugUtilsMessengerCreateInfo, nullptr, &m_pDebugUtilsMessengerVulkan )");
+[0x16dab0] LoggingSystem_Log(RenderSystem, 3LL, "vkCreateDebugReportCallbackEXT was unsuccessful.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumeratePhysicalDevices failed, unable to init and enumerate GPUs with Vulkan.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumeratePhysicalDeviceGroupsKHR: no physical device groups supported.  Using single GPU.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     RenderSystem,
+[0x16dab0]     3LL,
+[0x16dab0]     "vkEnumeratePhysicalDevices failed, unable to enumerate GPUs with Vulkan.\n");
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     (unsigned int)*v190,
+[0x16dab0]     3LL,
+[0x16dab0]     "Unable to determine texture heap size, assuming %llu MB.\n",
+[0x16dab0]     *(_QWORD *)(v128 + 608) >> 20);
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     (unsigned int)*v190,
+[0x16dab0]     2LL,
+[0x16dab0]     "Using VK_EXT_memory_budget set texture memory budget to %llu MB.\n",
+[0x16dab0]     *(_QWORD *)(v128 + 608) >> 20);
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     (unsigned int)*v190,
+[0x16dab0]     2LL,
+[0x16dab0]     "HLSL SM6.0 level subgroup wave ops supported, subgroup size = %d\n",
+[0x16dab0]     *((unsigned int *)v118 + 410));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     (unsigned int)*v190,
+[0x16dab0]     2LL,
+[0x16dab0]     "Disabling subgroup wave ops, need maxSubGroupSize of at least 32 (maxSubgroupSize = %d)\n",
+[0x16dab0]     *((unsigned int *)v118 + 419));
+[0x16dab0] LoggingSystem_Log(
+[0x16dab0]     (unsigned int)*v145,
+[0x16dab0]     2LL,
+[0x16dab0]     "Vulkan physical device (%d): supports shader clip distance: %s\n",
+[0x16dab0]     v110,
+[0x16dab0]     v147);
+[0x16dab0] LoggingSystem_Log(v150, 2LL, "Vulkan physical device (%d): using secondary command buffers: %s\n", v110, v151);
+[0x173ab0] LoggingSystem_Log(
+[0x173ab0]     RenderSystem,
+[0x173ab0]     3LL,
+[0x173ab0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v15,
+[0x1a74b0]     "vkResetCommandBuffer( pCmdBuffer, 0 )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v17,
+[0x1a74b0]     "vkBeginCommandBuffer( pCmdBuffer, &beginInfo )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "CRenderThreadVulkan::OnReadPixels not supported for MSAA depth.  Requires shader-based MSAA depth resolve "
+[0x1a74b0]     "to be implemented.\n");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v32,
+[0x1a74b0]     "vkEndCommandBuffer( pCmdBuffer )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v38,
+[0x1a74b0]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, pFence ? pFence->Get() : VK_NULL_HANDLE )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v47,
+[0x1a74b0]     "vkQueueWaitIdle( VulkanQueue() )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a74b0]     v49,
+[0x1a74b0]     "vkMapMemory( VulkanDevice(), pStagingMemory, 0, nStagingMemSize, 0, &pLockedData )");
+[0x1a74b0] LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1a74b0] result = LoggingSystem_Log(
+[0x1a74b0]     RenderSystem,
+[0x1a74b0]     3LL,
+[0x1a74b0]     "Aboring OnReadPixels because of GPU memory allocation failure.\n");
+[0x1af2b0] LoggingSystem_Log(
+[0x1af2b0]     RenderSystem,
+[0x1af2b0]     3LL,
+[0x1af2b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1af2b0]     v28,
+[0x1af2b0]     "vkCreateShaderModule( VulkanDevice(), pShaderModuleCreateInfo, nullptr, &pShaderModule )");
+[0x1af8b0] LoggingSystem_Log(
+[0x1af8b0]     RenderSystem,
+[0x1af8b0]     3LL,
+[0x1af8b0]     "AcquireVfxShaderFile: Failed to unserialize CVfxShaderFileVulkan.  Is your shadercache out-of-date?  Try deleting it.\n");
+[0x1af8b0] LoggingSystem_Log(
+[0x1af8b0]     RenderSystem,
+[0x1af8b0]     3LL,
+[0x1af8b0]     "AcquireVfxShaderFile: Failed to unserialize CVfxShaderFile.  Is your shadercache out-of-date?  Try deleting it.\n");
+[0x1bb2b0] result = (void *)LoggingSystem_Log(
+[0x1bb2b0]     RenderSystem,
+[0x1bb2b0]     3LL,
+[0x1bb2b0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1bb2b0]     v18,
+[0x1bb2b0]     "vkCreateBufferView( m_pDeviceVulkan, &bufferViewCreateInfo, NULL, &m_pTexelBufferView )");
+[0x1bc2b0] LoggingSystem_Log(RenderSystem, 3LL, "*** VB \"%s\": Failed to allocate %d bytes!\n", v11, v10);
+[0x12aaba] LoggingSystem_Log(RenderSystem, 2LL, "Wrote %s\n", v11);
+[0x107cc0] LoggingSystem_Log(
+[0x107cc0]     RenderSystem,
+[0x107cc0]     1LL,
+[0x107cc0]     "GPU reports %dMB available memory which is too low, using %d MB\n",
+[0x107cc0]     (unsigned int)v3,
+[0x107cc0]     *(unsigned int *)(a1 + 2080));
+[0x14d6c0] LoggingSystem_Log(
+[0x14d6c0]     RenderSystem,
+[0x14d6c0]     3LL,
+[0x14d6c0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14d6c0]     v57,
+[0x14d6c0]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, VK_NULL_HANDLE, 1, &pipelineCreateInfo, NULL, &pPipelineOut->m_pPipeline )");
+[0x14d6c0] LoggingSystem_Log(RenderSystem, 3LL, "Error creating vertex input interface pipeline library\n");
+[0x1796c0] LoggingSystem_Log(
+[0x1796c0]     RenderSystem,
+[0x1796c0]     3LL,
+[0x1796c0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1796c0]     v8,
+[0x1796c0]     "vkQueueWaitIdle( m_pQueueVulkan )");
+[0x1050d0] LoggingSystem_Log(
+[0x1050d0]     RenderSystem,
+[0x1050d0]     1LL,
+[0x1050d0]     "TEXMAN: %s TextureBecameEvicted (%s)\n",
+[0x1050d0]     "MN_DeallocateCacheableData",
+[0x1050d0]     v20);
+[0xfc8d0] result = LoggingSystem_Log(v10, v9, v8, v7);
+[0x1228d0] LoggingSystem_Log(
+[0x1228d0]     RenderSystem,
+[0x1228d0]     3LL,
+[0x1228d0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1228d0]     v44,
+[0x1228d0]     "vkResetCommandBuffer( pCmdBuffer, 0 )");
+[0x1228d0] LoggingSystem_Log(
+[0x1228d0]     RenderSystem,
+[0x1228d0]     3LL,
+[0x1228d0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1228d0]     v49,
+[0x1228d0]     "vkBeginCommandBuffer( pCmdBuffer, &beginInfo )");
+[0x1228d0] LoggingSystem_Log(
+[0x1228d0]     RenderSystem,
+[0x1228d0]     3LL,
+[0x1228d0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1228d0]     v53,
+[0x1228d0]     "vkEndCommandBuffer( pCmdBuffer )");
+[0x1636d0] LoggingSystem_Log(
+[0x1636d0]     RenderSystem,
+[0x1636d0]     3LL,
+[0x1636d0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x1722d0] LoggingSystem_Log(
+[0x1722d0]     RenderSystem,
+[0x1722d0]     3LL,
+[0x1722d0]     "vkGetPhysicalDeviceImageFormatProperties failed checking for MSAA support, assuming MSAA can't be supported\n");
+[0x185ed0] LoggingSystem_Log(
+[0x185ed0]     RenderSystem,
+[0x185ed0]     2LL,
+[0x185ed0]     "Disabling graphics pipeline libraries for shader '%s' because it has unsupported descriptor types [ %s ].  Move th"
+[0x185ed0]     "em to a static descriptor set.\n",
+[0x185ed0]     v21,
+[0x185ed0]     v20);
+[0x1a50d0] LoggingSystem_Log(
+[0x1a50d0]     RenderSystem,
+[0x1a50d0]     3LL,
+[0x1a50d0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a50d0]     v10,
+[0x1a50d0]     "vkCreateSemaphore( VulkanDevice(), &semaphoreCreateInfo, NULL, &pSemaphore )");
+[0x1a5cd0] LoggingSystem_Log(
+[0x1a5cd0]     RenderSystem,
+[0x1a5cd0]     3LL,
+[0x1a5cd0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5cd0]     v30,
+[0x1a5cd0]     "vkResetCommandBuffer( pCmdBuffer, 0 )");
+[0x1a5cd0] LoggingSystem_Log(
+[0x1a5cd0]     RenderSystem,
+[0x1a5cd0]     3LL,
+[0x1a5cd0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5cd0]     v32,
+[0x1a5cd0]     "vkBeginCommandBuffer( pCmdBuffer, &beginInfo )");
+[0x1a5cd0] LoggingSystem_Log(
+[0x1a5cd0]     RenderSystem,
+[0x1a5cd0]     3LL,
+[0x1a5cd0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a5cd0]     v35,
+[0x1a5cd0]     "vkEndCommandBuffer( pCmdBuffer )");
+[0x1056f0] LoggingSystem_Log(RenderSystem, 2LL, "Streaming Validation: %s ", v10);
+[0x1056f0] LoggingSystem_Log(RenderSystem, 2LL, "WAITING_FOR_IO ");
+[0x1056f0] LoggingSystem_Log(RenderSystem, 2LL, "WAITING_FOR_HOOKUP_JOB ");
+[0x1056f0] LoggingSystem_Log(RenderSystem, 2LL, "OUTSTANDING_HOOKUP_REQUEST ");
+[0x1056f0] LoggingSystem_Log(RenderSystem, 2LL, "\n");
+[0xfd8f0] LoggingSystem_Log(RenderSystem, 2LL, "Starting RenderDoc capture...\n");
+[0x1026f0] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Outstanding stream count %d -> %d (%s)\n", v8, v18, v19);
+[0x14ecf0] LoggingSystem_Log(
+[0x14ecf0]     RenderSystem,
+[0x14ecf0]     3LL,
+[0x14ecf0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14ecf0]     v86,
+[0x14ecf0]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, pPipelineCache, 1, &executablePipelineCreateInfo, NULL, &pPipeline"
+[0x14ecf0]     "Out->m_pPipeline )");
+[0x14ecf0] LoggingSystem_Log(RenderSystem, 3LL, "Error creating graphics pipeline library\n");
+[0x1676f0] LoggingSystem_Log(
+[0x1676f0]     RenderSystem,
+[0x1676f0]     3LL,
+[0x1676f0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x168ef0] LoggingSystem_Log(
+[0x168ef0]     RenderSystem,
+[0x168ef0]     3LL,
+[0x168ef0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x168ef0] LoggingSystem_Log(
+[0x168ef0]     RenderSystem,
+[0x168ef0]     3LL,
+[0x168ef0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x19c4f0]     v138,
+[0x19c4f0]     "vkCreateRenderPass( m_pDeviceVulkan, &renderPassCreateInfo, NULL, &pRenderPass )");
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x19c4f0]     v181,
+[0x19c4f0]     "vkCreateFramebuffer( m_pDeviceVulkan, &framebufferCreateInfo, NULL, &pFramebuffer )");
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     *(unsigned int *)v235,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x19c4f0]     v201,
+[0x19c4f0]     "vkCreateFramebuffer( m_pDeviceVulkan, &framebufferCreateInfo, NULL, &pSwapChainFramebuffer )");
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "Failed to get swapchain from texture, renderpass will be missing swapchain per-color texture info.\n");
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "Subpass %d input attachment %d not found in renderpass attachment list.",
+[0x19c4f0]     (unsigned int)v230,
+[0x19c4f0]     (unsigned int)v56);
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "Subpass %d preserve attachment %d not found in renderpass attachment list.",
+[0x19c4f0]     (unsigned int)v230,
+[0x19c4f0]     v81);
+[0x19c4f0] LoggingSystem_Log(
+[0x19c4f0]     RenderSystem,
+[0x19c4f0]     3LL,
+[0x19c4f0]     "Subpass %d color attachment %d not found in renderpass attachment list.",
+[0x19c4f0]     (unsigned int)v230,
+[0x19c4f0]     (unsigned int)v28);
+[0x1a2af0] LoggingSystem_Log(
+[0x1a2af0]     RenderSystem,
+[0x1a2af0]     3LL,
+[0x1a2af0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a2af0]     v16,
+[0x1a2af0]     "vkCreateQueryPool( VulkanDevice(), &queryPoolCreateInfo, NULL, &m_pTimestampQueryPool )");
+[0x1a2af0] LoggingSystem_Log(
+[0x1a2af0]     RenderSystem,
+[0x1a2af0]     3LL,
+[0x1a2af0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a2af0]     v9,
+[0x1a2af0]     "vkResetCommandBuffer( pCommandBuffer, 0 )");
+[0x1a2af0] LoggingSystem_Log(
+[0x1a2af0]     RenderSystem,
+[0x1a2af0]     3LL,
+[0x1a2af0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a2af0]     v11,
+[0x1a2af0]     "vkBeginCommandBuffer( pCommandBuffer, &beginInfo )");
+[0x1a2af0] result = LoggingSystem_Log(
+[0x1a2af0]     RenderSystem,
+[0x1a2af0]     3LL,
+[0x1a2af0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a2af0]     v13,
+[0x1a2af0]     "vkEndCommandBuffer( pCommandBuffer )");
+[0x131300] LoggingSystem_Log(
+[0x131300]     RenderSystem,
+[0x131300]     2LL,
+[0x131300]     "Found matching VkApplicationInfo.pApplicationName: '%s' VkApplicationInfo.pEngineName: '%s'\n",
+[0x131300]     *(const char **)(a3 + 16),
+[0x131300]     *(const char **)(a3 + 32));
+[0x13e100] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan Pipeline Manager Stats:\n");
+[0x13e100] return LoggingSystem_Log(RenderSystem, 2LL, "\tLayout Count( %d ) \n", (unsigned int)a1[340]);
+[0x13e100] LoggingSystem_Log(RenderSystem, 2LL, "\tPSO Count ( %d ) \n", (unsigned int)(a1[138] + a1[130]));
+[0x13e100] return LoggingSystem_Log(RenderSystem, 2LL, "\tLayout Count( %d ) \n", (unsigned int)a1[340]);
+[0x148500] LoggingSystem_Log(
+[0x148500]     RenderSystem,
+[0x148500]     2LL,
+[0x148500]     "Total PSOs: %d (Per-Stage Libraries: %d) This frame [Pre-Warmed: %d, Draw-Time: %d, Per-Stage: %d, Linked Librar"
+[0x148500]     "ies: %d] (Total time this frame: %0.2f ms Driver time this frame: %0.2f ms)\n",
+[0x148500]     *(unsigned int *)(a1 + 552),
+[0x148500]     *(unsigned int *)(a1 + 2256),
+[0x148500]     *(unsigned int *)(a1 + 2244),
+[0x148500]     *(double *)(a1 + 2280),
+[0x148500]     *(double *)(a1 + 2288),
+[0x148500]     (unsigned int)(*(_DWORD *)(a1 + 2240) - *(_DWORD *)(a1 + 2244)),
+[0x148500]     *(unsigned int *)(a1 + 2248),
+[0x148500]     *(unsigned int *)(a1 + 2252));
+[0x187700] LoggingSystem_Log(
+[0x187700]     RenderSystem,
+[0x187700]     3LL,
+[0x187700]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x187700]     v29,
+[0x187700]     "vkCreateCommandPool( m_pDeviceVulkan, &cmdPoolCreateInfo, NULL, &cmdPool )");
+[0x187700] LoggingSystem_Log(
+[0x187700]     RenderSystem,
+[0x187700]     3LL,
+[0x187700]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x187700]     v15,
+[0x187700]     "vkCreateCommandPool( m_pDeviceVulkan, &cmdPoolCreateInfo, NULL, &cmdPool )");
+[0x11b710] LoggingSystem_Log(
+[0x11b710]     RenderSystem,
+[0x11b710]     3LL,
+[0x11b710]     "Texture manager doesn't know about texture \"%s\" when setting \"%s\" - returning error texture in CTextureMan"
+[0x11b710]     "agerVK::GetImageView\n",
+[0x11b710]     v21,
+[0x11b710]     a5);
+[0x11b710] LoggingSystem_Log(
+[0x11b710]     RenderSystem,
+[0x11b710]     3LL,
+[0x11b710]     "Bad texture dimension %i for texture \"%s\" when setting \"%s\" (wants %i) - returning error texture in CTex"
+[0x11b710]     "tureManagerVK::GetImageView\n",
+[0x11b710]     (unsigned int)v36,
+[0x11b710]     v37,
+[0x11b710]     a5,
+[0x11b710]     a3);
+[0x11b710] LoggingSystem_Log(
+[0x11b710]     RenderSystem,
+[0x11b710]     3LL,
+[0x11b710]     "Texture missing shader resource view when setting \"%s\" - returning error texture in CTextureManagerVK::GetImageView: \"%s\"\n",
+[0x11b710]     a5,
+[0x11b710]     v26);
+[0x11b710] LoggingSystem_Log(
+[0x11b710]     RenderSystem,
+[0x11b710]     3LL,
+[0x11b710]     "Asking for 2d Texture Array with Cube map as input and no compatible view found when setting \"%s\" - returning "
+[0x11b710]     "error texture in CTextureManagerVK::GetImageView: \"%s\"\n",
+[0x11b710]     a5,
+[0x11b710]     v31);
+[0x11e110] LoggingSystem_Log(
+[0x11e110]     RenderSystem,
+[0x11e110]     3LL,
+[0x11e110]     "Attempting to create a descriptor set with VK_EXT_descriptor_indexing, but it's not enabled.\n");
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan PMB Memory Manager Stats:\n");
+[0x12bb10] LoggingSystem_Log(
+[0x12bb10]     RenderSystem,
+[0x12bb10]     2LL,
+[0x12bb10]     "\tPMB Type ( %s ): Count ( %d ) ( %llu MB ) \n",
+[0x12bb10]     v13,
+[0x12bb10]     v14,
+[0x12bb10]     v12 >> 20);
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "Total PMB ( %llu MB ) \n", v11 >> 20);
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "Total VMA ( %llu MB ) ( Free %llu MB )\n", v8 >> 20, v26 >> 20);
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "Total Combined ( %llu MB ) \n", (v8 + v11) >> 20);
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan Command Buffers:\n");
+[0x12bb10] LoggingSystem_Log(
+[0x12bb10]     RenderSystem,
+[0x12bb10]     2LL,
+[0x12bb10]     "\tThread (%s) Command Buffers (%d)\n",
+[0x12bb10]     v23,
+[0x12bb10]     *(unsigned int *)(v22 + 20));
+[0x12bb10] LoggingSystem_Log(RenderSystem, 2LL, "\tTotal Command Buffers (%d)\n", v20);
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Pipeline creation time of %fms exceeded throttle limit of %fms.\n",
+[0x14fb10]     *(double *)(a1 + 2280),
+[0x14fb10]     v13);
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14fb10]     v16,
+[0x14fb10]     "vkGetPipelineCacheData( m_pDeviceVulkan, pPipelineCache, &nCurrentPipelineSize, NULL )");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14fb10]     v78,
+[0x14fb10]     "vkCreateComputePipelines( m_pDeviceVulkan, pPipelineCache, 1, &computePipelineCreateInfo, NULL, &pPipelineOut->m_pPipeline )");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Error creating compute pipeline containing shader: %s\n",
+[0x14fb10]     *(const char **)(v79 + 184));
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Attempting to create a Vulkan compute pipeline without a compute shader bound, aborting pipeline creation.\n");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Failed to create linked graphics pipeline library executable.\n");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Attempting to create a Vulkan pipeline with too many descriptors, aborting pipeline creation.\n");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Attempting to create a Vulkan pipeline without a vertex shader bound, aborting pipeline creation.\n");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14fb10]     v82,
+[0x14fb10]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, pPipelineCacheToUse, 1, &pipelineCreateInfo, NULL, &pPipelineOut->m_pPipeline )");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "Error creating graphics pipeline containing shader: %s\n",
+[0x14fb10]     *(const char **)(v84 + 184));
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "After failure, vkCreateGraphicsPipelines retry %d was successful.\n",
+[0x14fb10]     (unsigned int)(v222 + 1));
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14fb10]     v141,
+[0x14fb10]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, pPipelineCacheToUse, 1, &pipelineCreateInfo, NULL, &pPipelineOut->m_pPipeline )");
+[0x14fb10] LoggingSystem_Log(
+[0x14fb10]     RenderSystem,
+[0x14fb10]     3LL,
+[0x14fb10]     "vkCreateGraphicsPipelines failed after %d retries. Giving up.\n",
+[0x14fb10]     10LL);
+[0x173310] LoggingSystem_Log(
+[0x173310]     RenderSystem,
+[0x173310]     3LL,
+[0x173310]     "AddDescriptorsToGlobalPerFrameDescriptorSet(): Trying to register descriptor with binding %d more than once!\n",
+[0x173310]     v9 & 0xFFF);
+[0x191b10] LoggingSystem_Log(
+[0x191b10]     RenderSystem,
+[0x191b10]     3LL,
+[0x191b10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x191b10]     v7,
+[0x191b10]     "vkQueueWaitIdle( VulkanQueue() )");
+[0x1a2f10] LoggingSystem_Log(
+[0x1a2f10]     RenderSystem,
+[0x1a2f10]     3LL,
+[0x1a2f10]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a2f10]     v11,
+[0x1a2f10]     "vkCreateFence( VulkanDevice(), &fenceCreateInfo, NULL, &pFence )");
+[0x120b20] LoggingSystem_Log(
+[0x120b20]     RenderSystem,
+[0x120b20]     3LL,
+[0x120b20]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x120b20]     v22,
+[0x120b20]     "vkCreateFramebuffer( m_pDeviceVulkan, &framebufferCreateInfo, NULL, &pFramebufferVulkan )");
+[0x129120] LoggingSystem_Log(RenderSystem, 3LL, "No memory type supports the requested properties. \n");
+[0x129120] LoggingSystem_Log(
+[0x129120]     RenderSystem,
+[0x129120]     3LL,
+[0x129120]     "vmaCreateBufferWithAlignment failed for DEVICE_LOCAL memory indicating video memory is full, trying again in sys"
+[0x129120]     "tem memory as a fallback.\n");
+[0x129120] LoggingSystem_Log(
+[0x129120]     RenderSystem,
+[0x129120]     3LL,
+[0x129120]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x129120]     v16,
+[0x129120]     "vmaCreateBufferWithAlignment");
+[0x129120] LoggingSystem_Log(RenderSystem, 3LL, v23);
+[0x175120] LoggingSystem_Log(
+[0x175120]     RenderSystem,
+[0x175120]     3LL,
+[0x175120]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x175120]     v27,
+[0x175120]     "vkCreateQueryPool( m_pDeviceVulkan, &queryPoolCreateInfo, NULL, &newQueryPool.m_pQueryPool )");
+[0x175120] LoggingSystem_Log(RenderSystem, 3LL, "Ran out of occlusion query slots.\n", v26, v25);
+[0x181b20] LoggingSystem_Log(
+[0x181b20]     RenderSystem,
+[0x181b20]     3LL,
+[0x181b20]     "CRenderDeviceVulkan::UpdateDescriptorSet: Failed to update descriptor set.\n");
+[0x181b20] result = LoggingSystem_Log(RenderSystem, 3LL, "Attempted to update invalid descriptor set.\n");
+[0x1a6d20] result = LoggingSystem_Log(
+[0x1a6d20]     RenderSystem,
+[0x1a6d20]     3LL,
+[0x1a6d20]     "FrameSync() - bailing out of vkWaitForFences( fenceCount = %d ) after %f seconds, error = %s\n",
+[0x1a6d20]     v14,
+[0x1a6d20]     v27,
+[0x1a6d20]     v31 - v28);
+[0xfb730] LoggingSystem_Log(LOG_GENERAL, 2LL, "(%s): Setting %s to %s\n", v6, v4, v5);
+[0x112330] LoggingSystem_Log(
+[0x112330]     RenderSystem,
+[0x112330]     1LL,
+[0x112330]     "TEXMAN: Oversubscription state is %s, updating additional resolution bias from %.2f -> %.2f\n",
+[0x112330]     v7,
+[0x112330]     v5,
+[0x112330]     v6);
+[0x159f30] LoggingSystem_Log(
+[0x159f30]     RenderSystem,
+[0x159f30]     3LL,
+[0x159f30]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x159f30]     v9,
+[0x159f30]     "vkDeviceWaitIdle( m_pDeviceVulkan )");
+[0x165530] LoggingSystem_Log(
+[0x165530]     RenderSystem,
+[0x165530]     3LL,
+[0x165530]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x187b30] LoggingSystem_Log(
+[0x187b30]     RenderSystem,
+[0x187b30]     3LL,
+[0x187b30]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x187b30]     v9,
+[0x187b30]     "vkAllocateCommandBuffers( m_pDeviceVulkan, &cmdBufferCreateinfo, &pCmdBuffer )");
+[0x170b40] LoggingSystem_Log(
+[0x170b40]     RenderSystem,
+[0x170b40]     3LL,
+[0x170b40]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x170b40]     v5,
+[0x170b40]     "vkDeviceWaitIdle( m_pDeviceVulkan )");
+[0x1a3340] LoggingSystem_Log(
+[0x1a3340]     RenderSystem,
+[0x1a3340]     3LL,
+[0x1a3340]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a3340]     v10,
+[0x1a3340]     "vkQueueSubmit( VulkanQueue(), 1, &submitInfo, VK_NULL_HANDLE )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v129,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_ImageViews.m_pImageView->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v132,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &cubeAsArrayImageViewCreateInfo, NULL, m_ImageViews.m_pCubeAsArrayImageView->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v169,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_ImageViews.m_ppPerMipLevelImageView[ i ]->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v171,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfoSrgb, NULL, m_ImageViews.m_ppPerMipLevelImageViewSr"
+[0x1b2140]     "gb[ i ]->GetPtr())");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v135,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfoSrgb, NULL, m_ImageViews.m_pImageViewSrgb->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v139,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &cubeAsArrayImageViewCreateInfoSrgb, NULL, m_ImageViews.m_pCubeAsArrayIma"
+[0x1b2140]     "geViewSrgb->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v155,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &compressedBlockViewCreateInfo, NULL, m_ImageViews.m_ppPerMipLevelUAVCo"
+[0x1b2140]     "mpressedBlockView[ i ]->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v58,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageViews.m_ppColorTargetView[ i ]->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v78,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageViews.m_ppPerArraySliceColor"
+[0x1b2140]     "TargetView[ i ]->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v84,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageViews.m_ppColorTargetVie"
+[0x1b2140]     "wSrgb[ i ]->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v91,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &colorTargetViewCreateInfo, NULL, m_ImageViews.m_ppPerArraySliceC"
+[0x1b2140]     "olorTargetViewSrgb[ i ]->GetPtr() )");
+[0x1b2140] result = LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v104,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &dsViewCreateInfo, NULL, m_ImageViews.m_pDepthStencilView->GetPtr() )");
+[0x1b2140] LoggingSystem_Log(
+[0x1b2140]     RenderSystem,
+[0x1b2140]     3LL,
+[0x1b2140]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b2140]     v116,
+[0x1b2140]     "vkCreateImageView( VulkanDevice(), &dsViewCreateInfo, NULL, m_ImageViews.m_ppPerArraySliceDepthStencilView[i]->GetPtr() )");
+[0x137f50] LoggingSystem_Log(
+[0x137f50]     RenderSystem,
+[0x137f50]     3LL,
+[0x137f50]     "Renderpass with invalid attachment reference.  Attachment #%d  Max: %d Has: %d.  Rejecting.\n",
+[0x137f50]     (unsigned int)v24,
+[0x137f50]     5LL,
+[0x137f50]     *v50);
+[0x137f50] LoggingSystem_Log(
+[0x137f50]     RenderSystem,
+[0x137f50]     3LL,
+[0x137f50]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x137f50]     v45,
+[0x137f50]     "vkCreateRenderPass( VulkanDevice(), pRenderPassCreateInfo, nullptr, &pFossilizeRenderPass->m_pExplicitRenderPass )",
+[0x137f50]     v49,
+[0x137f50]     v49);
+[0x137f50] LoggingSystem_Log(
+[0x137f50]     RenderSystem,
+[0x137f50]     3LL,
+[0x137f50]     "Error creating renderpass from Vulkan Steam Shader Source pre-cache.\n",
+[0x137f50]     v47,
+[0x137f50]     v48,
+[0x137f50]     v54);
+[0x137f50] LoggingSystem_Log(
+[0x137f50]     RenderSystem,
+[0x137f50]     3LL,
+[0x137f50]     "Renderpass with too many attachment.  Max: %d Has: %d.  Rejecting.\n",
+[0x137f50]     6LL,
+[0x137f50]     *(unsigned int *)(v51 + 24));
+[0x110f50] LoggingSystem_Log(
+[0x110f50]     RenderSystem,
+[0x110f50]     1LL,
+[0x110f50]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x110f50]     "MN_OnResourceLoadFailed",
+[0x110f50]     v15);
+[0x12cd50] LoggingSystem_Log(
+[0x12cd50]     RenderSystem,
+[0x12cd50]     3LL,
+[0x12cd50]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x12cd50]     v44,
+[0x12cd50]     "vkCreateBuffer( m_pDeviceVulkan, &bufferCreateInfo, NULL, &pNewMemoryPool->m_pVulkanBuffer )",
+[0x12cd50]     &v61,
+[0x12cd50]     0.0,
+[0x12cd50]     &dword_8B39A8);
+[0x12cd50] LoggingSystem_Log(
+[0x12cd50]     RenderSystem,
+[0x12cd50]     3LL,
+[0x12cd50]     "Allocation falling back to non-device local heap failed.\n",
+[0x12cd50]     0.0);
+[0x12cd50] LoggingSystem_Log(
+[0x12cd50]     RenderSystem,
+[0x12cd50]     3LL,
+[0x12cd50]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x12cd50]     v33,
+[0x12cd50]     "vkMapMemory( m_pDeviceVulkan, pNewMemoryPool->m_pGPUMemory, 0, pNewMemoryPool->m_nPoolSize, 0, (void**)&pNewMe"
+[0x12cd50]     "moryPool->m_pMappedBuffer )",
+[0x12cd50]     &v61,
+[0x12cd50]     0.0,
+[0x12cd50]     v50);
+[0x14bd50] LoggingSystem_Log(
+[0x14bd50]     RenderSystem,
+[0x14bd50]     3LL,
+[0x14bd50]     "Shader '%s' has more than the maximum number of textures per stage (has: %d MAX: %d)\n",
+[0x14bd50]     *(_QWORD *)(v18 + 184),
+[0x14bd50]     v124,
+[0x14bd50]     v19);
+[0x14bd50] LoggingSystem_Log(
+[0x14bd50]     RenderSystem,
+[0x14bd50]     3LL,
+[0x14bd50]     "Shader '%s' has more than the maximum number of uniform blocks per stage (has: %d MAX: %d)\n",
+[0x14bd50]     *(_QWORD *)(v13 + 184),
+[0x14bd50]     v123,
+[0x14bd50]     v14);
+[0x14bd50] LoggingSystem_Log(
+[0x14bd50]     RenderSystem,
+[0x14bd50]     3LL,
+[0x14bd50]     "Shader '%s' has more than the maximum number of samplers per stage (has: %d MAX: %d)\n",
+[0x14bd50]     *(_QWORD *)(v8 + 184),
+[0x14bd50]     v125,
+[0x14bd50]     v9);
+[0x127b60] LoggingSystem_Log(RenderSystem, 3LL, "Invalid parameters to AllocateForObject( ... ).\n");
+[0x127b60] LoggingSystem_Log(RenderSystem, 3LL, "Failed to find adequate memory type for buffer.\n", 0.0);
+[0x127b60] LoggingSystem_Log(
+[0x127b60]     RenderSystem,
+[0x127b60]     3LL,
+[0x127b60]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x127b60]     v23,
+[0x127b60]     "vkAllocateMemory");
+[0x127b60] LoggingSystem_Log(RenderSystem, 3LL, v25);
+[0x127b60] LoggingSystem_Log(
+[0x127b60]     RenderSystem,
+[0x127b60]     3LL,
+[0x127b60]     "vkAllocateMemory failed for DEVICE_LOCAL memory indicating video memory is full, trying again in system memory as a fallback.\n");
+[0x127b60] LoggingSystem_Log(
+[0x127b60]     RenderSystem,
+[0x127b60]     3LL,
+[0x127b60]     "No Vulkan heaps support system memory allocation for this resource.\n");
+[0x127b60] LoggingSystem_Log(
+[0x127b60]     RenderSystem,
+[0x127b60]     3LL,
+[0x127b60]     "Previous allocation with memoryRequirements.memoryTypeBits=0x%x was from heap %d (propertyFlags: 0x%x) with reques"
+[0x127b60]     "ted propertyFlags 0x%x, trying in heap %d (propertyFlags: 0x%x) with requested propertyFlags 0x%x.\n",
+[0x127b60]     v33,
+[0x127b60]     v28,
+[0x127b60]     *(unsigned int *)(*(_QWORD *)(a1 + 24) + 8LL * v28 + 836),
+[0x127b60]     a4,
+[0x127b60]     DWORD2(v39),
+[0x127b60]     *(unsigned int *)(*(_QWORD *)(a1 + 24) + 8LL * DWORD2(v39) + 836),
+[0x127b60]     a4 & 0xFFFFFFFE);
+[0x127b60] LoggingSystem_Log(
+[0x127b60]     RenderSystem,
+[0x127b60]     3LL,
+[0x127b60]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x127b60]     v26,
+[0x127b60]     "vkAllocateMemory");
+[0x13db60] LoggingSystem_Log(
+[0x13db60]     RenderSystem,
+[0x13db60]     2LL,
+[0x13db60]     "Attempting to load Steam Shader Pre-Cache database from basePath: %s read-only: %s\n",
+[0x13db60]     v16,
+[0x13db60]     v15);
+[0x13db60] LoggingSystem_Log(RenderSystem, 2LL, "Using Steam Shader Pre-Cache whitelist %s\n", v20);
+[0xfcb60] LoggingSystem_Log(RenderSystem, 2LL, "Loaded video settings config from '%s'\n", v17);
+[0xfcb60] LoggingSystem_Log(
+[0xfcb60]     RenderSystem,
+[0xfcb60]     2LL,
+[0xfcb60]     "Video config version number changed ( '%s' is version %i, current version is %i ). Resetting video config.\n",
+[0xfcb60]     v22,
+[0xfcb60]     v26,
+[0xfcb60]     v4);
+[0xfcb60] LoggingSystem_Log(RenderSystem, 2LL, "Graphics Device changed, resetting video config\n");
+[0x15e360] LoggingSystem_Log(
+[0x15e360]     RenderSystem,
+[0x15e360]     3LL,
+[0x15e360]     "CRenderContextVulkan::BeginQuery - Issued on an in-progress query!\n");
+[0x15e360] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get a Vulkan memory pool for query object\n");
+[0x15e360] LoggingSystem_Log(
+[0x15e360]     RenderSystem,
+[0x15e360]     3LL,
+[0x15e360]     "CRenderContextVulkan::BeginQuery - Issued a Begin on a non-occlusion/pipeline stats query\n");
+[0x174d60] LoggingSystem_Log(
+[0x174d60]     RenderSystem,
+[0x174d60]     2LL,
+[0x174d60]     "Calling xcb_aux_sync() on xcb connection after vkDestroySwapchainKHR...\n");
+[0x174d60] result = (void *)LoggingSystem_Log(
+[0x174d60]     RenderSystem,
+[0x174d60]     2LL,
+[0x174d60]     "xcb_aux_sync() completed, xcb_get_input_focus_reply_t = %p\n",
+[0x174d60]     v4);
+[0x174d60] result = (void *)LoggingSystem_Log(
+[0x174d60]     RenderSystem,
+[0x174d60]     2LL,
+[0x174d60]     "Skipping vkDestroySwapchainKHR to avoid bug in Android vulkan loader with VK_GOOGLE_display_timin"
+[0x174d60]     "g requiring a valid ANativeWindow.\n");
+[0x174d60] result = (void *)LoggingSystem_Log(
+[0x174d60]     RenderSystem,
+[0x174d60]     2LL,
+[0x174d60]     "Skipping vkDestroySurfaceKHR because it can't be called without first doing vkDestroySwapchainKHR.\n");
+[0x1b5560] LoggingSystem_Log(
+[0x1b5560]     RenderSystem,
+[0x1b5560]     3LL,
+[0x1b5560]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b5560]     v7,
+[0x1b5560]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_pImageView->GetPtr() )");
+[0x1b5560] result = LoggingSystem_Log(
+[0x1b5560]     RenderSystem,
+[0x1b5560]     3LL,
+[0x1b5560]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b5560]     v8,
+[0x1b5560]     "vkCreateImageView( VulkanDevice(), &imageViewCreateInfo, NULL, m_pImageViewSrgb->GetPtr() )");
+[0xfb970] LoggingSystem_Log(LOG_GENERAL, 2LL, "Video Card %s (%04x : %04x)\n", v28, v11, (unsigned int)v33);
+[0x14b970] LoggingSystem_Log(
+[0x14b970]     RenderSystem,
+[0x14b970]     3LL,
+[0x14b970]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14b970]     v40,
+[0x14b970]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, pPipelineCache, 1, &executablePipelineCreateInfo, NULL, &pLinkTimeOp"
+[0x14b970]     "timizedPipeline )");
+[0x14b970] result = LoggingSystem_Log(
+[0x14b970]     RenderSystem,
+[0x14b970]     3LL,
+[0x14b970]     "Error creating link-time optimized graphics pipeline library\n");
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     3LL,
+[0x191d70]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x191d70]     v31,
+[0x191d70]     "vkCreateSemaphore( m_pDeviceVulkan, &acquireNextImageSemaphoreCreateInfo, NULL, &pAcquireNextImageSemaphore )");
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     1LL,
+[0x191d70]     "CSwapChainVulkan::SwapBuffers(): the main thread is more than %d frames ahead which means no swap queue images a"
+[0x191d70]     "re available.  Waiting for outstanding frames...\n",
+[0x191d70]     (unsigned int)(*(_DWORD *)(a1 + 452) - *(_DWORD *)(a1 + 496)));
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     3LL,
+[0x191d70]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x191d70]     v34,
+[0x191d70]     "vkQueueWaitIdle( VulkanQueue() )");
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     3LL,
+[0x191d70]     "CSwapChainVulkan::SwapBuffers(): waited for %0.2f seconds\n",
+[0x191d70]     v36 - v48);
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     2LL,
+[0x191d70]     "CSwapChainVulkan::SwapBuffers vkAcquireNextImageKHR - completed result = %s\n",
+[0x191d70]     v32);
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     3LL,
+[0x191d70]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x191d70]     v17,
+[0x191d70]     "vkQueueWaitIdle( VulkanQueue() )");
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     2LL,
+[0x191d70]     "CSwapChainVulkan::SwapBuffers vkAcquireNextImageKHR - completed result = %s\n",
+[0x191d70]     v19);
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     3LL,
+[0x191d70]     "Vulkan swapchain out-of-date, suboptimal, or surface lost - recreating.  Result: (%s)\n",
+[0x191d70]     v25);
+[0x191d70] LoggingSystem_Log(
+[0x191d70]     RenderSystem,
+[0x191d70]     2LL,
+[0x191d70]     "Vulkan swapchain recreated succesfully.  Attempting to acquire next image...");
+[0x191d70] LoggingSystem_Log(RenderSystem, 3LL, "vkAcquireNextImageKHR returned %s\n", v30);
+[0x1bb570] LoggingSystem_Log(
+[0x1bb570]     RenderSystem,
+[0x1bb570]     3LL,
+[0x1bb570]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1bb570]     v29,
+[0x1bb570]     "vkCreateBufferView( m_pDeviceVulkan, &bufferViewCreateInfo, NULL, &m_pTexelBufferView )");
+[0x1bc170] LoggingSystem_Log(
+[0x1bc170]     RenderSystem,
+[0x1bc170]     3LL,
+[0x1bc170]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1bc170]     v11,
+[0x1bc170]     "vkCreateBufferView( m_pDeviceVulkan, &bufferViewCreateInfo, NULL, &m_pTexelBufferView )");
+[0x13df80] LoggingSystem_Log(
+[0x13df80]     RenderSystem,
+[0x13df80]     3LL,
+[0x13df80]     "%s: Unable to compute hash for shader module\n",
+[0x13df80]     "RegisterShader");
+[0x156780] LoggingSystem_Log(
+[0x156780]     RenderSystem,
+[0x156780]     3LL,
+[0x156780]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x156780]     v136,
+[0x156780]     "vkCreatePipelineLayout( m_pDevice, &plci, nullptr, &m_vkRayTracePipelineLayout )");
+[0x156780] LoggingSystem_Log(
+[0x156780]     RenderSystem,
+[0x156780]     3LL,
+[0x156780]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x156780]     v122,
+[0x156780]     "vkCreateDeferredOperationKHR( m_pDevice, VK_NULL_HANDLE, &hDeferredOp )");
+[0x156780] LoggingSystem_Log(
+[0x156780]     RenderSystem,
+[0x156780]     3LL,
+[0x156780]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x156780]     v153,
+[0x156780]     "vkGetDeferredOperationResultKHR( m_pDevice, hDeferredOp )");
+[0x156780] LoggingSystem_Log(
+[0x156780]     RenderSystem,
+[0x156780]     3LL,
+[0x156780]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x156780]     v120,
+[0x156780]     "vkCreateRayTracingPipelinesKHR( m_pDevice, VK_NULL_HANDLE, pPipelineCache, 1, &rpci, nullptr, &m_vkRayTracePipeline )");
+[0x104790] LoggingSystem_Log(
+[0x104790]     RenderSystem,
+[0x104790]     1LL,
+[0x104790]     "TEXMAN: DeferTextureLoads %s MarkTextureBitsLoaded (%s)\n",
+[0x104790]     "PreloadTextureBits",
+[0x104790]     v35);
+[0x161f90] LoggingSystem_Log(
+[0x161f90]     RenderSystem,
+[0x161f90]     3LL,
+[0x161f90]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x161f90]     v67);
+[0x161f90] LoggingSystem_Log(
+[0x161f90]     RenderSystem,
+[0x161f90]     3LL,
+[0x161f90]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x161f90] LoggingSystem_Log(
+[0x161f90]     RenderSystem,
+[0x161f90]     3LL,
+[0x161f90]     "CRenderContextVulkan:: Trying to resolve from a rect that is outside of the src rendertarget\n");
+[0x176f90] LoggingSystem_Log(
+[0x176f90]     RenderSystem,
+[0x176f90]     3LL,
+[0x176f90]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x176f90]     v17,
+[0x176f90]     "vkCreateDescriptorPool( m_pDeviceVulkan, &descriptorPoolCreateInfo, NULL, &pDescriptorPool )");
+[0x1a6990] LoggingSystem_Log(
+[0x1a6990]     RenderSystem,
+[0x1a6990]     3LL,
+[0x1a6990]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a6990]     v15,
+[0x1a6990]     "vkMapMemory( VulkanDevice(), readback.m_pDeviceMemory, 0, readback.m_nMemorySize, 0, &pLockedData )",
+[0x1a6990]     v19,
+[0x1a6990]     v19);
+[0x1bb190] LoggingSystem_Log(
+[0x1bb190]     RenderSystem,
+[0x1bb190]     3LL,
+[0x1bb190]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1bb190]     v10,
+[0x1bb190]     "vkCreateBuffer( m_pDeviceVulkan, &bufferCreateInfo, nullptr, &pBuffer )",
+[0x1bb190]     v5,
+[0x1bb190]     v11);
+[0x1213a0] LoggingSystem_Log(
+[0x1213a0]     RenderSystem,
+[0x1213a0]     3LL,
+[0x1213a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1213a0]     v36,
+[0x1213a0]     "vkCreateRenderPass( m_pDeviceVulkan, &renderPassCreateInfo, NULL, &pRenderPass )");
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get list of resource hashes.\n");
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get size of blob from cache.\n");
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get list of resource hashes.\n");
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get size of resource hashes.\n");
+[0x13cba0] LoggingSystem_Log(
+[0x13cba0]     RenderSystem,
+[0x13cba0]     2LL,
+[0x13cba0]     "Loaded fossilize database in %0.2f seconds total (serial: %0.2fs parallel: %0.2fs)\n",
+[0x13cba0]     (1000000.0 * v101 + v100) * 0.000001,
+[0x13cba0]     v96,
+[0x13cba0]     v90);
+[0x13cba0] LoggingSystem_Log(
+[0x13cba0]     RenderSystem,
+[0x13cba0]     2LL,
+[0x13cba0]     "Successfully loaded Steam Shader Pre-cache database and pre-warmed registered shaders, total time:"
+[0x13cba0]     " %0.2fs (pre-warm time: %0.2fs).\n",
+[0x13cba0]     (1000000.0 * v74 + v73) * 0.000001,
+[0x13cba0]     v69);
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get size of resource hashes.\n");
+[0x13cba0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to prepare fossilize database: '%s'\n", v58);
+[0x14e5a0] LoggingSystem_Log(
+[0x14e5a0]     RenderSystem,
+[0x14e5a0]     3LL,
+[0x14e5a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14e5a0]     v32,
+[0x14e5a0]     "vkCreateGraphicsPipelines( m_pDeviceVulkan, VK_NULL_HANDLE, 1, &pipelineCreateInfo, NULL, &pPipelineOut->m_pPipeline )");
+[0x14e5a0] LoggingSystem_Log(RenderSystem, 3LL, "Error creating fragment output interface pipeline library\n");
+[0x165ba0] LoggingSystem_Log(
+[0x165ba0]     RenderSystem,
+[0x165ba0]     3LL,
+[0x165ba0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x175ba0] LoggingSystem_Log(
+[0x175ba0]     RenderSystem,
+[0x175ba0]     3LL,
+[0x175ba0]     "Border color not supported by VK (%x), defaulting to white.\n",
+[0x175ba0]     v12);
+[0x175ba0] LoggingSystem_Log(
+[0x175ba0]     RenderSystem,
+[0x175ba0]     3LL,
+[0x175ba0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x175ba0]     v18,
+[0x175ba0]     "vkCreateSampler( VulkanDevice(), &samplerCreateInfo, NULL, &pSampler )");
+[0x1799a0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to create depth stencil image with VK.\n");
+[0x1799a0] LoggingSystem_Log(
+[0x1799a0]     RenderSystem,
+[0x1799a0]     3LL,
+[0x1799a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1799a0]     v12,
+[0x1799a0]     "vmaBindImageMemory( GetVmaAllocator(), m_pDepthStencilImage->m_pVmaAllocation, m_pDepthStencilImage->m_pImage )");
+[0x1799a0] LoggingSystem_Log(
+[0x1799a0]     RenderSystem,
+[0x1799a0]     3LL,
+[0x1799a0]     "vkCreateImage() - failed to create cooperative fullscreen image.\n");
+[0x1799a0] LoggingSystem_Log(
+[0x1799a0]     RenderSystem,
+[0x1799a0]     3LL,
+[0x1799a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1799a0]     v50,
+[0x1799a0]     "vmaBindImageMemory( GetVmaAllocator(), m_pIntermediateSwapChainImage->m_pVmaAllocation, m_pIntermediateSwapChain"
+[0x1799a0]     "Image->m_pImage )");
+[0x1799a0] LoggingSystem_Log(
+[0x1799a0]     RenderSystem,
+[0x1799a0]     3LL,
+[0x1799a0]     "vkCreateImage() - failed to create cooperative fullscreen intermediate image.\n");
+[0x1799a0] LoggingSystem_Log(
+[0x1799a0]     RenderSystem,
+[0x1799a0]     3LL,
+[0x1799a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1799a0]     v32,
+[0x1799a0]     "vmaBindImageMemory( GetVmaAllocator(), m_pIntermediateImageResolved->m_pVmaAllocation, m_pIntermediateImageRes"
+[0x1799a0]     "olved->m_pImage )");
+[0x197ba0] LoggingSystem_Log(
+[0x197ba0]     RenderSystem,
+[0x197ba0]     2LL,
+[0x197ba0]     "Disabling graphics pipeline libraries for shader '%s' because it has too many UBOs in dynamic descriptor set"
+[0x197ba0]     " has (%d) max (%d).\n",
+[0x197ba0]     v87,
+[0x197ba0]     (unsigned int)v100,
+[0x197ba0]     v104);
+[0x197ba0] LoggingSystem_Log(
+[0x197ba0]     RenderSystem,
+[0x197ba0]     2LL,
+[0x197ba0]     "Disabling graphics pipeline libraries for shader '%s' because it has too many UBOs.  maxPerStageDescriptorUn"
+[0x197ba0]     "iformBuffers (%d) has vertex (%d) and fragment (%d).\n",
+[0x197ba0]     v78,
+[0x197ba0]     (unsigned int)v98,
+[0x197ba0]     v43,
+[0x197ba0]     v42);
+[0x1a87a0] LoggingSystem_Log(
+[0x1a87a0]     RenderSystem,
+[0x1a87a0]     3LL,
+[0x1a87a0]     "Waited for left eye command buffers to finish for 250ms, trying again.  Likely a GPU hang.\n");
+[0x1a87a0] LoggingSystem_Log(
+[0x1a87a0]     RenderSystem,
+[0x1a87a0]     3LL,
+[0x1a87a0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1a87a0]     v27,
+[0x1a87a0]     "vkQueueSubmit( pQueue, 1, &submitInfo, pFence->Get() )");
+[0x1abda0] LoggingSystem_Log(
+[0x1abda0]     RenderSystem,
+[0x1abda0]     2LL,
+[0x1abda0]     "Reject swapchain blit request to swapchain that is no longer valid.\n");
+[0xeddb0] LoggingSystem_Log(
+[0xeddb0]     RenderSystem,
+[0xeddb0]     3LL,
+[0xeddb0]     "GetGPUFrameTimeMS called without setting RENDERDEBUGFLAG_ENABLE_GPU_TIMESTAMPS.\n");
+[0xfd9b0] LoggingSystem_Log(RenderSystem, 2LL, "Ending RenderDoc capture...\n");
+[0xfd9b0] LoggingSystem_Log(RenderSystem, 2LL, 4278255360LL, "Wrote RenderDoc capture to %s\n", v7);
+[0x103db0] LoggingSystem_Log(
+[0x103db0]     RenderSystem,
+[0x103db0]     1LL,
+[0x103db0]     "TEXMAN: Adding %llx+%p (binding=%p), %s to abandoned hookup jobs\n",
+[0x103db0]     v29,
+[0x103db0]     a2,
+[0x103db0]     *(const void **)((char *)&stru_10E00.st_name
+[0x103db0]     + 8 * *((unsigned __int8 *)a2 + 8)
+[0x103db0]     + *(_QWORD *)(qword_8B5E10 + 8LL * (a2[2] >> 8) + 936)),
+[0x103db0]     v20);
+[0x103db0] LoggingSystem_Log(
+[0x103db0]     RenderSystem,
+[0x103db0]     1LL,
+[0x103db0]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x103db0]     "RemoveTextureFromAnyQueues",
+[0x103db0]     v19);
+[0x10a9b0] LoggingSystem_Log(
+[0x10a9b0]     RenderSystem,
+[0x10a9b0]     1LL,
+[0x10a9b0]     "TEXMAN: %s loaded %s %i/%i mips (%ix%i / %ix%i) of %s (%i bytes)\n",
+[0x10a9b0]     v12,
+[0x10a9b0]     v10,
+[0x10a9b0]     (unsigned int)v8[3],
+[0x10a9b0]     (unsigned int)v7[3],
+[0x10a9b0]     (unsigned int)*v8,
+[0x10a9b0]     (unsigned int)v8[1],
+[0x10a9b0]     (unsigned int)*v7,
+[0x10a9b0]     (unsigned int)v7[1],
+[0x10a9b0]     v11,
+[0x10a9b0]     *((unsigned int *)v8 + 32));
+[0x10a9b0] LoggingSystem_Log(
+[0x10a9b0]     RenderSystem,
+[0x10a9b0]     1LL,
+[0x10a9b0]     "Compressed texture decoded in %.2f ms\n",
+[0x10a9b0]     (float)(v70 * 1000.0));
+[0x10a9b0] LoggingSystem_Log(
+[0x10a9b0]     RenderSystem,
+[0x10a9b0]     1LL,
+[0x10a9b0]     "Decompressed %i texture mips in %.2f ms (%.1fmb/s)\n",
+[0x10a9b0]     (unsigned int)a5[3],
+[0x10a9b0]     1000.0 / v89 * v117,
+[0x10a9b0]     (double)v108 / (v117 / v87 * 1048576.0));
+[0x10a9b0] LoggingSystem_Log(
+[0x10a9b0]     RenderSystem,
+[0x10a9b0]     1LL,
+[0x10a9b0]     "TEXMAN: Abandoning job in %s (%s)\n",
+[0x10a9b0]     "AsyncHookUpTextureBits",
+[0x10a9b0]     v33);
+[0x1277b0] LoggingSystem_Log(RenderSystem, 5LL, &v19, "Failed to initialized Vulkan Memory Allocator.\n", v17);
+[0x1277b0] LoggingSystem_Log(
+[0x1277b0]     RenderSystem,
+[0x1277b0]     2LL,
+[0x1277b0]     "Vulkan Command Buffer Pool Threshold(%d)\n",
+[0x1277b0]     *(unsigned int *)(a1 + 152));
+[0x1277b0] LoggingSystem_Log(RenderSystem, 2LL, "Enabling aggressive command pool rebalancing.\n");
+[0x13b9b0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to get size of blob from cache.\n");
+[0x16b7b0] LoggingSystem_Log(
+[0x16b7b0]     RenderSystem,
+[0x16b7b0]     3LL,
+[0x16b7b0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n",
+[0x16b7b0]     v45);
+[0x16b7b0] result = LoggingSystem_Log(
+[0x16b7b0]     RenderSystem,
+[0x16b7b0]     3LL,
+[0x16b7b0]     "Attempted to begin renderpass on invalid renderpass handle.\n");
+[0x1789b0] LoggingSystem_Log(RenderSystem, 2LL, "Additional fossilize database path: %s\n", v52);
+[0x1acfb0] LoggingSystem_Log(
+[0x1acfb0]     RenderSystem,
+[0x1acfb0]     3LL,
+[0x1acfb0]     "Failed to open validation shader cache %s, might not exit yet.\n",
+[0x1acfb0]     v7);
+[0x1acfb0] LoggingSystem_Log(RenderSystem, 3LL, "vkCreateValidationCacheEXT returned error %s.\n", v8);
+[0x14afc0] LoggingSystem_Log(
+[0x14afc0]     RenderSystem,
+[0x14afc0]     3LL,
+[0x14afc0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14afc0]     v15,
+[0x14afc0]     "vkCreatePipelineCache( m_pDeviceVulkan, &pipelineCacheCreateInfo, NULL, &m_pPerThreadPipelineCache[ nThread ] )");
+[0x14afc0] LoggingSystem_Log(
+[0x14afc0]     RenderSystem,
+[0x14afc0]     3LL,
+[0x14afc0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x14afc0]     v19,
+[0x14afc0]     "vkCreatePipelineCache( m_pDeviceVulkan, &pipelineCacheCreateInfo, NULL, &m_pPipelineCache )");
+[0x165dc0] LoggingSystem_Log(
+[0x165dc0]     RenderSystem,
+[0x165dc0]     3LL,
+[0x165dc0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x16d3c0] LoggingSystem_Log(RenderSystem, 2LL, "%s\n", v32);
+[0x16d3c0] LoggingSystem_Log(
+[0x16d3c0]     RenderSystem,
+[0x16d3c0]     1LL,
+[0x16d3c0]     "VK %s - Message Id Number: %d | Message Id Name: %s\n\t%s\n",
+[0x16d3c0]     v15,
+[0x16d3c0]     *(unsigned int *)(a3 + 32),
+[0x16d3c0]     v14,
+[0x16d3c0]     v13);
+[0x16d3c0] LoggingSystem_Log(RenderSystem, 3LL, "%s\n", v31);
+[0x16d3c0] LoggingSystem_Log(RenderSystem, v11, "\n\tObjects - %d\n", *(unsigned int *)(a3 + 80));
+[0x16d3c0] LoggingSystem_Log(
+[0x16d3c0]     RenderSystem,
+[0x16d3c0]     v11,
+[0x16d3c0]     "\t\tObject[%d] - %s, Handle %p, Name \"%s\"\n",
+[0x16d3c0]     v25,
+[0x16d3c0]     v24,
+[0x16d3c0]     *(const void **)(v23 + 24),
+[0x16d3c0]     *(const char **)(v23 + 32));
+[0x16d3c0] LoggingSystem_Log(
+[0x16d3c0]     RenderSystem,
+[0x16d3c0]     v11,
+[0x16d3c0]     "\t\tObject[%d] - %s, Handle %p\n",
+[0x16d3c0]     v30,
+[0x16d3c0]     v29,
+[0x16d3c0]     *(const void **)(v28 + 24));
+[0x16d3c0] LoggingSystem_Log(RenderSystem, v11, "\n\tCommand Buffer Labels - %d\n", *(unsigned int *)(a3 + 64));
+[0x16d3c0] LoggingSystem_Log(
+[0x16d3c0]     RenderSystem,
+[0x16d3c0]     v11,
+[0x16d3c0]     "\t\tLabel[%d] - %s { %f, %f, %f, %f}\n",
+[0x16d3c0]     v26,
+[0x16d3c0]     *(const char **)(v27 + 16),
+[0x16d3c0]     *(float *)(v27 + 24),
+[0x16d3c0]     *(float *)(v27 + 28),
+[0x16d3c0]     *(float *)(v27 + 32),
+[0x16d3c0]     *(float *)(v27 + 36));
+[0x1b9bc0] LoggingSystem_Log(
+[0x1b9bc0]     RenderSystem,
+[0x1b9bc0]     3LL,
+[0x1b9bc0]     "Attempting to create UAV for compressed image.  This is not supported without VK_KHR_maintenance2.\n");
+[0x1b9bc0] LoggingSystem_Log(
+[0x1b9bc0]     RenderSystem,
+[0x1b9bc0]     3LL,
+[0x1b9bc0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b9bc0]     v34,
+[0x1b9bc0]     "vkCreateImage( VulkanDevice(), &imageCreateInfo, NULL, &pImage )");
+[0x10d5d0] LoggingSystem_Log(RenderSystem, 3LL, "Bad VTEX data for '%s'\n", v76);
+[0x10d5d0] LoggingSystem_Log(RenderSystem, 3LL, "Failed AllocateTexture for '%s'\n", v111);
+[0x10d5d0] LoggingSystem_Log(
+[0x10d5d0]     RenderSystem,
+[0x10d5d0]     3LL,
+[0x10d5d0]     "Unexpected resource version '%d' for '%s'\n",
+[0x10d5d0]     *(unsigned __int16 *)(a4 + 6),
+[0x10d5d0]     v57);
+[0x11bdd0] LoggingSystem_Log(
+[0x11bdd0]     RenderSystem,
+[0x11bdd0]     3LL,
+[0x11bdd0]     "Asking for 2d Texture Array with Cube map as input and no compatible view found when setting \"%s\" "
+[0x11bdd0]     "- returning error texture in CTextureManagerVK::GetImageView: \"%s\"\n",
+[0x11bdd0]     v59,
+[0x11bdd0]     v60);
+[0x11bdd0] LoggingSystem_Log(
+[0x11bdd0]     RenderSystem,
+[0x11bdd0]     3LL,
+[0x11bdd0]     "Bad texture dimension %i for texture \"%s\" when setting \"%s\" (wants %i) - returning error texture i"
+[0x11bdd0]     "n CTextureManagerVK::GetImageView\n",
+[0x11bdd0]     (unsigned int)v53,
+[0x11bdd0]     v54,
+[0x11bdd0]     v52,
+[0x11bdd0]     a3);
+[0x11bdd0] LoggingSystem_Log(
+[0x11bdd0]     RenderSystem,
+[0x11bdd0]     3LL,
+[0x11bdd0]     "Texture missing shader resource view when setting \"%s\" - returning error texture in CTextureManagerVK::Get"
+[0x11bdd0]     "ImageView: \"%s\"\n",
+[0x11bdd0]     v39,
+[0x11bdd0]     v40);
+[0x11bdd0] LoggingSystem_Log(
+[0x11bdd0]     RenderSystem,
+[0x11bdd0]     3LL,
+[0x11bdd0]     "Texture manager doesn't know about texture \"%s\" when setting \"%s\" - returning error texture in CTextureManagerVK"
+[0x11bdd0]     "::GetImageView\n",
+[0x11bdd0]     v46,
+[0x11bdd0]     v45);
+[0x1599d0] result = LoggingSystem_Log(
+[0x1599d0]     RenderSystem,
+[0x1599d0]     3LL,
+[0x1599d0]     "LockDynamicTexture not currently implemented in rendersystemvulkan\n");
+[0x183dd0] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan trim command pools on rebalancing threads enabed.\n");
+[0x183dd0] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan trim all command pools per frame enabed.\n");
+[0xfc1e0] LoggingSystem_Log(
+[0xfc1e0]     RenderSystem,
+[0xfc1e0]     2LL,
+[0xfc1e0]     "Keeping resolution of (%dx%d)\n",
+[0xfc1e0]     (unsigned int)v16,
+[0xfc1e0]     (unsigned int)v17);
+[0xfc1e0] LoggingSystem_Log(RenderSystem, 3LL, "Can't detect memory size on this platform!\n");
+[0x1011e0] LoggingSystem_Log(
+[0x1011e0]     RenderSystem,
+[0x1011e0]     1LL,
+[0x1011e0]     "The minimum amount of GPU memory for streaming textures is set to %d MB.\n",
+[0x1011e0]     *(unsigned int *)(a1 + 2080));
+[0x10a1e0] LoggingSystem_Log(RenderSystem, 1LL, "TEXMAN: Deleting %d textures\n", (unsigned int)v1[49].__owner);
+[0x10fde0] LoggingSystem_Log(
+[0x10fde0]     RenderSystem,
+[0x10fde0]     1LL,
+[0x10fde0]     "TEXMAN: %s MarkTextureBitsLoaded (%s)\n",
+[0x10fde0]     "MN_BuildRequestedResourcesList",
+[0x10fde0]     v47);
+[0x1119e0] LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     3LL,
+[0x1119e0]     "Unable to stream in resource file \"%s\" (Error: %s)\n",
+[0x1119e0]     v15,
+[0x1119e0]     v20);
+[0x1119e0] LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     3LL,
+[0x1119e0]     "Can't clear TEXTURE_WAITING_FOR_IO flag because of streaming request mismatch: %d in handle, %d in request\n",
+[0x1119e0]     *(unsigned int *)(*(_QWORD *)(qword_8B5E10 + 8LL * (*(_DWORD *)(a4 + 8) >> 8) + 936)
+[0x1119e0]     + 4LL * *(unsigned __int8 *)(a4 + 8)
+[0x1119e0]     + 81152),
+[0x1119e0]     a6);
+[0x1119e0] result = LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     3LL,
+[0x1119e0]     "Clearing TEXTURE_WAITING_FOR_IO flag because it's has no streaming request id anymore\n");
+[0x1119e0] result = LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     1LL,
+[0x1119e0]     "TEXMAN: Abandoning streaming request in %s\n",
+[0x1119e0]     "MN_OnResourceFileLoaded");
+[0x1119e0] result = LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     3LL,
+[0x1119e0]     "Can't clear TEXTURE_WAITING_FOR_IO flag because pTexture is NULL\n");
+[0x1119e0] result = LoggingSystem_Log(
+[0x1119e0]     RenderSystem,
+[0x1119e0]     1LL,
+[0x1119e0]     "TEXMAN: Abandoning streaming request early in %s\n",
+[0x1119e0]     "MN_OnResourceFileLoaded");
+[0x112be0] LoggingSystem_Log(
+[0x112be0]     RenderSystem,
+[0x112be0]     3LL,
+[0x112be0]     "TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.\n",
+[0x112be0]     (float)(v38 * 0.00000095367432),
+[0x112be0]     (float)((float)(int)v42 * 0.00000095367432));
+[0x11f1e0] LoggingSystem_Log(RenderSystem, 2LL, "Vulkan Framebuffer Manager Stats:\n");
+[0x11f1e0] return LoggingSystem_Log(
+[0x11f1e0]     RenderSystem,
+[0x11f1e0]     2LL,
+[0x11f1e0]     "\tRenderpass Count Count ( %d ): \n",
+[0x11f1e0]     (unsigned int)(a1[46] + a1[38]));
+[0x11f1e0] LoggingSystem_Log(RenderSystem, 2LL, "\tFramebuffer Count ( %d ): \n", (unsigned int)(a1[30] + a1[22]));
+[0x11f1e0] return LoggingSystem_Log(
+[0x11f1e0]     RenderSystem,
+[0x11f1e0]     2LL,
+[0x11f1e0]     "\tRenderpass Count Count ( %d ): \n",
+[0x11f1e0]     (unsigned int)(a1[46] + a1[38]));
+[0x15cbe0] LoggingSystem_Log(
+[0x15cbe0]     RenderSystem,
+[0x15cbe0]     3LL,
+[0x15cbe0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x15cbe0] LoggingSystem_Log(
+[0x15cbe0]     RenderSystem,
+[0x15cbe0]     3LL,
+[0x15cbe0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x15cbe0] return LoggingSystem_Log(RenderSystem, 3LL, v34);
+[0x15cbe0] return LoggingSystem_Log(RenderSystem, 3LL, v34);
+[0x1787e0] result = (char *)LoggingSystem_Log(
+[0x1787e0]     RenderSystem,
+[0x1787e0]     2LL,
+[0x1787e0]     "Vulkan driver version Major = %d, Minor = %d, Patch = %d\n",
+[0x1787e0]     HIWORD(v3),
+[0x1787e0]     (unsigned __int16)v3,
+[0x1787e0]     v4);
+[0x17c3e0] LoggingSystem_Log(
+[0x17c3e0]     RenderSystem,
+[0x17c3e0]     2LL,
+[0x17c3e0]     "CRenderDeviceVulkan::OnLowMemoryNotification - evicting all textures to reduce memory pressure.\n");
+[0x1249f0] LoggingSystem_Log(
+[0x1249f0]     RenderSystem,
+[0x1249f0]     3LL,
+[0x1249f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1249f0]     v9,
+[0x1249f0]     "vkCreateBuffer( m_pDeviceVulkan, &bufferCreateInfo, nullptr, &pBuffer )",
+[0x1249f0]     v4,
+[0x1249f0]     v10);
+[0x1645f0] LoggingSystem_Log(
+[0x1645f0]     RenderSystem,
+[0x1645f0]     3LL,
+[0x1645f0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x165ff0] LoggingSystem_Log(
+[0x165ff0]     RenderSystem,
+[0x165ff0]     3LL,
+[0x165ff0]     "returning error texture in CTextureManagerVulkan::GetTextureResource\n");
+[0x165ff0] LoggingSystem_Log(
+[0x165ff0]     RenderSystem,
+[0x165ff0]     3LL,
+[0x165ff0]     "UAVBarrier - requested barrier for more mip levels than are in the texture. Requested baseLevel: %d le"
+[0x165ff0]     "velCount: %d (Actual levels: %d).  Clamping to actual number of levels.\n",
+[0x165ff0]     v43,
+[0x165ff0]     v41,
+[0x165ff0]     v42);
+[0x1679f0] LoggingSystem_Log(
+[0x1679f0]     RenderSystem,
+[0x1679f0]     3LL,
+[0x1679f0]     "CRenderContextVulkan::EndQuery - Issued on an in-progress query!\n");
+[0x1679f0] LoggingSystem_Log(
+[0x1679f0]     RenderSystem,
+[0x1679f0]     3LL,
+[0x1679f0]     "Failed to get a Vulkan memory pool for timestamp query object\n");
+[0x1829f0] LoggingSystem_Log(
+[0x1829f0]     RenderSystem,
+[0x1829f0]     3LL,
+[0x1829f0]     "CRenderDeviceVulkan::CreateDescriptorSet: Failed to create descriptor set.\n");
+[0x198ff0] LoggingSystem_Log(RenderSystem, 3LL, "Failed to create VK shader module.\n");
+[0x198ff0] LoggingSystem_Log(
+[0x198ff0]     RenderSystem,
+[0x198ff0]     3LL,
+[0x198ff0]     "Link failed; no code produced.  Log string from glslang %s\n",
+[0x198ff0]     v48);
+[0x198ff0] LoggingSystem_Log(RenderSystem, 3LL, "Compilation failed.  Log string from glslang %s\n", v47);
+[0x1afff0] LoggingSystem_Log(
+[0x1afff0]     RenderSystem,
+[0x1afff0]     1LL,
+[0x1afff0]     "TEXTURESTREAMING: Resource view ptr or texture resources are still NULL after waiting.\n");
+[0x1b45f0] result = LoggingSystem_Log(
+[0x1b45f0]     RenderSystem,
+[0x1b45f0]     3LL,
+[0x1b45f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b45f0]     v38,
+[0x1b45f0]     "vmaBindImageMemory2( GetVmaAllocator(), pVulkanImage->m_pVmaAllocation, 0, pVulkanImage->m_pIma"
+[0x1b45f0]     "ge, &bindImageMemoryInfo )");
+[0x1b45f0] result = LoggingSystem_Log(
+[0x1b45f0]     RenderSystem,
+[0x1b45f0]     3LL,
+[0x1b45f0]     "ERROR! VK call failed! result = %s ( %s )\n",
+[0x1b45f0]     v36,
+[0x1b45f0]     "vmaBindImageMemory( GetVmaAllocator(), pVulkanImage->m_pVmaAllocation, pVulkanImage->m_pImage )");
+[0x1bc3f0] LoggingSystem_Log(
+[0x1bc3f0]     RenderSystem,
+[0x1bc3f0]     3LL,
+[0x1bc3f0]     "*** VB \"%s\": Tried to lock too much memory for subregion (%d>%d)!\n",
+[0x1bc3f0]     v8,
+[0x1bc3f0]     v5,
+[0x1bc3f0]     v7);

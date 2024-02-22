@@ -1,0 +1,1173 @@
+[0x16de00] LoggingSystem_Log(Networking, 2LL, "%s:  NetChan Setting Timeout to %4.2f seconds\n", v6, a3);
+[0x19f200] LODWORD(v1) = LoggingSystem_Log(
+[0x19f200]     Networking,
+[0x19f200]     2LL,
+[0x19f200]     "%s has MNetworkBitCount (or other float field tags) but is type cat '%s' (type %s)\n",
+[0x19f200]     v29,
+[0x19f200]     v9);
+[0x1aec00] LoggingSystem_Log(Networking, 2LL, "%8.3f: PollSocket(%d)\n", a4, a2);
+[0x1aec00] LoggingSystem_Log(Networking, 2LL, "UDP <- %s: sz=%i OOB (%d)\n", v43, v21, v22);
+[0x1b3200] LoggingSystem_Log(
+[0x1b3200]     NetSteamConn,
+[0x1b3200]     1LL,
+[0x1b3200]     "Removing Steam Net Connection for %s, handle #%u\n",
+[0x1b3200]     v27.m256i_i8,
+[0x1b3200]     v23);
+[0x116610] LoggingSystem_Log(
+[0x116610]     Networking,
+[0x116610]     2LL,
+[0x116610]     "%s rebuild %s::%s at %u\n",
+[0x116610]     v12,
+[0x116610]     *(const char **)a1,
+[0x116610]     v11,
+[0x116610]     v8);
+[0x10f410] LoggingSystem_Log(
+[0x10f410]     Networking,
+[0x10f410]     3LL,
+[0x10f410]     "%s::%s was in the original serializer at offset %u but that offset isn't in the ignore list!!!\n",
+[0x10f410]     **v20,
+[0x10f410]     *v20[1],
+[0x10f410]     v21);
+[0x172410] LoggingSystem_Log(
+[0x172410]     Networking,
+[0x172410]     2LL,
+[0x172410]     "UDP -> %s: sz=%5i seq=%5i ack=%5i rel=%1i tm=%8.3f\n",
+[0x172410]     v8,
+[0x172410]     a2,
+[0x172410]     a1[106] & 0x3F,
+[0x172410]     a1[107] & 0x3F,
+[0x172410]     a3,
+[0x172410]     v9);
+[0x1b0a10] result = LoggingSystem_Log(
+[0x1b0a10]     Networking,
+[0x1b0a10]     2LL,
+[0x1b0a10]     "Socket '%s' listening for %s on port %d:\n",
+[0x1b0a10]     v6,
+[0x1b0a10]     a2,
+[0x1b0a10]     v20);
+[0x1b0a10] LoggingSystem_Log(Networking, 2LL, "    [%s]:\n", v16);
+[0x1b0a10] LoggingSystem_Log(Networking, 2LL, "%s%s\n", "        ", j);
+[0x1b0a10] LoggingSystem_Log(Networking, 2LL, "%s%s\n", "        ", j);
+[0x1c1a18] LoggingSystem_Log(Networking, 3LL, "%s\n", v9);
+[0x113c20] result = LoggingSystem_Log(
+[0x113c20]     Networking,
+[0x113c20]     2LL,
+[0x113c20]     "Setting FS %s field %s to %s\n",
+[0x113c20]     *(const char **)a1,
+[0x113c20]     v6,
+[0x113c20]     v7);
+[0x139420] LoggingSystem_Log(Networking, 1LL, "building fake field for %s %s\n", a6, a5);
+[0x159c20] LoggingSystem_Log(Networking, 2LL, "CFieldPath tracing ended\n");
+[0x159c20] LoggingSystem_Log(Networking, 2LL, "CFieldPath tracing started\n");
+[0x16d020] LoggingSystem_Log(
+[0x16d020]     Networking,
+[0x16d020]     2LL,
+[0x16d020]     "Setting max routable payload size from %d to %d for %s\n",
+[0x16d020]     *(unsigned int *)(a1 + 33372),
+[0x16d020]     a2,
+[0x16d020]     v3);
+[0x152240] LoggingSystem_Log(
+[0x152240]     Networking,
+[0x152240]     3LL,
+[0x152240]     "InitFakeField:  Parser function returned false for '%s' of type '%s'\n",
+[0x152240]     a5,
+[0x152240]     a6);
+[0x152240] LoggingSystem_Log(
+[0x152240]     Networking,
+[0x152240]     3LL,
+[0x152240]     "InitFakeField:  Couldn't find schema lookup for '%s' of type '%s'\n",
+[0x152240]     a5,
+[0x152240]     a6);
+[0x157c40] LoggingSystem_Log(a1, 2LL, "%s:  %s\n", "0 bit issue, changes", v9);
+[0x17c840] LoggingSystem_Log(
+[0x17c840]     Networking,
+[0x17c840]     3LL,
+[0x17c840]     "CNetChan::SendNetMessage: Trying to send message %s, which is an invalid category for this channel!\n",
+[0x17c840]     v20);
+[0x17c840] LoggingSystem_Log(
+[0x17c840]     Networking,
+[0x17c840]     3LL,
+[0x17c840]     "CNetChan::SendNetMessage: Unable to send message %s, buffer is full!\n",
+[0x17c840]     v25);
+[0x17c840] LoggingSystem_Log(
+[0x17c840]     Networking,
+[0x17c840]     3LL,
+[0x17c840]     "CNetChan::SendNetMessage: SerializeAbstract for message %s failed!\n",
+[0x17c840]     v23);
+[0x183a40] LoggingSystem_Log(
+[0x183a40]     Networking,
+[0x183a40]     3LL,
+[0x183a40]     "CNetworkMessages::Unserialize encountered unknown network message type %u!\n",
+[0x183a40]     v11);
+[0x199240] LoggingSystem_Log(
+[0x199240]     Networking,
+[0x199240]     3LL,
+[0x199240]     "CNetworkSerializer: Unable to find network encoder named %s!\n",
+[0x199240]     a1);
+[0x1aba40] LoggingSystem_Log(Networking, 3LL, "EstablishNewSteamNetConnection ConnectP2P(%s) failed\n", v38);
+[0x1aba40] LoggingSystem_Log(Networking, 3LL, "ConnectToHostedDedicatedServer(%s) failed\n", v38);
+[0x1aba40] LoggingSystem_Log(
+[0x1aba40]     Networking,
+[0x1aba40]     3LL,
+[0x1aba40]     "EstablishNewSteamNetConnection ConnectByIPv4Address(%s) failed\n",
+[0x1aba40]     v42);
+[0x1ae640] LoggingSystem_Log(Networking, 2LL, "UDP -> %s: sz=%i OOB (%d)\n", v30, a4, v15);
+[0x171850] result = LoggingSystem_Log(Networking, 1LL, "CNetChan::Setup for %s\n", v43);
+[0x172650] LoggingSystem_Log(Networking, 2LL, "%s", v12);
+[0x17e250] LoggingSystem_Log(
+[0x17e250]     Networking,
+[0x17e250]     3LL,
+[0x17e250]     "Failed to unserialize message %s: expected message ID %u, encountered %u!\n",
+[0x17e250]     v23,
+[0x17e250]     v20,
+[0x17e250]     v10);
+[0x19fe5a] LoggingSystem_Log(Networking, 2LL, "%sfound leafmost nobase at %s\n", v24, v23);
+[0x181e60] LoggingSystem_Log(
+[0x181e60]     Networking,
+[0x181e60]     3LL,
+[0x181e60]     "Failed to install message handler for message %s in channel %s!\n",
+[0x181e60]     v37,
+[0x181e60]     a2);
+[0x181e60] LoggingSystem_Log(
+[0x181e60]     Networking,
+[0x181e60]     3LL,
+[0x181e60]     "Failed to install message handler for message %s in channel %s!\n",
+[0x181e60]     v41,
+[0x181e60]     a2);
+[0x181e60] LoggingSystem_Log(
+[0x181e60]     Networking,
+[0x181e60]     5LL,
+[0x181e60]     &v49,
+[0x181e60]     "Error installing message handlers into a net channel: missing handlers in channel %s!\n",
+[0x181e60]     a2);
+[0x1a7260] LoggingSystem_Log(Networking, 3LL, v6, v5);
+[0x1a7260] LoggingSystem_Log(Networking, 2LL, "Created poll group for socket '%s'\n", v4);
+[0x10f070] LoggingSystem_Log(
+[0x10f070]     Networking,
+[0x10f070]     2LL,
+[0x10f070]     "%s %s preserve field %i %s at offset %u, removing from ignore list\n",
+[0x10f070]     v34,
+[0x10f070]     *(const char **)a1,
+[0x10f070]     v5,
+[0x10f070]     v31,
+[0x10f070]     v12);
+[0x198c70] LoggingSystem_Log(
+[0x198c70]     Networking,
+[0x198c70]     3LL,
+[0x198c70]     "Field %s::%s requested unknown user array network serializer %s!\n",
+[0x198c70]     a3,
+[0x198c70]     v18,
+[0x198c70]     *(_QWORD *)(a2 + 216));
+[0x1a6e70] LoggingSystem_Log(
+[0x1a6e70]     Networking,
+[0x1a6e70]     2LL,
+[0x1a6e70]     "CNetworkSystem::BufferToBufferDecompress with improperly sized dest buffer (%u in, %llu needed)\n",
+[0x1a6e70]     *a3,
+[0x1a6e70]     v9[0]);
+[0x1a6e70] LoggingSystem_Log(
+[0x1a6e70]     Networking,
+[0x1a6e70]     2LL,
+[0x1a6e70]     "CNetworkSystem::BufferToBufferDecompress with improperly sized dest buffer (%u in, %u needed)\n",
+[0x1a6e70]     *a3,
+[0x1a6e70]     (unsigned int)v5);
+[0x1c0070] LoggingSystem_Log(Networking, 2LL, v12, v10, v11);
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "CSerializedEntities::CompareSerializedEntities from field %s '%s' not present in to\n",
+[0x1c0070]     v37,
+[0x1c0070]     v183);
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "CSerializedEntities::CompareSerializedEntities to field %s '%s' not present in from\n",
+[0x1c0070]     v59,
+[0x1c0070]     v186);
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "CSerializedEntities::CompareSerializedEntities field %d path's differ from %s '%s' to %s '%s'\n",
+[0x1c0070]     (unsigned int)v4,
+[0x1c0070]     v88,
+[0x1c0070]     v195,
+[0x1c0070]     v190);
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "%s '%s':  encoding mismatched %d vs. %d bits\n",
+[0x1c0070]     v99,
+[0x1c0070]     v196,
+[0x1c0070]     (unsigned int)(v179 - v165),
+[0x1c0070]     (unsigned int)(v169 - v166));
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "%s:  encodeded data mismatched %d bits\n",
+[0x1c0070]     v154,
+[0x1c0070]     (unsigned int)(v171 - v173));
+[0x1c0070] LoggingSystem_Log(
+[0x1c0070]     Networking,
+[0x1c0070]     2LL,
+[0x1c0070]     "%s:  encoding mismatched %d vs. %d bits\n",
+[0x1c0070]     v138,
+[0x1c0070]     (unsigned int)(v171 - v173),
+[0x1c0070]     (unsigned int)(v168 - v172));
+[0x127e80] LoggingSystem_Log(Networking, 2LL, v49, "BuildDelta", v48, v47);
+[0x127e80] LoggingSystem_Log(
+[0x127e80]     (unsigned int)*v11,
+[0x127e80]     2LL,
+[0x127e80]     "%-10s % 5d no fastpath because field %s %s changed the array size from %d to %d\n",
+[0x127e80]     "BuildDelta",
+[0x127e80]     *((unsigned int *)v12 + 4),
+[0x127e80]     v76,
+[0x127e80]     (const char *)v10,
+[0x127e80]     v77,
+[0x127e80]     (unsigned int)a4);
+[0x153680] LoggingSystem_Log(Networking, 2LL, "skipping MatchToSerializerByMeta for %s\n", v129);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "Unable to unambiguously match %s::%s in %s, %d possible matches found\n",
+[0x153680]     v129,
+[0x153680]     v146,
+[0x153680]     *a1,
+[0x153680]     v158);
+[0x153680] LoggingSystem_Log(Networking, 3LL, "  possible match: %s.%s\n", v119, v118);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     1LL,
+[0x153680]     "Constructing fake local field from metadata %s::%s in %s\n",
+[0x153680]     v129,
+[0x153680]     v113,
+[0x153680]     *a1,
+[0x153680]     v123);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "failed to construct fake field from metadata %s::%s (%s) in %s\n",
+[0x153680]     v129,
+[0x153680]     v122,
+[0x153680]     v28,
+[0x153680]     *a1);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "unable to match %s::%s (type %s) in %s, no likely matches found\n",
+[0x153680]     v129,
+[0x153680]     v121,
+[0x153680]     v28,
+[0x153680]     *a1);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "Field names match, but types do not to match %s::%s local type is '%s' vs. remote type is '%s'\n",
+[0x153680]     v129,
+[0x153680]     v146,
+[0x153680]     v53,
+[0x153680]     v28);
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "field serializer '%s' already matched to meta variant %d, cloning serializer to allow matching to different meta variant %d\n",
+[0x153680]     v62,
+[0x153680]     v60,
+[0x153680]     *(unsigned int *)(v151 + 44));
+[0x153680] LoggingSystem_Log(
+[0x153680]     Networking,
+[0x153680]     3LL,
+[0x153680]     "unable to find polymorphic type %s in %s, no likely matches found\n",
+[0x153680]     v84,
+[0x153680]     *a1);
+[0x17d680] LoggingSystem_Log(
+[0x17d680]     Networking,
+[0x17d680]     3LL,
+[0x17d680]     "CNetworkMessages::AllocateUnserializedMessage unable to allocate unknown message type!\n");
+[0x10fa90] LoggingSystem_Log(
+[0x10fa90]     Networking,
+[0x10fa90]     2LL,
+[0x10fa90]     "%sfound offset %u in %s at path '%s'\n",
+[0x10fa90]     v40,
+[0x10fa90]     (unsigned int)v8,
+[0x10fa90]     *v11,
+[0x10fa90]     v39);
+[0x10fa90] LoggingSystem_Log(
+[0x10fa90]     Networking,
+[0x10fa90]     2LL,
+[0x10fa90]     "%signore offset %u in %s at path '%s'\n",
+[0x10fa90]     v45,
+[0x10fa90]     (unsigned int)v8,
+[0x10fa90]     *v11,
+[0x10fa90]     v44);
+[0x10fa90] LoggingSystem_Log(
+[0x10fa90]     Networking,
+[0x10fa90]     2LL,
+[0x10fa90]     "%s%s: failed to find match for offset %llu [path %s]\n",
+[0x10fa90]     v42,
+[0x10fa90]     *v11,
+[0x10fa90]     v8,
+[0x10fa90]     v41);
+[0x132c90] LoggingSystem_Log(
+[0x132c90]     Networking,
+[0x132c90]     3LL,
+[0x132c90]     "CFlattenedSerializer::BuildOverrideField:  Problem initializing replacement field %s::%s\n",
+[0x132c90]     v31,
+[0x132c90]     v32);
+[0x132c90] LoggingSystem_Log(
+[0x132c90]     Networking,
+[0x132c90]     3LL,
+[0x132c90]     "ApplyOverrides_R:  couldn't find field from schema %s::%s\n",
+[0x132c90]     v31,
+[0x132c90]     v32);
+[0x137c90] LoggingSystem_Log(
+[0x137c90]     Networking,
+[0x137c90]     2LL,
+[0x137c90]     "%s0x%p %s Initializing\n",
+[0x137c90]     v38,
+[0x137c90]     (const void *)a1,
+[0x137c90]     *(const char **)a1);
+[0x158e90] result = LoggingSystem_Log(
+[0x158e90]     Networking,
+[0x158e90]     2LL,
+[0x158e90]     "%s: max array count of %d, removing callback for invalid element %d\n",
+[0x158e90]     v9,
+[0x158e90]     v11,
+[0x158e90]     v13,
+[0x158e90]     v14);
+[0x17d490] LoggingSystem_Log(
+[0x17d490]     Networking,
+[0x17d490]     3LL,
+[0x17d490]     "CNetworkMessages::AllocateAndCopyConstructNetMessageAbstract unable to allocate unknown message type!\n");
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "NetChannel '%s':\n", v2);
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "- remote IP: %s\n", v3);
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "- online: %.3f seconds\n", v4);
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "- reliable: %s\n", v6);
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "- latency: %.1f, loss %.2f\n", v7, v13);
+[0x1aa690] LoggingSystem_Log(Networking, 2LL, "- packets: in %.1f/s, out %.1f/s\n", v8, v14);
+[0x1aa690] LoggingSystem_Log(
+[0x1aa690]     Networking,
+[0x1aa690]     2LL,
+[0x1aa690]     "- flow: in %.1f, out %.1f kB/s\n",
+[0x1aa690]     (float)(v9 * 0.0009765625),
+[0x1aa690]     (float)(v15 * 0.0009765625));
+[0x1aa690] result = LoggingSystem_Log(
+[0x1aa690]     Networking,
+[0x1aa690]     2LL,
+[0x1aa690]     "- total: in %.1f, out %.1f MB\n\n",
+[0x1aa690]     (float)((float)v12 * 0.00000095367432),
+[0x1aa690]     (float)((float)v11 * 0.00000095367432));
+[0x1386a0] LoggingSystem_Log(
+[0x1386a0]     Networking,
+[0x1386a0]     3LL,
+[0x1386a0]     "%s:  specified different usergroup proxy functions for '%s'\n",
+[0x1386a0]     *a1,
+[0x1386a0]     *(const char **)(v12 + 8));
+[0x1386a0] LoggingSystem_Log(
+[0x1386a0]     Networking,
+[0x1386a0]     3LL,
+[0x1386a0]     "%s: field %s has MNetworkSendProxyRecipientsFilter but type '%s' is not declared DECLARE_EMBEDDED_NETWORKV"
+[0x1386a0]     "AR_NOTFLATTENED()\n",
+[0x1386a0]     *a1,
+[0x1386a0]     v56,
+[0x1386a0]     v69);
+[0x1386a0] LoggingSystem_Log(
+[0x1386a0]     Networking,
+[0x1386a0]     3LL,
+[0x1386a0]     "%s: field %s has MNetworkSendProxyRecipientsFilter but is not declared using CNetworkVarEmbeddedNotFlattened\n",
+[0x1386a0]     *a1,
+[0x1386a0]     v38);
+[0x15b8a0] LoggingSystem_Log(Networking, 2LL, "%s had %d different permutations\n", *v82, v3);
+[0x15b8a0] LoggingSystem_Log(Networking, 2LL, "%s depth %d\n", *v34, v90);
+[0x15b8a0] LoggingSystem_Log(
+[0x15b8a0]     Networking,
+[0x15b8a0]     2LL,
+[0x15b8a0]     "%u serializers with %u fields (approx memory %llu / %llu in fields ) bytes (field size %d, serializer size %d)\n",
+[0x15b8a0]     v87,
+[0x15b8a0]     v36,
+[0x15b8a0]     v69,
+[0x15b8a0]     v40,
+[0x15b8a0]     176LL,
+[0x15b8a0]     456LL);
+[0x15fca0] LoggingSystem_Log(
+[0x15fca0]     Networking,
+[0x15fca0]     2LL,
+[0x15fca0]     "  %i:  culled %-20s:  %s -> %s (%s)\n",
+[0x15fca0]     v42,
+[0x15fca0]     v101,
+[0x15fca0]     v138,
+[0x15fca0]     v133,
+[0x15fca0]     v130);
+[0x1794b0] LoggingSystem_Log(
+[0x1794b0]     Networking,
+[0x1794b0]     3LL,
+[0x1794b0]     "%s (%s) SendMessage reliable failed with EResult: %d, bytes written %d\n",
+[0x1794b0]     v30,
+[0x1794b0]     v27,
+[0x1794b0]     v24,
+[0x1794b0]     v28);
+[0x1794b0] LoggingSystem_Log(
+[0x1794b0]     Networking,
+[0x1794b0]     3LL,
+[0x1794b0]     "%s (%s) SendMessage unreliable failed with EResult: %d, bytes written %d\n",
+[0x1794b0]     v16,
+[0x1794b0]     v13,
+[0x1794b0]     v9,
+[0x1794b0]     v14);
+[0x1794b0] LoggingSystem_Log(
+[0x1794b0]     Networking,
+[0x1794b0]     1LL,
+[0x1794b0]     "%s:  CNetChan::TransmitSNP(%s) SinceLastSend=%.1fs, Sent=%d, pending R/U=%d/%d, queueTime=%.1fms\n",
+[0x1794b0]     v41,
+[0x1794b0]     a2,
+[0x1794b0]     v10,
+[0x1794b0]     v37,
+[0x1794b0]     v39,
+[0x1794b0]     v40,
+[0x1794b0]     v38);
+[0x112ab0] LoggingSystem_Log(
+[0x112ab0]     Networking,
+[0x112ab0]     2LL,
+[0x112ab0]     "%s%s::%s marked %s by group %s at '%s'\n",
+[0x112ab0]     v34,
+[0x112ab0]     *(const char **)a1,
+[0x112ab0]     v23,
+[0x112ab0]     v35,
+[0x112ab0]     a4,
+[0x112ab0]     v22);
+[0x15ecb0] LoggingSystem_Log(Networking|General, 2LL, "%d / %s \"%s\" thinking for %.02f ms!!!\n", v43, v41, v26, v23);
+[0x1734b0] LoggingSystem_Log(Networking, 3LL, "%s\n", v5);
+[0x1b60b0] LoggingSystem_Log(
+[0x1b60b0]     Networking,
+[0x1b60b0]     3LL,
+[0x1b60b0]     "Can't ConnectLoopback between socket %d and %d, not enough slots\n",
+[0x1b60b0]     (unsigned int)a2,
+[0x1b60b0]     (unsigned int)a3);
+[0x1b60b0] LoggingSystem_Log(
+[0x1b60b0]     Networking,
+[0x1b60b0]     2LL,
+[0x1b60b0]     "Connected loopback %s=%x@%s <-> %s=%x@%s\n",
+[0x1b60b0]     v30,
+[0x1b60b0]     *(unsigned int *)(v36 + 56),
+[0x1b60b0]     v39,
+[0x1b60b0]     v25,
+[0x1b60b0]     v26,
+[0x1b60b0]     v41);
+[0x1372c0] LoggingSystem_Log(
+[0x1372c0]     Networking,
+[0x1372c0]     3LL,
+[0x1372c0]     "Field %s::%s specified an unknown field change callback %s!\n",
+[0x1372c0]     *a1,
+[0x1372c0]     v4,
+[0x1372c0]     v5);
+[0x1594c0] result = LoggingSystem_Log(
+[0x1594c0]     Networking,
+[0x1594c0]     2LL,
+[0x1594c0]     "%s %s:  [%d] %s queue %s [type %s] 0x%p %s\n",
+[0x1594c0]     v14,
+[0x1594c0]     a2,
+[0x1594c0]     *(unsigned int *)(a3 + 112),
+[0x1594c0]     v13,
+[0x1594c0]     v16,
+[0x1594c0]     v15,
+[0x1594c0]     v17,
+[0x1594c0]     v9);
+[0x1610c0] LoggingSystem_Log(
+[0x1610c0]     Networking,
+[0x1610c0]     1LL,
+[0x1610c0]     "CreateReplayCompatSerializerFromMeta creating fake serializer for %s\n",
+[0x1610c0]     a3);
+[0x1ac4c0] LoggingSystem_Log(Networking, 2LL, "Net graph %s\n", v21);
+[0x1070d0] LoggingSystem_Log(Networking, 2LL, "%s\n", v4);
+[0x1a88d0] LoggingSystem_Log(
+[0x1a88d0]     Networking,
+[0x1a88d0]     2LL,
+[0x1a88d0]     "CNetworkSystem::InitGameServer: CSteamGameServerAPIContext::Init OK\n");
+[0x1a88d0] LoggingSystem_Log(
+[0x1a88d0]     Networking,
+[0x1a88d0]     3LL,
+[0x1a88d0]     "CNetworkSystem::InitGameServer: CSteamGameServerAPIContext::Init Failed\n");
+[0x1a88d0] LoggingSystem_Log(Networking, 2LL, "Allowing IP connections without auth\n");
+[0x1a88d0] LoggingSystem_Log(
+[0x1a88d0]     Networking,
+[0x1a88d0]     3LL,
+[0x1a88d0]     "Failed to start listening for SDR on port %d.  Waiting and will retry\n",
+[0x1a88d0]     v24);
+[0x1a88d0] LoggingSystem_Log(
+[0x1a88d0]     Networking,
+[0x1a88d0]     2LL,
+[0x1a88d0]     "Socket '%s' listening for SDR on port %d virtual port %d\n",
+[0x1a88d0]     v20,
+[0x1a88d0]     v24,
+[0x1a88d0]     v1);
+[0x1a90d0] LoggingSystem_Log(
+[0x1a90d0]     Networking,
+[0x1a90d0]     2LL,
+[0x1a90d0]     "Adding additional packet lag of %dms (when received), Bernoulli loss of %g%%.\n",
+[0x1a90d0]     v5,
+[0x1a90d0]     1.0);
+[0x1a90d0] LoggingSystem_Log(
+[0x1a90d0]     Networking,
+[0x1a90d0]     2LL,
+[0x1a90d0]     "Adding 0--%dms of additional latency to %g%% packets, for random reordering\n",
+[0x1a90d0]     v6,
+[0x1a90d0]     0.5);
+[0x10b8e0] LoggingSystem_Log(Networking, 2LL, "0x%p assigned %d to '%s'\n", v7, v76, v28, v68);
+[0x12b8e0] LoggingSystem_Log(Networking, 3LL, "%s:  couldn't find serializer %s in %s\n", a2, v46, *a1);
+[0x12b8e0] LoggingSystem_Log(
+[0x12b8e0]     Networking,
+[0x12b8e0]     1LL,
+[0x12b8e0]     "%s:  in serializer '%s' couldn't find field %s::%s, possibly already marked MNetworkExclude\n",
+[0x12b8e0]     a2,
+[0x12b8e0]     (const char *)*v6,
+[0x12b8e0]     v44,
+[0x12b8e0]     v45);
+[0x12b8e0] LoggingSystem_Log(
+[0x12b8e0]     Networking,
+[0x12b8e0]     3LL,
+[0x12b8e0]     "%s ambiguous, field exists in serializer '%s' field %d\n",
+[0x12b8e0]     v29,
+[0x12b8e0]     **(_QWORD **)v28,
+[0x12b8e0]     *(unsigned int *)(v28 + 8));
+[0x1a80e0] LoggingSystem_Log(
+[0x1a80e0]     NetSteamConn,
+[0x1a80e0]     3LL,
+[0x1a80e0]     "Can't match up steam connection user data %lld to netchan.  This can happen due to a race condition, just as we "
+[0x1a80e0]     "close the connection.  But otherwise it's probably a bug\n",
+[0x1a80e0]     v2);
+[0x1b5ae0] LoggingSystem_Log(Networking, 2LL, "CNetworkSystem::CloseAllSockets()\n");
+[0x17a4f0] LoggingSystem_Log(
+[0x17a4f0]     Networking,
+[0x17a4f0]     3LL,
+[0x17a4f0]     "NetChan %s ProcessMessages has taken more than %dms to process %d messages.  (Current message type: '%s')\n",
+[0x17a4f0]     v43,
+[0x17a4f0]     (unsigned int)v76,
+[0x17a4f0]     (unsigned int)v72,
+[0x17a4f0]     v39);
+[0x17a4f0] LoggingSystem_Log(
+[0x17a4f0]     Networking,
+[0x17a4f0]     3LL,
+[0x17a4f0]     "Error processing network message %s! Channel is closing!\n",
+[0x17a4f0]     v28);
+[0x17a4f0] LoggingSystem_Log(
+[0x17a4f0]     Networking,
+[0x17a4f0]     3LL,
+[0x17a4f0]     "Too many incoming messages on channel (%s) %d remain queued, limit per-frame is %d.\n",
+[0x17a4f0]     v31,
+[0x17a4f0]     v30,
+[0x17a4f0]     (unsigned int)v71);
+[0x17a4f0] LoggingSystem_Log(
+[0x17a4f0]     Networking,
+[0x17a4f0]     3LL,
+[0x17a4f0]     "Too many queued messages on channel (%s) %d queued, limit is %d.\n",
+[0x17a4f0]     v49,
+[0x17a4f0]     v48,
+[0x17a4f0]     v47);
+[0x1596f0] result = LoggingSystem_Log(
+[0x1596f0]     Networking,
+[0x1596f0]     2LL,
+[0x1596f0]     "%s %s:  [%d] %s queue %s [type %s] %son 0x%p [alloc %u] [order %d] %s\n",
+[0x1596f0]     v17,
+[0x1596f0]     a2,
+[0x1596f0]     *(unsigned int *)(a4 + 84),
+[0x1596f0]     v18,
+[0x1596f0]     v22,
+[0x1596f0]     v20,
+[0x1596f0]     v21,
+[0x1596f0]     v23,
+[0x1596f0]     v25,
+[0x1596f0]     a3,
+[0x1596f0]     v24);
+[0x1616f0] LoggingSystem_Log(Networking, 3LL, "MakeSerializersMatchByMeta failed for %s\n", *v6);
+[0x112ef0] LoggingSystem_Log(Networking, 2LL, v31, v30, v32);
+[0x112ef0] LoggingSystem_Log(
+[0x112ef0]     Networking,
+[0x112ef0]     2LL,
+[0x112ef0]     "%s%s::%s marked %s by name at '%s'\n",
+[0x112ef0]     v64,
+[0x112ef0]     (const char *)*a1,
+[0x112ef0]     v38,
+[0x112ef0]     v63,
+[0x112ef0]     v37);
+[0x10d8f0] LoggingSystem_Log(Networking, 2LL, "%sApplying %s\n", v10, v9);
+[0x10d8f0] result = LoggingSystem_Log(
+[0x10d8f0]     Networking,
+[0x10d8f0]     3LL,
+[0x10d8f0]     "ProcessOverride encountered unknown directive NetworkOverrideType_t(%d)\n",
+[0x10d8f0]     *(unsigned int *)(a5 + 24));
+[0x116cf0] LoggingSystem_Log(
+[0x116cf0]     Networking,
+[0x116cf0]     2LL,
+[0x116cf0]     "%s %s %s offset %u, temporarily adding to ignore list\n",
+[0x116cf0]     v17,
+[0x116cf0]     *a1,
+[0x116cf0]     v14,
+[0x116cf0]     v9);
+[0x1b4af0] LoggingSystem_Log(
+[0x1b4af0]     NetSteamConn,
+[0x1b4af0]     1LL,
+[0x1b4af0]     "Steam Net connection %s %s, reason %d: %s\n",
+[0x1b4af0]     (const char *)a2 + 316,
+[0x1b4af0]     v12,
+[0x1b4af0]     a2[46],
+[0x1b4af0]     (const char *)a2 + 188);
+[0x1b4af0] LoggingSystem_Log(
+[0x1b4af0]     NetSteamConn,
+[0x1b4af0]     1LL,
+[0x1b4af0]     "Accepting Steam Net connection %s\n",
+[0x1b4af0]     (const char *)a2 + 316);
+[0x1c84f0] LoggingSystem_Log(Networking, 1LL, "BuildOutputString:  change %s to %d\n", v25, v8);
+[0x100700] result = LoggingSystem_Log(
+[0x100700]     Networking,
+[0x100700]     2LL,
+[0x100700]     "DTI: wrote client stats into %s. Session duration = %0.2f seconds, rowcount %d.\n",
+[0x100700]     v40,
+[0x100700]     v71,
+[0x100700]     *(double *)(a1 + 136),
+[0x100700]     a1,
+[0x100700]     &v83);
+[0x100700] result = LoggingSystem_Log(
+[0x100700]     Networking,
+[0x100700]     3LL,
+[0x100700]     "DTI: was unable to open file '%s' for write!\n",
+[0x100700]     v66);
+[0x130300] LoggingSystem_Log(
+[0x130300]     Networking,
+[0x130300]     3LL,
+[0x130300]     "NetworkReplayCompatField_t %s::%s on field '%s' is using possibly bogus this pointer from class %s!\n",
+[0x130300]     v90,
+[0x130300]     v91,
+[0x130300]     v89,
+[0x130300]     **(const char ***)(v73 + 264));
+[0x130300] LoggingSystem_Log(Networking, 3LL, "%s", v101);
+[0x130300] LoggingSystem_Log(Networking, 3LL, "%s\n", v94);
+[0x17d700] LoggingSystem_Log(
+[0x17d700]     Networking,
+[0x17d700]     3LL,
+[0x17d700]     "CNetworkMessages::Serialize attempted to serialize a non-serializeable message [%s]!\n",
+[0x17d700]     v42);
+[0x1acb00] LoggingSystem_Log(Networking, 2LL, "net_option %s = %s\n", v7, v20);
+[0x1acb00] result = (const char *)LoggingSystem_Log(
+[0x1acb00]     Networking,
+[0x1acb00]     3LL,
+[0x1acb00]     "net_option settings will not apply to loopback listenservers. To run a listenserv"
+[0x1acb00]     "er without loopback. Select your map with \"map foo loopback=0\"\n");
+[0x1acb00] result = (const char *)LoggingSystem_Log(
+[0x1acb00]     Networking,
+[0x1acb00]     3LL,
+[0x1acb00]     "Not allowed to change net_option '%s'\n",
+[0x1acb00]     v7);
+[0x16ff10] LoggingSystem_Log(
+[0x16ff10]     Networking,
+[0x16ff10]     2LL,
+[0x16ff10]     "%s:  NetChan QoS flow %s: %4dms latency, %5d/%5d dropped (%.1f%%)\n",
+[0x16ff10]     v53,
+[0x16ff10]     v48,
+[0x16ff10]     v51,
+[0x16ff10]     v54,
+[0x16ff10]     v50);
+[0x16ff10] LoggingSystem_Log(
+[0x16ff10]     Networking,
+[0x16ff10]     3LL,
+[0x16ff10]     "%s:  high packet loss detected flow %s: %4dms latency, %5d/%5d dropped (%.1f%%)\n",
+[0x16ff10]     v43,
+[0x16ff10]     v38,
+[0x16ff10]     v41,
+[0x16ff10]     v54,
+[0x16ff10]     v40);
+[0x1a3510] LoggingSystem_Log(
+[0x1a3510]     Networking,
+[0x1a3510]     3LL,
+[0x1a3510]     "Field %s::%s specified an unknown field change callback %s!\n",
+[0x1a3510]     a5,
+[0x1a3510]     v140,
+[0x1a3510]     v47);
+[0x1a3510] LoggingSystem_Log(
+[0x1a3510]     Networking,
+[0x1a3510]     3LL,
+[0x1a3510]     "Field %s::%s requested unknown user network serializer %s!\n",
+[0x1a3510]     a5,
+[0x1a3510]     v140,
+[0x1a3510]     v55);
+[0x110920] LoggingSystem_Log(Networking, 2LL, "Include/Exclude reasons for field %s::%s:\n", v18, v17);
+[0x110920] LoggingSystem_Log(Networking, 2LL, "%s %-32s : %s at '%s'\n", v21, v22, v20, v19);
+[0x110920] LoggingSystem_Log(Networking, 2LL, "%s %-32s : %s\n", v15, v16, v14);
+[0x162520] LoggingSystem_Log(Networking, 1LL, "  at depth %d items %d\n", (unsigned int)v2, *v7);
+[0x1ad120] LoggingSystem_Log(
+[0x1ad120]     NetSteamConn,
+[0x1ad120]     1LL,
+[0x1ad120]     "Associating NetChan %s (%s) with Steam Net Connection handle #%u (userdata %d)\n",
+[0x1ad120]     v21,
+[0x1ad120]     v28,
+[0x1ad120]     a2,
+[0x1ad120]     v5);
+[0x1b4320] LoggingSystem_Log(NetSteamConn, 3LL, "Multiple steam net connections from %s\n", v71.m256i_i8);
+[0x1b6f20] LoggingSystem_Log(NetSteamConn, 2LL, "Reusing cacheable shared Steam Net Connection to '%s'\n", s);
+[0x1b6f20] LoggingSystem_Log(
+[0x1b6f20]     NetSteamConn,
+[0x1b6f20]     2LL,
+[0x1b6f20]     "Opened Steam Net Connection on socket '%s' to %s, connection %s\n",
+[0x1b6f20]     v30,
+[0x1b6f20]     v46,
+[0x1b6f20]     v48);
+[0x1b6f20] LoggingSystem_Log(Networking, 3LL, "ConnectSocket(%s) failed\n", s);
+[0x110d30] LoggingSystem_Log(Networking, 2LL, "%s%s %s::%s recursively\n", v22, v23, *a1, v14);
+[0x11ad30] LoggingSystem_Log(
+[0x11ad30]     Networking,
+[0x11ad30]     3LL,
+[0x11ad30]     "CFlattenedSerializer::EncodeField overflowed %s %s %s\n",
+[0x11ad30]     *a1,
+[0x11ad30]     v307,
+[0x11ad30]     v306);
+[0x11ad30] LoggingSystem_Log(
+[0x11ad30]     Networking,
+[0x11ad30]     3LL,
+[0x11ad30]     "CFlattenedSerializer::EncodeField overflowed %s %s[%d/%d] %s\n",
+[0x11ad30]     *a1,
+[0x11ad30]     v284,
+[0x11ad30]     (unsigned int)v11,
+[0x11ad30]     v415);
+[0x11ad30] LoggingSystem_Log(
+[0x11ad30]     Networking,
+[0x11ad30]     3LL,
+[0x11ad30]     "CFlattenedSerializer::EncodeField failed  %s %s[%d/%d] %s\n",
+[0x11ad30]     *a1,
+[0x11ad30]     v283,
+[0x11ad30]     (unsigned int)v11,
+[0x11ad30]     v415);
+[0x156130] LoggingSystem_Log(Networking, 2LL, "%s\n", v8);
+[0x158d30] LoggingSystem_Log(
+[0x158d30]     Networking,
+[0x158d30]     2LL,
+[0x158d30]     "%s: rebasing delegate [ 0x%p -> 0x%p ]\n",
+[0x158d30]     v13,
+[0x158d30]     v15,
+[0x158d30]     v12);
+[0x163930] LoggingSystem_Log(
+[0x163930]     Networking,
+[0x163930]     2LL,
+[0x163930]     "CEntitySystem::BuildEntityNetworking:  starting %s build %d / %d (%.2f%%)\n",
+[0x163930]     v41,
+[0x163930]     (unsigned int)v18,
+[0x163930]     (unsigned int)v48,
+[0x163930]     a4);
+[0x163930] LoggingSystem_Log(
+[0x163930]     Networking,
+[0x163930]     2LL,
+[0x163930]     "CEntitySystem::BuildEntityNetworking (%s build of %s) took %.3f msecs for %d out of %d classes\n",
+[0x163930]     v41,
+[0x163930]     v36,
+[0x163930]     a4,
+[0x163930]     (unsigned int)a3,
+[0x163930]     v35);
+[0x17b130] LoggingSystem_Log(
+[0x17b130]     Networking,
+[0x17b130]     5LL,
+[0x17b130]     &v89,
+[0x17b130]     "Expecting NetMessageInfo_t::m_pProtobufBinding to be non-NULL");
+[0x17b130] LoggingSystem_Log(
+[0x17b130]     Networking,
+[0x17b130]     2LL,
+[0x17b130]     "%s:  (%d bits/%d bytes):\n",
+[0x17b130]     v71,
+[0x17b130]     v76,
+[0x17b130]     (unsigned int)((int)(v76 + 7) >> 3),
+[0x17b130]     v73);
+[0x17b130] LoggingSystem_Log(Networking, 2LL, "%s\n", *(const char **)(v90 + 8 * v59));
+[0x181530] LoggingSystem_Log(
+[0x181530]     Networking,
+[0x181530]     2LL,
+[0x181530]     "%60.60s %6.6s %15.15s %5.5s %10.10s\n",
+[0x181530]     "[Name]",
+[0x181530]     "[Type]",
+[0x181530]     "[Group]",
+[0x181530]     "[ID]",
+[0x181530]     "[GroupID]");
+[0x181530] LoggingSystem_Log(Networking, 2LL, "%60.60s %6.6s %15.15s %5d %10d ", v18, v14, v13, v16, v15);
+[0x181530] LoggingSystem_Log(Networking, 2LL, &v63, "(Message Info)");
+[0x181530] LoggingSystem_Log(Networking, 2LL, "\n");
+[0x181530] result = LoggingSystem_Log(Networking, 2LL, "Non-networkables\n\n");
+[0x181530] LoggingSystem_Log(Networking, 2LL, "%60.60s %6.6s %15.15s %5d %10d ", v38, v34, v33, v36, v35);
+[0x181530] LoggingSystem_Log(Networking, 2LL, &v63, "(Message Info)");
+[0x181530] LoggingSystem_Log(Networking, 2LL, "\n");
+[0x11f740] LoggingSystem_Log(
+[0x11f740]     Networking,
+[0x11f740]     3LL,
+[0x11f740]     "RemoveArrayElementsOutsideOfArrayMetadataBounds:  %s [ent %d] removing change '%s' for field %s (value"
+[0x11f740]     " '%s') on array that has metadata with only %d array elements!\n",
+[0x11f740]     *a1,
+[0x11f740]     a4,
+[0x11f740]     v70,
+[0x11f740]     (const char *)v86,
+[0x11f740]     v81,
+[0x11f740]     v88);
+[0x15b540] result = (__int64 **)LoggingSystem_Log(
+[0x15b540]     Networking,
+[0x15b540]     2LL,
+[0x15b540]     "%s: recreation removing deallocation\n",
+[0x15b540]     v22);
+[0x1ad540] LoggingSystem_Log(
+[0x1ad540]     NetSteamConn,
+[0x1ad540]     1LL,
+[0x1ad540]     "Disassociating NetChan %s (%s) from Steam Net Connection handle #%u (userdata %d)\n",
+[0x1ad540]     v12,
+[0x1ad540]     v20,
+[0x1ad540]     v1,
+[0x1ad540]     v2);
+[0x1b6540] LoggingSystem_Log(
+[0x1b6540]     Networking,
+[0x1b6540]     3LL,
+[0x1b6540]     "Steam supporting smaller max routable packet than engine expecting (%d vs %d)\n",
+[0x1b6540]     (unsigned int)v7,
+[0x1b6540]     1200LL);
+[0x1b6540] LoggingSystem_Log(
+[0x1b6540]     Networking,
+[0x1b6540]     3LL,
+[0x1b6540]     "CNetworkSystem::Init() m_SteamAPIContextClient.Init ( ) failed (no Steam?)\n");
+[0x1b6540] LoggingSystem_Log(Networking, 2LL, "No steam client; SDR features will be unavailable\n");
+[0x1b6540] LoggingSystem_Log(
+[0x1b6540]     Networking,
+[0x1b6540]     2LL,
+[0x1b6540]     "Got ISteamNetworkingSockets user interfaces from standalone lib\n");
+[0x1b6540] LoggingSystem_Log(Networking, 2LL, "Allowing IP connections without auth\n");
+[0x1b6540] LoggingSystem_Log(Networking, 2LL, "Using Valve ICE implementation\n");
+[0x1b6540] LoggingSystem_Log(
+[0x1b6540]     Networking,
+[0x1b6540]     2LL,
+[0x1b6540]     "Got ISteamNetworkingSockets user interfaces from steam client\n");
+[0x1b6540] result = LoggingSystem_Log(
+[0x1b6540]     Networking,
+[0x1b6540]     3LL,
+[0x1b6540]     "Cannot reconnect loopback after initializing steam networking!\n");
+[0x131d50] LoggingSystem_Log(
+[0x131d50]     Networking,
+[0x131d50]     2LL,
+[0x131d50]     "%sProcess includes/excludes %s %s [%d fields]\n",
+[0x131d50]     v36,
+[0x131d50]     *(const char **)a1,
+[0x131d50]     a3,
+[0x131d50]     *(unsigned int *)(a1 + 40));
+[0x131d50] LoggingSystem_Log(
+[0x131d50]     Networking,
+[0x131d50]     2LL,
+[0x131d50]     "%sconsider %s at depth %d\n",
+[0x131d50]     v37,
+[0x131d50]     v29,
+[0x131d50]     *((unsigned int *)v15 + 2));
+[0x131d50] LoggingSystem_Log(
+[0x131d50]     Networking,
+[0x131d50]     2LL,
+[0x131d50]     "%sexcluding %s::%s due to MNetworkNoBase\n",
+[0x131d50]     v37,
+[0x131d50]     v35);
+[0x1b5b50] LoggingSystem_Log(Networking, 2LL, "CNetworkSystem::Shutdown()\n");
+[0x1b5b50] LoggingSystem_Log(Networking, 3LL, "Leaked channel %s remote %s\n", v8, v7);
+[0xf6d60] LoggingSystem_Log(Networking, 3LL, "--- %s has duplicate fields\n", *((const char **)a1 + 16));
+[0xf6d60] LoggingSystem_Log(Networking, 3LL, "%s\n", v27);
+[0x116f60] LoggingSystem_Log(Networking, 2LL, "%s Gathering field offsets in %s\n", v4, *a1);
+[0x127d60] LoggingSystem_Log(a3, 2LL, "%s\n", v9);
+[0x179d60] LoggingSystem_Log(
+[0x179d60]     Networking,
+[0x179d60]     3LL,
+[0x179d60]     "%s:  CNetChan::Transmit( %s ) while suppressing transmit\n",
+[0x179d60]     v17,
+[0x179d60]     a2);
+[0x1a2d60] LoggingSystem_Log(
+[0x1a2d60]     Networking,
+[0x1a2d60]     3LL,
+[0x1a2d60]     "Field \"%s::%s\" requested unknown user network serializer %s!\n",
+[0x1a2d60]     a4,
+[0x1a2d60]     v24,
+[0x1a2d60]     v7);
+[0x1a2d60] LoggingSystem_Log(
+[0x1a2d60]     Networking,
+[0x1a2d60]     5LL,
+[0x1a2d60]     &v46,
+[0x1a2d60]     "ERROR: Field %s::%s unable to deduce unserializer for type (%s)!\n",
+[0x1a2d60]     a4,
+[0x1a2d60]     v23,
+[0x1a2d60]     v22);
+[0x1a2d60] LoggingSystem_Log(
+[0x1a2d60]     Networking,
+[0x1a2d60]     3LL,
+[0x1a2d60]     "Field \"%s::%s\" requested to be serialized as unknown type \"%s\"!\n",
+[0x1a2d60]     a4,
+[0x1a2d60]     v38,
+[0x1a2d60]     v16);
+[0x1aa960] LoggingSystem_Log(Networking, 3LL, "No active net channels.\n");
+[0x1b5f60] LoggingSystem_Log(
+[0x1b5f60]     Networking,
+[0x1b5f60]     3LL,
+[0x1b5f60]     "Can't DisconnectLoopbackUnsafe between socket %d and %d, sockets out of range\n",
+[0x1b5f60]     (unsigned int)a2,
+[0x1b5f60]     (unsigned int)a3);
+[0x124f70] LoggingSystem_Log(
+[0x124f70]     Networking,
+[0x124f70]     3LL,
+[0x124f70]     "Couldn't resolve offset %u in %s at path (%d = '%s')\n",
+[0x124f70]     v106,
+[0x124f70]     *a1,
+[0x124f70]     (unsigned int)v20,
+[0x124f70]     v78);
+[0x125d70] LoggingSystem_Log(
+[0x125d70]     Networking,
+[0x125d70]     3LL,
+[0x125d70]     "ValidateSerializedEntity:  %s [ent %d] invalid change '%s' for field %s (value '%s') on array that has m"
+[0x125d70]     "etadata with only %d array elements!\n",
+[0x125d70]     *a1,
+[0x125d70]     v95,
+[0x125d70]     v52,
+[0x125d70]     v51,
+[0x125d70]     v99,
+[0x125d70]     (unsigned int)v103);
+[0x125d70] LoggingSystem_Log(
+[0x125d70]     Networking,
+[0x125d70]     3LL,
+[0x125d70]     "ValidateSerializedEntity:  missing metadata entry for %s\n",
+[0x125d70]     v83);
+[0x125d70] LoggingSystem_Log(
+[0x125d70]     Networking,
+[0x125d70]     3LL,
+[0x125d70]     "ValidateSerializedEntity:  metadata incorrect entry for %s [%d expected %d]\n",
+[0x125d70]     v86,
+[0x125d70]     v85,
+[0x125d70]     v84);
+[0x125d70] LoggingSystem_Log(
+[0x125d70]     Networking,
+[0x125d70]     3LL,
+[0x125d70]     "ValidateSerializedEntity:  expected metadata entry of ARRAYCOUNT for %s but got %s instead\n",
+[0x125d70]     v89,
+[0x125d70]     v87);
+[0x12cf70] result = LoggingSystem_Log(Networking, 2LL, "%sCull fields for %s\n", v20, *(const char **)a1);
+[0x12cf70] LoggingSystem_Log(Networking, 2LL, "%sCulled %s::%s\n", v22, *(const char **)a1, v19);
+[0x187d70] LoggingSystem_Log(
+[0x187d70]     Networking,
+[0x187d70]     5LL,
+[0x187d70]     &v56,
+[0x187d70]     "NetworkMessages::FindOrCreateNetMessage: Message %s is of size %d in leaf code, but protobuf object is size "
+[0x187d70]     "%lld, the added fields should be placed into object derived from protobuf and then CNetMessagePB references that\n",
+[0x187d70]     v36,
+[0x187d70]     a4,
+[0x187d70]     v47);
+[0x187d70] LoggingSystem_Log(
+[0x187d70]     Networking,
+[0x187d70]     3LL,
+[0x187d70]     "NetMessage '%s' still using auto-assigned, has to generate id from name CUtlStringToken hashcode = %d\n",
+[0x187d70]     (const char *)v11,
+[0x187d70]     (unsigned int)a2);
+[0x187d70] LoggingSystem_Log(
+[0x187d70]     Networking,
+[0x187d70]     5LL,
+[0x187d70]     &v56,
+[0x187d70]     "CNetworkMessages::FindOrCreateNetMessage: It is illegal to register new net messages after serialization!\n");
+[0x187d70] LoggingSystem_Log(
+[0x187d70]     Networking,
+[0x187d70]     5LL,
+[0x187d70]     &v56,
+[0x187d70]     "CNetworkMessages::FindOrCreateNetMessage: Message %s is expected to have already been registered!\n",
+[0x187d70]     v39);
+[0x1a7370] LoggingSystem_Log(Networking, 2LL, "CNetworkSystem::CleanupDebugOutputFunction()\n");
+[0x129180] LoggingSystem_Log(
+[0x129180]     Networking,
+[0x129180]     3LL,
+[0x129180]     "CFlattenedSerializer::BuildDeltaProperties using %d bytes for encoding %d/%s\n",
+[0x129180]     (unsigned int)v25,
+[0x129180]     (unsigned int)v12,
+[0x129180]     *v11);
+[0x12c380] LoggingSystem_Log(
+[0x12c380]     Networking,
+[0x12c380]     1LL,
+[0x12c380]     "RemoveFakeFields(%s) restoring clone %s:%d with original at %s:%d\n",
+[0x12c380]     *(const char **)a1,
+[0x12c380]     *(const char **)v8[1],
+[0x12c380]     *(unsigned int *)(v8[1] + 444),
+[0x12c380]     *(const char **)*v8,
+[0x12c380]     *(unsigned int *)(*v8 + 444));
+[0x12c380] LoggingSystem_Log(Networking, 0LL, "Removed fake field %s at %d\n", v18, (unsigned int)v14);
+[0x166780] LoggingSystem_Log(Networking, 3LL, "%s\n", v78);
+[0x166780] LoggingSystem_Log(
+[0x166780]     Networking,
+[0x166780]     1LL,
+[0x166780]     "BuildMergedSerializedEntity:  ignoring %s, was in previous state only, now outside of valid range for root f"
+[0x166780]     "ield %s [array count %d, base index %d]\n",
+[0x166780]     v338,
+[0x166780]     v337,
+[0x166780]     (unsigned int)v350,
+[0x166780]     (unsigned int)v348);
+[0x166780] LoggingSystem_Log(
+[0x166780]     Networking,
+[0x166780]     2LL,
+[0x166780]     "BuildMergedSerializedEntity:  problem writing %s:  %d bits [%d to %d] is < 1 bit!\n",
+[0x166780]     v336,
+[0x166780]     (unsigned int)v347,
+[0x166780]     (unsigned int)v18,
+[0x166780]     (unsigned int)v348);
+[0x17bf80] LoggingSystem_Log(
+[0x17bf80]     Networking,
+[0x17bf80]     2LL,
+[0x17bf80]     "%8.3f: %s: ParseMessagesSNP RELIABLE%s %d bytes\n",
+[0x17bf80]     v25,
+[0x17bf80]     v40,
+[0x17bf80]     v38,
+[0x17bf80]     v24);
+[0x17bf80] LoggingSystem_Log(
+[0x17bf80]     Networking,
+[0x17bf80]     2LL,
+[0x17bf80]     "%s:Dropped %i packets at %i\n",
+[0x17bf80]     v35,
+[0x17bf80]     *(unsigned int *)(a1 + 33308),
+[0x17bf80]     v8);
+[0x17bf80] LoggingSystem_Log(
+[0x17bf80]     Networking,
+[0x17bf80]     2LL,
+[0x17bf80]     "%8.3f: %s: ParseMessagesSNP UNRELIABLE%s Seq=%d %d bytes\n",
+[0x17bf80]     v32,
+[0x17bf80]     v42,
+[0x17bf80]     v39,
+[0x17bf80]     v44,
+[0x17bf80]     v31);
+[0x17bf80] LoggingSystem_Log(
+[0x17bf80]     Networking,
+[0x17bf80]     2LL,
+[0x17bf80]     "ProcessPacketSNP %s:%s packet %i at %i\n",
+[0x17bf80]     v36,
+[0x17bf80]     v37,
+[0x17bf80]     v8,
+[0x17bf80]     *(unsigned int *)(a1 + 428));
+[0x1ab580] LoggingSystem_Log(Networking, 3LL, v6, v5);
+[0x1ab580] LoggingSystem_Log(Networking, 3LL, "Failed to open P2P network socket '%s'\n", v11);
+[0x1ab580] LoggingSystem_Log(
+[0x1ab580]     Networking,
+[0x1ab580]     2LL,
+[0x1ab580]     "Network socket '%s' opened on port %d\n",
+[0x1ab580]     v12,
+[0x1ab580]     *(unsigned int *)(v3 + 12));
+[0x1b6d80] LoggingSystem_Log(Networking, 2LL, "Network System Initialized\n");
+[0x17bd90] LoggingSystem_Log(
+[0x17bd90]     Networking,
+[0x17bd90]     2LL,
+[0x17bd90]     "%8.3f: %s: ParseMessagesDemo UNRELIABLE %d bytes\n",
+[0x17bd90]     v14,
+[0x17bd90]     v12,
+[0x17bd90]     v13);
+[0x183d90] result = LoggingSystem_Log(Networking, 2LL, "%s - Argument expected (message ID or name).\n", v5);
+[0x183d90] result = LoggingSystem_Log(
+[0x183d90]     Networking,
+[0x183d90]     3LL,
+[0x183d90]     "%s - Unrecognized net message name: '%s'\n",
+[0x183d90]     v26,
+[0x183d90]     v9);
+[0x183d90] LoggingSystem_Log(Networking, 2LL, "[ Net Message Info: %s ]\n", v19);
+[0x183d90] LoggingSystem_Log(Networking, 2LL, "\tClass                    = '%s'\n", v24);
+[0x183d90] LoggingSystem_Log(Networking, 2LL, "\tGroup                    = '%s'\n", v21);
+[0x183d90] LoggingSystem_Log(
+[0x183d90]     Networking,
+[0x183d90]     2LL,
+[0x183d90]     "\tID                       = %u\n",
+[0x183d90]     *((unsigned __int16 *)v17 + 12));
+[0x183d90] LoggingSystem_Log(
+[0x183d90]     Networking,
+[0x183d90]     2LL,
+[0x183d90]     "\tGroup ID                 = %u\n",
+[0x183d90]     *((unsigned __int8 *)v17 + 26));
+[0x183d90] LoggingSystem_Log(Networking, 2LL, "\tCategory Mask            = %08X\n", *v17);
+[0x183d90] LoggingSystem_Log(
+[0x183d90]     Networking,
+[0x183d90]     2LL,
+[0x183d90]     "\tDefaultBufferType        = %d\n",
+[0x183d90]     (unsigned int)((char)(4 * *((_BYTE *)v17 + 27)) >> 2));
+[0x183d90] LoggingSystem_Log(Networking, 2LL, "\tCannotBeNetworked        = %s\n", v22);
+[0x183d90] result = LoggingSystem_Log(Networking, 2LL, "\n");
+[0x183d90] result = LoggingSystem_Log(Networking, 3LL, "%s - Invalid net message index: %d\n", v25, v27);
+[0x1af590] LoggingSystem_Log(Networking, 3LL, "EstablishCacheableSharedNetConnection(%s) failed\n", v42);
+[0x1af590] LoggingSystem_Log(
+[0x1af590]     NetSteamConn,
+[0x1af590]     2LL,
+[0x1af590]     "Established cacheable shared Steam Net Connection to '%s'\n",
+[0x1af590]     v42);
+[0x106fb0] LoggingSystem_Log(Networking, 2LL, "%s%s\n", a2, v5);
+[0x1619b0] result = LoggingSystem_Log(Networking, 2LL, "%s\n", v15);
+[0x1adfb0] LoggingSystem_Log(Networking, 3LL, "Sending %d byte message to %s on socket %s\n", a5, v37, v20);
+[0x1adfb0] LoggingSystem_Log(
+[0x1adfb0]     Networking,
+[0x1adfb0]     3LL,
+[0x1adfb0]     "CNetworkSystem::SendToNsAddress ISteamNetworkingSockets::SendMessageToConnection %s returned %d when sending %d bytes\n",
+[0x1adfb0]     v18,
+[0x1adfb0]     v15,
+[0x1adfb0]     a5,
+[0x1adfb0]     v33);
+[0x1adfb0] LoggingSystem_Log(
+[0x1adfb0]     NetSteamConn,
+[0x1adfb0]     3LL,
+[0x1adfb0]     "Tried to send ad-hoc to address %s, but address is not in list of steam net connections!\n",
+[0x1adfb0]     v37);
+[0x1bc9b0] LoggingSystem_Log(a3, 2LL, "%s:  %d : %s bits %d to %d [%d bits] : %s\n", a2, v6, v18, v39, v38, v15, v33);
+[0x16dbc0] LoggingSystem_Log(
+[0x16dbc0]     Networking,
+[0x16dbc0]     2LL,
+[0x16dbc0]     "ERROR! SendData %s data too big (%i)\n",
+[0x16dbc0]     v12,
+[0x16dbc0]     (unsigned int)((*(_DWORD *)(a2 + 16) + 7) >> 3));
+[0x1741c0] LoggingSystem_Log(
+[0x1741c0]     Networking,
+[0x1741c0]     3LL,
+[0x1741c0]     "CNetChan::UpdateMessageStats, bit counter about to roll over with addition of %d bits, resetting to zero\n",
+[0x1741c0]     v37.m128i_u32[0]);
+[0x11e3d0] result = LoggingSystem_Log(
+[0x11e3d0]     Networking,
+[0x11e3d0]     3LL,
+[0x11e3d0]     "Fatal error, demo file includes a field in array that is not parseable %s = (%s::%s)\n",
+[0x11e3d0]     v99,
+[0x11e3d0]     v97,
+[0x11e3d0]     v98);
+[0x158bd0] LOBYTE(v7) = LoggingSystem_Log(
+[0x158bd0]     Networking,
+[0x158bd0]     2LL,
+[0x158bd0]     "%s: shrinking removes delegate [0x%p]\n",
+[0x158bd0]     v13,
+[0x158bd0]     v16);
+[0x1b57d0] LoggingSystem_Log(Networking, 2LL, "Closing '%s' UDP listen socket\n", v15);
+[0x1b57d0] LoggingSystem_Log(Networking, 2LL, "Closing '%s' P2P listen socket\n", v13);
+[0x1b57d0] LoggingSystem_Log(Networking, 2LL, "Closing '%s' SDR listen socket\n", v16);
+[0x1b57d0] LoggingSystem_Log(Networking, 2LL, "Closing '%s' poll group\n", v14);
+[0x1409e0] LoggingSystem_Log(
+[0x1409e0]     Networking,
+[0x1409e0]     3LL,
+[0x1409e0]     "CFlattenedSerializer::Encode overflow failure for entity %d max size is %d bytes\n",
+[0x1409e0]     a5,
+[0x1409e0]     0x10000LL);
+[0x1409e0] LoggingSystem_Log(Networking, 3LL, "CFlattenedSerializer::Encode failure for entity %d\n", a5);
+[0x1029f0] LoggingSystem_Log(Networking, 2LL, "DTI %s\n", v18);
+[0x1029f0] LoggingSystem_Log(Networking, 2LL, "DTI reset\n");
+[0x1071f0] LoggingSystem_Log(Networking, 2LL, "%s\n", v4);
+[0x110ff0] LoggingSystem_Log(
+[0x110ff0]     Networking,
+[0x110ff0]     2LL,
+[0x110ff0]     "%sincluding %s::%s to ensure entire chain to field\n",
+[0x110ff0]     v16,
+[0x110ff0]     *a1,
+[0x110ff0]     v15);
+[0x1707f0] LoggingSystem_Log(Networking, 2LL, "%s: !CanPacket() - m_bSuppressingTransmit.\n", v6);
+[0x1707f0] LoggingSystem_Log(
+[0x1707f0]     Networking,
+[0x1707f0]     2LL,
+[0x1707f0]     "%s: !CanPacket() - SNPQueueTime=%.1fms.\n",
+[0x1707f0]     v5,
+[0x1707f0]     (double)(int)*(_QWORD *)(a1 + 768) * 0.001);
+[0x1b35f0] LoggingSystem_Log(
+[0x1b35f0]     NetSteamConn,
+[0x1b35f0]     (unsigned int)(v12 == 0) + 1,
+[0x1b35f0]     "Closing Steam Net Connection on socket '%s' to %s, handle #%u (%d %s)\n",
+[0x1b35f0]     v28,
+[0x1b35f0]     v43,
+[0x1b35f0]     a2,
+[0x1b35f0]     a3);
+[0x1b35f0] LoggingSystem_Log(
+[0x1b35f0]     NetSteamConn,
+[0x1b35f0]     1LL,
+[0x1b35f0]     "CloseSteamNetConnection handle #%u (userdata %d)%s\n",
+[0x1b35f0]     a2,
+[0x1b35f0]     v19,
+[0x1b35f0]     v20);
+[0x1b35f0] LoggingSystem_Log(Networking, 2LL, "Summary of connection [%s]:\n", v35);
+[0x1b35f0] LoggingSystem_Log(Networking, 2LL, "%s%s\n", "    ", i);
+[0x1b35f0] LoggingSystem_Log(Networking, 2LL, "%s%s\n", "    ", i);
+[0x1b5df0] LoggingSystem_Log(Networking, 2LL, "CNetworkSystem::ShutdownGameServer\n");

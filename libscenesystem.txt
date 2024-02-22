@@ -1,0 +1,292 @@
+[0xeee80] LoggingSystem_Log(LIGHTBINNER, 3LL, "Exceeding number of lpvs: MAX %i, found %i\n", a5, v60);
+[0x1cc500] LoggingSystem_Log(
+[0x1cc500]     SceneSystem,
+[0x1cc500]     3LL,
+[0x1cc500]     "Error: View \"%s\", layer \"%s\", render target \"%s\": \n"
+[0x1cc500]     "Attempted to bind the back buffers of two different swap chains in a single layer!\n",
+[0x1cc500]     v17,
+[0x1cc500]     v14,
+[0x1cc500]     v13);
+[0x1cc500] LoggingSystem_Log(
+[0x1cc500]     SceneSystem,
+[0x1cc500]     3LL,
+[0x1cc500]     "Error: View \"%s\", layer \"%s\", render target \"%s\": \n"
+[0x1cc500]     "\tAttempted to set up a render target output w/ MSAA %d where the color targets have different MSAA settings %d!\n",
+[0x1cc500]     v23,
+[0x1cc500]     v21,
+[0x1cc500]     v18,
+[0x1cc500]     v20,
+[0x1cc500]     v19);
+[0x223300] LoggingSystem_Log(
+[0x223300]     SceneSystem,
+[0x223300]     3LL,
+[0x223300]     "Failed to get material pointer for world node draw call. (material name: %s)\n",
+[0x223300]     v28);
+[0x2ff300] LoggingSystem_Log(
+[0x2ff300]     General,
+[0x2ff300]     3LL,
+[0x2ff300]     "WARNING: Encountered %d total problems with vertex data (first %d shown above)\n",
+[0x2ff300]     v161,
+[0x2ff300]     64LL);
+[0x1cba0a] LoggingSystem_Log(SceneSystem, 1LL, "%s", v16);
+[0x17c810] LoggingSystem_Log(
+[0x17c810]     SceneSystem,
+[0x17c810]     3LL,
+[0x17c810]     "(SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n",
+[0x17c810]     v26);
+[0x17c810] LoggingSystem_Log(
+[0x17c810]     SceneSystem,
+[0x17c810]     2LL,
+[0x17c810]     &v50,
+[0x17c810]     4294967040LL,
+[0x17c810]     "[DUMP: Scene World %d: 0x%p '%s': %d objects]\n",
+[0x17c810]     v25,
+[0x17c810]     v24,
+[0x17c810]     v23,
+[0x17c810]     v22);
+[0x1abf90] LoggingSystem_Log(SceneSystem, 3LL, v22);
+[0x174920] LoggingSystem_Log(
+[0x174920]     SceneSystem,
+[0x174920]     1LL,
+[0x174920]     "Got request to send CSceneSystemStats to vconsole\n",
+[0x174920]     v10,
+[0x174920]     v12);
+[0xe6e30] LoggingSystem_Log(LIGHTBINNER, 3LL, "Exceeding number of envmaps: MAX %i, found %i\n", a5, v31);
+[0x107630] LoggingSystem_Log(
+[0x107630]     SceneSystem,
+[0x107630]     3LL,
+[0x107630]     "Exceeded maximum number of environment maps: %i added to world, %i maximum\n",
+[0x107630]     *(unsigned int *)(a1 + 32),
+[0x107630]     340LL);
+[0x164fb0] LoggingSystem_Log(
+[0x164fb0]     SceneSystem,
+[0x164fb0]     3LL,
+[0x164fb0]     "Ray trace shader material %s has invalid RayTypeCount %d - must be between 1 and %d\n",
+[0x164fb0]     v108,
+[0x164fb0]     *((unsigned int *)v2 + 252),
+[0x164fb0]     *(unsigned int *)(v2[1] + 1324LL));
+[0x164fb0] LoggingSystem_Log(SceneSystem, 3LL, "Material %s - cannot find raytrace shader!\n", v109);
+[0x164fb0] LoggingSystem_Log(SceneSystem, 3LL, "Ray trace shader material %s - has no default mode!\n", v110);
+[0x1773b0] LoggingSystem_Log(
+[0x1773b0]     SceneSystem,
+[0x1773b0]     2LL,
+[0x1773b0]     "-- Dumping Scene World %d: 0x%p '%s': %d objects --\n",
+[0x1773b0]     v3,
+[0x1773b0]     v4,
+[0x1773b0]     v8,
+[0x1773b0]     v7);
+[0x1773b0] result = LoggingSystem_Log(
+[0x1773b0]     SceneSystem,
+[0x1773b0]     2LL,
+[0x1773b0]     "Object %4d: 0x%p, class=%20s, origin=(%13g,%13g,%13g), bounds=(%13g,%13g,%13g):(%13g,%13g,%13g), de"
+[0x1773b0]     "sc=0x%p, flags=0x%016llX\n",
+[0x1773b0]     v12,
+[0x1773b0]     (const void *)v10,
+[0x1773b0]     v26,
+[0x1773b0]     v14,
+[0x1773b0]     v15,
+[0x1773b0]     v16,
+[0x1773b0]     *(float *)v18,
+[0x1773b0]     *(float *)&v18[1],
+[0x1773b0]     *(float *)&v18[2],
+[0x1773b0]     *(float *)v19,
+[0x1773b0]     *(float *)&v19[1],
+[0x1773b0]     *(float *)&v19[2],
+[0x1773b0]     v17,
+[0x1773b0]     v11);
+[0x19c4b0] LoggingSystem_Log(
+[0x19c4b0]     SceneSystem,
+[0x19c4b0]     2LL,
+[0x19c4b0]     "Changing sc_layer_batch_threshold from %d -> %d.\n",
+[0x19c4b0]     *v78,
+[0x19c4b0]     (unsigned int)v46);
+[0x19c4b0] LoggingSystem_Log(
+[0x19c4b0]     SceneSystem,
+[0x19c4b0]     2LL,
+[0x19c4b0]     "Changing sc_layer_batch_threshold_fullsort from %d -> %d.\n",
+[0x19c4b0]     *v77,
+[0x19c4b0]     (unsigned int)v85);
+[0x19c4b0] LoggingSystem_Log(SceneSystem, 3LL, "Unknown FrameBufferCopyFormat: %s, using 8888", v74);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Number of targets (%d) exceeds maximum (%d).  List of targets:\n",
+[0x1cc830]     *((unsigned int *)a1 + 2),
+[0x1cc830]     64LL);
+[0x1cc830] LoggingSystem_Log(SceneSystem, 3LL, "\t%s\n", v49);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Error: View \"%s\", layer \"%s\": \n"
+[0x1cc830]     "\tIt is illegal to indicate LAYERFLAGS_DOESNT_MODIFY_COLOR_BUFFERS but also do a color clear or discard!\n",
+[0x1cc830]     v60,
+[0x1cc830]     v58);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Error: View \"%s\", layer \"%s\": \n"
+[0x1cc830]     "\tIt is illegal to indicate LAYERFLAGS_DOESNT_MODIFY_DEPTH_STENCIL_BUFFER but also do a depth/stencil clear or discard!\n",
+[0x1cc830]     v47,
+[0x1cc830]     v45);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Error: View \"%s\", layer \"%s\": \n"
+[0x1cc830]     "\tIt is illegal to indicate LAYERFLAGS_PRESERVE_COLOR_BUFFERS but also do a color clear or use LAYERFLAGS_DISCAR"
+[0x1cc830]     "D_COLOR_BUFFERS!\n",
+[0x1cc830]     v53,
+[0x1cc830]     v51);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Error: View \"%s\", layer \"%s\": \n"
+[0x1cc830]     "\tIt is illegal to indicate LAYERFLAGS_PRESERVE_DEPTH_STENCIL_BUFFER but also do a depth clear or use LAYERFLAGS"
+[0x1cc830]     "_DISCARD_DEPTH_STENCIL_BUFFER!\n",
+[0x1cc830]     v56,
+[0x1cc830]     v54);
+[0x1cc830] LoggingSystem_Log(
+[0x1cc830]     SceneSystem,
+[0x1cc830]     3LL,
+[0x1cc830]     "Error: View \"%s\", layer \"%s\": \n"
+[0x1cc830]     "\tIt is illegal to indicate LAYERFLAGS_PRESERVE_DEPTH_STENCIL_BUFFER but also do a stencil clear or use LAYERFLA"
+[0x1cc830]     "GS_DISCARD_DEPTH_STENCIL_BUFFER!\n",
+[0x1cc830]     v44,
+[0x1cc830]     (const char *)(v80 + 1136));
+[0x1cfc30] LoggingSystem_Log(
+[0x1cfc30]     SceneSystem,
+[0x1cfc30]     3LL,
+[0x1cfc30]     "CScratchRenderTargetSystem::AllocateRenderTarget: invalid other view render target for \"%s\"!\n",
+[0x1cfc30]     a2);
+[0x1cfc30] LoggingSystem_Log(
+[0x1cfc30]     SceneSystem,
+[0x1cfc30]     3LL,
+[0x1cfc30]     "CScratchRenderTargetSystem::AllocateRenderTarget: invalid other view target for \"%s\"!\n",
+[0x1cfc30]     a2);
+[0x1cfc30] LoggingSystem_Log(SceneSystem, 3LL, v33);
+[0x1cfc30] LoggingSystem_Log(
+[0x1cfc30]     SceneSystem,
+[0x1cfc30]     3LL,
+[0x1cfc30]     "CScratchRenderTargetSystem::AllocateRenderTarget: Scratch RT for \"%s\" already allocated in this view. Move"
+[0x1cfc30]     " this allocation earlier!\n",
+[0x1cfc30]     v34);
+[0x1cfc30] LoggingSystem_Log(
+[0x1cfc30]     SceneSystem,
+[0x1cfc30]     3LL,
+[0x1cfc30]     "CScratchRenderTargetSystem::AllocateRenderTarget: Encountered two different specs for the same render target \"%s\"!\n",
+[0x1cfc30]     v32);
+[0x1d4530] LoggingSystem_Log(
+[0x1d4530]     SceneSystem,
+[0x1d4530]     3LL,
+[0x1d4530]     "Too many cached shadows requested (max %d) this frame (%d).\n",
+[0x1d4530]     *(unsigned int *)(a1 + 344),
+[0x1d4530]     *(unsigned int *)(a1 + 280));
+[0x178cc0] LoggingSystem_Log(SceneSystem, 1LL, "Resizing lock-free scratch allocation pool to %s.\n", v44);
+[0x184540] LoggingSystem_Log(
+[0x184540]     SceneSystem,
+[0x184540]     3LL,
+[0x184540]     "scenesystem.cpp(5892): Expecting 1 renderable pass for material \"%s\" but found %d!\n",
+[0x184540]     v201,
+[0x184540]     v28);
+[0x184540] LoggingSystem_Log(
+[0x184540]     SceneSystem,
+[0x184540]     3LL,
+[0x184540]     "Failed to allocate space for morph!\n",
+[0x184540]     v29,
+[0x184540]     *(double *)v27.m128i_i64,
+[0x184540]     0.0);
+[0x184540] LoggingSystem_Log(SceneSystem, 3LL, "Failed to allocate space for morph!\n");
+[0x2fec40] result = LoggingSystem_Log(General, 3LL, "%s", v3);
+[0x1cb34a] LoggingSystem_Log(
+[0x1cb34a]     SceneSystem,
+[0x1cb34a]     3LL,
+[0x1cb34a]     "Error: View \"%s\", layer \"%s\", render target \"%s\": \n"
+[0x1cb34a]     "\tIt is illegal to do a non-MSAA write to a MSAA back buffer or HRenderTexture!\n",
+[0x1cb34a]     v10,
+[0x1cb34a]     v8,
+[0x1cb34a]     v7);
+[0x1cb54a] LoggingSystem_Log(SceneSystem, 1LL, "%s", v15);
+[0x1cb7ca] LoggingSystem_Log(SceneSystem, 1LL, "%s", v15);
+[0x11c0d0] LoggingSystem_Log(
+[0x11c0d0]     SceneSystem,
+[0x11c0d0]     3LL,
+[0x11c0d0]     "Exceeded maximum number visible environment maps: %i, %i maximum\n",
+[0x11c0d0]     *(unsigned int *)(a1 + 65640),
+[0x11c0d0]     v69);
+[0x160ed0] LoggingSystem_Log(SceneSystem, 3LL, "Error loading barn light: %s\n", v211);
+[0x1d02d0] LoggingSystem_Log(
+[0x1d02d0]     SceneSystem,
+[0x1d02d0]     3LL,
+[0x1d02d0]     "CScratchRenderTargetSystem::AllocateRenderTarget: Encountered two different specs for the same render target \"%s\"!\n",
+[0x1d02d0]     v15);
+[0x1d02d0] LoggingSystem_Log(
+[0x1d02d0]     SceneSystem,
+[0x1d02d0]     3LL,
+[0x1d02d0]     "CScratchRenderTargetSystem::AllocateRenderTarget: invalid texture handle for \"%s\"!\n",
+[0x1d02d0]     a2);
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "S: %7.3f\n", *(float *)(a1 + 656));
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "------ ");
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "\n");
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "%6d ", *v24);
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "\n");
+[0x1ef1d0] LoggingSystem_Log(ToneMapping, 3LL, "T: %7.3f\n", v8);
+[0xf50e0] LoggingSystem_Log(LIGHTBINNER, 3LL, "Directional lights are not supported by the LightBinner\n");
+[0xf36e0] LoggingSystem_Log(
+[0xf36e0]     LIGHTBINNER,
+[0xf36e0]     3LL,
+[0xf36e0]     "Too many shadowed spot lights in the scene!  Some will be removed!\n");
+[0x17ea60] LoggingSystem_Log(SceneSystem, 3LL, "Stencil bit allocation failed\n");
+[0x182d60] result = LoggingSystem_Log(SceneSystem, 2LL, "-- %d Scene Worlds: --\n", (unsigned int)v24);
+[0x182d60] LoggingSystem_Log(
+[0x182d60]     SceneSystem,
+[0x182d60]     2LL,
+[0x182d60]     "Scene World %3d: 0x%p %40s [%4d objects] ",
+[0x182d60]     (unsigned int)v1,
+[0x182d60]     v5,
+[0x182d60]     v9,
+[0x182d60]     v8);
+[0x182d60] LoggingSystem_Log(SceneSystem, 2LL, " ");
+[0x182d60] LoggingSystem_Log(SceneSystem, 2LL, &v27, "(dump3d)");
+[0x182d60] result = LoggingSystem_Log(SceneSystem, 2LL, "\n");
+[0x182d60] LoggingSystem_Log(SceneSystem, 2LL, &v27, "(dump)");
+[0x183ee0] LoggingSystem_Log(SceneSystem, 1LL, "%s\n", v54);
+[0x192260] LoggingSystem_Log(SceneSystem, 2LL, "%s : %d\n", v10, v9);
+[0x192260] LoggingSystem_Log(SceneSystem, 2LL, "Total : %d (%ukb)\n", v7, 1088 * v7);
+[0x1ac760] LoggingSystem_Log(SceneSystem, 3LL, "Cannot add a resolve layer as the first layer in a view!\n");
+[0x1ac760] LoggingSystem_Log(
+[0x1ac760]     SceneSystem,
+[0x1ac760]     3LL,
+[0x1ac760]     "Cannot resolve to the same render targets as in the previous layer!\n");
+[0x1d1c60] LoggingSystem_Log(
+[0x1d1c60]     SceneSystem,
+[0x1d1c60]     3LL,
+[0x1d1c60]     "CScratchRenderTargetSystem::AllocateRenderTarget: Tried to specify RENDER_MULTISAMPLE_INVALID! \"%s\"\n",
+[0x1d1c60]     v42);
+[0x1d1c60] LoggingSystem_Log(
+[0x1d1c60]     SceneSystem,
+[0x1d1c60]     3LL,
+[0x1d1c60]     "CScratchRenderTargetSystem::AllocateRenderTarget: Encountered two different specs for the same render target \"%s\"!\n",
+[0x1d1c60]     v43);
+[0x1d1c60] LoggingSystem_Log(
+[0x1d1c60]     SceneSystem,
+[0x1d1c60]     3LL,
+[0x1d1c60]     "Failed to allocate scratch rendertarget for %s from pool. The following pool entries were matches:\n",
+[0x1d1c60]     v44);
+[0xec370] LoggingSystem_Log(SceneSystem, 2LL, "Generating LPV Debug color atlas for %s\n", v117);
+[0x1cbbf0] LoggingSystem_Log(SceneSystem, 1LL, "%s", v45);
+[0x1cd9f0] LoggingSystem_Log(
+[0x1cd9f0]     SceneSystem,
+[0x1cd9f0]     3LL,
+[0x1cd9f0]     "\tRT %dx%d %s %dx MSAA used by %s\n",
+[0x1cd9f0]     *v29,
+[0x1cd9f0]     v29[1],
+[0x1cd9f0]     *v22,
+[0x1cd9f0]     v23,
+[0x1cd9f0]     v19);
+[0x1ee4f0] LoggingSystem_Log(
+[0x1ee4f0]     ToneMapping,
+[0x1ee4f0]     3LL,
+[0x1ee4f0]     "CTonemapSystem::GenerateRendererData ran out of buckets!!\n");
+[0x1ee4f0] LoggingSystem_Log(
+[0x1ee4f0]     ToneMapping,
+[0x1ee4f0]     3LL,
+[0x1ee4f0]     "tonemap.cpp: g_pRenderDevice->CreateQueryObject( RENDER_QUERY_OCCLUSION ) failed!\n");

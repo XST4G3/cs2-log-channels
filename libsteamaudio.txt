@@ -1,0 +1,169 @@
+[0x1e640] result = LoggingSystem_Log(SteamAudio, 5LL, &v5, "%s", a2);
+[0x1e640] return LoggingSystem_Log(SteamAudio, v4, "%s", v3);
+[0x1e640] return LoggingSystem_Log(SteamAudio, v4, "%s", v3);
+[0x33d40] LoggingSystem_Log(
+[0x33d40]     SteamAudio,
+[0x33d40]     3LL,
+[0x33d40]     "Parse error on %s: %s\n",
+[0x33d40]     "scripts/surfaceproperties_steamaudio.txt");
+[0x31680] LoggingSystem_Log(SteamAudio, 2LL, "Usage: snd_steamaudio_halton_sequence <order> <numsamples>.\n");
+[0x31680] LoggingSystem_Log(
+[0x31680]     SteamAudio,
+[0x31680]     2LL,
+[0x31680]     "Generating Halton Sequence of %d order for %d samples.\n",
+[0x31680]     v6,
+[0x31680]     (unsigned int)v7);
+[0x31680] LoggingSystem_Log(SteamAudio, 2LL, "%.3f, ", v9);
+[0x35ac0] return LoggingSystem_Log(SteamAudio, 2LL, v6, v7);
+[0x35ac0] result = LoggingSystem_Log(
+[0x35ac0]     SteamAudio,
+[0x35ac0]     2LL,
+[0x35ac0]     "Unable to create serialized object for scene export.\n");
+[0x35ac0] result = LoggingSystem_Log(SteamAudio, 2LL, "Exported scene as PHONONSCENE to %s.\n", a2);
+[0x35ac0] return LoggingSystem_Log(SteamAudio, 2LL, v6, v7);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     5LL,
+[0x366a0]     &v11,
+[0x366a0]     "Pathing: Unable to create serialized object. (%d)\n",
+[0x366a0]     v8);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     5LL,
+[0x366a0]     &v11,
+[0x366a0]     "Pathing: Unable to load probe batch. (%d)\n",
+[0x366a0]     v7);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     2LL,
+[0x366a0]     "Pathing: Loaded baked data file (%s).\n",
+[0x366a0]     a2);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     3LL,
+[0x366a0]     "Pathing: No baked pathing found in baked data file: %s.\n",
+[0x366a0]     a2);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     3LL,
+[0x366a0]     "Pathing: Baked data file is the wrong format version, skipping load. Consider re-baking. (%s)\n",
+[0x366a0]     a2);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     3LL,
+[0x366a0]     "Pathing: Baked data file is the wrong format, skipping load. Consider re-baking. (%s)\n",
+[0x366a0]     a2);
+[0x366a0] result = LoggingSystem_Log(
+[0x366a0]     SteamAudio,
+[0x366a0]     3LL,
+[0x366a0]     "Pathing: Unable to read from baked data file (%s). Pathing disabled.\n",
+[0x366a0]     a2);
+[0x366a0] result = LoggingSystem_Log(SteamAudio, 3LL, "Pathing: Filesystem not initialized.\n");
+[0x37380] LoggingSystem_Log(SteamAudio, 3LL, "Probes: Filesystem not initialized.\n");
+[0x37380] LoggingSystem_Log(
+[0x37380]     SteamAudio,
+[0x37380]     3LL,
+[0x37380]     "Probes: Baked reverb data is not in the correct format, consider re-baking. (%s)\n",
+[0x37380]     a2);
+[0x37380] LoggingSystem_Log(SteamAudio, 3LL, "Probes: Reverb needs to be baked before Path baking.\n");
+[0x37380] LoggingSystem_Log(SteamAudio, 3LL, "Probes: Mising baked reverb data - %s.\n", a2);
+[0x380c0] result = LoggingSystem_Log(SteamAudio, 3LL, "Unable to create scene: %d.\n", v6);
+[0x380c0] LoggingSystem_Log(SteamAudio, 3LL, "Unable to create static mesh: %d.\n", v8);
+[0x32890] LoggingSystem_Log(
+[0x32890]     SteamAudio,
+[0x32890]     3LL,
+[0x32890]     "Key field (volume) missing in custom hrtf properties file. Setting it to 0 dB.");
+[0x32890] LoggingSystem_Log(
+[0x32890]     SteamAudio,
+[0x32890]     3LL,
+[0x32890]     "Key field (normalization) missing in custom hrtf properties file. Setting it to no normalization.");
+[0x32890] LoggingSystem_Log(
+[0x32890]     SteamAudio,
+[0x32890]     3LL,
+[0x32890]     "Key field (file) missing in custom hrtf properties file. Using default HRTF.");
+[0x32890] LoggingSystem_Log(SteamAudio, 3LL, "Unable to create custom HRTF [%s]\n", v68);
+[0x32890] LoggingSystem_Log(
+[0x32890]     SteamAudio,
+[0x32890]     2LL,
+[0x32890]     "Loaded custom HRTF [%s] with volume [%.2f dB] and normaliztion [%d]\n",
+[0x32890]     v63,
+[0x32890]     v59,
+[0x32890]     v58);
+[0x32890] LoggingSystem_Log(SteamAudio, 3LL, "Unable to load custom HRTF [%s]\n", v69);
+[0x32890] LoggingSystem_Log(
+[0x32890]     SteamAudio,
+[0x32890]     3LL,
+[0x32890]     "Missing custom_hrtfs key field in custom hrtf properties file. Cannot load!");
+[0x32890] LoggingSystem_Log(SteamAudio, 3LL, "Could not load custom hrtf properties file. %s", v57);
+[0x33ef0] LoggingSystem_Log(SteamAudio, 5LL, &v45, "BakeReverb: Unable to create probe batch. (%d)\n", v31);
+[0x33ef0] LoggingSystem_Log(SteamAudio, 3LL, "BakeReverb: Cancelled\n", v29, v30, v28);
+[0x33ef0] LoggingSystem_Log(
+[0x33ef0]     SteamAudio,
+[0x33ef0]     5LL,
+[0x33ef0]     &v42,
+[0x33ef0]     "BakeReverb: Unable to create serialized object. (%d)\n",
+[0x33ef0]     v20);
+[0x33ef0] LoggingSystem_Log(SteamAudio, 2LL, "BakeReverb: Saved %zu bytes to %s.\n", v33, a4);
+[0x33ef0] LoggingSystem_Log(SteamAudio, 5LL, &v42, "BakeReverb: Unable to create file. (%s)\n", a4);
+[0x345f0] LoggingSystem_Log(SteamAudio, 5LL, &v36, "BakePathData: Unable to create probe batch. [%d]\n", v24);
+[0x345f0] LoggingSystem_Log(SteamAudio, 3LL, "BakePathData: Cancelled\n", 0.0);
+[0x345f0] LoggingSystem_Log(
+[0x345f0]     SteamAudio,
+[0x345f0]     5LL,
+[0x345f0]     &v33,
+[0x345f0]     "BakePathData: Unable to create serialized object. [%d]\n",
+[0x345f0]     v18);
+[0x345f0] LoggingSystem_Log(SteamAudio, 5LL, &v33, "BakePathData: Unable to create file (%s).\n", a6);
+[0x345f0] LoggingSystem_Log(SteamAudio, 2LL, "BakePathData: Saved %llu bytes to %s.\n", v33, a6);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     5LL,
+[0x36a70]     &v12,
+[0x36a70]     "Reverb: Unable to create serialized object. (%d)\n",
+[0x36a70]     v8);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     5LL,
+[0x36a70]     &v12,
+[0x36a70]     "Reverb: Unable to load probe batch. (%d)\n",
+[0x36a70]     v9);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     2LL,
+[0x36a70]     "Reverb: Loaded baked data file (%s).\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     3LL,
+[0x36a70]     "Reverb: No baked reverb found in baked data file: %s.\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     3LL,
+[0x36a70]     "Reverb: No probes found in baked data file: %s.\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     3LL,
+[0x36a70]     "Reverb: Baked data file is the wrong format version, skipping load. Consider re-baking. (%s)\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     3LL,
+[0x36a70]     "Reverb: Baked data file is the wrong format, skipping load. Consider re-baking. (%s)\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(
+[0x36a70]     SteamAudio,
+[0x36a70]     3LL,
+[0x36a70]     "Reverb: Unable to load baked data file (%s).\n",
+[0x36a70]     a2);
+[0x36a70] result = LoggingSystem_Log(SteamAudio, 3LL, "Reverb: Cannot find baked reverb file: %s.\n", a2);
+[0x36a70] result = LoggingSystem_Log(SteamAudio, 3LL, "Reverb: Filesystem not initialized.\n");
+[0x37190] result = LoggingSystem_Log(
+[0x37190]     SteamAudio,
+[0x37190]     2LL,
+[0x37190]     "Generated %d probes with %.2f spacing and %.2f height.\n",
+[0x37190]     *a2,
+[0x37190]     v20,
+[0x37190]     *(float *)v21);
+[0x386d0] result = LoggingSystem_Log(SteamAudio, 3LL, "Unable to create scene: %d.\n", v5);
