@@ -5,9 +5,8 @@ Dump of LoggingSystem_Log calls with arguments (including logging channel)
 
 1) arg1 - Log Channel
 2) arg2 - Log Severity Level:
-	LS_MESSAGE = 0,
-	LS_WARNING = 1,
-	LS_ASSERT = 2,
-	LS_ERROR = 3,
-  LS_HIGHEST_SEVERITY = 4, (Not a real severity value!)
+	LS_MESSAGE = 0,<br>
+	LS_WARNING = 1,<br>
+	LS_ASSERT = 2,<br>
+	LS_ERROR = 3<br>
 3) arg3 - Log Message
